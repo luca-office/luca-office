@@ -1,0 +1,18 @@
+mutation CreateDocumentViewScenarioCodingAutomatedCriterionMutation(
+  $creation: DocumentViewScenarioCodingAutomatedCriterionCreation!
+) {
+  createDocumentViewScenarioCodingAutomatedCriterion(creation: $creation) {
+    id
+    score
+    itemId
+
+    ... on DocumentViewScenarioCodingAutomatedCriterion {
+      erpRowId
+      fileId
+      emailId
+      referenceBookArticleId
+      erpTableType
+      sampleCompanyId
+    }
+  }
+}

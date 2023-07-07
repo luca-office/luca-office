@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-message-header renders correctly 1`] = `
+<div
+  className="css-16awkq6-EmailBodyMessageHeader"
+>
+  <div
+    className="css-8050ac-Heading"
+  >
+    email__message_label
+  </div>
+  <div
+    className="card-header css-16ojg2f-CardHeader"
+  >
+    <div
+      className="css-1fz0omg-EmailBodyMessageHeader"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <button
+          className="css-yjgg6o-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            email_message_template__template_label_formal_salutation
+          </div>
+        </button>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email_message_template__tooltip_formal_salutation
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <button
+          className="css-yjgg6o-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            email_message_template__template_label_salutation
+          </div>
+        </button>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email_message_template__tooltip_salutation
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <button
+          className="css-yjgg6o-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            email_message_template__template_label_first_name
+          </div>
+        </button>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email_message_template__tooltip_first_name
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <button
+          className="css-yjgg6o-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            email_message_template__template_label_last_name
+          </div>
+        </button>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email_message_template__tooltip_last_name
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+    <div
+      className="css-pqw0y5-EmailBodyMessageHeader"
+    >
+      <div
+        className="css-17zbm7y-Text"
+      >
+        email__message_insert_user_information_label
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        <div
+          className="css-1tdk34p-Tooltip"
+        >
+          <div
+            className="css-1kjzr28-Tooltip"
+          >
+            <div
+              className="css-jb7kz7-Heading"
+            >
+              email__message_insert_user_information_label
+            </div>
+            <div
+              className="css-8tih5m-Text"
+            >
+              email__message_insert_user_information_description
+            </div>
+          </div>
+          <div
+            className="css-1fvvs0r-Tooltip"
+          >
+            <div
+              className="css-nlq2eo-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

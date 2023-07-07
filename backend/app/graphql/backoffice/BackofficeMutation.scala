@@ -1,0 +1,66 @@
+package graphql.backoffice
+
+import graphql.backoffice.mutations._
+
+trait BackofficeMutation
+    extends ChatMutation
+    with CodingCriterionMutation
+    with CodingDimensionMutation
+    with CodingItemMutation
+    with CodingModelMutation
+    with DirectoryMutation
+    with EmailMutation
+    with ErpComponentErpProductMutation
+    with ErpComponentMutation
+    with ErpCustomerMutation
+    with ErpEmployeeMutation
+    with ErpInvoiceMutation
+    with ErpOrderItemMutation
+    with ErpOrderMutation
+    with ErpProductMutation
+    with ErpSupplierMutation
+    with FileMutation
+    with FreetextQuestionCodingCriterionMutation
+    with FreetextQuestionRatingMutation
+    with FreetextQuestionRatingCriterionSelectionMutation
+    with InterventionMutation
+    with ProjectMutation
+    with ProjectUserAccountMutation
+    with QuestionnaireAnswerMutation
+    with QuestionnaireMutation
+    with QuestionnaireQuestionMutation
+    with RScriptMutation
+    with RatingMutation
+    with ReferenceBookChapterMutation
+    with ReferenceBookArticleMutation
+    with ReferenceBookContentMutation
+    with ReferenceBookChapterScenarioMutation
+    with SampleCompanyMutation
+    with ScenarioCodingAutomatedCriterionMutation
+    with ScenarioErpComponentMutation
+    with ScenarioErpComponentErpProductMutation
+    with ScenarioErpCustomerMutation
+    with ScenarioErpEmployeeMutation
+    with ScenarioErpInvoiceMutation
+    with ScenarioErpOrderMutation
+    with ScenarioErpOrderItemMutation
+    with ScenarioErpProductMutation
+    with ScenarioErpSupplierMutation
+    with ScenarioMutation
+    with ScenarioQuestionnaireMutation
+    with ScenarioCodingItemRatingMutation
+    with ScenarioRatingCriterionSelectionMutation
+    with ScenarioSampleCompanyFileMutation
+    with ScenarioUserAccountMutation
+    with ProjectModuleMutation
+    with SpreadsheetMutation
+    with SpreadsheetCellMutation
+    with SurveyMutation
+    with SurveyEventMutation
+    with SurveyInvitationMutation
+    with SurveyUserAccountMutation
+    with ManualSurveyControlMutation
+    with TextDocumentMutation
+    with UserAccountMutation {
+  context: BackofficeContext =>
+}

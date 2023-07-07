@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tab-button render correctly in disabled state 1`] = `
+<div
+  className="css-x90bql-TabButton"
+>
+  <div
+    className="css-1cfr0w-TabButton"
+  >
+    <div
+      className="css-1y31j3x-TabButton"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <span
+      className="css-17c0xob-TabButton"
+    >
+      Papierkorb
+    </span>
+  </div>
+  <div
+    className="css-1ch9961-TabButton"
+  />
+</div>
+`;
+
+exports[`tab-button renders correctly in active state 1`] = `
+<div
+  className="css-trp4m8-TabButton"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1cfr0w-TabButton"
+  >
+    <div
+      className="css-193p889-TabButton"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <span
+      className="css-1sd6zoh-TabButton"
+    >
+      Papierkorb
+    </span>
+  </div>
+  <div
+    className="css-1bveau3-TabButton"
+  />
+</div>
+`;
+
+exports[`tab-button renders correctly with required props 1`] = `
+<div
+  className="css-trp4m8-TabButton"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1cfr0w-TabButton"
+  >
+    <div
+      className="css-1dn6qi0-TabButton"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <span
+      className="css-zhened-TabButton"
+    >
+      Papierkorb
+    </span>
+  </div>
+  <div
+    className="css-1ch9961-TabButton"
+  />
+</div>
+`;

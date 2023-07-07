@@ -1,0 +1,6 @@
+fragment ScenarioErpEmployeeFragment on ScenarioErpEmployee {
+  scenarioId
+  sampleCompanyId
+  employeeId
+  relevance
+}

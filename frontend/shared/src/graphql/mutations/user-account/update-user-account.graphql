@@ -1,0 +1,7 @@
+#import "../../fragments/user-account-fragment.graphql"
+
+mutation UpdateUserAccountMutation($id: String!, $update: UserAccountUpdate!) {
+  updateUserAccount(id: $id, update: $update) {
+    ...UserAccountFragment
+  }
+}

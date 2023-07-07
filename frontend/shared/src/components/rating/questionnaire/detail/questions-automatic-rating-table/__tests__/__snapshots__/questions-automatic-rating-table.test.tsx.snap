@@ -1,0 +1,517 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`questions-automatic-rating-table renders correctly (no answers) 1`] = `
+<div
+  className="css-1bazji9-QuestionsAutomaticRatingTable"
+>
+  <div
+    className="css-8kougb-QuestionsAutomaticRatingTable"
+  >
+    <div
+      className="css-1nhrgw0-Heading"
+    >
+      rating__automatic_rating_label (0)
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-qnyrc1-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="css-1tdk34p-Tooltip"
+      >
+        <div
+          className="css-1kjzr28-Tooltip"
+        >
+          <div
+            className="css-jb7kz7-Heading"
+          >
+            rating__automatic_rating_label
+          </div>
+          <div
+            className="css-8tih5m-Text"
+          >
+            rating__automatic_rating_description
+          </div>
+        </div>
+        <div
+          className="css-1fvvs0r-Tooltip"
+        >
+          <div
+            className="css-nlq2eo-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="css-18lu61u-Table"
+    >
+      <div
+        className="css-1kpl4zp-Table"
+      >
+        <div
+          className="css-z7ssde-Table"
+        >
+          <div
+            className="css-1sbf56p-Text"
+          >
+            rating_questionnaire_answer__automatic_rating_text_label
+          </div>
+        </div>
+        <div
+          className="css-105qn2y-Table"
+        >
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <div
+              className="css-5w2ctm-QuestionsAutomaticRatingTable"
+            >
+              <div
+                className="css-1sbf56p-Text"
+              >
+                questionnaire_question__scoring_analytic_title
+              </div>
+              <div
+                className="css-l0jg45-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            <div
+              className="css-1tdk34p-Tooltip"
+            >
+              <div
+                className="css-1kjzr28-Tooltip"
+              >
+                <div
+                  className="css-jb7kz7-Heading"
+                >
+                  rating__scoring_analytic_title
+                </div>
+                <div
+                  className="css-8tih5m-Text"
+                >
+                  coding_item_update__selection_card_type_analytical_description
+                </div>
+              </div>
+              <div
+                className="css-1fvvs0r-Tooltip"
+              >
+                <div
+                  className="css-nlq2eo-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-tqgzls-Table"
+      >
+        <div
+          className="table-placeholder css-1v6q0ml-Table"
+        />
+      </div>
+    </div>
+    <div
+      className="card-footer css-90e4wt-CardFooter"
+    />
+  </div>
+</div>
+`;
+
+exports[`questions-automatic-rating-table renders correctly 1`] = `
+<div
+  className="css-1bazji9-QuestionsAutomaticRatingTable"
+>
+  <div
+    className="css-8kougb-QuestionsAutomaticRatingTable"
+  >
+    <div
+      className="css-1nhrgw0-Heading"
+    >
+      rating__automatic_rating_label (3)
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-qnyrc1-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="css-1tdk34p-Tooltip"
+      >
+        <div
+          className="css-1kjzr28-Tooltip"
+        >
+          <div
+            className="css-jb7kz7-Heading"
+          >
+            rating__automatic_rating_label
+          </div>
+          <div
+            className="css-8tih5m-Text"
+          >
+            rating__automatic_rating_description
+          </div>
+        </div>
+        <div
+          className="css-1fvvs0r-Tooltip"
+        >
+          <div
+            className="css-nlq2eo-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="css-18lu61u-Table"
+    >
+      <div
+        className="css-1kpl4zp-Table"
+      >
+        <div
+          className="css-z7ssde-Table"
+        >
+          <div
+            className="css-1sbf56p-Text"
+          >
+            rating_questionnaire_answer__automatic_rating_text_label
+          </div>
+        </div>
+        <div
+          className="css-105qn2y-Table"
+        >
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <div
+              className="css-5w2ctm-QuestionsAutomaticRatingTable"
+            >
+              <div
+                className="css-1sbf56p-Text"
+              >
+                questionnaire_question__scoring_analytic_title
+              </div>
+              <div
+                className="css-l0jg45-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            <div
+              className="css-1tdk34p-Tooltip"
+            >
+              <div
+                className="css-1kjzr28-Tooltip"
+              >
+                <div
+                  className="css-jb7kz7-Heading"
+                >
+                  rating__scoring_analytic_title
+                </div>
+                <div
+                  className="css-8tih5m-Text"
+                >
+                  coding_item_update__selection_card_type_analytical_description
+                </div>
+              </div>
+              <div
+                className="css-1fvvs0r-Tooltip"
+              >
+                <div
+                  className="css-nlq2eo-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-tqgzls-Table"
+      >
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-18gxn0y-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-z7ssde-Table"
+            >
+              <div
+                className="css-1kgkbfd-Table"
+              >
+                <div
+                  className="css-111wz9d-Checkbox"
+                >
+                  <div
+                    className="css-ix8pfc-Checkbox"
+                  >
+                    <div
+                      className="css-kb4bik-Checkbox"
+                    >
+                      <input
+                        className="css-1bfbf4n-Checkbox"
+                        disabled={true}
+                        onChange={[Function]}
+                        readOnly={false}
+                        role="checkbox"
+                        type="checkbox"
+                      />
+                      <div
+                        className="css-xgozj0-Checkbox"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-198wifw-Text"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-79ku85-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-1pfcmx0-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-z7ssde-Table"
+            >
+              <div
+                className="css-1kgkbfd-Table"
+              >
+                <div
+                  className="css-111wz9d-Checkbox"
+                >
+                  <div
+                    className="css-ix8pfc-Checkbox"
+                  >
+                    <div
+                      className="css-kb4bik-Checkbox"
+                    >
+                      <input
+                        className="css-1bfbf4n-Checkbox"
+                        disabled={true}
+                        onChange={[Function]}
+                        readOnly={false}
+                        role="checkbox"
+                        type="checkbox"
+                      />
+                      <div
+                        className="css-xgozj0-Checkbox"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-198wifw-Text"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-79ku85-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-18gxn0y-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-z7ssde-Table"
+            >
+              <div
+                className="css-1kgkbfd-Table"
+              >
+                <div
+                  className="css-111wz9d-Checkbox"
+                >
+                  <div
+                    className="css-ix8pfc-Checkbox"
+                  >
+                    <div
+                      className="css-kb4bik-Checkbox"
+                    >
+                      <input
+                        className="css-1bfbf4n-Checkbox"
+                        disabled={true}
+                        onChange={[Function]}
+                        readOnly={false}
+                        role="checkbox"
+                        type="checkbox"
+                      />
+                      <div
+                        className="css-xgozj0-Checkbox"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-198wifw-Text"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-79ku85-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-footer css-90e4wt-CardFooter"
+    />
+  </div>
+</div>
+`;

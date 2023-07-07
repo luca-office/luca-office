@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-sample-company-file-fragment.graphql"
+
+query ScenarioSampleCompanyFilesQuery($scenarioId: String!) {
+  scenarioSampleCompanyFiles(scenarioId: $scenarioId) {
+    ...ScenarioSampleCompanyFileFragment
+  }
+}

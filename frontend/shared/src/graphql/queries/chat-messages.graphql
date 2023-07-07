@@ -1,0 +1,14 @@
+query ChatMessagesQuery($surveyId: String!) {
+  chatMessages(surveyId: $surveyId) {
+    message
+    timestamp
+
+    ... on ParticipantChatMessage {
+      invitationId
+    }
+    ... on SupervisorChatMessage {
+      userAccountId
+      recipientInvitationId
+    }
+  }
+}

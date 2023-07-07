@@ -1,0 +1,6 @@
+query LatestStartedProjectModuleQuery($surveyId: String!) {
+  latestStartedProjectModule(surveyId: $surveyId) {
+    projectModuleId
+    startedAt
+  }
+}

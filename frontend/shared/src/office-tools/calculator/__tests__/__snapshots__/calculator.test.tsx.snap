@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator renders correctly 1`] = `
+<div
+  className="react-draggable css-52xsf1-OfficeWindow"
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  style={
+    {
+      "transform": "translate(0px,0px)",
+    }
+  }
+  transform={null}
+>
+  <div
+    className="header css-hsza9j-OfficeWindow"
+  >
+    <div
+      className="css-1sdua8l-ToolsHeader"
+    >
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <div
+          className="css-1ss9q1q-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1b4s2bm-Text"
+        >
+          calculator__label
+        </div>
+      </div>
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <button
+          className="css-1dzgoe2-Button"
+          disabled={false}
+          onClick={[Function]}
+          title="viewer_tools__close_tool_label"
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-13zef26-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1rjthu4-Calculator"
+  >
+    <div
+      className="css-lb3e89-CalculatorDisplay"
+    >
+      <div
+        className="css-evrz4g-Text"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1xmla1f-CalculatorDisplay"
+          onClick={[Function]}
+        >
+          <div
+            className="result css-1hjb42v-Text"
+          >
+            =
+          </div>
+          <div
+            className="result css-lakr0j-Text"
+          >
+            0
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="css-19xuvvn-CalculatorButtons"
+      >
+        <button
+          className="operation-openbracket css-1ejms2v-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            (
+          </div>
+        </button>
+        <button
+          className="operation-closebracket css-ozkjyz-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            )
+          </div>
+        </button>
+        <button
+          className="operation-ac css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            AC
+          </div>
+        </button>
+        <button
+          className="operation-seven css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            7
+          </div>
+        </button>
+        <button
+          className="operation-eight css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            8
+          </div>
+        </button>
+        <button
+          className="operation-nine css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            9
+          </div>
+        </button>
+        <button
+          className="operation-divide css-wgy8l-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+        <button
+          className="operation-reciprocal css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            1/x
+          </div>
+        </button>
+        <button
+          className="operation-four css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            4
+          </div>
+        </button>
+        <button
+          className="operation-five css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            5
+          </div>
+        </button>
+        <button
+          className="operation-six css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            6
+          </div>
+        </button>
+        <button
+          className="operation-multiply css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+        <button
+          className="operation-exponentiation css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            x^y
+          </div>
+        </button>
+        <button
+          className="operation-one css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            1
+          </div>
+        </button>
+        <button
+          className="operation-two css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            2
+          </div>
+        </button>
+        <button
+          className="operation-three css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            3
+          </div>
+        </button>
+        <button
+          className="operation-subtraction css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+        <button
+          className="operation-result css-1dfpps3-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+        <button
+          className="operation-zero css-menk6j-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            0
+          </div>
+        </button>
+        <button
+          className="operation-separator css-1xvold1-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            .
+          </div>
+        </button>
+        <button
+          className="operation-addition css-1fytfbu-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-pystkl-OfficeWindow"
+  />
+</div>
+`;

@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/text-document-fragment.graphql"
+
+mutation UpdateTextDocument($id: String!, $update: TextDocumentUpdate!) {
+    updateTextDocument(id: $id, update: $update) {
+        ...TextDocumentFragment
+    }
+}

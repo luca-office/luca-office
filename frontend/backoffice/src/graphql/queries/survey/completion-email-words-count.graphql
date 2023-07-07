@@ -1,0 +1,6 @@
+query CompletionEmailWordCountsQuery($surveyId: String!, $scenarioId: String!) {
+  completionEmailWordCounts(surveyId: $surveyId, scenarioId: $scenarioId) {
+    invitationId
+    wordCount
+  }
+}

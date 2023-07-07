@@ -1,0 +1,3 @@
+mutation DeleteErpProductMutation($id: Int!, $sampleCompanyId: String!) {
+  deleteErpProduct(id: $id, sampleCompanyId: $sampleCompanyId)
+}

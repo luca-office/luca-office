@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input getErpInput ErpComponent: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpComponentErpProduct: renders correctly 1`] = `null`;
+
+exports[`input getErpInput ErpCustomer: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpEmployee: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpInvoice: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpOrder: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpOrderItem: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpProduct: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`input getErpInput ErpSupplier: renders correctly 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;

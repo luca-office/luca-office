@@ -1,0 +1,19 @@
+mutation CreateAutomatedCodingItemMutation($creation: AutomatedCodingItemCreation!) {
+  createAutomatedCodingItem(creation: $creation) {
+    id
+    createdAt
+    modifiedAt
+    title
+    description
+    scoringType
+    dimensionId
+    position
+    maximumScore
+    ... on ManualCodingItem {
+      id
+    }
+    ... on AutomatedCodingItem {
+      rule
+    }
+  }
+}

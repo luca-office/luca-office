@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "outDir": "build"
+  },
+  "include": ["src/**/*"]
+}

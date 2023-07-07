@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-footer-card renders correctly 1`] = `
+<div
+  className="css-1pk6db0-Card"
+>
+  <div>
+    <div
+      className="css-1v3773m-SettingsFooterCard"
+    >
+      <div
+        className="label css-6i49km-SettingsFooterCard"
+      >
+        email-body-footer-card-label
+      </div>
+      <div
+        className="text css-1vqgbv3-SettingsFooterCard"
+      >
+        email-body-footer-card-text
+      </div>
+      <div
+        className="content"
+      />
+    </div>
+    <div />
+  </div>
+  <div />
+</div>
+`;

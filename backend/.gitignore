@@ -1,0 +1,11 @@
+logs
+target
+/.idea
+.bsp
+
+# Local docker development files
+/conf/application.dev.docker.conf
+/dev.Dockerfile
+/dev.docker-compose.yml
+/docker-sync.yml
+/.docker-sync/

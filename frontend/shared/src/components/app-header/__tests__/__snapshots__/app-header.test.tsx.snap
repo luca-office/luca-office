@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-header renders correctly without user 1`] = `
+<div
+  className="css-1fm4cyn-AppHeader"
+>
+  <div
+    className="app-title css-5p7lab-AppHeader"
+  >
+    <div
+      className="css-1fxkx3u-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-yl0smr-Heading"
+    >
+      header__app_title
+    </div>
+  </div>
+  <div
+    className="css-1vepu24-AppHeader"
+  >
+    <span
+      className="css-1kymlcf-AppHeader"
+    >
+      title
+    </span>
+  </div>
+  <div
+    className="css-avzpqv-ProgressTimeClock"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1xtqo1u-Tooltip"
+      id="tooltip_42"
+    >
+      <div
+        className="css-1x45ysw-ProgressTimeClock"
+      >
+        <div
+          className="css-fmthw-Text"
+        >
+          13.11.2020 - 15:00
+        </div>
+        <div
+          className="css-kgdmdb-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-type-dialog renders correctly 1`] = `
+<div
+  className="css-1wkmo1x-ReferenceBookDetailFooter"
+>
+  <div>
+    <div
+      className="css-ttw7rt-ReferenceBookDetailFooter"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-111vsyq-Text"
+      >
+        05.11.2020
+      </div>
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-fmthw-Text"
+      >
+        Test
+      </div>
+    </div>
+  </div>
+  <button
+    className="css-injsqh-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      TestButton
+    </div>
+  </button>
+</div>
+`;

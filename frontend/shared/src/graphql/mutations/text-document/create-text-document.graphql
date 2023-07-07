@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/text-document-fragment.graphql"
+
+mutation CreateTextDocument($creation: TextDocumentCreation!) {
+    createTextDocument(creation: $creation) {
+        ...TextDocumentFragment
+    }
+}

@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inline-editable-textarea renders correctly 1`] = `
+<div
+  className="css-pqpj9z-InlineEditableTextarea"
+>
+  <div>
+    <form
+      className="css-1ukf4zt-InlineEditableTextarea"
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-1h2eymq-InlineEditableTextarea"
+        onClick={[Function]}
+      >
+        <div
+          className="textarea css-1n5bn12-InlineEditableTextarea"
+          contentEditable={false}
+          suppressContentEditableWarning={true}
+        >
+          test value
+        </div>
+        <div
+          className="hover-icon css-1pndqgp-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`inline-editable-textarea renders correctly disabled 1`] = `
+<div
+  className="css-pqpj9z-InlineEditableTextarea"
+>
+  <div>
+    <form
+      className="css-1ukf4zt-InlineEditableTextarea"
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-10rpuak-InlineEditableTextarea"
+        onClick={[Function]}
+      >
+        <div
+          className="textarea css-1tlgdzf-InlineEditableTextarea"
+          contentEditable={false}
+          suppressContentEditableWarning={true}
+        >
+          test value
+        </div>
+        <div
+          className="hover-icon css-1pndqgp-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;

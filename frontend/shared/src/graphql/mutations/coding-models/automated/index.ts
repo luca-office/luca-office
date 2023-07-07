@@ -1,0 +1,23 @@
+import * as createDocumentViewScenarioCodingAutomatedCriterion from "./create-document-view-scenario-coding-automated-criterion.graphql"
+import * as createFeatureUsageScenarioCodingAutomatedCriterion from "./create-feature-usage-scenario-coding-automated-criterion.graphql"
+import * as createInputValueScenarioCodingAutomatedCriterion from "./create-input-value-scenario-coding-automated-criterion.graphql"
+import * as createRScriptcenarioCodingAutomatedCriterion from "./create-r-script-scenario-coding-automated-criterion.graphql"
+import * as createToolUsageScenarioCodingAutomatedCriterion from "./create-tool-usage-scenario-coding-automated-criterion.graphql"
+import * as deleteScenarioCodingAutomatedCriterion from "./delete-scenario-coding-automated-criterion.graphql"
+import * as updateDocumentViewScenarioCodingAutomatedCriterion from "./update-document-view-scenario-coding-automated-criterion.graphql"
+import * as updateFeatureUsageScenarioCodingAutomatedCriterion from "./update-feature-usage-scenario-coding-automated-criterion.graphql"
+import * as updateInputValueScenarioCodingAutomatedCriterion from "./update-input-value-scenario-coding-automated-criterion.graphql"
+import * as updateRScriptScenarioCodingAutomatedCriterion from "./update-r-script-scenario-coding-automated-criterion.graphql"
+import * as updateToolUsageScenarioCodingAutomatedCriterion from "./update-tool-usage-scenario-coding-automated-criterion.graphql"
+
+export const updateToolUsageScenarioCodingAutomatedCriterionMutation = updateToolUsageScenarioCodingAutomatedCriterion
+export const createToolUsageScenarioCodingAutomatedCriterionMutation = createToolUsageScenarioCodingAutomatedCriterion
+export const createInputValueScenarioCodingAutomatedCriterionMutation = createInputValueScenarioCodingAutomatedCriterion
+export const updateInputValueScenarioCodingAutomatedCriterionMutation = updateInputValueScenarioCodingAutomatedCriterion
+export const updateDocumentViewScenarioCodingAutomatedCriterionMutation = updateDocumentViewScenarioCodingAutomatedCriterion
+export const createDocumentViewScenarioCodingAutomatedCriterionMutation = createDocumentViewScenarioCodingAutomatedCriterion
+export const createFeatureUsageScenarioCodingAutomatedCriterionMutation = createFeatureUsageScenarioCodingAutomatedCriterion
+export const createRScriptcenarioCodingAutomatedCriterionMutation = createRScriptcenarioCodingAutomatedCriterion
+export const updateFeatureUsageScenarioCodingAutomatedCriterionMutation = updateFeatureUsageScenarioCodingAutomatedCriterion
+export const updateRScriptScenarioCodingAutomatedCriterionMutation = updateRScriptScenarioCodingAutomatedCriterion
+export const deleteScenarioCodingAutomatedCriterionMutation = deleteScenarioCodingAutomatedCriterion

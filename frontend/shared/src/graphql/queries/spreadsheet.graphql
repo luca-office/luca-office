@@ -1,0 +1,7 @@
+#import "../fragments/spreadsheet-fragment.graphql"
+
+query SpreadsheetQuery($id: String!) {
+  spreadsheet(id: $id) {
+    ...SpreadsheetFragment
+  }
+}

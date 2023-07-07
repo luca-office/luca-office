@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-action-button renders correctly 1`] = `
+<button
+  className="css-1oplw4f-Button"
+  disabled={false}
+  onClick={[Function]}
+>
+  <div
+    className="css-95j2hm-Button"
+  >
+    <div
+      className="css-kuxry5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    rating__rating__action_button_finish_scoring
+  </div>
+</button>
+`;

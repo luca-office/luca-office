@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation UpdateErpRowOpeningInterventionMutation($id: String!, $update: ErpRowOpeningInterventionUpdate!) {
+  updateErpRowOpeningIntervention(id: $id, update: $update) {
+    ...InterventionFragment
+  }
+}

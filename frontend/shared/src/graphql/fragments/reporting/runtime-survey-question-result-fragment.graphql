@@ -1,0 +1,12 @@
+#import "./runtime-survey-answer-selection-fragment.graphql"
+#import "./runtime-survey-participant-result-fragment.graphql"
+
+fragment RuntimeSurveyQuestionResultFragment on RuntimeSurveyQuestionResult {
+  questionId
+  answerSelections {
+    ...RuntimeSurveyAnswerSelectionFragment
+  }
+  participantResults {
+    ...RuntimeSurveyParticipantResultFragment
+  }
+}

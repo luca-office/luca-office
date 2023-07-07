@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/project-user-account-fragment.graphql"
+
+mutation DeleteProjectUserAccountMutation($projectId: String!, $userAccountId: String!) {
+  deleteProjectUserAccount(projectId: $projectId, userAccountId: $userAccountId) {
+    ...ProjectUserAccountFragment
+  }
+}

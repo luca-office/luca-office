@@ -1,0 +1,22 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpInvoiceFragment on ErpInvoice {
+  id
+  invoiceDate
+  dueDate
+  paymentTerms
+  amountPaidInCents
+  paymentStatus
+  reminderFeeInCents
+  defaultChargesInCents
+  note
+  sampleCompanyId
+  orderId
+  totalNetInCents
+  totalGrossInCents
+  taxAmountInCents
+  binaryFileId
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

@@ -1,0 +1,7 @@
+#import "../../fragments/coding-model-fragment.graphql"
+
+mutation DuplicateCodingModelMutation($id: String!, $targetScenarioId: String!) {
+  duplicateCodingModel(id: $id, targetScenarioId: $targetScenarioId) {
+    ...CodingModelFragment
+  }
+}

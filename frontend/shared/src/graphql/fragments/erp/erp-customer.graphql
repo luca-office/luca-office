@@ -1,0 +1,21 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpCustomerFragment on ErpCustomer {
+  id
+  salutation
+  firstName
+  lastName
+  company
+  addressLine
+  postalCode
+  city
+  country
+  email
+  phone
+  note
+  sampleCompanyId
+  binaryFileId
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

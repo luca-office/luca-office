@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`raters-rating-card-footer renders correctly (completed) 1`] = `
+<div
+  className="card-footer css-1afjeap-CardFooter"
+>
+  <div
+    className="css-haffc0-RatersRatingCardFooter"
+  >
+    <div
+      className="css-gb1brp-ProgressBarColumn"
+    >
+      <div
+        className="css-kr258m-ProgressBarColumn"
+      >
+        <div
+          className="progress-element css-vaohed-ProgressBarColumn"
+        />
+      </div>
+    </div>
+    <div
+      className="css-haffc0-RatersRatingCardFooter"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        percentage
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card-footer renders correctly (rating in progress) 1`] = `
+<div
+  className="card-footer css-1afjeap-CardFooter"
+>
+  <div
+    className="css-haffc0-RatersRatingCardFooter"
+  >
+    <div
+      className="css-gb1brp-ProgressBarColumn"
+    >
+      <div
+        className="css-kr258m-ProgressBarColumn"
+      >
+        <div
+          className="progress-element css-1xrtx1r-ProgressBarColumn"
+        />
+      </div>
+    </div>
+    <div
+      className="css-haffc0-RatersRatingCardFooter"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        percentage
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card-footer renders correctly (survey in progress) 1`] = `
+<div
+  className="card-footer css-1afjeap-CardFooter"
+>
+  <div
+    className="css-haffc0-RatersRatingCardFooter"
+  >
+    <div
+      className="css-gb1brp-ProgressBarColumn"
+    >
+      <div
+        className="css-kr258m-ProgressBarColumn"
+      >
+        <div
+          className="progress-element css-5kek2-ProgressBarColumn"
+        />
+      </div>
+    </div>
+    <div
+      className="css-haffc0-RatersRatingCardFooter"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        percentage
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

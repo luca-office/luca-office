@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tree-node renders correctly 1`] = `
+<div
+  className="tree-node css-jvgwtt-TreeNode"
+  onClick={[Function]}
+>
+  <div
+    className="css-ruh0zs-TreeNode"
+  >
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-7kj7oz-TreeNode"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-1g2afg4-TreeNode"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="tree-node-file-count css-195yrgn-TreeNode"
+    >
+      Directory1 (0)
+    </div>
+  </div>
+</div>
+`;

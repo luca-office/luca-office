@@ -1,0 +1,3 @@
+mutation DeleteInterventionMutation($id: String!) {
+  deleteIntervention(id: $id)
+}

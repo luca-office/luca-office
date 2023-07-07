@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tooltip renders correctly (simple) 1`] = `
+[
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <button
+      className="css-injsqh-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        test
+      </div>
+    </button>
+  </div>,
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#2e3032",
+        "zIndex": 1,
+      }
+    }
+  >
+    test
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>,
+]
+`;
+
+exports[`tooltip renders correctly 1`] = `
+[
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <button
+      className="css-injsqh-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        test
+      </div>
+    </button>
+  </div>,
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#2e3032",
+        "zIndex": 1,
+      }
+    }
+  >
+    <div
+      className="css-1tdk34p-Tooltip"
+    >
+      <div
+        className="css-1kjzr28-Tooltip"
+      >
+        <div
+          className="css-jb7kz7-Heading"
+        >
+          test
+        </div>
+        <div
+          className="css-8tih5m-Text"
+        >
+          Lorem Ipsum Banana Cake
+        </div>
+      </div>
+      <div
+        className="css-1fvvs0r-Tooltip"
+      >
+        <div
+          className="css-nlq2eo-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>,
+]
+`;

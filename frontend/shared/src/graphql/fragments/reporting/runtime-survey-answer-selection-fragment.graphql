@@ -1,0 +1,6 @@
+fragment RuntimeSurveyAnswerSelectionFragment on RuntimeSurveyAnswerSelection {
+  answerId
+  isFreetextAnswer
+  selectionsCount
+  selectionsAsPercent
+}

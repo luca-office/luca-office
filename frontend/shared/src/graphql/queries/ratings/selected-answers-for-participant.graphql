@@ -1,0 +1,3 @@
+query SelectedAnswersForParticipantQuery($questionId: String!, $surveyInvitationId: String!) {
+  selectedAnswersForParticipant(questionId: $questionId, surveyInvitationId: $surveyInvitationId)
+}

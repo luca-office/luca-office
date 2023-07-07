@@ -1,0 +1,3 @@
+mutation StartScenarioMutation($surveyId: String!, $scenarioId: String!) {
+  startScenario(surveyId: $surveyId, scenarioId: $scenarioId)
+}

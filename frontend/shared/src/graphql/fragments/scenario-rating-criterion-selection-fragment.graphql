@@ -1,0 +1,6 @@
+fragment ScenarioRatingCriterionSelectionFragment on ScenarioRatingCriterionSelection {
+  createdAt
+  manualCriterionId
+  automatedCriterionId
+  scenarioCodingItemRatingId
+}

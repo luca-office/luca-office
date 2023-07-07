@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-content-fragment.graphql"
+
+mutation UpdateReferenceBookContentMutation($id: String!, $update: ReferenceBookContentUpdate!) {
+  updateReferenceBookContent(id: $id, update: $update) {
+    ...ReferenceBookContentFragment
+  }
+}

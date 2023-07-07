@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-questionnaire-fragment.graphql"
+
+query ScenarioQuestionnairesQuery($scenarioId: String!) {
+  scenarioQuestionnaires(scenarioId: $scenarioId) {
+    ...ScenarioQuestionnaireFragment
+  }
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-header renders correctly (intro) 1`] = `
+<div
+  className="css-5bayba-EmailHeader"
+>
+  <div
+    className="css-1vyjarx-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-1ff2vdd-EmailHeader"
+  >
+    sender@cap3.de (email__introduction_email_label)
+  </div>
+  <div
+    className="css-0"
+  >
+    <button
+      className="css-hnekdl-Button"
+      disabled={true}
+      onClick={[Function]}
+      title="email__title_delete_introduction"
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-mj8vo1-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`email-header renders correctly 1`] = `
+<div
+  className="css-5bayba-EmailHeader"
+>
+  <div
+    className="css-1vyjarx-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-1ff2vdd-EmailHeader"
+  >
+    sender@cap3.de (unit__just_now)
+  </div>
+  <div
+    className="css-0"
+  >
+    <button
+      className="css-hnekdl-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-mj8vo1-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reference-book-tool renders correctly 1`] = `
+<div
+  className="css-1wpvndf-OfficeWindow"
+>
+  <div
+    className="header css-1ydy459-OfficeWindow"
+  >
+    <div
+      className="css-1sdua8l-ToolsHeader"
+    >
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <div
+          className="css-1ss9q1q-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1b4s2bm-Text"
+        >
+          reference_book__title
+        </div>
+      </div>
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <button
+          className="css-1dzgoe2-Button"
+          disabled={false}
+          onClick={[Function]}
+          title="viewer_tools__close_tool_label"
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-13zef26-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1d03hdh-WindowActionBar"
+  >
+    <div
+      className="css-1djk5gb"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-14xj2im"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="reference_book__search"
+          type="text"
+        />
+        <div
+          className="css-v3avn8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-pjn853-ReferenceBookTool"
+  >
+    <div
+      className="css-1wlyb2-Card"
+    >
+      <div
+        className="card-header css-15zaw2t-CardHeader"
+      >
+        <div
+          className="css-mv0otu-TableOfContentsContainer"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            reference_book__contents
+          </div>
+        </div>
+      </div>
+      <div
+        className="toc-body css-awggpr-TableOfContentsContainer"
+      >
+        <div
+          className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+        >
+          <div
+            className="css-18xeog2-TableOfContentsContainer"
+          >
+            <div
+              className="toc-entry css-12opz0x-TableOfContentsEntry"
+            >
+              <div
+                className="css-1ldtu9f-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+              <div
+                className="toc-entry-text css-x4fs04-TableOfContentsEntry"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-scbjzw-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1k0t96a-Text"
+                >
+                  Chapter 1
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-105jaxv-CardFooter"
+      />
+    </div>
+    <div
+      className="css-icwcny-Card"
+    >
+      <div
+        className="card-header css-13nbzsf-CardHeader"
+      >
+        <div
+          className="css-1uw9wjf-ReferenceBookChapter"
+        >
+          <div
+            className="css-cj5xss-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          reference_book__title_placeholder
+        </div>
+        <div
+          className="css-1uw9wjf-ReferenceBookChapter"
+        />
+      </div>
+      <div
+        className="card-content css-fnpw2k-CardContent"
+      >
+        <div
+          className="css-2isnjl-ReferenceBookChapter"
+        >
+          <div>
+            reference_book__title_placeholder
+          </div>
+          <div
+            className="css-1bvrrye-ReferenceBookChapter"
+          >
+            reference_book__content_placeholder
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-gmu9kx-CardFooter"
+      />
+    </div>
+  </div>
+  <div
+    className="css-pystkl-OfficeWindow"
+  />
+</div>
+`;

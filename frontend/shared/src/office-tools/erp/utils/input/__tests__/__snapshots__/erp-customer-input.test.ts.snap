@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`erp-customer-input addressLine renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input addressLine renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input binaryFileId renders correctly if disabled 1`] = `
+<div
+  className="binary-input css-m27hme-BinaryUploadInput"
+>
+  <div
+    className="css-1baflxz-BinaryUploadInput"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-12ccz-Text"
+    >
+      binary_input__placeholder_label
+    </div>
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <button
+      className="css-1cywa3f-Button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-mj8vo1-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#2e3032",
+        "zIndex": 1,
+      }
+    }
+  >
+    erp_dataset__file_upload_title
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input binaryFileId renders correctly if enabled 1`] = `
+<div
+  className="binary-input css-m27hme-BinaryUploadInput"
+>
+  <div
+    className="css-1baflxz-BinaryUploadInput"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-12ccz-Text"
+    >
+      binary_input__placeholder_label
+    </div>
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <button
+      className="css-1cywa3f-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-mj8vo1-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </button>
+  </div>
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#2e3032",
+        "zIndex": 1,
+      }
+    }
+  >
+    erp_dataset__file_upload_title
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input city renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input city renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input company renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input company renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input country renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input country renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input email renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-16hptr6"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input email renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-16hptr6"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input firstName renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input firstName renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input id renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input id renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-hsn270"
+  >
+    <input
+      className="css-1hkmzl4"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input lastName renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input lastName renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input note renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input note renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input phone renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input phone renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input postalCode renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input postalCode renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input salutation renders correctly if disabled 1`] = `
+<div
+  className="css-jbu9kz"
+  data-testid="custom-select"
+>
+  <div
+    className="css-0"
+  />
+  <div
+    className="css-18vooac"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="custom-select"
+    >
+      MockedSelect
+    </div>
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input salutation renders correctly if enabled 1`] = `
+<div
+  className="css-jbu9kz"
+  data-testid="custom-select"
+>
+  <div
+    className="css-0"
+  />
+  <div
+    className="css-18vooac"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="custom-select"
+    >
+      MockedSelect
+    </div>
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input sampleCompanyId renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-customer-input sampleCompanyId renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;

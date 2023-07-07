@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Account Menu renders correctly 1`] = `
+<div
+  className="css-1xvumlq-AccountMenu"
+>
+  <div
+    className="css-1kdjh06-AccountMenu"
+    onClick={[MockFunction]}
+  >
+    test-user@cap3.de
+     
+    <div
+      className="css-kgdmdb-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

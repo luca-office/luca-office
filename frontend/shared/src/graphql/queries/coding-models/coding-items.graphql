@@ -1,0 +1,19 @@
+query CodingItemsQuery($dimensionId: String!) {
+  codingItems(dimensionId: $dimensionId) {
+    id
+    createdAt
+    modifiedAt
+    title
+    description
+    scoringType
+    dimensionId
+    position
+    maximumScore
+    ... on ManualCodingItem {
+      id
+    }
+    ... on AutomatedCodingItem {
+      rule
+    }
+  }
+}

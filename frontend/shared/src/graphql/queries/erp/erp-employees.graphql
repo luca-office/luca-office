@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-employee.graphql"
+
+query GetErpEmployeesQuery($sampleCompanyId: String!) {
+  erpEmployees(sampleCompanyId: $sampleCompanyId) {
+    ...ErpEmployeeFragment
+  }
+}

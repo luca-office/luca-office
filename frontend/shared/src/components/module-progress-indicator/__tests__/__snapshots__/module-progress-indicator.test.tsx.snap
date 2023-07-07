@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-participant-progress-indicator renders correctly 1`] = `
+<div
+  className="css-ij7jn1-ModuleProgressIndicator"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    2/5
+  </div>
+  <div
+    className="css-1t82cj8-ModuleProgressIndicator"
+  >
+    <div
+      className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+    />
+    <div
+      className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+    />
+    <div
+      className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+    />
+    <div
+      className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+    />
+    <div
+      className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,10 @@
+fragment ProjectModuleResultsFragment on ProjectModuleResults {
+  projectModuleId
+  participantResults {
+    surveyInvitationId
+    participantName
+    score
+  }
+  averageScore
+  maximumScore
+}

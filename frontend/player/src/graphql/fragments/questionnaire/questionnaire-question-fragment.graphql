@@ -1,0 +1,26 @@
+#import "../binary-file-fragment.graphql"
+#import "./questionnaire-answer-fragment.graphql"
+#import "./freetext-question-coding-criterion-fragment.graphql"
+
+fragment QuestionnaireQuestionFragment on QuestionnaireQuestion {
+  id
+  createdAt
+  modifiedAt
+  text
+  questionType
+  questionnaireId
+  isAdditionalFreeTextAnswerEnabled
+  position
+  score
+  binaryFileId
+  binaryFile {
+    ...BinaryFileFragment
+  }
+  answers {
+    ...QuestionnaireAnswerFragment
+  }
+  freetextQuestionCodingCriteria {
+    ...FreetextQuestionCodingCriterionFragment
+  }
+  scoringType
+}

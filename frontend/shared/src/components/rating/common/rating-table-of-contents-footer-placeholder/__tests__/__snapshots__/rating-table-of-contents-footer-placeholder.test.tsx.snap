@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-table-of-contents-footer-placeholder renders correctly 1`] = `
+<div
+  className="css-1xvfd5y-RatingTableOfContentsFooterPlaceholder"
+>
+  <div
+    className="css-v1tbvi-RatingTableOfContentsFooterPlaceholder"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1du93n7-Text"
+    >
+      common__no_data
+    </div>
+  </div>
+  <div
+    className="css-1du93n7-Text"
+  >
+    (rating__not_possible)
+  </div>
+</div>
+`;

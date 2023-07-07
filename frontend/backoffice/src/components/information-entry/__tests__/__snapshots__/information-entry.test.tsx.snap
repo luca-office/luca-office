@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`information-entry renders correctly 1`] = `
+<div
+  className="css-1ulrwv1-InformationEntry"
+>
+  <div
+    className="css-7wq07p-InformationEntry"
+  >
+    <div
+      className="css-uoep3g-InformationEntry"
+    >
+      InformationEntry
+    </div>
+  </div>
+  <div
+    className="css-plf496-InformationEntry"
+  />
+</div>
+`;

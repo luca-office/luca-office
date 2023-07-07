@@ -1,0 +1,9 @@
+fragment QuestionnaireAnswerFragment on QuestionnaireAnswer {
+  id
+  createdAt
+  modifiedAt
+  text
+  questionId
+  isCorrect
+  position
+}

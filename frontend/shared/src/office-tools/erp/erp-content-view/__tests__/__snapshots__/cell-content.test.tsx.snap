@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellContent renders correctly 1`] = `
+<div
+  className="css-j6v6w0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-d1ohe8"
+  >
+    <input
+      className="css-1et98rn"
+      defaultValue="test"
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="erp__no_cell_selected"
+      readOnly={true}
+      type="text"
+    />
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-1wfdxtz-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      clipboard__copy
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+</div>
+`;

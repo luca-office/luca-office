@@ -1,0 +1,7 @@
+#import "../../fragments/survey-fragment.graphql"
+
+mutation CreateSurveyMutation($creation: SurveyCreation!) {
+  createSurvey(creation: $creation) {
+    ...SurveyFragment
+  }
+}

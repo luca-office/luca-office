@@ -1,0 +1,3 @@
+mutation DeleteScenarioMutation($id: String!) {
+  deleteScenario(id: $id)
+}

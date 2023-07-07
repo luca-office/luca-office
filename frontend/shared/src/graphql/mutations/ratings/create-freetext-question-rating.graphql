@@ -1,0 +1,7 @@
+#import "../../fragments/freetext-question-rating-fragment.graphql"
+
+mutation CreateFreetextQuestionRatingMutation($creation: FreetextQuestionRatingCreation!) {
+  createFreetextQuestionRating(creation: $creation) {
+    ...FreetextQuestionRatingFragment
+  }
+}

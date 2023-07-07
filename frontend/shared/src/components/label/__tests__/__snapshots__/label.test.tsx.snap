@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`label renders correctly 1`] = `
+<div
+  className="css-lz4b3k-Label"
+>
+  Label
+</div>
+`;

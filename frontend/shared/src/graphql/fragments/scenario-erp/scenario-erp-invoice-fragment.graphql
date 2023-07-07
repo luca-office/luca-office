@@ -1,0 +1,6 @@
+fragment ScenarioErpInvoiceFragment on ScenarioErpInvoice {
+  scenarioId
+  sampleCompanyId
+  invoiceId
+  relevance
+}

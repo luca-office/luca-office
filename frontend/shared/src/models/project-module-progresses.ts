@@ -1,0 +1,3 @@
+import {SurveyInvitationFragment_projectModuleProgresses} from "../graphql/generated/SurveyInvitationFragment"
+
+export type ProjectModuleProgresses = SurveyInvitationFragment_projectModuleProgresses

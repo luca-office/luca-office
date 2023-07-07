@@ -1,0 +1,14 @@
+mutation UpdateRScriptScenarioCodingAutomatedCriterionMutation(
+  $id: String!
+  $update: RScriptScenarioCodingAutomatedCriterionUpdate!
+) {
+  updateRScriptScenarioCodingAutomatedCriterion(id: $id, update: $update) {
+    id
+    score
+    itemId
+
+    ... on RScriptScenarioCodingAutomatedCriterion {
+      rScriptId
+    }
+  }
+}

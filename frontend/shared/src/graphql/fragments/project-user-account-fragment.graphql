@@ -1,0 +1,4 @@
+fragment ProjectUserAccountFragment on ProjectUserAccount {
+  projectId
+  userAccountId
+}

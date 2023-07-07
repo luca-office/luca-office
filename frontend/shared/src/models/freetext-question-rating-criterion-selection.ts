@@ -1,0 +1,3 @@
+import {FreetextQuestionRatingCriterionSelectionFragment} from "../graphql/generated/FreetextQuestionRatingCriterionSelectionFragment"
+
+export type FreetextQuestionRatingCriterionSelection = FreetextQuestionRatingCriterionSelectionFragment

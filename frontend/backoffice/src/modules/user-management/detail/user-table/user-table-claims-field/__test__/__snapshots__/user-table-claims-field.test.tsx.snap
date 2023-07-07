@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user-table-claims-field renders correctly 1`] = `
+<div
+  className="css-fkfawp-UserTableClaimsField"
+>
+  <div
+    className="css-405rwj-UserTableClaimsField"
+  >
+    <div
+      className="css-1p4ztl7-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1e7acge-Text"
+    >
+      user_management__filter_label_management
+    </div>
+  </div>
+  <div
+    className="css-405rwj-UserTableClaimsField"
+  >
+    <div
+      className="css-1p4ztl7-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1e7acge-Text"
+    >
+      user_management__filter_label_archive
+    </div>
+  </div>
+  <div
+    className="css-405rwj-UserTableClaimsField"
+  >
+    <div
+      className="css-1p4ztl7-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1e7acge-Text"
+    >
+      user_management__filter_label_finalize
+    </div>
+  </div>
+  <div
+    className="css-405rwj-UserTableClaimsField"
+  >
+    <div
+      className="css-1p4ztl7-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1e7acge-Text"
+    >
+      user_management__filter_label_r_scripts_short
+    </div>
+  </div>
+</div>
+`;

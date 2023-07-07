@@ -1,0 +1,11 @@
+#import "../../fragments/scenario-questionnaire-fragment.graphql"
+
+mutation UpdateScenarioQuestionnaireMutation(
+  $scenarioId: String!
+  $questionnaireId: String!
+  $update: ScenarioQuestionnaireUpdate!
+) {
+  updateScenarioQuestionnaire(scenarioId: $scenarioId, questionnaireId: $questionnaireId, update: $update) {
+    ...ScenarioQuestionnaireFragment
+  }
+}

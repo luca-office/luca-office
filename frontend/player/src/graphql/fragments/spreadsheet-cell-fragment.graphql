@@ -1,0 +1,9 @@
+fragment SpreadsheetCellFragment on SpreadsheetCell {
+  id
+  rowIndex
+  columnIndex
+  cellType
+  value
+  style
+  spreadsheetId
+}

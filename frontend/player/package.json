@@ -1,0 +1,18 @@
+{
+  "name": "player",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "../node_modules/.bin/webpack-dev-server --config webpack.config.develop.js --env.NODE_ENV=develop",
+    "build": "../node_modules/.bin/webpack --config webpack.config.production.js",
+    "clean": "rm -rf ./dist",
+    "storybook": "start-storybook -s ./src/assets -p 9001",
+    "apollo-codegen": "./scripts/apollo-codegen.sh",
+    "test": "jest --config ./jest.config.js -w=2",
+    "test-coverage": "jest --config ./jest.config.js --coverage",
+    "lint": "../node_modules/.bin/eslint ./src --ext .ts,.tsx --config ../.eslintrc.js --ignore-path ../.eslintignore",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

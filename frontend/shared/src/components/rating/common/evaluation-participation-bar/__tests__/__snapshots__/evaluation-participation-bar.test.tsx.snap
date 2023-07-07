@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`evaluation-participation-bar renders correctly 1`] = `
+<div
+  className="css-2pvkrb-EvaluationParticipationBar"
+>
+  <div
+    className="css-8050ac-Heading"
+  >
+    rating__evaluation_participation_title
+  </div>
+  <div>
+    <div
+      className="css-158er8v-Paper"
+    >
+      <div
+        className="css-gb1brp-ProgressBarColumn"
+      >
+        <div
+          className="css-1oc5iyb-ProgressBarColumn"
+        >
+          <div
+            className="progress-element css-1xrtx1r-ProgressBarColumn"
+          />
+        </div>
+      </div>
+      <div
+        className="css-1sbf56p-Text"
+      >
+        percentage rating__evaluation_participation_score_label
+      </div>
+    </div>
+  </div>
+</div>
+`;

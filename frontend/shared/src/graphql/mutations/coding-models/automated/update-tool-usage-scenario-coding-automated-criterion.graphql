@@ -1,0 +1,29 @@
+mutation UpdateToolUsageScenarioCodingAutomatedCriterionMutation(
+  $id: String!
+  $update: ToolUsageScenarioCodingAutomatedCriterionUpdate!
+) {
+  updateToolUsageScenarioCodingAutomatedCriterion(id: $id, update: $update) {
+    id
+    score
+    itemId
+
+    ... on ToolUsageScenarioCodingAutomatedCriterion {
+      officeTool
+    }
+
+    ... on InputValueScenarioCodingAutomatedCriterion {
+      officeTool
+      fileId
+      spreadsheetRowIndex
+      spreadsheetColumnIndex
+      value
+    }
+    ... on DocumentViewScenarioCodingAutomatedCriterion {
+      fileId
+      emailId
+      erpRowId
+      erpTableType
+      referenceBookArticleId
+    }
+  }
+}

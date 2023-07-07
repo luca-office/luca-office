@@ -1,0 +1,8 @@
+#import "./survey-invitation-fragment.graphql"
+
+fragment SurveyParticipationInfoFragment on SurveyParticipationInfo {
+  surveyInvitation {
+    ...SurveyInvitationFragment
+  }
+  surveyParticipationStatus
+}

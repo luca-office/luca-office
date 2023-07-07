@@ -1,0 +1,10 @@
+#import "../../fragments/reference-books/reference-book-chapter-scenario-fragment.graphql"
+
+mutation RepositionReferenceBookChapterScenarioMutation(
+  $id: ReferenceBookChapterScenarioId!
+  $predecessorId: ReferenceBookChapterScenarioId
+) {
+  repositionReferenceBookChapterScenario(id: $id, predecessorId: $predecessorId) {
+    ...ReferenceBookChapterScenarioFragment
+  }
+}

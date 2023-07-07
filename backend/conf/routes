@@ -1,0 +1,19 @@
+POST    /graphql                                             controllers.MainController.graphqlBackoffice
+POST    /office/graphql                                      controllers.MainController.graphqlPlayer
+GET     /schema                                              controllers.MainController.schemaBackoffice
+GET     /office/schema                                       controllers.MainController.schemaPlayer
+GET     /codegen                                             controllers.MainController.codegen
+
+POST    /binary                                              controllers.BinaryController.create
+POST    /binary/erp/sample-company/:sampleCompanyId          controllers.BinaryController.createErpData(sampleCompanyId: java.util.UUID)
+GET     /binary/erp/template                                 controllers.BinaryController.downloadErpTemplate
+GET     /binary/erp/sample-company/:sampleCompanyId          controllers.BinaryController.downloadErpData(sampleCompanyId: java.util.UUID)
+GET     /binary/survey/:surveyId                             controllers.BinaryController.downloadSurveyData(surveyId: java.util.UUID)
+GET     /binary/survey/:surveyId/binaries                    controllers.BinaryController.downloadSurveyBinaries(surveyId: java.util.UUID)
+
+GET     /documentation/erp-import                            controllers.DocumentationController.erpImportDocumentation
+
+GET     /assets/*file                                        controllers.Assets.versioned(path="/public", file: Asset)
+
+GET     /office/survey/:surveyId/invitation/:invitationId    controllers.WebsocketController.office(surveyId: java.util.UUID, invitationId: java.util.UUID)
+GET     /backoffice/survey/:surveyId                         controllers.WebsocketController.backoffice(surveyId: java.util.UUID)

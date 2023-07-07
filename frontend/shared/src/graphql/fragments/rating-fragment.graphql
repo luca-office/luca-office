@@ -1,0 +1,9 @@
+fragment RatingFragment on Rating {
+  id
+  createdAt
+  modifiedAt
+  finalizedAt
+  surveyId
+  userAccountId
+  isFinalScore
+}

@@ -1,0 +1,3 @@
+mutation StartSurveyMutation($surveyId: String!) {
+  startSurvey(surveyId: $surveyId)
+}

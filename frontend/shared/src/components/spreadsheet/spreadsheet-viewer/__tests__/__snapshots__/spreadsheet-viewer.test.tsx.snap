@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spreadsheet-viewer renders correctly 1`] = `
+<div
+  className="css-kie12x-SpreadsheetViewer"
+>
+  <div
+    className="css-1sdua8l-ToolsHeader"
+  >
+    <div
+      className="css-w2t5un-ToolsHeader"
+    >
+      <div
+        className="css-1ss9q1q-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1b4s2bm-Text"
+      >
+        viewer_tools__calc_type_label
+      </div>
+    </div>
+    <div
+      className="css-w2t5un-ToolsHeader"
+    >
+      <button
+        className="css-1dzgoe2-Button"
+        disabled={false}
+        onClick={[Function]}
+        title="viewer_tools__close_tool_label"
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-13zef26-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="css-2npy2c-ViewerToolsSubHeader"
+  >
+    <div
+      className="css-14mtheo-ViewerToolsSubHeader"
+    >
+      <div
+        className="css-1l2wmx6-ViewerToolsSubHeader"
+      >
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <div
+            className="subheader-tab css-1kbyu9y-SubheaderTab"
+            data-scroll="subheader-tab_1233-abdc-5fer-grfs"
+            data-testid="subheader-tab"
+          >
+            <div
+              className="css-1sbf56p-Text"
+            >
+              default sheet
+            </div>
+          </div>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          default sheet
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <div
+            className="subheader-tab css-5kgfax-SubheaderTab"
+            data-scroll="subheader-tab_1233-abdc-5fer-grfd"
+            data-testid="subheader-tab"
+          >
+            <div
+              className="css-1sbf56p-Text"
+            >
+              diverse cols and rows
+            </div>
+          </div>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          diverse cols and rows
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-rjlf5o-ViewerToolsSubHeader"
+    >
+      <button
+        className="css-7pkjwh-Button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+      <button
+        className="css-7pkjwh-Button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="css-1gbwsr-SpreadsheetEditor"
+  >
+    <div>
+      mockedSheet
+    </div>
+    <div
+      className="css-vq7gv7-SpreadsheetEditor"
+    >
+      <div
+        className="css-1uyodls-Text"
+      >
+        A1
+      </div>
+    </div>
+    <div
+      className="css-1q1k4o7-SpreadsheetEditor"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-t0h4w2-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-tewr92-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        <div
+          className="css-jb7kz7-Heading"
+        >
+          spreadsheet_editor__error_alert_text
+        </div>
+        <div
+          className="css-1ovab5i-Tooltip"
+        >
+          <div>
+            SUMME - SUM
+          </div>
+          <div>
+            PRODUKT - PRODUCT
+          </div>
+          <div>
+            MITTELWERT - AVERAGE/AVG
+          </div>
+          <div>
+            ANZAHL - COUNT
+          </div>
+          <div>
+            ANZAHL2 - COUNTA
+          </div>
+          <div>
+            ZÄHLENWENN - COUNTIF
+          </div>
+          <div>
+            SUMMEWENN - SUMIF
+          </div>
+          <div>
+            WENN - IF
+          </div>
+          <div>
+            SVERWEIS - VLOOKUP
+          </div>
+          <div>
+            RUNDEN - ROUND
+          </div>
+          <div>
+            MODUS.EINF - MODE.SNGL
+          </div>
+          <div>
+            WURZEL - SQRT
+          </div>
+          <div>
+            POTENZ - POWER
+          </div>
+        </div>
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

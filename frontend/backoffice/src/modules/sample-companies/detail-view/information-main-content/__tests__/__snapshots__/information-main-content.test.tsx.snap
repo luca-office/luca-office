@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`information-main-content renders correctly 1`] = `
+<div
+  className="css-dkoub8-InformationMainContent"
+>
+  <div
+    className="css-rk0bsg-InformationMainContent"
+  >
+    <div
+      className="css-1dorrnj-InformationEntry"
+    >
+      <div
+        className="css-7wq07p-InformationEntry"
+      >
+        <div
+          className="css-uoep3g-InformationEntry"
+        >
+          sample_companies__detail_general_information_company_name
+        </div>
+        <div
+          className="css-ua6vj7-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="css-plf496-InformationEntry"
+      >
+        <div
+          className="css-1yd1ni8-InlineEditableHeader"
+        >
+          <div>
+            <form
+              className="css-1c5ej61-InlineEditableHeader"
+              onBlur={[Function]}
+              onSubmit={[Function]}
+            >
+              <div
+                className="css-pl4s5v-InlineEditableHeader"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1iwo50k"
+                  onMouseEnter={[Function]}
+                  onMouseLeave={[Function]}
+                >
+                  <div
+                    className="css-nrul0i"
+                  >
+                    <input
+                      className="css-q6vozw"
+                      defaultValue="Company 1"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      readOnly={true}
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="hover-icon css-16vb3lw-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1qyc3pw-InformationEntry"
+    >
+      <div
+        className="css-7wq07p-InformationEntry"
+      >
+        <div
+          className="css-uoep3g-InformationEntry"
+        >
+          sample_companies__detail_general_information_company_description
+        </div>
+        <div
+          className="css-ua6vj7-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="css-plf496-InformationEntry"
+      >
+        <div
+          className="overlay-edit-field css-0"
+        >
+          <div
+            className="css-1kjt8hf-ReadonlyActionField"
+            data-testid="readonly-action-field"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1bkess4-ReadonlyActionField"
+            />
+            <div
+              className="content-wrapper css-376q3o-ReadonlyActionField"
+            >
+              <div
+                className="content css-ci7wec-ReadonlyActionField"
+              >
+                <div
+                  className="css-1h2eymq-InlineEditableTextarea"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="textarea css-1n5bn12-InlineEditableTextarea"
+                    contentEditable={false}
+                    suppressContentEditableWarning={true}
+                  >
+                    Company 1 Description
+                  </div>
+                  <div
+                    className="hover-icon css-1pndqgp-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-hgwqdd-InformationMainContent"
+  >
+    <div
+      className="overlay-edit-field css-ygihyl-OverlayEditField"
+    >
+      <div
+        className="css-1v0z0k-ReadonlyActionField"
+        data-testid="readonly-action-field"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        >
+          <div
+            className="css-47wnmy-ReadonlyActionField"
+          >
+            scenario_details__general_tags
+          </div>
+        </div>
+        <div
+          className="content-wrapper css-b45n67-ReadonlyActionField"
+        >
+          <div
+            className="content css-1hje2zc-ReadonlyActionField"
+          >
+            <div
+              className="css-qd58jk-ReadonlyActionField"
+            >
+              <div
+                className="css-1m6ra3k-ReadonlyActionField"
+              >
+                <div
+                  className="css-170ri7w-Tag"
+                >
+                  <div
+                    className="css-679xbj-Text"
+                  >
+                    Tag_1
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-1m6ra3k-ReadonlyActionField"
+              >
+                <div
+                  className="css-170ri7w-Tag"
+                >
+                  <div
+                    className="css-679xbj-Text"
+                  >
+                    Tag_2
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            className="readonly-action-button css-4nv627-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              edit_button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

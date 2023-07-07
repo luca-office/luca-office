@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`module-start-overlay renders correctly with default props 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-rr0mf6-ModuleStartOverlay"
+  >
+    <div
+      className="css-54ii6s-ModuleStartOverlay"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        Questionnaire Title
+      </div>
+    </div>
+    <div
+      className="css-9wllq3-ModuleStartOverlay"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        Questionnaire Description
+      </div>
+    </div>
+    <div
+      className="css-1b7sk6s-ModuleStartOverlay"
+    >
+      <button
+        className="css-1jtbosi-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          Start Questionnaire
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

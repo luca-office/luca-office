@@ -1,0 +1,28 @@
+import {
+  InterventionFragment,
+  InterventionFragment_EmailOpeningIntervention,
+  InterventionFragment_ErpRowOpeningIntervention,
+  InterventionFragment_FileOpeningIntervention,
+  InterventionFragment_NotesContentIntervention,
+  InterventionFragment_RuntimeSurveyAnswerSelectionIntervention,
+  InterventionFragment_SpreadsheetCellContentIntervention,
+  InterventionFragment_TextDocumentContentIntervention
+} from "../graphql/generated/InterventionFragment"
+
+export type Intervention = InterventionFragment
+
+export type InterventionWithTimeOffset =
+  | EmailOpeningIntervention
+  | FileOpeningIntervention
+  | NotesContentIntervention
+  | ErpRowOpeningIntervention
+  | SpreadsheetCellContentIntervention
+  | TextDocumentContentIntervention
+
+export type EmailOpeningIntervention = InterventionFragment_EmailOpeningIntervention
+export type FileOpeningIntervention = InterventionFragment_FileOpeningIntervention
+export type NotesContentIntervention = InterventionFragment_NotesContentIntervention
+export type TextDocumentContentIntervention = InterventionFragment_TextDocumentContentIntervention
+export type SpreadsheetCellContentIntervention = InterventionFragment_SpreadsheetCellContentIntervention
+export type RuntimeSurveyAnswerSelectionIntervention = InterventionFragment_RuntimeSurveyAnswerSelectionIntervention
+export type ErpRowOpeningIntervention = InterventionFragment_ErpRowOpeningIntervention

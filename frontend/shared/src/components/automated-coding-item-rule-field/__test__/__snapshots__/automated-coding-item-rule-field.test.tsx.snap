@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`automated-coding-item-rule-field renders correctly with default props 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    coding_models__create_item_label_rating_type_automated_title
+  </div>
+  <div>
+    <div
+      className="css-vphhrv-Paper"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        coding_models__create_item_label_rating_type_automated_tool_usage
+      </div>
+      <div
+        className="css-1v1r5xl-AutomatedCodingItemRuleField"
+      >
+        <div
+          className="css-is2pm4-Text"
+        >
+          coding_models__create_item_label_rating_type_automated_tool_usage_hint
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

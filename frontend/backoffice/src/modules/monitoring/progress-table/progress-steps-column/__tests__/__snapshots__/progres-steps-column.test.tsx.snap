@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progress-steps-column renders correctly (incomplete) 1`] = `
+<div
+  className="css-2d7pc4-ProgressStepsColumn"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    0 / 4
+  </div>
+  <div
+    className="css-a9rzaf-ProgressStepsColumn"
+  >
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-qig85-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_progressing
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-1qo9wa8-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_open
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+  <div
+    className="css-1iicq3a-ProgressStepsColumn"
+  />
+</div>
+`;
+
+exports[`progress-steps-column renders correctly 1`] = `
+<div
+  className="css-2d7pc4-ProgressStepsColumn"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    4 / 4
+  </div>
+  <div
+    className="css-a9rzaf-ProgressStepsColumn"
+  >
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-s5q725-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_completed
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-s5q725-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_completed
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-s5q725-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_completed
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="progress-item css-s5q725-ProgressStepsColumn"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      dashboard__attendee_status_completed
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+  <div
+    className="css-1iicq3a-ProgressStepsColumn"
+  />
+</div>
+`;

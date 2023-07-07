@@ -1,0 +1,16 @@
+query QuestionnaireSurveyResultsForParticipantsQuery($surveyId: String!, $questionnaireId: String!) {
+  questionnaireSurveyResultsForParticipants(surveyId: $surveyId, questionnaireId: $questionnaireId) {
+    surveyInvitationId
+    questionnaireId
+    questionResults {
+      questionId
+      score
+      maximumScore
+      averageScore
+      selectedAnswerIds
+      selectedCriteriaIds
+      noCriterionFulfilled
+      freetextAnswer
+    }
+  }
+}

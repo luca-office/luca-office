@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sort-button renders correctly 1`] = `
+[
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <div
+      className="css-ivyasj-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+      onClick={[MockFunction]}
+    />
+  </div>,
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#2e3032",
+        "zIndex": 1,
+      }
+    }
+  >
+    text
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`coding-item-meta-card renders correctly (no selected coding item) 1`] = `
+<div
+  className="css-11sbj94-Card"
+>
+  <div
+    className="css-1pf4w2g-CodingItemMetaCard"
+  >
+    <div
+      className="css-1j31nfz-CodingItemMetaCard"
+    >
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_title
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        />
+      </div>
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_method
+        </div>
+        <div
+          className="css-1xmxggd-CodingItemMetaCard"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-17zbm7y-Text"
+          >
+            coding_criteria__item_meta_data_method_manual
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_type
+        </div>
+        <div
+          className="css-1xmxggd-CodingItemMetaCard"
+        >
+          <div
+            className="css-17zbm7y-Text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-172xare-CodingItemMetaCard"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        coding_criteria__item_meta_data_description
+      </div>
+      <div
+        className="css-17zbm7y-Text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`coding-item-meta-card renders correctly (selected coding item) 1`] = `
+<div
+  className="css-11sbj94-Card"
+>
+  <div
+    className="css-1pf4w2g-CodingItemMetaCard"
+  >
+    <div
+      className="css-1j31nfz-CodingItemMetaCard"
+    >
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_title
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        >
+          Item Analytisch
+        </div>
+      </div>
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_method
+        </div>
+        <div
+          className="css-1xmxggd-CodingItemMetaCard"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-17zbm7y-Text"
+          >
+            coding_criteria__item_meta_data_method_manual
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-172xare-CodingItemMetaCard"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          coding_criteria__item_meta_data_type
+        </div>
+        <div
+          className="css-1xmxggd-CodingItemMetaCard"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-17zbm7y-Text"
+          >
+            coding_criteria__item_meta_data_type_holistic
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-172xare-CodingItemMetaCard"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        coding_criteria__item_meta_data_description
+      </div>
+      <div
+        className="css-17zbm7y-Text"
+      >
+        Beschreibung des Items
+      </div>
+    </div>
+  </div>
+</div>
+`;

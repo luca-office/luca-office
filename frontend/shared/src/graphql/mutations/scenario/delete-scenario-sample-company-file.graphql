@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-sample-company-file-fragment.graphql"
+
+mutation DeleteScenarioSampleCompanyFileMutation($scenarioId: String!, $fileId: String!) {
+  deleteScenarioSampleCompanyFile(scenarioId: $scenarioId, fileId: $fileId) {
+    ...ScenarioSampleCompanyFileFragment
+  }
+}

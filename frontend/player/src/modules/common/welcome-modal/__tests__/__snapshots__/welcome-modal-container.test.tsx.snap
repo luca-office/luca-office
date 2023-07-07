@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`welcome-modal-container renders correctly 1`] = `
+<div
+  className="css-c4c4dq-Overlay"
+>
+  <div>
+    <div
+      className="css-1yt2d4e-Modal"
+    >
+      <header
+        className="css-1x9tg66-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          
+        </div>
+      </header>
+      <section
+        className="css-4qzanc-Modal"
+      >
+        <div
+          className="css-1hbhkc3-Text"
+        >
+          project__welcome_dialog_success_wishes
+        </div>
+      </section>
+      <footer
+        className="css-zxampn-Modal"
+      >
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            continue_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

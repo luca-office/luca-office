@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reference-book-article renders correctly 1`] = `
+<div
+  className="css-1wpi4x0-Card"
+>
+  <div
+    className="card-header css-7banf6-CardHeader"
+  >
+    <div
+      className="css-cj5xss-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    Begriff
+    <div
+      className="css-pysl8o-Text"
+    >
+      my test chapter
+    </div>
+  </div>
+  <div
+    className="card-content css-fnpw2k-CardContent"
+  >
+    <div
+      className="css-f23wob-ReferenceBookArticle"
+    >
+      <div
+        className="css-16sst13-Text"
+      >
+        Begriff
+      </div>
+      <div>
+        <div
+          className="css-2rq2kz-ContentImage"
+          onClick={[Function]}
+        >
+          <div
+            className="image css-1pdo4of-ContentImage"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  />
+</div>
+`;

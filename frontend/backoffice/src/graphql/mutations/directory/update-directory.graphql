@@ -1,0 +1,7 @@
+#import "../../fragments/directory-fragment.graphql"
+
+mutation UpdateDirectoryMutation($id: String!, $update: DirectoryUpdate!) {
+  updateDirectory(id: $id, update: $update) {
+    ...DirectoryFragment
+  }
+}

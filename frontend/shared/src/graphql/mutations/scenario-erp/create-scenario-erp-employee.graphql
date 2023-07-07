@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-employee-fragment.graphql"
+
+mutation CreateScenarioErpEmployeeMutation($creation: ScenarioErpEmployeeCreation!) {
+  createScenarioErpEmployee(creation: $creation) {
+    ...ScenarioErpEmployeeFragment
+  }
+}

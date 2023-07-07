@@ -1,0 +1,7 @@
+fragment ErpComponentErpProductFragment on ErpComponentErpProduct {
+  id
+  componentId
+  productId
+  sampleCompanyId
+  quantity
+}

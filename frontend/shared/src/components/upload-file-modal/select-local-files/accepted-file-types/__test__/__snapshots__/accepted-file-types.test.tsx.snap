@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepted-file-types renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-1i8w75j-Text"
+  >
+    files_and_directories__upload_modal_file_typ_text_plural
+  </div>
+  <div
+    className="css-1abrcxf-AcceptedFileTypes"
+  >
+    <div
+      className="css-170cyps-AcceptedFileTypes"
+    >
+      <div
+        className="css-ijll0b-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        files_and_directories__file_type_video
+      </div>
+      <div
+        className="css-oxkgat-Heading"
+      >
+        (.mp4)
+      </div>
+    </div>
+  </div>
+</div>
+`;

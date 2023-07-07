@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-article-fragment.graphql"
+
+mutation CreateReferenceBookArticleMutation($creation: ReferenceBookArticleCreation!) {
+  createReferenceBookArticle(creation: $creation) {
+    ...ReferenceBookArticleFragment
+  }
+}

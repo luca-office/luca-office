@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-coding-item-rating-fragment.graphql"
+
+mutation UpdateScenarioCodingItemRatingMutation($id: String!, $update: ScenarioCodingItemRatingUpdate!) {
+  updateScenarioCodingItemRating(id: $id, update: $update) {
+    ...ScenarioCodingItemRatingFragment
+  }
+}

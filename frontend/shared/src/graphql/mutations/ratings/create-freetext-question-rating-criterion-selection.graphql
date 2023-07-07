@@ -1,0 +1,9 @@
+#import "../../fragments/freetext-question-rating-criterion-selection-fragment.graphql"
+
+mutation CreateFreetextQuestionRatingCriterionSelectionMutation(
+  $creation: FreetextQuestionRatingCriterionSelectionCreation!
+) {
+  createFreetextQuestionRatingCriterionSelection(creation: $creation) {
+    ...FreetextQuestionRatingCriterionSelectionFragment
+  }
+}

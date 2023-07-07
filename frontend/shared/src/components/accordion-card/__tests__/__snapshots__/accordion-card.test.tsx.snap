@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accordion-card renders correctly (content visible) 1`] = `
+<div
+  className="css-1bwtgc9-Card"
+>
+  <div
+    className="card-header css-1wbumr0-CardHeader"
+  >
+    <div
+      className="css-17ett1w-AccordionCard"
+      onClick={[Function]}
+    >
+      <div
+        className="css-v5hrte-AccordionCard"
+      >
+        Main-Label
+      </div>
+      <div
+        className="css-w6fyje-AccordionCard"
+      >
+        Additional-Label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="card-content css-fx9kre-CardContent"
+  />
+</div>
+`;
+
+exports[`accordion-card renders correctly (footer visible) 1`] = `
+<div
+  className="css-1bwtgc9-Card"
+>
+  <div
+    className="card-header css-1wbumr0-CardHeader"
+  >
+    <div
+      className="css-17ett1w-AccordionCard"
+      onClick={[Function]}
+    >
+      <div
+        className="css-v5hrte-AccordionCard"
+      >
+        Main-Label
+      </div>
+      <div
+        className="css-w6fyje-AccordionCard"
+      >
+        Additional-Label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="card-content css-kr35yc-CardContent"
+  />
+  <div
+    className="card-footer css-lz1nrx-CardFooter"
+  >
+    <div>
+      Footer
+    </div>
+  </div>
+</div>
+`;
+
+exports[`accordion-card renders correctly (header has icon) 1`] = `
+<div
+  className="css-1bwtgc9-Card"
+>
+  <div
+    className="card-header css-1wbumr0-CardHeader"
+  >
+    <div
+      className="css-17ett1w-AccordionCard"
+      onClick={[Function]}
+    >
+      <div
+        className="css-fsv1sy-AccordionCard"
+      >
+        <div
+          className="css-v5hrte-AccordionCard"
+        >
+          Main-Label
+        </div>
+        <div
+          className="css-6s7adz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="css-w6fyje-AccordionCard"
+      >
+        Additional-Label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="card-content css-kr35yc-CardContent"
+  />
+  <div
+    className="card-footer css-lz1nrx-CardFooter"
+  >
+    <div>
+      Footer
+    </div>
+  </div>
+</div>
+`;
+
+exports[`accordion-card renders correctly (no content visible) 1`] = `
+<div
+  className="css-1bwtgc9-Card"
+>
+  <div
+    className="card-header css-1wbumr0-CardHeader"
+  >
+    <div
+      className="css-17ett1w-AccordionCard"
+      onClick={[Function]}
+    >
+      <div
+        className="css-v5hrte-AccordionCard"
+      >
+        Main-Label
+      </div>
+      <div
+        className="css-w6fyje-AccordionCard"
+      >
+        Additional-Label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

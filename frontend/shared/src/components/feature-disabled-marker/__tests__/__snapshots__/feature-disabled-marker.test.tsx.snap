@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`feature-disabled-marker renders correctly 1`] = `
+<div
+  className="feature-disabled-marker css-11g03kc-FeatureDisabledMarker"
+>
+  <button
+    className="css-injsqh-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      test
+    </div>
+  </button>
+  <div
+    className="css-wccze2-FeatureDisabledMarker"
+  />
+</div>
+`;

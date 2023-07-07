@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-missing-indicator renders correctly 1`] = `
+<div
+  className="css-2jk3zi-ContentMissingIndicator"
+>
+  <div
+    className="css-0"
+  >
+    <div
+      className="css-njxlss-LabelledCard"
+    >
+      <div
+        className="css-lz4b3k-Label"
+      >
+        content__not_found_headline
+      </div>
+      <div
+        className="css-1dmlxz8-Card"
+      >
+        <div
+          className="card-content css-1vlljjy-DetailViewCard"
+        >
+          <div
+            className="card-content css-1vyr92j-CardContent"
+          >
+            <div
+              className="css-1uyodls-Text"
+            >
+              content__not_found
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

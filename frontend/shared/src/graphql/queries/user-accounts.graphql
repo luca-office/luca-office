@@ -1,0 +1,7 @@
+#import "../../../../shared/src/graphql/fragments/user-account-fragment.graphql"
+
+query UserAccountsQuery {
+  userAccounts {
+    ...UserAccountFragment
+  }
+}

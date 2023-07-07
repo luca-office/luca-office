@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r-scripts renders correctly (content loading) 1`] = `
+<div
+  className="content css-1m6jcw1-Content"
+>
+  <div
+    className="css-ul982y-DetailViewHeader"
+  >
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      r_scripts__header_label
+    </div>
+  </div>
+  <div
+    className="css-1e2w3lh-ContentLoadingIndicator"
+  >
+    <div
+      className="css-1tzcb72-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`r-scripts renders correctly 1`] = `
+<div
+  className="content css-1m6jcw1-Content"
+>
+  <div
+    className="css-ul982y-DetailViewHeader"
+  >
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      r_scripts__header_label
+    </div>
+  </div>
+  <div
+    className="content-container css-vltxpw-Content"
+  >
+    <div
+      className="css-1fulpfh-RScripts"
+    >
+      <div
+        className="css-1tz1azl-Card"
+      >
+        <div
+          className="card-header css-15zaw2t-CardHeader"
+        >
+          <div
+            className="css-mv0otu-TableOfContentsContainer"
+          >
+            <div
+              className="css-1f6p2vj-Heading"
+            >
+              undefined (5)
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-body css-awggpr-TableOfContentsContainer"
+        >
+          <div
+            className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+          >
+            <div
+              className="css-18xeog2-TableOfContentsContainer"
+            >
+              <div
+                className="toc-entry css-12opz0x-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1mh0ab2-TableOfContentsEntry"
+                  onClick={[Function]}
+                >
+                  title
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fcpgnv-TableOfContentsEntry"
+              />
+              <div
+                className="toc-entry css-12opz0x-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1mh0ab2-TableOfContentsEntry"
+                  onClick={[Function]}
+                >
+                  title
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fcpgnv-TableOfContentsEntry"
+              />
+              <div
+                className="toc-entry css-12opz0x-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1mh0ab2-TableOfContentsEntry"
+                  onClick={[Function]}
+                >
+                  title
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fcpgnv-TableOfContentsEntry"
+              />
+              <div
+                className="toc-entry css-12opz0x-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1mh0ab2-TableOfContentsEntry"
+                  onClick={[Function]}
+                >
+                  title
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fcpgnv-TableOfContentsEntry"
+              />
+              <div
+                className="toc-entry css-12opz0x-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1mh0ab2-TableOfContentsEntry"
+                  onClick={[Function]}
+                >
+                  title
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fcpgnv-TableOfContentsEntry"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-footer css-105jaxv-CardFooter"
+        >
+          <button
+            className="css-mdrh0d-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-kuxry5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="css-21rb4r-Card"
+      >
+        <div
+          className="card-header css-7banf6-CardHeader"
+        />
+        <div
+          className="card-content css-1jakjx7-CardContent"
+        >
+          <div
+            className="css-17zbm7y-Text"
+          />
+          <div
+            className="css-1fryhcf-Text"
+          />
+        </div>
+        <div
+          className="card-footer css-gmu9kx-CardFooter"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

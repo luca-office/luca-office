@@ -1,0 +1,11 @@
+#import "../../fragments/scenario-sample-company-file-fragment.graphql"
+
+mutation UpdateScenarioSampleCompanyFileMutation(
+  $scenarioId: String!
+  $fileId: String!
+  $update: ScenarioSampleCompanyFileUpdate!
+) {
+  updateScenarioSampleCompanyFile(scenarioId: $scenarioId, fileId: $fileId, update: $update) {
+    ...ScenarioSampleCompanyFileFragment
+  }
+}

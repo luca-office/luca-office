@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editable-multiline-textarea renders correctly 1`] = `
+<div
+  className="css-1ms25c0-EditableMultilineTextarea"
+>
+  <div>
+    <div
+      className="css-1qbbe3q-EditableMultilineTextarea"
+      onClick={[Function]}
+    >
+      <textarea
+        className="textarea css-119e5lp-EditableMultilineTextarea"
+        contentEditable={false}
+        disabled={false}
+        onChange={[Function]}
+        rows={1}
+        style={
+          {
+            "height": "auto",
+          }
+        }
+        suppressContentEditableWarning={true}
+        value="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`editable-multiline-textarea renders correctly disabled 1`] = `
+<div
+  className="css-1ms25c0-EditableMultilineTextarea"
+>
+  <div>
+    <div
+      className="css-15f8fgi-EditableMultilineTextarea"
+      onClick={[Function]}
+    >
+      <textarea
+        className="textarea css-q7wtdy-EditableMultilineTextarea"
+        contentEditable={false}
+        disabled={true}
+        onChange={[Function]}
+        rows={1}
+        style={
+          {
+            "height": "20px",
+          }
+        }
+        suppressContentEditableWarning={true}
+        value="text"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`upload-binary-viewer renders correctly 1`] = `
+<div
+  className="css-kbh3sa-BinaryViewer"
+>
+  <div
+    className="css-1sdua8l-ToolsHeader"
+  >
+    <div
+      className="css-w2t5un-ToolsHeader"
+    >
+      <div
+        className="css-1ss9q1q-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1b4s2bm-Text"
+      >
+        viewer_tools__image_type_label
+      </div>
+    </div>
+    <div
+      className="css-w2t5un-ToolsHeader"
+    >
+      <button
+        className="css-1dzgoe2-Button"
+        disabled={false}
+        onClick={[Function]}
+        title="viewer_tools__close_tool_label"
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-13zef26-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="css-wp9suz-ViewerToolsSubHeader"
+  >
+    <div
+      className="css-14mtheo-ViewerToolsSubHeader"
+    >
+      <div
+        className="css-1l2wmx6-ViewerToolsSubHeader"
+      >
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <div
+            className="subheader-tab css-5kgfax-SubheaderTab"
+            data-scroll="subheader-tab_123-234-2343"
+            data-testid="subheader-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1sbf56p-Text"
+            >
+              Dog 1
+            </div>
+          </div>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          Dog 1
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <div
+            className="subheader-tab css-1kbyu9y-SubheaderTab"
+            data-scroll="subheader-tab_123-2343-234"
+            data-testid="subheader-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1sbf56p-Text"
+            >
+              Dog 2
+            </div>
+          </div>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          Dog 2
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <div
+            className="subheader-tab css-1kbyu9y-SubheaderTab"
+            data-scroll="subheader-tab_123-2342-234"
+            data-testid="subheader-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1sbf56p-Text"
+            >
+              Dog 3
+            </div>
+          </div>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          Dog 3
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-rjlf5o-ViewerToolsSubHeader"
+    >
+      <button
+        className="css-7pkjwh-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+      <button
+        className="css-7pkjwh-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="image css-17mqpa8-ImageView"
+  />
+</div>
+`;

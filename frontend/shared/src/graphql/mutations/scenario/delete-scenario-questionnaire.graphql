@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-questionnaire-fragment.graphql"
+
+mutation DeleteScenarioQuestionnaireMutation($scenarioId: String!, $questionnaireId: String!) {
+  deleteScenarioQuestionnaire(scenarioId: $scenarioId, questionnaireId: $questionnaireId) {
+    ...ScenarioQuestionnaireFragment
+  }
+}

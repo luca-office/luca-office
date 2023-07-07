@@ -1,0 +1,15 @@
+#import "../../fragments/scenario-rating-criterion-selection-fragment.graphql"
+
+mutation DeleteScenarioRatingCriterionSelectionMutation(
+  $scenarioCodingItemRatingId: String!
+  $manualCriterionId: String
+  $automatedCriterionId: String
+) {
+  deleteScenarioRatingCriterionSelection(
+    scenarioCodingItemRatingId: $scenarioCodingItemRatingId
+    manualCriterionId: $manualCriterionId
+    automatedCriterionId: $automatedCriterionId
+  ) {
+    ...ScenarioRatingCriterionSelectionFragment
+  }
+}

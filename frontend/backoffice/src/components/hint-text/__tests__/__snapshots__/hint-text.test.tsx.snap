@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hint-text renders correctly 1`] = `
+<div
+  className="css-1yux2ap-HintText"
+>
+  <div
+    className="css-cj5xss-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-fmthw-Text"
+  >
+    Test
+  </div>
+</div>
+`;

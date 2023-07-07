@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-file-detail-action renders correctly 1`] = `
+[
+  <div
+    className="css-13s2sfk-Heading"
+  >
+    files_and_directories__downloads_mail
+  </div>,
+  <div
+    className="css-1kz9nmi-ReadonlyActionField"
+    data-testid="readonly-action-field"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    />
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1hje2zc-ReadonlyActionField"
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1vle6sn-ReadonlyActionField"
+          >
+            sender@cap3.de
+          </div>
+          (
+          unit__just_now
+          )
+        </div>
+      </div>
+      <button
+        className="readonly-action-button css-4nv627-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          files_and_directories__downloads_mail_navigate
+        </div>
+      </button>
+    </div>
+  </div>,
+]
+`;

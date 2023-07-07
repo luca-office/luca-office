@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator-display renders correctly 1`] = `
+<div
+  className="css-lb3e89-CalculatorDisplay"
+>
+  <div
+    className="css-evrz4g-Text"
+  >
+    33/3
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <div
+      className="css-1xmla1f-CalculatorDisplay"
+      onClick={[Function]}
+    >
+      <div
+        className="result css-1hjb42v-Text"
+      >
+        =
+      </div>
+      <div
+        className="result css-lakr0j-Text"
+      />
+    </div>
+  </div>
+</div>
+`;

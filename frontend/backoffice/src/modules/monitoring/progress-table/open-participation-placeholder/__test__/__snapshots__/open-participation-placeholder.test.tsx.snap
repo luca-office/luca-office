@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`open-participation-placeholder renders correctly 1`] = `
+<div>
+  <div
+    className="css-8050ac-Heading"
+  >
+    dashboard__project_table_placeholder_title_manual_synchron
+  </div>
+  <div
+    className="css-fmthw-Text"
+  >
+    dashboard__project_table_placeholder_hint_manual_synchron
+  </div>
+  <div
+    className="css-hmpnjl-ReadonlyActionField"
+    data-testid="readonly-action-field"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    />
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1hje2zc-ReadonlyActionField"
+      >
+        <div
+          className="css-1sh7doz-Text"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <span>
+            http://link.de
+          </span>
+        </div>
+      </div>
+      <button
+        className="readonly-action-button css-4nv627-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          copy
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

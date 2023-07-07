@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-content-info renders correctly 1`] = `
+<div
+  className="css-mns6bu-RaterRatingContentInfo"
+>
+  <div
+    className="css-118ld05-RaterRatingContentInfo"
+  >
+    <div
+      className="css-1f1k13x-Text"
+    >
+      rater_rating_details__title
+    </div>
+    <div
+      className="css-wmw0az-RaterRatingContentInfo"
+    >
+      <div
+        className="css-tyag6n-Heading"
+      >
+        my test scenario
+      </div>
+      <div
+        className="css-1xkyok3-Heading"
+      >
+        dashboard__title_time_ended
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-118ld05-RaterRatingContentInfo"
+  >
+    <div
+      className="css-1f1k13x-Text"
+    >
+      rater_rating_details__description
+    </div>
+    <div
+      className="css-1rh0ks6-Text"
+    >
+      description
+    </div>
+  </div>
+</div>
+`;

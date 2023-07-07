@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`window-action-bar renders correctly with required props 1`] = `
+<div
+  className="css-1d03hdh-WindowActionBar"
+>
+  <div
+    className="css-1djk5gb"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-14xj2im"
+    >
+      <input
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="reference_book__search"
+        type="text"
+      />
+      <div
+        className="css-v3avn8-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

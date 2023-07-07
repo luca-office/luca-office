@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-directories-list renders correctly 1`] = `
+<div
+  className="css-1p2asbq-EmailDirectoriesList"
+>
+  <div
+    className="email-directories-list-email css-1ji0l6f-EmailDirectoriesList"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1tuc5sg-EmailDirectoriesList"
+    >
+      <div
+        className="css-yw8y1e-EmailDirectoriesList"
+      >
+        <div
+          className="email-directories-list-email-sender css-ukrynw-EmailDirectoriesList"
+        >
+          sender@cap3.de
+        </div>
+        <div
+          className="email-directories-list-email-time css-iwnkfe-EmailDirectoriesList"
+        >
+          unit__just_now
+        </div>
+        <div
+          className="email-directories-list-email-read-status css-1exd2lu-EmailDirectoriesList"
+        />
+      </div>
+      <div
+        className="email-directories-list-email-subject css-ptknkd-EmailDirectoriesList"
+      >
+        Mock-Email 1
+      </div>
+    </div>
+  </div>
+  <div
+    className="email-directories-list-email css-pnhi36-EmailDirectoriesList"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1tuc5sg-EmailDirectoriesList"
+    >
+      <div
+        className="css-yw8y1e-EmailDirectoriesList"
+      >
+        <div
+          className="email-directories-list-email-sender css-ukrynw-EmailDirectoriesList"
+        >
+          sender@cap3.de
+        </div>
+        <div
+          className="email-directories-list-email-time css-iwnkfe-EmailDirectoriesList"
+        >
+          unit__just_now
+        </div>
+        <div
+          className="email-directories-list-email-read-status css-1exd2lu-EmailDirectoriesList"
+        />
+      </div>
+      <div
+        className="email-directories-list-email-subject css-ptknkd-EmailDirectoriesList"
+      >
+        Mock-Email 2
+      </div>
+    </div>
+  </div>
+  <div
+    className="email-directories-list-email css-pnhi36-EmailDirectoriesList"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1tuc5sg-EmailDirectoriesList"
+    >
+      <div
+        className="css-yw8y1e-EmailDirectoriesList"
+      >
+        <div
+          className="email-directories-list-email-sender css-ukrynw-EmailDirectoriesList"
+        >
+          sender@cap3.de
+        </div>
+        <div
+          className="email-directories-list-email-time css-iwnkfe-EmailDirectoriesList"
+        >
+          unit__just_now
+        </div>
+        <div
+          className="email-directories-list-email-read-status css-1exd2lu-EmailDirectoriesList"
+        />
+      </div>
+      <div
+        className="email-directories-list-email-subject css-ptknkd-EmailDirectoriesList"
+      >
+        Mock-Email 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

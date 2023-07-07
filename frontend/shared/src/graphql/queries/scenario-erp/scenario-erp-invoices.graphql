@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-invoice-fragment.graphql"
+
+query ScenarioErpInvoicesQuery($scenarioId: String!) {
+  scenarioErpInvoices(scenarioId: $scenarioId) {
+    ...ScenarioErpInvoiceFragment
+  }
+}

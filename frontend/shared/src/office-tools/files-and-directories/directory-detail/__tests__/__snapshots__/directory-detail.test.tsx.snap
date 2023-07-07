@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directory detail renders correctly 1`] = `
+<div
+  className="css-1lb0na6-Card"
+>
+  <div
+    className="card-header css-diisqk-CardHeader"
+  >
+    <div
+      className="css-11jhu3e-FilesAndDirectoriesDetailView"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        Bilder
+      </div>
+    </div>
+    <div
+      className="css-1400h4j-FilesAndDirectoriesDetailView"
+    />
+  </div>
+  <div
+    className="card-content css-1cbxobb-CardContent"
+  >
+    <div
+      className="css-mnxunf-DirectoryDetail"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        directories_and_files__directory_detail__heading
+         (
+        2
+        )
+      </div>
+      <div
+        className="css-wbsdtb-Table"
+      >
+        <div
+          className="css-443iam-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            directories_and_files__directory_detail__column_header_title
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            directories_and_files__directory_detail__column_header_type
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-22vfow-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1cky3ub-Columns"
+                >
+                  <div
+                    className="css-zphlsu-Column"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="css-xaphmo-Column"
+                  >
+                    Arbeit
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                directories_and_files__type_directory
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-22vfow-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1cky3ub-Columns"
+                >
+                  <div
+                    className="css-zphlsu-Column"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                  <div
+                    className="css-xaphmo-Column"
+                  >
+                    Urlaub
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                directories_and_files__type_directory
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-jb8qoz-CardFooter"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+mutation CreateToolUsageScenarioCodingAutomatedCriterionMutation(
+  $creation: ToolUsageScenarioCodingAutomatedCriterionCreation!
+) {
+  createToolUsageScenarioCodingAutomatedCriterion(creation: $creation) {
+    id
+    score
+    itemId
+
+    ... on ToolUsageScenarioCodingAutomatedCriterion {
+      officeTool
+    }
+
+    ... on InputValueScenarioCodingAutomatedCriterion {
+      officeTool
+      fileId
+      spreadsheetRowIndex
+      spreadsheetColumnIndex
+      value
+    }
+    ... on DocumentViewScenarioCodingAutomatedCriterion {
+      fileId
+      emailId
+      erpRowId
+      erpTableType
+      referenceBookArticleId
+    }
+  }
+}

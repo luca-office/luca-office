@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`raters-rating-card-content renders correctly 1`] = `
+<div
+  className="card-content css-25cfb5-CardContent"
+>
+  <div
+    className="css-yzker2-RatersRatingCardContent"
+  >
+    <div
+      className="css-fmthw-Text"
+    >
+      description
+    </div>
+  </div>
+  <div
+    className="css-7xaisz-RatersRatingCardContent"
+  >
+    <div
+      className="css-fmthw-Text"
+    >
+      rater_rating__info_box_title:
+    </div>
+    <div
+      className="css-1npum18-RatersRatingCardContent"
+    >
+      <div
+        className="css-hcuxk4-RatersRatingCardContent"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1du93n7-Text"
+        >
+          projects__surveys_details_dashboard_participants
+        </div>
+      </div>
+      <div
+        className="css-hcuxk4-RatersRatingCardContent"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1du93n7-Text"
+        >
+          projects__surveys_details_progress_automatic
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

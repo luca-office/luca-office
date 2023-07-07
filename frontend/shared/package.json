@@ -1,0 +1,36 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -s ./src/assets -p 9001",
+    "test": "jest --config ./jest.config.js -w=2",
+    "lint": "../node_modules/.bin/eslint ./src --ext .ts,.tsx --config ../.eslintrc.js --ignore-path ../.eslintignore",
+    "apollo-codegen": "./scripts/apollo-codegen.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.8.3",
+    "@wojtekmaj/react-daterange-picker": "^3.0.0",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "mathjs": "^11.5.0",
+    "react-draggable": "^4.4.5",
+    "react-dropzone": "^14.2.2",
+    "react-highlight-words": "^0.18.0",
+    "react-markdown": "^8.0.3",
+    "react-mde": "^11.5.0",
+    "react-popper": "^2.3.0",
+    "react-quill": "^2.0.0",
+    "react-select": "^5.4.0",
+    "react-tooltip": "^5.7.3",
+    "react-use-websocket": "^4.3.1",
+    "react-virtuoso": "4.0.8",
+    "remark-gfm": "3.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/mathjs": "^6.0.5",
+    "@types/react-highlight-words": "^0.16.4",
+    "@types/uuid": "^8.3.0"
+  }
+}

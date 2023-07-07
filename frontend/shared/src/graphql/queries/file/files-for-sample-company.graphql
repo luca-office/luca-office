@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/file-fragment.graphql"
+
+query FilesForSampleCompanyQuery($sampleCompanyId: String!) {
+  filesForSampleCompany(sampleCompanyId: $sampleCompanyId) {
+    ...FileFragment
+  }
+}

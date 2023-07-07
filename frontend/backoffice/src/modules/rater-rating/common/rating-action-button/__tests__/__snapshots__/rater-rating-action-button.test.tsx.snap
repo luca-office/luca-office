@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-action-button renders correctly (action loading) 1`] = `
+<button
+  className="css-15dgl4r-Button"
+  disabled={true}
+  onClick={[Function]}
+>
+  <div
+    className="css-95j2hm-Button"
+  >
+    <div
+      className="css-nkhhc8-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    rater_rating__action_button_finish_rating
+  </div>
+</button>
+`;
+
+exports[`rater-rating-action-button renders correctly (data loading) 1`] = `
+<button
+  className="css-15dgl4r-Button"
+  disabled={true}
+  onClick={[Function]}
+>
+  <div
+    className="css-95j2hm-Button"
+  >
+    <div
+      className="css-nkhhc8-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    rater_rating__action_button_finish_rating
+  </div>
+</button>
+`;
+
+exports[`rater-rating-action-button renders correctly (finalized) 1`] = `
+<button
+  className="css-15dgl4r-Button"
+  disabled={true}
+  onClick={[Function]}
+>
+  <div
+    className="css-95j2hm-Button"
+  >
+    <div
+      className="css-kuxry5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    rater_rating__action_button_finish_rating
+  </div>
+</button>
+`;
+
+exports[`rater-rating-action-button renders correctly 1`] = `
+<button
+  className="css-15dgl4r-Button"
+  disabled={false}
+  onClick={[Function]}
+>
+  <div
+    className="css-95j2hm-Button"
+  >
+    <div
+      className="css-kuxry5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    rater_rating__action_button_finish_rating
+  </div>
+</button>
+`;

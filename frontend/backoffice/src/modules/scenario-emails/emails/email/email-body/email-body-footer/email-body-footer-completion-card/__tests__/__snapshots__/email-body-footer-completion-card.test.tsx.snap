@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-footer-completion-card renders correctly 1`] = `
+<div
+  className="css-9162tf-Card"
+>
+  <div>
+    <div
+      className="css-1sjwz3-Text"
+    >
+      email__completion_email_text
+    </div>
+    <div
+      className="css-1tdgs0m-EmailBodyFooterCompletionCard"
+    >
+      <div
+        className="overlay-edit-field css-0"
+      >
+        <div
+          className="css-i3y22k-ReadonlyActionField"
+          data-testid="readonly-action-field"
+          onClick={[Function]}
+        >
+          <div
+            className="css-1bkess4-ReadonlyActionField"
+          />
+          <div
+            className="content-wrapper css-b45n67-ReadonlyActionField"
+          >
+            <div
+              className="content css-1hje2zc-ReadonlyActionField"
+            >
+              <div
+                className="css-axihyg-EmailBodyMetaEntry"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-sl5qfb-EmailBodyMetaEntry"
+                >
+                  test@test.de
+                </div>
+              </div>
+            </div>
+            <button
+              className="readonly-action-button css-4nv627-Button"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <div
+                className="css-95j2hm-Button"
+              >
+                edit_button
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div />
+  </div>
+  <div />
+</div>
+`;

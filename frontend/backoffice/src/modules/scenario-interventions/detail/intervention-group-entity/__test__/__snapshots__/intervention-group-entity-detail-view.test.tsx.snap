@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`intervention-group-entity-detail-view renders correctly 1`] = `
+<div
+  className="css-63bajj-Card"
+>
+  <div
+    className="card-header css-7banf6-CardHeader"
+  >
+    <div
+      className="css-xyvvji-InterventionGroupEntityDetailView"
+    >
+      <div
+        className="css-w0t9or-InterventionGroupEntityDetailView"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          interventions__group_type_header
+        </div>
+      </div>
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        interventions__detail_view_overview_empty_placeholder
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-content css-lim2k4-CardContent"
+  >
+    <div
+      className="css-1ftlr11-InterventionGroupEntityDetailView"
+    >
+      <div>
+        <div
+          className="css-1ivxsp2-Text"
+        >
+          interventions__detail_view_overview_empty_placeholder
+        </div>
+        <div
+          className="css-11cekfo-Text"
+        >
+          interventions__detail_view_overview_no_position_or_intervention_placeholder
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

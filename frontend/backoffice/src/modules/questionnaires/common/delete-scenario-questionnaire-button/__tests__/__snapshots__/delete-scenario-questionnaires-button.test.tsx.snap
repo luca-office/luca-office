@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scenario-detail renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <button
+    className="css-q415zv-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-b32040-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </button>
+</div>
+`;

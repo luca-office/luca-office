@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TablePlaceholder renders correctly with default props 1`] = `
+<div
+  className="css-anw0y9-TablePlaceholder"
+>
+  <div
+    className="css-owfm9q-TablePlaceholder"
+  >
+    <div
+      className="css-a2d8j9-Text"
+    >
+      subTitle
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TablePlaceholder renders correctly with main title 1`] = `
+<div
+  className="css-anw0y9-TablePlaceholder"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    Title
+  </div>
+  <div
+    className="css-owfm9q-TablePlaceholder"
+  >
+    <div
+      className="css-a2d8j9-Text"
+    >
+      subTitle
+    </div>
+  </div>
+</div>
+`;

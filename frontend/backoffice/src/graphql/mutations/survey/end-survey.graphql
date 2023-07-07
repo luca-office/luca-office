@@ -1,0 +1,3 @@
+mutation EndSurveyMutation($surveyId: String!) {
+  endSurvey(surveyId: $surveyId)
+}

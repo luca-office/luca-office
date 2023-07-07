@@ -1,0 +1,7 @@
+#import "../../fragments/user-account-fragment.graphql"
+
+query SurveyUserAccountsQuery($surveyId: String!) {
+  userAccountsForSurvey(surveyId: $surveyId) {
+    ...UserAccountFragment
+  }
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filter-user-claims renders correctly 1`] = `
+<div
+  className="css-122wl3z-FilterUserClaimsCard"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    user_management__filter_header
+  </div>
+  <div>
+    <div
+      className="css-d3dde9-Paper"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project Metadata renders correctly 1`] = `
+[
+  <div
+    className="css-ewyk2t-Heading"
+  >
+    project
+  </div>,
+  <div>
+    <div
+      className="css-1eksi13-Paper"
+    >
+      <div
+        className="css-1cky3ub-Columns"
+      >
+        <div
+          className="css-1oiyj7r-Column"
+        >
+          <div
+            className="css-1cvfayx-Heading"
+          >
+            title
+          </div>
+          <div
+            className="css-x5tp97-Text"
+          >
+            Project 1
+          </div>
+        </div>
+        <div
+          className="css-1oiyj7r-Column"
+        >
+          <div
+            className="css-1cvfayx-Heading"
+          >
+            auth__project_metadata_period
+          </div>
+          <div
+            className="css-x5tp97-Text"
+          >
+            13.08.2020 - 03.08.2020
+          </div>
+        </div>
+        <div
+          className="css-1oiyj7r-Column"
+        >
+          <div
+            className="css-1cvfayx-Heading"
+          >
+            auth__project_metadata_processing_time
+          </div>
+          <div
+            className="css-x5tp97-Text"
+          >
+            60 minutes
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

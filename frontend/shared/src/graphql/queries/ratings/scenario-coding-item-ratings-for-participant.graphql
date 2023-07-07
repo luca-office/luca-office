@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-coding-item-rating-fragment.graphql"
+
+query ScenarioCodingItemRatingsForParticipantQuery($scenarioId: String!, $surveyInvitationId: String!) {
+  scenarioCodingItemRatingsForParticipant(scenarioId: $scenarioId, surveyInvitationId: $surveyInvitationId) {
+    ...ScenarioCodingItemRatingFragment
+  }
+}

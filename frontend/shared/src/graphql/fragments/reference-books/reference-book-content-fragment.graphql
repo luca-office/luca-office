@@ -1,0 +1,25 @@
+#import "../binary-file-fragment.graphql"
+
+fragment ReferenceBookContentFragment on ReferenceBookContent {
+    id
+    createdAt
+    modifiedAt
+    position
+    contentType
+    text
+    imageBinaryFileId
+    videoBinaryFileId
+    referenceBookArticleId
+    pdfBinaryFileId
+    imageUrl
+    videoUrl
+    imageBinaryFile {
+        ...BinaryFileFragment
+    }
+    videoBinaryFile {
+        ...BinaryFileFragment
+    }
+    pdfBinaryFile {
+        ...BinaryFileFragment
+    }
+}

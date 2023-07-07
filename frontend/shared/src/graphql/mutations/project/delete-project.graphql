@@ -1,0 +1,3 @@
+mutation DeleteProjectMutation($id: String!) {
+  deleteProject(id: $id)
+}

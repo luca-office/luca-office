@@ -1,0 +1,7 @@
+#import "../../fragments/coding-dimension-fragment.graphql"
+
+mutation UpdateCodingDimensionMutation($id: String!, $update: CodingDimensionUpdate!) {
+  updateCodingDimension(id: $id, update: $update) {
+    ...CodingDimensionFragment
+  }
+}

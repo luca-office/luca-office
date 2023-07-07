@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`information-binary-content renders correctly 1`] = `
+<div
+  className="css-duw6bf-InformationBinaryContent"
+>
+  <div
+    className="css-m8v3fy-InformationBinaryContent"
+  >
+    <div
+      className="detail-view-binary"
+    >
+      <div
+        className="css-i8kvhr-DetailViewBinary"
+      >
+        <div>
+          <div
+            className="css-qidqnc-Paper"
+          >
+            sample_companies__logo_label
+          </div>
+          <div
+            className="css-xjcny2-Paper"
+            title="sample_companies__logo_label"
+          >
+            <div
+              className="css-1lddm97-DetailViewBinary"
+            >
+              <div
+                className="css-10x1cs7-ContentImage"
+              >
+                <div
+                  className="image css-3jaw6m-ContentImage"
+                />
+                <div
+                  className="remove-overlay css-1jthtq6-DetailViewBinary"
+                >
+                  <button
+                    className="css-13x3l2r-Button"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="css-95j2hm-Button"
+                    >
+                      <div
+                        className="css-b32040-Icon"
+                        dangerouslySetInnerHTML={
+                          {
+                            "__html": {},
+                          }
+                        }
+                      />
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-184ohm3-InformationBinaryContent"
+  >
+    <div
+      className="css-1v0z0k-ReadonlyActionField"
+      data-testid="readonly-action-field"
+    >
+      <div
+        className="css-1bkess4-ReadonlyActionField"
+      >
+        <div
+          className="css-47wnmy-ReadonlyActionField"
+        >
+          sample_companies__detail_general_information_company_intro
+        </div>
+      </div>
+      <div
+        className="content-wrapper css-b45n67-ReadonlyActionField"
+      >
+        <div
+          className="content css-1147qp7-ReadonlyActionField"
+        >
+          <div
+            className="css-1u9punp-InformationBinaryContent"
+          >
+            <div
+              className="css-1x8pqbb-InformationBinaryContent"
+            >
+              <div
+                className="css-1dh174l-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-17zbm7y-Text"
+              >
+                files_and_directories__file_type_pdf
+              </div>
+            </div>
+            <div
+              className="css-q9ofbt-Heading"
+              onClick={[Function]}
+            >
+              edit_button
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

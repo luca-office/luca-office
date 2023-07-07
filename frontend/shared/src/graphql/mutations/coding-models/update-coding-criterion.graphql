@@ -1,0 +1,7 @@
+#import "../../fragments/coding-criterion-fragment.graphql"
+
+mutation UpdateCodingCriterionMutation($id: String!, $update: CodingCriterionUpdate!) {
+  updateCodingCriterion(id: $id, update: $update) {
+    ...CodingCriterionFragment
+  }
+}

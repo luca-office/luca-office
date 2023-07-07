@@ -1,0 +1,11 @@
+#import "./reference-book-content-fragment.graphql"
+
+fragment ReferenceBookArticleFragment on ReferenceBookArticle {
+    id
+    title
+    referenceBookChapterId
+    position
+    contents {
+        ...ReferenceBookContentFragment
+    }
+}

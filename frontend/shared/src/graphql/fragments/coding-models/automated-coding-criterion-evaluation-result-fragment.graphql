@@ -1,0 +1,4 @@
+fragment AutomatedCodingCriterionEvaluationResultFragment on AutomatedCodingCriterionEvaluationResult {
+  criterionId
+  isFulfilled
+}

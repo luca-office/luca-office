@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`meta-contributors renders correctly 1`] = `
+<div
+  className="css-1v0z0k-ReadonlyActionField"
+  data-testid="readonly-action-field"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1bkess4-ReadonlyActionField"
+  >
+    <div
+      className="css-47wnmy-ReadonlyActionField"
+    >
+      scenario_details__general_contributors
+    </div>
+  </div>
+  <div
+    className="content-wrapper css-b45n67-ReadonlyActionField"
+  >
+    <div
+      className="content css-1hje2zc-ReadonlyActionField"
+    >
+      <div
+        className="css-1bkess4-ReadonlyActionField"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-odwty4-Text"
+        >
+          0 scenario_details__general_contributors
+        </div>
+      </div>
+    </div>
+    <button
+      className="readonly-action-button css-4nv627-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        scenario_details__button_invite
+      </div>
+    </button>
+  </div>
+</div>
+`;

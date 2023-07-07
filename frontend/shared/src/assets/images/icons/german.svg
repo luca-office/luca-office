@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6_Filled_Icons (16px)/Language/German</title>
+    <g id="6_Filled_Icons-(16px)/Language/German" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <polygon id="Fill-1" fill="#2E3032" points="0 5 16 5 16 0 0 0"></polygon>
+            <polygon id="Fill-2" fill="#DB5F77" points="0 11 16 11 16 5.001 0 5.001"></polygon>
+            <polygon id="Fill-3" fill="#FEBC3B" points="0 16 16 16 16 11 0 11"></polygon>
+        </g>
+    </g>
+</svg>

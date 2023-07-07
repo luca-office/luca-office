@@ -1,0 +1,7 @@
+#import "../../fragments/directory-fragment.graphql"
+
+query DirectoriesForScenarioQuery($scenarioId: String!) {
+  directoriesForScenario(scenarioId: $scenarioId) {
+    ...DirectoryFragment
+  }
+}

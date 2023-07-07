@@ -1,0 +1,3 @@
+mutation InviteScenarioContributorsMutation($scenarioId: String!, $emails: [String!]!) {
+  inviteScenarioContributors(scenarioId: $scenarioId, emails: $emails)
+}

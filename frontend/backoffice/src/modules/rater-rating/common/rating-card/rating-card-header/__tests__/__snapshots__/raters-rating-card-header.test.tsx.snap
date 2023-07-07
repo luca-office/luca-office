@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`raters-rating-card-header renders correctly (completed) 1`] = `
+<div
+  className="card-header css-t2sgx-CardHeader"
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    my test scenario
+  </div>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    rater_rating__status_rating_completed
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card-header renders correctly (rating in progress) 1`] = `
+<div
+  className="card-header css-t2sgx-CardHeader"
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    my test scenario
+  </div>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    rater_rating__status_rating_in_progress
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card-header renders correctly (survey in progress) 1`] = `
+<div
+  className="card-header css-t2sgx-CardHeader"
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    my test scenario
+  </div>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    rater_rating__status_survey_in_progress
+  </div>
+</div>
+`;

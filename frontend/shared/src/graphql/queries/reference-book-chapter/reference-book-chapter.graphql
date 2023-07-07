@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-chapter-fragment.graphql"
+
+query ReferenceBookChapterQuery($id: String!) {
+  referenceBookChapter(id: $id) {
+    ...ReferenceBookChapterFragment
+  }
+}

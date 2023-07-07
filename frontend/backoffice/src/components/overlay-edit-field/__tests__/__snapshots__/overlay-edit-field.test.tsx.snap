@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overlay-edit-field renders correctly 1`] = `
+<div
+  className="overlay-edit-field css-0"
+>
+  <div
+    className="css-1v0z0k-ReadonlyActionField"
+    data-testid="readonly-action-field"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        navigation__scenarios
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1hje2zc-ReadonlyActionField"
+      >
+        <span>
+          some value
+        </span>
+      </div>
+      <button
+        className="readonly-action-button css-4nv627-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          edit_button
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`overlay-edit-field renders correctly disabled 1`] = `
+<div
+  className="overlay-edit-field css-0"
+>
+  <div
+    className="css-1v0z0k-ReadonlyActionField"
+    data-testid="readonly-action-field"
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        navigation__scenarios
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1147qp7-ReadonlyActionField"
+      >
+        <span>
+          some value
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

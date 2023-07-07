@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinishModal should render correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-s8e74z-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          project__finish_title
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div
+          className="css-1uaowy6-FinishModal"
+        >
+          <div
+            className="css-1uyodls-Text"
+          >
+            scenario__finish_scenario_text
+          </div>
+          <div
+            className="css-1xb8bav-Text"
+          >
+            scenario__finish_scenario_question
+          </div>
+        </div>
+      </section>
+      <footer
+        className="css-ukdqb3-Modal"
+      >
+        <button
+          className="cancel-button css-g9lx5p-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            back
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ms9fuw-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            scenario__finish_scenario_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,3 @@
+import {CompletionEmailWordCountsQuery_completionEmailWordCounts} from "../graphql/generated/CompletionEmailWordCountsQuery"
+
+export type CompletionEmailWordCount = CompletionEmailWordCountsQuery_completionEmailWordCounts

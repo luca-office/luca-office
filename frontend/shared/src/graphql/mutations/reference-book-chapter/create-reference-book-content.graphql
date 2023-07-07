@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-content-fragment.graphql"
+
+mutation CreateReferenceBookContentMutation($creation: ReferenceBookContentCreation!) {
+  createReferenceBookContent(creation: $creation) {
+    ...ReferenceBookContentFragment
+  }
+}

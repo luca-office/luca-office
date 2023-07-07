@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-component.graphql"
+
+mutation UpdateErpComponentMutation($id: Int!, $sampleCompanyId: String!, $update: ErpComponentUpdate!) {
+  updateErpComponent(id: $id, sampleCompanyId: $sampleCompanyId, update: $update) {
+    ...ErpComponentFragment
+  }
+}

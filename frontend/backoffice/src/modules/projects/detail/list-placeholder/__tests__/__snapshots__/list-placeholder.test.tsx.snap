@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list-placeholder renders correctly 1`] = `
+<div
+  className="list-placeholder css-1f7b4li-ListPlaceholder"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    test title
+  </div>
+  <div
+    className="css-1ezkskb-Text"
+  >
+    test text
+  </div>
+  <button
+    className="placeholder-button css-1hxu1oa-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-kuxry5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      action
+    </div>
+  </button>
+</div>
+`;

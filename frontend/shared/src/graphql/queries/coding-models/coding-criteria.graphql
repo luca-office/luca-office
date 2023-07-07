@@ -1,0 +1,7 @@
+#import "../../fragments/coding-criterion-fragment.graphql"
+
+query CodingCriteriaQuery($itemId: String!) {
+  codingCriteria(itemId: $itemId) {
+    ...CodingCriterionFragment
+  }
+}

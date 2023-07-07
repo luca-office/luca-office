@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`intervention-email-link renders correctly 1`] = `
+<div
+  className="css-17j8zz3-InterventionEmailLink"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    interventions__interventions_detail_email_label
+  </div>
+  <div>
+    <div
+      className="css-1eksi13-Paper"
+    >
+      <div
+        className="css-1p9qd62-Text"
+      >
+        interventions__interventions_detail_email_hint
+      </div>
+      <div
+        className="css-1wg9zsk-ReadonlyActionField"
+        data-testid="readonly-action-field"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        />
+        <div
+          className="content-wrapper css-b45n67-ReadonlyActionField"
+        >
+          <div
+            className="content css-1hje2zc-ReadonlyActionField"
+          >
+            <div
+              className="css-1bkess4-ReadonlyActionField"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-17zbm7y-Text"
+              >
+                max.mustermann@mail.de interventions__interventions_detail_email_delay
+              </div>
+            </div>
+          </div>
+          <button
+            className="readonly-action-button css-4nv627-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              interventions__interventions_detail_email_button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

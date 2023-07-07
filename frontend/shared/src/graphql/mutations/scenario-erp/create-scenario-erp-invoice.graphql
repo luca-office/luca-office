@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-invoice-fragment.graphql"
+
+mutation CreateScenarioErpInvoiceMutation($creation: ScenarioErpInvoiceCreation!) {
+  createScenarioErpInvoice(creation: $creation) {
+    ...ScenarioErpInvoiceFragment
+  }
+}

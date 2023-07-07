@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard-action-footer renders correctly 1`] = `
+<div
+  className="survey-dashboard-footer css-1b8qb4w-DashboardActionFooter"
+  data-testid="survey-dashboard-footer"
+>
+  <div
+    className="css-1di1fvw-DashboardActionFooter"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-17zbm7y-Text"
+    >
+      dashboard__footer_timing_past
+    </div>
+  </div>
+  <div
+    className="css-1di1fvw-DashboardActionFooter"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-17zbm7y-Text"
+    >
+      dashboard__footer_completed
+    </div>
+    <button
+      className="css-1et5v14-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        dashboard__footer_navigate_dashboard
+      </div>
+    </button>
+  </div>
+</div>
+`;

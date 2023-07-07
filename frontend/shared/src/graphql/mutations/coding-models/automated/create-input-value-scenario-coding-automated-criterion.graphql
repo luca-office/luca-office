@@ -1,0 +1,17 @@
+mutation CreateInputValueScenarioCodingAutomatedCriterionMutation(
+  $creation: InputValueScenarioCodingAutomatedCriterionCreation!
+) {
+  createInputValueScenarioCodingAutomatedCriterion(creation: $creation) {
+    id
+    score
+    itemId
+
+    ... on InputValueScenarioCodingAutomatedCriterion {
+      officeTool
+      fileId
+      spreadsheetRowIndex
+      spreadsheetColumnIndex
+      value
+    }
+  }
+}

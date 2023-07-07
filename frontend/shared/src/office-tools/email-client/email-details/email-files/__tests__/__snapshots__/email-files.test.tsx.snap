@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-files render correctly with required props 1`] = `
+<div
+  className="css-1oe8q4o-EmailFiles"
+>
+  <div
+    className="css-qcf7xd-Text"
+  >
+    email__files_label
+     (
+    1
+    )
+  </div>
+  <div
+    className="css-o1z0wf-EmailFiles"
+  >
+    <div
+      className="css-17ge601-Card"
+    >
+      <div
+        className="card-content css-13qcsl8-CardContent"
+      >
+        <div
+          className="css-15bxokn-EmailFiles"
+        >
+          <div
+            className="css-x1d5td-EmailFiles"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          
+        </div>
+        <div>
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <button
+              className="css-xswu11-Button"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <div
+                className="css-95j2hm-Button"
+              >
+                <div
+                  className="css-scbjzw-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </button>
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            email__files_download_tooltip
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

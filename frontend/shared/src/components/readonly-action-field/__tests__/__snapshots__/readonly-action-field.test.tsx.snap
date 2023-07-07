@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readonly-action-field renders correctly 1`] = `
+<div
+  className="css-1v0z0k-ReadonlyActionField"
+  data-testid="readonly-action-field"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1bkess4-ReadonlyActionField"
+  >
+    <div
+      className="css-47wnmy-ReadonlyActionField"
+    >
+      Data
+    </div>
+  </div>
+  <div
+    className="content-wrapper css-b45n67-ReadonlyActionField"
+  >
+    <div
+      className="content css-1hje2zc-ReadonlyActionField"
+    >
+      <span>
+        some value
+      </span>
+    </div>
+    <button
+      className="readonly-action-button css-4nv627-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        Edit
+      </div>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delete-or-archive-entity-button renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <button
+    className="css-hnekdl-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-mj8vo1-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </button>
+</div>
+`;

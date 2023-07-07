@@ -1,0 +1,3 @@
+mutation DeleteCodingModelMutation($id: String!) {
+  deleteCodingModel(id: $id)
+}

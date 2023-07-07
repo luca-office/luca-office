@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`events-card renders correctly 1`] = `
+<div
+  className="css-c70e0x-Card"
+  onClick={[Function]}
+>
+  <div>
+    <div
+      className="card-header css-1x5pyem-CardHeader"
+    >
+      <div
+        className="css-1b415o5-OverviewCard"
+      >
+        <div
+          className="css-1i6jmor-Heading"
+        >
+          scenario_details__settings_label_events
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="css-1v230f2-Text"
+      >
+        scenario_details__settings_events_description
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="card-footer css-texso5-CardFooter"
+    >
+      <div
+        className="css-1rku91j-CardFooterItem"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1de4iva-Text"
+        >
+          12 scenario_details__settings_card_footer_label_events
+        </div>
+      </div>
+      <div
+        className="css-lpoiel-CardFooterItem"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

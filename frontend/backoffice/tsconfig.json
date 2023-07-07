@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "shared/*": ["../shared/src/*"],
+      "sharedTests/*": ["../shared/tests/*"],
+      "react-mde": ["../type-definitions/react-mde/definitions"]
+    }
+  },
+  "include": ["src/**/*", "../shared/type-definitions/*", "stories/**/*", "./.storybook/*"],
+  "exclude": ["tests/**/*", "src/**/*.mock.ts"]
+}

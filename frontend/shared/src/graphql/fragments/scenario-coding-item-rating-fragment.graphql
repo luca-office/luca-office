@@ -1,0 +1,14 @@
+#import "./scenario-rating-criterion-selection-fragment.graphql"
+
+fragment ScenarioCodingItemRatingFragment on ScenarioCodingItemRating {
+  id
+  createdAt
+  modifiedAt
+  noCriterionFulfilled
+  surveyInvitationId
+  ratingId
+  codingItemId
+  criterionSelections {
+    ...ScenarioRatingCriterionSelectionFragment
+  }
+}

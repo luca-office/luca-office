@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-coding-table-of-contents renders correctly 1`] = `
+<div
+  className="css-1a4ri4z-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        coding_models__title
+      </div>
+    </div>
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      rating__rating__right_side_title_table_of_contents
+    </div>
+  </div>
+  <div
+    className="toc-body css-su8wgs-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-zkqz5t-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="toc-entry-text css-6a453r-RatingCodingTableOfContents"
+          onClick={[Function]}
+        >
+          <div
+            className="css-moybed-Text"
+          >
+            overview
+          </div>
+          <div
+            className="css-1qbfsxz-RatingCodingTableOfContents"
+          >
+            <div
+              className="css-fmthw-Text"
+            >
+              0
+              rating__rating__trailing_percent
+            </div>
+            <div
+              className="css-whkdu1-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-1dmbn2x-CardFooter"
+  >
+    <div
+      className="css-1814g6r-RatingTableOfContentsFooter"
+    >
+      <div
+        className="css-1sbf56p-Text"
+      >
+        rating__total_score_achieved:
+      </div>
+      <div
+        className="css-xla9r9-RatingTableOfContentsFooter"
+      >
+        <div
+          className="css-1sbf56p-Text"
+        >
+          rating__rating__scoring
+        </div>
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

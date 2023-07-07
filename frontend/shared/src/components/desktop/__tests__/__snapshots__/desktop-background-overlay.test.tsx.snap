@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`desktop-background-overlay renders correctly 1`] = `
+<div
+  className="css-f126cv-DesktopBackgroundOverlay"
+>
+  <div
+    className="css-d0bkli-DesktopBackgroundOverlay"
+  />
+  <div
+    className="css-6ndbya-DesktopBackground"
+  >
+    <div
+      className="background-logo css-1xk0bda-DesktopBackground"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

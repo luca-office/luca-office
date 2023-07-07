@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`binary-entry renders correctly 1`] = `
+<div
+  className="binary-entry css-yhhejc-BinaryEntry"
+>
+  <div
+    className="binary-entry-header css-13s2sfk-Heading"
+  >
+    file__preview__label
+  </div>
+  <div
+    className="binary-entry-content"
+  />
+</div>
+`;

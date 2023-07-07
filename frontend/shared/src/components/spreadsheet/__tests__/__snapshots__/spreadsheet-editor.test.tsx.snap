@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spreadsheet-editor renders correctly 1`] = `
+<div
+  className="css-j2spdz-SpreadsheetEditor"
+>
+  <div>
+    mockedSheet
+  </div>
+  <div
+    className="css-vq7gv7-SpreadsheetEditor"
+  >
+    <div
+      className="css-1uyodls-Text"
+    >
+      A1
+    </div>
+  </div>
+  <div
+    className="css-1q1k4o7-SpreadsheetEditor"
+  >
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-t0h4w2-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-tewr92-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      <div
+        className="css-jb7kz7-Heading"
+      >
+        spreadsheet_editor__error_alert_text
+      </div>
+      <div
+        className="css-1ovab5i-Tooltip"
+      >
+        <div>
+          SUMME - SUM
+        </div>
+        <div>
+          PRODUKT - PRODUCT
+        </div>
+        <div>
+          MITTELWERT - AVERAGE/AVG
+        </div>
+        <div>
+          ANZAHL - COUNT
+        </div>
+        <div>
+          ANZAHL2 - COUNTA
+        </div>
+        <div>
+          ZÄHLENWENN - COUNTIF
+        </div>
+        <div>
+          SUMMEWENN - SUMIF
+        </div>
+        <div>
+          WENN - IF
+        </div>
+        <div>
+          SVERWEIS - VLOOKUP
+        </div>
+        <div>
+          RUNDEN - ROUND
+        </div>
+        <div>
+          MODUS.EINF - MODE.SNGL
+        </div>
+        <div>
+          WURZEL - SQRT
+        </div>
+        <div>
+          POTENZ - POWER
+        </div>
+      </div>
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+</div>
+`;

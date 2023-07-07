@@ -1,0 +1,11 @@
+fragment RScriptFragment on RScript {
+  id
+  createdAt
+  modifiedAt
+  title
+  description
+  archivedAt
+  version
+  gitCommitHash
+  isEditable
+}

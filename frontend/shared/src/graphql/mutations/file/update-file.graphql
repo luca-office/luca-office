@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/file-fragment.graphql"
+
+mutation UpdateFileMutation($id: String!, $update: FileUpdate!) {
+  updateFile(id: $id, update: $update) {
+    ...FileFragment
+  }
+}

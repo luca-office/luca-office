@@ -1,0 +1,7 @@
+#import "../../fragments/reporting/project-module-results-fragment.graphql"
+
+query SurveyResultsForProjectModuleQuery($surveyId: String!, $projectModuleId: String!) {
+  surveyResultsForProjectModule(surveyId: $surveyId, projectModuleId: $projectModuleId) {
+    ...ProjectModuleResultsFragment
+  }
+}

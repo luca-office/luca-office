@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`binary-update-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-oif6n3-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          file__edit_title_file_type_image
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div
+          className="binary-preview css-yhhejc-BinaryEntry"
+        >
+          <div
+            className="binary-entry-header css-13s2sfk-Heading"
+          >
+            file__preview__label
+          </div>
+          <div
+            className="binary-entry-content"
+          >
+            <div
+              className="image css-1nngtun-BinaryUpdateModal"
+              data-testid="image-preview"
+            />
+          </div>
+        </div>
+        <div
+          className="binary-swap css-5qpgjp-BinaryEntry"
+        >
+          <div
+            className="binary-entry-header css-13s2sfk-Heading"
+          >
+            file__swap__label
+          </div>
+          <div
+            className="binary-entry-content"
+          >
+            <div
+              className="css-nrd7a1-BinaryUpdateModal"
+            >
+              <div
+                className="file-dropzone-wrapper css-pxpmki-FileDropzone"
+                onBlur={null}
+                onClick={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDrop={[Function]}
+                onFocus={null}
+                onKeyDown={null}
+                role="presentation"
+              >
+                <input
+                  accept="image/*,.jpg,.svg,.png,.jpeg,.gif"
+                  multiple={false}
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  style={
+                    {
+                      "display": "none",
+                    }
+                  }
+                  tabIndex={-1}
+                  type="file"
+                />
+                <div
+                  className="css-vq2l7y-Text"
+                >
+                  <span>
+                    <span
+                      className=""
+                    >
+                      files_and_directories__upload_modal_file_size_hint_singular
+                    </span>
+                  </span>
+                </div>
+                <div
+                  className="css-1oed4f3-Text"
+                >
+                  files_and_directories__upload_modal_choose_file
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        className="css-ukdqb3-Modal"
+      >
+        <button
+          className="delete-button css-1z5jon-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            file__delete_button_file_type_image
+          </div>
+        </button>
+        <button
+          className="cancel-button css-1ed521q-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            cancel_button
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            confirm_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

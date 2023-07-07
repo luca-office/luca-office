@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icons---lined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Customizable-Icons/book" stroke="currentColor">
+            <path d="M10.5,9.5 L9,8.5 L7.5,9.5 L7.5,2.5 L10.5,2.5 L10.5,9.5 Z M13.4536,2.5 L3.4996,2.5 C2.9476,2.5 2.4996,2.052 2.4996,1.5 C2.4996,0.948 2.9476,0.5 3.4996,0.5 L13.4536,0.5 C13.4786,0.5 13.4996,0.521 13.4996,0.546 L13.4996,2.454 C13.4996,2.479 13.4786,2.5 13.4536,2.5 Z M2.5,1.5 L2.5,14.498 C2.5,15.052 2.879,15.5 3.348,15.5 L13.5,15.5 L13.5,2.5 L11.808,2.5" id="Stroke-6"></path>
+        </g>
+    </g>
+</svg>

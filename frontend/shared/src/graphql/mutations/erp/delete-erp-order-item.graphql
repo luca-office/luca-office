@@ -1,0 +1,3 @@
+mutation DeleteErpOrderItemMutation($id: Int!, $sampleCompanyId: String!) {
+  deleteErpOrderItem(id: $id, sampleCompanyId: $sampleCompanyId)
+}

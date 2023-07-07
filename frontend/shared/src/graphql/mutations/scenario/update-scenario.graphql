@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-fragment.graphql"
+
+mutation UpdateScenarioMutation($id: String!, $update: ScenarioUpdate!) {
+  updateScenario(id: $id, update: $update) {
+    ...ScenarioFragment
+  }
+}

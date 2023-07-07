@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file-detail renders correctly 1`] = `
+<div
+  className="css-63bajj-Card"
+>
+  <div
+    className="card-header css-13nbzsf-CardHeader"
+  >
+    <div
+      className="css-17beenm-DetailHeader"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        file.png
+      </div>
+    </div>
+    <div
+      className="css-ntx7po-DetailHeader"
+    >
+      <div
+        className="css-0"
+      >
+        <button
+          className="css-hnekdl-Button"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-mj8vo1-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1sn20oo-FileDetail"
+  >
+    <div
+      className="card-content css-enwcrq-CardContent"
+    >
+      <div
+        className="css-6b3ki2-FileDetail"
+      >
+        <div>
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            files_and_directories__file_detail_name
+          </div>
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <div
+              className="css-ryq9y7-InlineEditableHeader"
+            >
+              <div>
+                <form
+                  className="css-1c5ej61-InlineEditableHeader"
+                  onBlur={[Function]}
+                  onSubmit={[Function]}
+                >
+                  <div
+                    className="css-1boxw9s-InlineEditableHeader"
+                  >
+                    <div
+                      className="css-1iwo50k"
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="css-nrul0i"
+                      >
+                        <input
+                          className="css-2j0qcg"
+                          defaultValue="file"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          readOnly={true}
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="hover-icon css-16vb3lw-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            sample_companies_files__disabled_tooltip
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+        <div>
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            files_and_directories__move_directory_label
+          </div>
+          <div
+            className="css-1m3vlms-ReadonlyActionField"
+            data-testid="readonly-action-field"
+          >
+            <div
+              className="css-1bkess4-ReadonlyActionField"
+            />
+            <div
+              className="content-wrapper css-b45n67-ReadonlyActionField"
+            >
+              <div
+                className="content css-1147qp7-ReadonlyActionField"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-1czgmen-PathActionField"
+                  >
+                    <div
+                      className="css-1h826ga-PathActionField"
+                    >
+                      <div
+                        className="css-1yjyjy3-Icon"
+                        dangerouslySetInnerHTML={
+                          {
+                            "__html": {},
+                          }
+                        }
+                      />
+                      <div
+                        className="css-1sbf56p-Text"
+                      >
+                        files_and_directories__move_directory_main_directory
+                      </div>
+                    </div>
+                    <div
+                      className="css-1a85mc8-Text"
+                      onClick={[Function]}
+                    >
+                      files_and_directories__move_directory
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  sample_companies_files__disabled_tooltip
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1kpejq0-MediaFilePreview"
+      >
+        <div
+          className="css-g5r2b1-MediaFilePreview"
+        >
+          <div
+            className="css-wc80za-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <button
+            className="css-jeltaf-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-kuxry5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              files_and_directories__open_in_viewer
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

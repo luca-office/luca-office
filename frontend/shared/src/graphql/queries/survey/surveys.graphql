@@ -1,0 +1,7 @@
+#import "../../fragments/survey-fragment.graphql"
+
+query GetSurveysQuery($projectId: String!) {
+  surveys(projectId: $projectId) {
+    ...SurveyFragment
+  }
+}

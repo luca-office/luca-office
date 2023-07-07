@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questionnaire Introduction renders correctly 1`] = `
+<div
+  className="css-1prk2oe-QuestionnaireIntroduction"
+>
+  <div
+    className="css-kzoh5b-QuestionnaireIntroduction"
+  >
+    Test
+  </div>
+  <div
+    className="css-1bcin1a-QuestionnaireIntroduction"
+  >
+    <div
+      className="css-gds1at-QuestionnaireIntroduction"
+    >
+      Test Description
+    </div>
+  </div>
+</div>
+`;

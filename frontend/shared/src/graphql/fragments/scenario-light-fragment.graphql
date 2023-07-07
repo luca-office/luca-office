@@ -1,0 +1,17 @@
+#import "./user-account-fragment.graphql"
+
+fragment ScenarioLightFragment on Scenario {
+  id
+  createdAt
+  modifiedAt
+  archivedAt
+  finalizedAt
+  publishedAt
+  name
+  description
+  maxDurationInSeconds
+  tags
+  author {
+    ...UserAccountFragment
+  }
+}

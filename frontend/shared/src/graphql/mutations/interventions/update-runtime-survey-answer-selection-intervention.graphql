@@ -1,0 +1,10 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation UpdateRuntimeSurveyAnswerSelectionInterventionMutation(
+  $id: String!
+  $update: RuntimeSurveyAnswerSelectionInterventionUpdate!
+) {
+  updateRuntimeSurveyAnswerSelectionIntervention(id: $id, update: $update) {
+    ...InterventionFragment
+  }
+}

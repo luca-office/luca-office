@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-sub-dimension-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-1azzcmy-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          coding_models__create_sub_dimension_title
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div
+          className="css-1nnu5tg-Text"
+        >
+          coding_models__create_sub_dimension_hint
+        </div>
+        <div
+          className="css-1cky3ub-Columns"
+        >
+          <div
+            className="css-1pc62o6-Column"
+          >
+            <div
+              className="css-17as3x0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-13s2sfk-Heading"
+              >
+                title
+              </div>
+              <div
+                className="css-1unfqpo"
+              >
+                <input
+                  autoFocus={true}
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  name="title"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="title"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-n020ad-Column"
+          >
+            <div
+              className="css-db4v06-ReadonlyActionField"
+              data-testid="readonly-action-field"
+            >
+              <div
+                className="css-1bkess4-ReadonlyActionField"
+              >
+                <div
+                  className="css-47wnmy-ReadonlyActionField"
+                >
+                  coding_models__create_sub_dimension_label_parent
+                </div>
+              </div>
+              <div
+                className="content-wrapper css-b45n67-ReadonlyActionField"
+              >
+                <div
+                  className="content css-ixluzn-ReadonlyActionField"
+                >
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    Argumentation (inhaltlich)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        className="css-ukdqb3-Modal"
+      >
+        <button
+          className="cancel-button css-a1i4d5-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            cancel_button
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            create_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

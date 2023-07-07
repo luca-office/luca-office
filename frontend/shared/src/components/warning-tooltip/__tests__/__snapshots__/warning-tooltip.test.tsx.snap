@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`warning-tooltip renders correctly 1`] = `
+[
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <button
+      className="css-injsqh-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        test
+      </div>
+    </button>
+  </div>,
+  <div
+    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+    role="tooltip"
+    style={
+      {
+        "backgroundColor": "#db5f77",
+        "zIndex": 1,
+      }
+    }
+  >
+    <div
+      className="css-qkl61k-Tooltip"
+    >
+      <div
+        className="css-n57bin-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-9z5tvl-Text"
+      >
+        Error
+      </div>
+    </div>
+    <div
+      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+      style={{}}
+    />
+  </div>,
+]
+`;

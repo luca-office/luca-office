@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation CreateTextDocumentContentInterventionMutation($creation: TextDocumentContentInterventionCreation!) {
+  createTextDocumentContentIntervention(creation: $creation) {
+    ...InterventionFragment
+  }
+}

@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`feature-usage-content renders correctly 1`] = `
+<div>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    coding_criteria__item_meta_data_automated_rule
+  </div>
+  <div
+    className="css-mnca9n-FeatureUsageContent"
+  >
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      coding_models__create_item_label_rating_type_automated_tool_usage
+    </div>
+    <div
+      className="css-1p9qd62-Text"
+    >
+      coding_models__create_item_label_rating_type_automated_tool_usage_hint
+    </div>
+    <div
+      className="css-1cky3ub-Columns"
+    >
+      <div
+        className="css-1oiyj7r-Column"
+      >
+        <div
+          className="css-rw9qxa"
+          data-testid="custom-select"
+        >
+          <div
+            className="css-0"
+          >
+            <div
+              className="css-13s2sfk-Heading"
+            >
+              coding_criteria__automated_criterion_tool_usage_column
+            </div>
+          </div>
+          <div
+            className="css-18vooac"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="custom-select css-b62m3t-container"
+              onKeyDown={[Function]}
+            >
+              <span
+                className="css-1f43avz-a11yText-A11yText"
+                id="react-select-2-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                className=" css-1l51fcv-control"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+              >
+                <div
+                  className=" css-1fdsijx-ValueContainer"
+                >
+                  <div
+                    className="single-value css-1ry7giw-singleValue"
+                  >
+                    <div
+                      className="css-1lrzij5-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    email__title
+                  </div>
+                  <input
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    aria-readonly={true}
+                    className="css-mohuvp-dummyInput-DummyInput"
+                    disabled={false}
+                    id="react-select-2-input"
+                    inputMode="none"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                    value=""
+                  />
+                </div>
+                <div
+                  className=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    className=" css-1uei4ir-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    className=" css-1xc3v61-indicatorContainer"
+                    onMouseDown={[Function]}
+                    onTouchEnd={[Function]}
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <input
+                name="officeTool"
+                type="hidden"
+                value="EmailClient"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1oiyj7r-Column"
+      >
+        <div
+          className="css-rw9qxa"
+          data-testid="custom-select"
+        >
+          <div
+            className="css-0"
+          >
+            <div
+              className="css-13s2sfk-Heading"
+            >
+              coding_models__automated_item_feature_usage_table_header
+            </div>
+          </div>
+          <div
+            className="css-18vooac"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+          >
+            <div
+              className="custom-select css-b62m3t-container"
+              onKeyDown={[Function]}
+            >
+              <span
+                className="css-1f43avz-a11yText-A11yText"
+                id="react-select-3-live-region"
+              />
+              <span
+                aria-atomic="false"
+                aria-live="polite"
+                aria-relevant="additions text"
+                className="css-1f43avz-a11yText-A11yText"
+              />
+              <div
+                className=" css-1l51fcv-control"
+                onMouseDown={[Function]}
+                onTouchEnd={[Function]}
+              >
+                <div
+                  className=" css-1fdsijx-ValueContainer"
+                >
+                  <div
+                    className="single-value css-1ry7giw-singleValue"
+                  >
+                    coding_models__automated_item_feature_usage_feature_type_answer_mail
+                  </div>
+                  <input
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    aria-readonly={true}
+                    className="css-mohuvp-dummyInput-DummyInput"
+                    disabled={false}
+                    id="react-select-3-input"
+                    inputMode="none"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                    value=""
+                  />
+                </div>
+                <div
+                  className=" css-1hb7zxy-IndicatorsContainer"
+                >
+                  <span
+                    className=" css-1uei4ir-indicatorSeparator"
+                  />
+                  <div
+                    aria-hidden="true"
+                    className=" css-1xc3v61-indicatorContainer"
+                    onMouseDown={[Function]}
+                    onTouchEnd={[Function]}
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+              <input
+                name="featureType"
+                type="hidden"
+                value="AnswerEmail"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

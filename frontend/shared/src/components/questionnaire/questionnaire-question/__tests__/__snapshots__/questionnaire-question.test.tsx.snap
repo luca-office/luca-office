@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questionnaire Question Component renders correctly with default props 1`] = `
+<div
+  className="css-1pso28w-QuestionnaireQuestionComponent"
+>
+  <div
+    className="css-bawkld-QuestionnaireQuestionComponent"
+  >
+    <div
+      className="css-4f3dwn-Text"
+    >
+      questionnaire__question_number
+    </div>
+    <div
+      className="css-93hpwn-QuestionnaireQuestionComponent"
+    >
+      <div
+        className="css-td3z2l-QuestionnaireQuestionComponent"
+      >
+        questionnaire__multiple_choice
+      </div>
+      <div
+        className="questionnaire-question-question-type-icon css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="css-714m0c-QuestionnaireQuestionComponent"
+  >
+    <div
+      className="questionnaire-question-description css-1mmzty3-Text"
+    >
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+  <div
+    className="css-n2izuk-QuestionnaireQuestionComponent"
+  >
+    questionnaire__multiple_choice_title
+  </div>
+  <div
+    className="css-1ctjged-QuestionnaireQuestionComponent"
+  >
+    <div
+      className="answer-container css-1k9uob5-SelectableAnswer"
+      onClick={[Function]}
+      role="button"
+    >
+      <div
+        className="css-111wz9d-Checkbox"
+      >
+        <div
+          className="css-1k20ryc-Checkbox"
+        >
+          <div
+            className="css-kb4bik-Checkbox"
+          >
+            <input
+              checked={false}
+              className="css-1gxpz9h-Checkbox"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              role="checkbox"
+              type="checkbox"
+            />
+            <div
+              className="css-xgozj0-Checkbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1tfqfro-Text"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+      </div>
+    </div>
+    <div
+      className="answer-container css-1k9uob5-SelectableAnswer"
+      onClick={[Function]}
+      role="button"
+    >
+      <div
+        className="css-111wz9d-Checkbox"
+      >
+        <div
+          className="css-1k20ryc-Checkbox"
+        >
+          <div
+            className="css-kb4bik-Checkbox"
+          >
+            <input
+              checked={false}
+              className="css-1gxpz9h-Checkbox"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              role="checkbox"
+              type="checkbox"
+            />
+            <div
+              className="css-xgozj0-Checkbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1tfqfro-Text"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+      </div>
+    </div>
+    <div
+      className="answer-container css-1k9uob5-SelectableAnswer"
+      onClick={[Function]}
+      role="button"
+    >
+      <div
+        className="css-111wz9d-Checkbox"
+      >
+        <div
+          className="css-1k20ryc-Checkbox"
+        >
+          <div
+            className="css-kb4bik-Checkbox"
+          >
+            <input
+              checked={false}
+              className="css-1gxpz9h-Checkbox"
+              disabled={false}
+              onChange={[Function]}
+              readOnly={false}
+              role="checkbox"
+              type="checkbox"
+            />
+            <div
+              className="css-xgozj0-Checkbox"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1tfqfro-Text"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+      </div>
+    </div>
+  </div>
+</div>
+`;

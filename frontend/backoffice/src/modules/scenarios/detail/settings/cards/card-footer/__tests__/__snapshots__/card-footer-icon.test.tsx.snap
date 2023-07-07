@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card-footer-icon renders correctly (finalized) 1`] = `
+<div
+  className="css-o352k3-CardFooterItem"
+>
+  <div
+    className="css-l0jg45-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;
+
+exports[`card-footer-icon renders correctly (not finalized) 1`] = `
+<div
+  className="css-lpoiel-CardFooterItem"
+>
+  <div
+    className="css-l0jg45-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

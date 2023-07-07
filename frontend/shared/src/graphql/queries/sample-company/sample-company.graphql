@@ -1,0 +1,7 @@
+#import "../../fragments/sample-company-fragment.graphql"
+
+query GetSampleCompanyQuery($id: String!) {
+  sampleCompany(id: $id) {
+    ...SampleCompanyFragment
+  }
+}

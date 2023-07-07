@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card-duration-info renders correctly 1`] = `
+<div
+  className="header-time css-adnwg9-CardDurationInfo"
+  data-testid="card-duration-info"
+>
+  <div
+    className="css-1f6p2vj-Heading"
+  >
+    0 unit__minutes_short
+  </div>
+  <div
+    className="css-kgdmdb-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

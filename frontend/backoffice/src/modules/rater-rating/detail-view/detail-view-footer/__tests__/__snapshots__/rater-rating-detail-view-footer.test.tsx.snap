@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-detail-view-footer renders correctly 1`] = `
+<div
+  className="css-2u06b-RaterRatingDetailViewFooter"
+>
+  <div
+    className="css-1j3zukq-RaterRatingDetailViewFooter"
+  >
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="css-gb1brp-ProgressBarColumn"
+      >
+        <div
+          className="css-1oc5iyb-ProgressBarColumn"
+        >
+          <div
+            className="progress-element css-1xrtx1r-ProgressBarColumn"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      rater_rating__action_button_finish_rating_tooltip
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+    <div
+      className="css-qcf7xd-Text"
+    >
+      percentage
+    </div>
+  </div>
+  <button
+    className="css-15dgl4r-Button"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-nkhhc8-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      rater_rating__action_button_finish_rating
+    </div>
+  </button>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spreadsheet Preview renders correctly 1`] = `
+<div
+  className="css-1cj4lp-SpreadsheetEditor"
+>
+  <div>
+    mockedSheet
+  </div>
+</div>
+`;

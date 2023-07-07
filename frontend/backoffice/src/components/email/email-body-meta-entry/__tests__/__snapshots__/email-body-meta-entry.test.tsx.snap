@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-meta-entry renders correctly 1`] = `
+<div
+  className="css-kqu3zl-ReadonlyActionField"
+  data-testid="readonly-action-field"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1bkess4-ReadonlyActionField"
+  >
+    <div
+      className="css-47wnmy-ReadonlyActionField"
+    >
+      email__directory_sender
+    </div>
+  </div>
+  <div
+    className="content-wrapper css-b45n67-ReadonlyActionField"
+  >
+    <div
+      className="content css-1hje2zc-ReadonlyActionField"
+    >
+      <div
+        className="css-axihyg-EmailBodyMetaEntry"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-sl5qfb-EmailBodyMetaEntry"
+        >
+          email-body-meta-entry-label
+        </div>
+      </div>
+    </div>
+    <button
+      className="readonly-action-button css-4nv627-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        edit
+      </div>
+    </button>
+  </div>
+</div>
+`;

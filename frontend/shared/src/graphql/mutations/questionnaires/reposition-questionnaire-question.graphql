@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-question-fragment.graphql"
+
+mutation RepositionQuestionnaireQuestionMutation($id: String!, $predecessorId: String) {
+  repositionQuestionnaireQuestion(id: $id, predecessorId: $predecessorId) {
+    ...QuestionnaireQuestionFragment
+  }
+}

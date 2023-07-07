@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reference-book-image renders correctly 1`] = `
+<div
+  className="css-mhv4hc-ContentImage"
+>
+  <div
+    className="image css-11t4thw-ContentImage"
+  />
+  <div
+    className="edit-overlay css-ypqj1e-ReferenceBookImage"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="css-1wr1ssb-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div>
+      edit__image
+    </div>
+    <div
+      className="css-1806nni-OrlyButton"
+    >
+      <button
+        className="css-hnekdl-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

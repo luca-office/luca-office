@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`donut-chart-with-legend renders correctly 1`] = `
+<div
+  className="donut-chart css-nufzg-DonutChartWithLegend"
+>
+  <div
+    className="css-ow8vil-DonutChartWithLegend"
+  >
+    <svg
+      height="100%"
+      viewBox="0 0 100 100"
+      width="100%"
+    >
+      <path
+        d="M 50 95 A 45 45 0 1 1 50.00078539816336 94.9999999931461"
+        fill="none"
+        stroke="#d5d5d5"
+        strokeWidth={10}
+      />
+      <path
+        d="M 50 95 A 45 45 0 0 1 6.128243951817936 60.01344202803415"
+        fill="none"
+        stroke="#f00"
+        strokeWidth={10}
+        style={{}}
+      >
+        <title>
+          test1
+        </title>
+      </path>
+      <path
+        d="M 6.128243951817936 60.01344202803415 A 45 45 0 1 1 60.01344202803416 93.87175604818205"
+        fill="none"
+        stroke="#ff0"
+        strokeWidth={10}
+        style={{}}
+      >
+        
+      </path>
+      <path
+        d="M 60.01344202803416 93.87175604818205 A 45 45 0 0 1 50.00000000000009 95"
+        fill="none"
+        stroke="#f0f"
+        strokeWidth={10}
+        style={{}}
+      >
+        <title>
+          test1
+        </title>
+      </path>
+    </svg>
+  </div>
+  <div>
+    <div
+      className="css-15gyx2o-DonutChartWithLegend"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        My awesome chart
+      </div>
+      <div
+        className="css-1ggn5r6-Text"
+      >
+        56
+      </div>
+    </div>
+    <div
+      className="legend-entry css-1ya8xz5-DonutChartWithLegend"
+    >
+      <div
+        className="css-1o9td4n-DonutChartWithLegend"
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        test1
+      </div>
+      <div
+        className="css-dlhgnj-Text"
+      >
+        12
+      </div>
+    </div>
+    <div
+      className="legend-entry css-1ya8xz5-DonutChartWithLegend"
+    >
+      <div
+        className="css-mwz2oo-DonutChartWithLegend"
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        
+      </div>
+      <div
+        className="css-dlhgnj-Text"
+      >
+        42
+      </div>
+    </div>
+    <div
+      className="legend-entry css-1ya8xz5-DonutChartWithLegend"
+    >
+      <div
+        className="css-ctjmvv-DonutChartWithLegend"
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        test1
+      </div>
+      <div
+        className="css-dlhgnj-Text"
+      >
+        2
+      </div>
+    </div>
+  </div>
+</div>
+`;

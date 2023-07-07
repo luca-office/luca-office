@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-rating-criterion-selection-fragment.graphql"
+
+query ScenarioRatingCriterionSelectionsQuery($scenarioCodingItemRatingId: String!) {
+  scenarioRatingCriterionSelections(scenarioCodingItemRatingId: $scenarioCodingItemRatingId) {
+    ...ScenarioRatingCriterionSelectionFragment
+  }
+}

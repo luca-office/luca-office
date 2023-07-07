@@ -1,0 +1,7 @@
+#import "../fragments/freetext-answer-fragment.graphql"
+
+query FreetextAnswersForQuestionnaireQuery($questionnaireId: String!, $surveyId: String!) {
+  freetextAnswersForQuestionnaire(questionnaireId: $questionnaireId, surveyId: $surveyId) {
+    ...FreetextAnswerFragment
+  }
+}

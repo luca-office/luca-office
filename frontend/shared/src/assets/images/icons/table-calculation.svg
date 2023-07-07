@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icons---32px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6_Stroke_Icons-(32px)/01_Tools/Tabellenkalkulation">
+            <rect x="0" y="0" width="32" height="32"></rect>
+            <path d="M16,31 L1,31 L1,1 L31,1 L31,16 M1,31 L1,1 M1,11 L31,11 M1,21 L14,21 M21,24 L27,24 M11,1 L11,31 M21,1 L21,14 M24,21 L24,27 M24,31 L24,31 C20.134,31 17,27.866 17,24 C17,20.134 20.134,17 24,17 C27.866,17 31,20.134 31,24 C31,27.866 27.866,31 24,31 Z" id="Stroke-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

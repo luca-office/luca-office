@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manage-invitations-modal-email-textarea renders correctly 1`] = `
+<div>
+  <div
+    className="css-duzsc9-Paper"
+  >
+    <div
+      className="css-1dn2d64-Heading"
+    >
+      projects__survey_details_invite_emails_heading
+    </div>
+    <div
+      className="css-1p9qd62-Text"
+    >
+      projects__survey_details_invite_emails_help_text
+    </div>
+    <div
+      className="css-prjr7p"
+    >
+      <textarea
+        className="css-1b79tn9"
+        onChange={[Function]}
+        placeholder="projects__survey_details_invite_emails_placeholder"
+        rows={7}
+        value=""
+      />
+    </div>
+    <div
+      className="css-31qjwc-Text"
+    >
+      projects__survey_details_invite_emails_already_invited
+    </div>
+  </div>
+</div>
+`;

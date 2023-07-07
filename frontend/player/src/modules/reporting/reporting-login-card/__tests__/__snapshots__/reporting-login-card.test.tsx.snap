@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-login-card renders correctly (has token) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+      </div>
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <button
+          className="css-1cscspy-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`reporting-login-card renders correctly (has token, , sub-description) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-rqlbp0-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        >
+          sub-description
+        </div>
+      </div>
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <button
+          className="css-1cscspy-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`reporting-login-card renders correctly (has token, show error) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+      </div>
+      <div
+        className="css-19yoo3e-ReportingLoginCard"
+      >
+        <button
+          className="css-1cscspy-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+        <div
+          className="css-vub4ov-Text"
+        >
+          error
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`reporting-login-card renders correctly (no token) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+      </div>
+      <div
+        className="css-dtmz7x-ReportingLoginCard"
+      >
+        <div
+          className="css-1qzr44h-ReportingLoginCard"
+        >
+          <div
+            className="css-1lrf58b-Heading"
+          >
+            auth__entry_code
+          </div>
+          <div
+            className="css-eu3tcq-ReportingLoginCard"
+          >
+            <div
+              className="css-17as3x0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-1unfqpo"
+              >
+                <input
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="auth__entry_code"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          className="css-dfqj37-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`reporting-login-card renders correctly (no token, show error) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-eu3tcq-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+      </div>
+      <div
+        className="css-dtmz7x-ReportingLoginCard"
+      >
+        <div
+          className="css-1qzr44h-ReportingLoginCard"
+        >
+          <div
+            className="css-1lrf58b-Heading"
+          >
+            auth__entry_code
+          </div>
+          <div
+            className="css-19yoo3e-ReportingLoginCard"
+          >
+            <div
+              className="css-17as3x0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-1unfqpo"
+              >
+                <input
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="auth__entry_code"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              className="css-vub4ov-Text"
+            >
+              error
+            </div>
+          </div>
+        </div>
+        <button
+          className="css-dfqj37-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`reporting-login-card renders correctly (no token, sub-description) 1`] = `
+<div
+  className="css-1yf0yqa-ReportingLoginCard"
+>
+  <div
+    className="css-ln7jn1-Heading"
+  >
+    reporting__show_reporting
+  </div>
+  <div>
+    <div
+      className="css-z0t4oj-Paper"
+    >
+      <div
+        className="css-rqlbp0-ReportingLoginCard"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          description
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        >
+          sub-description
+        </div>
+      </div>
+      <div
+        className="css-dtmz7x-ReportingLoginCard"
+      >
+        <div
+          className="css-1qzr44h-ReportingLoginCard"
+        >
+          <div
+            className="css-1lrf58b-Heading"
+          >
+            auth__entry_code
+          </div>
+          <div
+            className="css-eu3tcq-ReportingLoginCard"
+          >
+            <div
+              className="css-17as3x0"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-1unfqpo"
+              >
+                <input
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="auth__entry_code"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          className="css-dfqj37-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            reporting__show_reporting
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

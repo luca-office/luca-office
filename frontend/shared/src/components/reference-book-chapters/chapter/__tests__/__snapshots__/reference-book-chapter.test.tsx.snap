@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reference-book-chapter renders correctly 1`] = `
+<div
+  className="css-1qhj6fz-Card"
+>
+  <div
+    className="card-header css-13nbzsf-CardHeader"
+  >
+    <div
+      className="css-1uw9wjf-ReferenceBookChapter"
+    >
+      <div
+        className="css-cj5xss-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      Venture-Capital
+    </div>
+    <div
+      className="css-1uw9wjf-ReferenceBookChapter"
+    />
+  </div>
+  <div
+    className="card-content css-fnpw2k-CardContent"
+  >
+    <div
+      className="css-1bn7065-ReferenceBookChapter"
+    >
+      <div
+        className="css-1dknkcj-Heading"
+      >
+        Venture-Capital
+      </div>
+      <div
+        className="css-1rr46wo-Text"
+      >
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </div>
+      <div
+        className="css-pykeqp-Heading"
+      >
+        reference_book__chapter_contents_count
+      </div>
+      <div
+        className="css-948d83-Table"
+      >
+        <div
+          className="css-443iam-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-10dtxlj-ReferenceBookChapter"
+            >
+              <div
+                className="css-cj5xss-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+               
+              reference_book__chapter_contents_column
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-22vfow-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1xb98g0-Table"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                   
+                  Begriff
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-22vfow-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1xb98g0-Table"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                   
+                  ertragspotenziale und Risiken von Venture-Capital-Finanzierungen
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+#import "../../fragments/freetext-question-rating-criterion-selection-fragment.graphql"
+
+mutation DeleteFreetextQuestionRatingCriterionSelectionMutation(
+  $freetextQuestionRatingId: String!
+  $criterionId: String!
+) {
+  deleteFreetextQuestionRatingCriterionSelection(
+    freetextQuestionRatingId: $freetextQuestionRatingId
+    criterionId: $criterionId
+  ) {
+    ...FreetextQuestionRatingCriterionSelectionFragment
+  }
+}

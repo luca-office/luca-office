@@ -1,0 +1,3 @@
+mutation InviteProjectContributorsMutation($projectId: String!, $emails: [String!]!) {
+  inviteProjectContributors(projectId: $projectId, emails: $emails)
+}

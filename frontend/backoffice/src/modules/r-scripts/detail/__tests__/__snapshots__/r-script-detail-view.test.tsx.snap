@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`r-script-detail-view renders correctly (readonly) 1`] = `
+<div
+  className="css-63bajj-Card"
+>
+  <div
+    className="card-header css-szn5yk-CardHeader"
+  >
+    title
+    <div
+      className="css-0"
+    >
+      <button
+        className="css-q415zv-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-b32040-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="card-content css-1ro8fvx-CardContent"
+  >
+    <div
+      className="css-lz4b3k-Label"
+    >
+      <div
+        className="css-nhflpf-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="css-cc8qdn-InlineEditableHeader"
+    >
+      <div>
+        <form
+          className="css-1c5ej61-InlineEditableHeader"
+          onBlur={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="css-1boxw9s-InlineEditableHeader"
+          >
+            <div
+              className="css-1iwo50k"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-nrul0i"
+              >
+                <input
+                  className="css-1e0n9qd"
+                  defaultValue="title"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  readOnly={true}
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              className="hover-icon css-16vb3lw-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      className="css-1luri05-Label"
+    >
+      <div
+        className="css-nhflpf-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="overlay-edit-field css-0"
+    >
+      <div
+        className="css-1p5k2u1-ReadonlyActionField"
+        data-testid="readonly-action-field"
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        />
+        <div
+          className="content-wrapper css-376q3o-ReadonlyActionField"
+        >
+          <div
+            className="content css-ci7wec-ReadonlyActionField"
+          >
+            <div
+              className="css-10rpuak-InlineEditableTextarea"
+              onClick={[Function]}
+            >
+              <div
+                className="textarea css-1bnbfy9-InlineEditableTextarea"
+                contentEditable={false}
+                suppressContentEditableWarning={true}
+              >
+                description
+              </div>
+              <div
+                className="hover-icon css-1pndqgp-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-5hortc"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-13s2sfk-Heading"
+      >
+        r_scripts__details_version_label
+      </div>
+      <div
+        className="css-1cn26py"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={true}
+          name="version"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="r_scripts__details_version_label"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="css-5hortc"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-13s2sfk-Heading"
+      >
+        r_scripts__details_hash_label
+      </div>
+      <div
+        className="css-1cn26py"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={true}
+          name="gitCommitHash"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="r_scripts__details_hash_label_placeholder"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  />
+</div>
+`;
+
+exports[`r-script-detail-view renders correctly 1`] = `
+<div
+  className="css-63bajj-Card"
+>
+  <div
+    className="card-header css-szn5yk-CardHeader"
+  >
+    title
+    <div
+      className="css-0"
+    >
+      <button
+        className="css-q415zv-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-b32040-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="card-content css-1ro8fvx-CardContent"
+  >
+    <div
+      className="css-lz4b3k-Label"
+    >
+      <div
+        className="css-nhflpf-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="css-cc8qdn-InlineEditableHeader"
+    >
+      <div>
+        <form
+          className="css-1c5ej61-InlineEditableHeader"
+          onBlur={[Function]}
+          onSubmit={[Function]}
+        >
+          <div
+            className="css-pl4s5v-InlineEditableHeader"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1iwo50k"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-nrul0i"
+              >
+                <input
+                  className="css-18rg1mu"
+                  defaultValue="title"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  readOnly={true}
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              className="hover-icon css-16vb3lw-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      className="css-1luri05-Label"
+    >
+      <div
+        className="css-nhflpf-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="overlay-edit-field css-0"
+    >
+      <div
+        className="css-1p5k2u1-ReadonlyActionField"
+        data-testid="readonly-action-field"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        />
+        <div
+          className="content-wrapper css-376q3o-ReadonlyActionField"
+        >
+          <div
+            className="content css-ci7wec-ReadonlyActionField"
+          >
+            <div
+              className="css-1h2eymq-InlineEditableTextarea"
+              onClick={[Function]}
+            >
+              <div
+                className="textarea css-p5vd3w-InlineEditableTextarea"
+                contentEditable={false}
+                suppressContentEditableWarning={true}
+              >
+                description
+              </div>
+              <div
+                className="hover-icon css-1pndqgp-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-5hortc"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-13s2sfk-Heading"
+      >
+        r_scripts__details_version_label
+      </div>
+      <div
+        className="css-1cn26py"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={false}
+          name="version"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="r_scripts__details_version_label"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="css-5hortc"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-13s2sfk-Heading"
+      >
+        r_scripts__details_hash_label
+      </div>
+      <div
+        className="css-1cn26py"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={false}
+          name="gitCommitHash"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="r_scripts__details_hash_label_placeholder"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  />
+</div>
+`;

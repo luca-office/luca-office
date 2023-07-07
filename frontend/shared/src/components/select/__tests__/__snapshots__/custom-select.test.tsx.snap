@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-select renders correctly 1`] = `
+<div
+  className="css-1wc1yin"
+  data-testid="custom-select"
+>
+  <div
+    className="css-0"
+  />
+  <div
+    className="css-18vooac"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="custom-select"
+    >
+      MockedSelect
+    </div>
+  </div>
+</div>
+`;
+
+exports[`custom-select renders correctly with additional props 1`] = `
+<div
+  className="css-75eb3t"
+  data-testid="custom-select"
+>
+  <div
+    className="css-0"
+  >
+    <div
+      className="css-13s2sfk-Heading"
+    >
+      confirm_button
+    </div>
+  </div>
+  <div
+    className="css-18vooac"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="custom-select"
+    >
+      MockedSelect
+    </div>
+  </div>
+</div>
+`;

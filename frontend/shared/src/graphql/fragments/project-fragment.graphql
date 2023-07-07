@@ -1,0 +1,22 @@
+#import "./user-account-fragment.graphql"
+
+fragment ProjectFragment on Project {
+  id
+  createdAt
+  modifiedAt
+  name
+  authorId
+  description
+  audience
+  usageField
+  welcomeText
+  author {
+    ...UserAccountFragment
+  }
+  maxDurationInSeconds
+  isFinalized
+  surveys {
+    id
+    isTestSurvey
+  }
+}

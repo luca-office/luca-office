@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header-content-container renders correctly 1`] = `
+<div
+  className="css-1yt7gy2-Card"
+>
+  <div
+    className="card-header css-gx97a8-CardHeader"
+  >
+    <div
+      className="css-6ffxwk-HeaderContentContainer"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        placeholder
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-7cmc7n-HeaderContentContainer"
+  />
+</div>
+`;

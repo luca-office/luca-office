@@ -1,0 +1,5 @@
+fragment FreetextQuestionRatingCriterionSelectionFragment on FreetextQuestionRatingCriterionSelection {
+  createdAt
+  freetextQuestionRatingId
+  criterionId
+}

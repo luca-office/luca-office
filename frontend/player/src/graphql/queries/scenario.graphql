@@ -1,0 +1,24 @@
+query ScenarioQuery($id: String!) {
+  scenario(id: $id) {
+    id
+    date
+    name
+    description
+    maxDurationInSeconds
+    introductionEmailId
+    authorId
+    shouldDisplayTime
+    shouldHideReferenceBookChapters
+    sampleCompanyId
+    sampleCompany {
+      name
+    }
+    completionEmailAddress
+    tags
+    author {
+      id
+      firstName
+      lastName
+    }
+  }
+}

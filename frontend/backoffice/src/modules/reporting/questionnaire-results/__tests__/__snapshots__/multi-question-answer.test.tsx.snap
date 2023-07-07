@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiQuestionAnswer renders correctly (SC/MC no FreeText) 1`] = `
+<div
+  className="css-pedd91-MultiQuestionAnswer"
+>
+  <div
+    className="css-1xwuf1o-MultiQuestionAnswer"
+  >
+    <div
+      className="css-13uqss3-MultiQuestionAnswer"
+    >
+      36 %
+    </div>
+  </div>
+  <div
+    className="css-1byc4rd-MultiQuestionAnswer"
+  >
+    <div
+      className="css-13uqss3-MultiQuestionAnswer"
+    >
+      common__x_of_y
+    </div>
+    <div
+      className="css-17zbm7y-Text"
+    >
+      test text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MultiQuestionAnswer renders correctly (SC/MC with FreeText) 1`] = `
+<div
+  className="css-pedd91-MultiQuestionAnswer"
+>
+  <div
+    className="css-1xwuf1o-MultiQuestionAnswer"
+  >
+    <div
+      className="css-13uqss3-MultiQuestionAnswer"
+    >
+      36 %
+    </div>
+  </div>
+  <div
+    className="css-1byc4rd-MultiQuestionAnswer"
+  >
+    <div
+      className="css-13uqss3-MultiQuestionAnswer"
+    >
+      common__x_of_y
+    </div>
+    <div
+      className="css-17zbm7y-Text"
+    >
+      test text
+    </div>
+  </div>
+</div>
+`;

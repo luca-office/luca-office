@@ -1,0 +1,17 @@
+fragment QuestionnaireLightFragment on Questionnaire {
+  id
+  createdAt
+  modifiedAt
+  title
+  description
+  maxDurationInSeconds
+  questionnaireType
+  finalizedAt
+  publishedAt
+  author {
+    id
+    firstName
+    lastName
+  }
+  questionsCount
+}

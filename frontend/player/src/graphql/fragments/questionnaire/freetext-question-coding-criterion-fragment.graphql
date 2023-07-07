@@ -1,0 +1,8 @@
+fragment FreetextQuestionCodingCriterionFragment on FreetextQuestionCodingCriterion {
+  id
+  createdAt
+  modifiedAt
+  description
+  score
+  questionId
+}

@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail-view-binary renders correctly with binary 1`] = `
+<div
+  className="detail-view-binary"
+>
+  <div
+    className="css-i8kvhr-DetailViewBinary"
+  >
+    <div>
+      <div
+        className="css-qidqnc-Paper"
+      >
+        label
+      </div>
+      <div
+        className="css-xjcny2-Paper"
+        title="label"
+      >
+        <div
+          className="css-1lddm97-DetailViewBinary"
+        >
+          <div
+            className="css-10x1cs7-ContentImage"
+          >
+            <div
+              className="image css-di8tim-ContentImage"
+            />
+            <div
+              className="remove-overlay css-1jthtq6-DetailViewBinary"
+            >
+              <button
+                className="css-13x3l2r-Button"
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-b32040-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`detail-view-binary renders correctly with binary, readonly 1`] = `
+<div
+  className="detail-view-binary"
+>
+  <div
+    className="css-i8kvhr-DetailViewBinary"
+  >
+    <div>
+      <div
+        className="css-qidqnc-Paper"
+      >
+        label
+      </div>
+      <div
+        className="css-xjcny2-Paper"
+        title="label"
+      >
+        <div
+          className="css-1lddm97-DetailViewBinary"
+        >
+          <div
+            className="css-10x1cs7-ContentImage"
+          >
+            <div
+              className="image css-di8tim-ContentImage"
+            />
+            <div
+              className="remove-overlay css-1skd7x1-DetailViewBinary"
+            >
+              <button
+                className="css-13x3l2r-Button"
+                disabled={true}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-b32040-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`detail-view-binary renders correctly without binary 1`] = `
+<div
+  className="detail-view-binary"
+>
+  <div
+    className="css-i8kvhr-DetailViewBinary"
+  >
+    <div>
+      <div
+        className="css-qidqnc-Paper"
+      >
+        label
+      </div>
+      <div
+        className="css-1q35nej-Paper"
+        title="label"
+      >
+        <div
+          className="binary-form-placeholder css-1to7z58-BinaryFormPlaceholder"
+        >
+          <div
+            className="logo-placeholder css-zx0h6w-BinaryFormPlaceholder"
+          >
+            <div
+              className="css-6zekzl-BinaryFormPlaceholder"
+            >
+              placeholder
+            </div>
+            <div
+              className="css-qzbxc4-Heading"
+              onClick={[Function]}
+            >
+              test create text
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+mutation UpdateManualCodingItemMutation($id: String!, $update: ManualCodingItemUpdate!) {
+  updateManualCodingItem(id: $id, update: $update) {
+    id
+    createdAt
+    modifiedAt
+    title
+    description
+    scoringType
+    dimensionId
+    position
+    maximumScore
+    ... on ManualCodingItem {
+      id
+    }
+    ... on AutomatedCodingItem {
+      rule
+    }
+  }
+}

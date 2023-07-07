@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-fragment.graphql"
+
+query QuestionnairesQuery($isRuntimeSurvey: Boolean!) {
+  questionnaires(isRuntimeSurvey: $isRuntimeSurvey) {
+    ...QuestionnaireFragment
+  }
+}

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tooltip renders correctly 1`] = `
+<div
+  className="slide-menu css-pto3fb-SlideMenu"
+>
+  <div
+    className="css-ma8doh-SlideMenu"
+  >
+    <div
+      className="toc"
+    >
+      test 
+      hidden
+    </div>
+    <div
+      className="detail-view"
+    >
+      test 
+      hidden
+    </div>
+  </div>
+  <div
+    className="css-1tth9v1-SlideMenu"
+  >
+    <div
+      className="css-1pmsbkq-SlideMenu"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1o97vu0-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="css-gmgk03-SlideMenu"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1o97vu0-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`tooltip renders correctly inactive 1`] = `
+<div
+  className="slide-menu css-pto3fb-SlideMenu"
+>
+  <div
+    className="css-1eign1z-SlideMenu"
+  >
+    <div
+      className="toc"
+    >
+      test 
+      hidden
+    </div>
+    <div
+      className="detail-view"
+    >
+      test 
+      hidden
+    </div>
+  </div>
+  <div
+    className="css-1iauzto-SlideMenu"
+  >
+    <div
+      className="css-1pmsbkq-SlideMenu"
+      onClick={[Function]}
+    >
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="css-gmgk03-SlideMenu"
+      onClick={[Function]}
+    >
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

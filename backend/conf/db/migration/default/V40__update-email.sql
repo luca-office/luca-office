@@ -1,0 +1,3 @@
+ALTER TABLE email
+    ADD COLUMN recipient VARCHAR,
+    ALTER COLUMN sender DROP NOT NULL;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`trigger-condition renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    interventions__interventions_table_trigger_condition
+  </div>
+  <div
+    className="css-1fnoccs-TriggerCondition"
+  >
+    <div
+      className="css-1qpaqj0-TriggerCondition"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        title
+      </div>
+    </div>
+    <div
+      className="css-2ywgiw-Text"
+    >
+      description
+    </div>
+  </div>
+</div>
+`;

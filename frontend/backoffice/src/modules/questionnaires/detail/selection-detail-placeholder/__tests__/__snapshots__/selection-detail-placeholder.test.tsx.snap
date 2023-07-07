@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selection-detail-placeholder renders correctly 1`] = `
+<div
+  className="css-1us06yf-Card"
+>
+  <div
+    className="card-header css-7banf6-CardHeader"
+  >
+    <div
+      className="css-cj5xss-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      questionnaires__selection_nothing_selected
+    </div>
+  </div>
+  <div
+    className="card-content css-s0c4et-CardContent"
+  >
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      questionnaires__selection_nothing_selected
+    </div>
+    <div
+      className="css-i96u2-Text"
+    >
+      questionnaires__selection_nothing_selected_hint
+    </div>
+  </div>
+</div>
+`;

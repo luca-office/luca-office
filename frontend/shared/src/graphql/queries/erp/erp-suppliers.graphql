@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-supplier.graphql"
+
+query GetErpSuppliersQuery($sampleCompanyId: String!) {
+  erpSuppliers(sampleCompanyId: $sampleCompanyId) {
+    ...ErpSupplierFragment
+  }
+}

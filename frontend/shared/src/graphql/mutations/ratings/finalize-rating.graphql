@@ -1,0 +1,7 @@
+#import "../../fragments/rating-fragment.graphql"
+
+mutation FinalizeRatingMutation($id: String!) {
+  finalizeRating(id: $id) {
+    ...RatingFragment
+  }
+}

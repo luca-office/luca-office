@@ -1,0 +1,15 @@
+fragment UserAccountFragment on UserAccount {
+  id
+  createdAt
+  modifiedAt
+  email
+  firstName
+  lastName
+  organization
+  salutation
+  mayAdministrateUserAccounts
+  mayAdministrateRScripts
+  mayArchive
+  mayFinalizeWithoutPublishing
+  mayAdministrateRScripts
+}

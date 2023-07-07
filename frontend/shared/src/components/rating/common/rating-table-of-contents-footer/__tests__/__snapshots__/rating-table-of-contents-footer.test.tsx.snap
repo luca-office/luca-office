@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-table-of-contents-footer renders correctly (all rated) 1`] = `
+<div
+  className="css-1814g6r-RatingTableOfContentsFooter"
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    rating__total_score_achieved:
+  </div>
+  <div
+    className="css-xla9r9-RatingTableOfContentsFooter"
+  >
+    <div
+      className="css-1sbf56p-Text"
+    >
+      rating__rating__scoring
+    </div>
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`rating-table-of-contents-footer renders correctly 1`] = `
+<div
+  className="css-1814g6r-RatingTableOfContentsFooter"
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    rating__total_score_achieved:
+  </div>
+  <div
+    className="css-xla9r9-RatingTableOfContentsFooter"
+  >
+    <div
+      className="css-1sbf56p-Text"
+    >
+      rating__rating__scoring
+    </div>
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

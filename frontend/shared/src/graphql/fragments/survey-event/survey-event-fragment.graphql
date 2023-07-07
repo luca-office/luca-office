@@ -1,0 +1,8 @@
+fragment SurveyEventFragment on SurveyEvent {
+  timestamp
+  eventType
+  data
+  surveyId
+  index
+  invitationId
+}

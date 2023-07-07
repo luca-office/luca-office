@@ -1,0 +1,7 @@
+#import "../../fragments/project-module-fragment.graphql"
+
+mutation RepositionProjectModuleMutation($id: String!, $predecessorId: String) {
+  repositionProjectModule(id: $id, predecessorId: $predecessorId) {
+    ...ProjectModuleFragment
+  }
+}

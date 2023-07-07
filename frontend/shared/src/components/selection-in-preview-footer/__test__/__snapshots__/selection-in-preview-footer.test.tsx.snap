@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selection-in-preview-footer renders correctly 1`] = `
+<div
+  className="css-qs6aqy-SelectionInPreviewFooter"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    coding_models__automated_item_r_scripts_choose_modal_description
+  </div>
+  <div
+    className="card-wrapper css-160r133-SelectionInPreviewFooter"
+  >
+    <div
+      className="css-1gm10pm-SelectionInPreviewFooter"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        test Title
+      </div>
+    </div>
+    <div
+      className="css-100l0bw-SelectionInPreviewFooter"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        welcome_text
+      </div>
+      <button
+        className="css-injsqh-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          continue_button
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

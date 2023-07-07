@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table-of-contents-entry renders correctly 1`] = `
+[
+  <div
+    className="toc-entry css-12opz0x-TableOfContentsEntry"
+  >
+    <div
+      className="toc-entry-text css-x4fs04-TableOfContentsEntry"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1k0t96a-Text"
+      >
+        Test_Node
+      </div>
+    </div>
+  </div>,
+  <div
+    className="css-fcpgnv-TableOfContentsEntry"
+  />,
+]
+`;
+
+exports[`table-of-contents-entry renders correctly faded 1`] = `
+[
+  <div
+    className="toc-entry css-12opz0x-TableOfContentsEntry"
+  >
+    <div
+      className="toc-entry-text css-x4fs04-TableOfContentsEntry"
+      onClick={[Function]}
+    >
+      <div
+        className="css-10nt1lr-Text"
+      >
+        Test_Node
+      </div>
+    </div>
+    <div
+      className="css-wspas5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>,
+  <div
+    className="css-fcpgnv-TableOfContentsEntry"
+  />,
+]
+`;

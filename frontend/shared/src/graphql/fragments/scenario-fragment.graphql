@@ -1,0 +1,36 @@
+#import "./user-account-fragment.graphql"
+#import "./email-fragment.graphql"
+#import "./sample-company-fragment.graphql"
+#import "./coding-model-fragment.graphql"
+
+fragment ScenarioFragment on Scenario {
+  id
+  createdAt
+  modifiedAt
+  date
+  name
+  description
+  maxDurationInSeconds
+  introductionEmailId
+  authorId
+  shouldDisplayTime
+  finalizedAt
+  publishedAt
+  tags
+  completionEmailAddress
+  shouldHideReferenceBookChapters
+  sampleCompanyId
+  archivedAt
+  author {
+    ...UserAccountFragment
+  }
+  introductionEmail {
+    ...EmailFragment
+  }
+  sampleCompany {
+    ...SampleCompanyFragment
+  }
+  codingModel {
+    ...CodingModelFragment
+  }
+}

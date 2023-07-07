@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Stroke_Icons-(16px)/Lock/open" stroke="currentColor">
+            <path d="M13.0396,14.5 L3.9606,14.5 C3.1536,14.5 2.4996,13.846 2.4996,13.04 L2.4996,7.96 C2.4996,7.154 3.1536,6.5 3.9606,6.5 L13.0396,6.5 C13.8466,6.5 14.4996,7.154 14.4996,7.96 L14.4996,13.04 C14.4996,13.846 13.8466,14.5 13.0396,14.5 Z M5.5,6.5 L5.5,3.5 C5.5,1.843 6.843,0.5 8.5,0.5 C10.157,0.5 11.5,1.843 11.5,3.5" id="Lock-open"></path>
+        </g>
+    </g>
+</svg>

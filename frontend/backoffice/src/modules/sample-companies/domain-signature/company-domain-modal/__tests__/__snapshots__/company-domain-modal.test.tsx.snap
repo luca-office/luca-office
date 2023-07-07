@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`company-domain-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-1jfzn9g-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            sample_companies__detail_settings_email_domain_title
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-1gs9x9w-Modal"
+        >
+          <div
+            className="css-gmv09u-CompanyDomainModal"
+          >
+            <div
+              className="css-1p9qd62-Text"
+            >
+              sample_companies__detail_settings_email_domain_modal_desc_detail
+            </div>
+            <div
+              className="css-npged5-Text"
+            >
+              sample_companies__detail_settings_email_domain
+            </div>
+            <div
+              className="css-1owmjal-CompanyDomainModal"
+            >
+              <div
+                className="css-11qarx6"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <div
+                  className="css-1kz8c24"
+                >
+                  <input
+                    className="css-pkbj54"
+                    defaultValue="test@test.com"
+                    disabled={false}
+                    name="domain"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    type="text"
+                  />
+                  <div
+                    className="css-1wfdxtz-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-a1i4d5-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel
+            </div>
+          </button>
+          <button
+            className="confirm-button css-1ex7tyh-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              confirm_button
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

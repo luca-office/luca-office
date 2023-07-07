@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-questionnaire-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-16c3j3g-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            questionnaires__create_event
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-1gs9x9w-Modal"
+        >
+          <div
+            className="css-k1jvcm-CreateQuestionnaireModal"
+          >
+            <div
+              className="css-jdxnts"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-13s2sfk-Heading"
+              >
+                title
+              </div>
+              <div
+                className="css-1rjy8ih"
+              >
+                <input
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  name="title"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="questionnaires__create_event_title_placeholder"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              className="css-192nlq7"
+            >
+              <div
+                className="css-13s2sfk-Heading"
+              >
+                description
+              </div>
+              <textarea
+                className="css-slakx0"
+                name="description"
+                placeholder="questionnaires__create_event_description_placeholder"
+                rows={5}
+              />
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-a1i4d5-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel_button
+            </div>
+          </button>
+          <button
+            className="confirm-button css-1ex7tyh-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              confirm_button
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

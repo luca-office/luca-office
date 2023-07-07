@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-message renders correctly 1`] = `
+<div
+  className="css-k7u4b-EmailBodyMessage"
+>
+  <div
+    className="css-1y7g931-EmailBodyMessage"
+  >
+    <div
+      className="css-17xr9hv-EmailBodyMessage"
+    >
+      email__subject_label
+    </div>
+    <div
+      className="css-17as3x0"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-1unfqpo"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue="Mock-Email 1"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="email__subject_placeholder"
+          type="text"
+        />
+        <div
+          className="css-1wfdxtz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-gddkr9-EmailBodyMessage"
+  >
+    <div
+      className="css-1rp7ype-EmailBodyMessage"
+    >
+      <div
+        className="css-ln7jn1-Heading"
+      >
+        email__message_label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div
+      className="css-1qhq977-EmailBodyMessage"
+    >
+      <div
+        className="overlay-edit-field css-0"
+      >
+        <div
+          className="css-13tbcl0-ReadonlyActionField"
+          data-testid="readonly-action-field"
+          onClick={[Function]}
+        >
+          <div
+            className="css-1bkess4-ReadonlyActionField"
+          />
+          <div
+            className="content-wrapper css-376q3o-ReadonlyActionField"
+          >
+            <div
+              className="content css-ci7wec-ReadonlyActionField"
+            >
+              <div
+                className="css-1yipl0k-ReadonlyActionField"
+              >
+                <div
+                  className="css-1h2eymq-InlineEditableTextarea"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="textarea css-1n5bn12-InlineEditableTextarea"
+                    contentEditable={false}
+                    suppressContentEditableWarning={true}
+                  >
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  </div>
+                  <div
+                    className="hover-icon css-1pndqgp-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

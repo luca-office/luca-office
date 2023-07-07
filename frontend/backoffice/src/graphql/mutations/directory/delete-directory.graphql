@@ -1,0 +1,3 @@
+mutation DeleteDirectoryMutation($id: String!) {
+  deleteDirectory(id: $id)
+}

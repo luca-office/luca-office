@@ -1,0 +1,19 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpProductFragment on ErpProduct {
+  id
+  name
+  netPriceInCents
+  taxRate
+  sampleCompanyId
+  binaryFileId
+  unit
+  note
+  packSize
+  availableStock
+  stockCostPerUnitInCents
+  stockCostTotalInCents
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

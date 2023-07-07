@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-component-erp-product.graphql"
+
+mutation CreateErpComponentErpProductMutation($creation: ErpComponentErpProductCreation!) {
+  createErpComponentErpProduct(creation: $creation) {
+    ...ErpComponentErpProductFragment
+  }
+}

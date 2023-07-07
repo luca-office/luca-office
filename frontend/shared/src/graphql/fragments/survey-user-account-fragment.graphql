@@ -1,0 +1,4 @@
+fragment SurveyUserAccountFragment on SurveyUserAccount {
+  surveyId
+  userAccountId
+}

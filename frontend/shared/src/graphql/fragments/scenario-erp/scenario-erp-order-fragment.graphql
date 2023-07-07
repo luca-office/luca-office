@@ -1,0 +1,6 @@
+fragment ScenarioErpOrderFragment on ScenarioErpOrder {
+  scenarioId
+  sampleCompanyId
+  orderId
+  relevance
+}

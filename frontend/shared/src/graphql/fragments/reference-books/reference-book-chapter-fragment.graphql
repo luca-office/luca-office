@@ -1,0 +1,17 @@
+#import "./reference-book-article-fragment.graphql"
+
+fragment ReferenceBookChapterFragment on ReferenceBookChapter {
+  id
+  title
+  createdAt
+  description
+  author {
+    id
+    firstName
+    lastName
+  }
+  publishedAt
+  articles {
+    ...ReferenceBookArticleFragment
+  }
+}

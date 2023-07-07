@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoTag renders correctly (html content) 1`] = `
+<div
+  className="css-1ra9gnl-InfoTag"
+>
+  <div
+    className="css-1hy4mqb-InfoTag"
+  >
+    Label
+  </div>
+  <div
+    className="css-daxper-InfoTag"
+  >
+    <div>
+      HTML Content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoTag renders correctly (string content) 1`] = `
+<div
+  className="css-1ra9gnl-InfoTag"
+>
+  <div
+    className="css-1hy4mqb-InfoTag"
+  >
+    Label
+  </div>
+  <div
+    className="css-daxper-InfoTag"
+  >
+    Content
+  </div>
+</div>
+`;

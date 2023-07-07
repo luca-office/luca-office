@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`desktop-background renders correctly 1`] = `
+<div
+  className="css-1x7ax1r-DesktopBackground"
+>
+  <div
+    className="background-logo css-1xk0bda-DesktopBackground"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

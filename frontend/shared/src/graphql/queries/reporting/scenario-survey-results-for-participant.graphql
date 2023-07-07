@@ -1,0 +1,18 @@
+query ScenarioSurveyResultsForParticipantQuery($surveyId: String!, $surveyInvitationId: String!, $scenarioId: String!) {
+  scenarioSurveyResultsForParticipant(
+    surveyId: $surveyId
+    surveyInvitationId: $surveyInvitationId
+    scenarioId: $scenarioId
+  ) {
+    surveyInvitationId
+    scenarioId
+    codingItemResults {
+      itemId
+      score
+      maximumScore
+      averageScore
+      selectedCriteriaIds
+      noCriterionFulfilled
+    }
+  }
+}

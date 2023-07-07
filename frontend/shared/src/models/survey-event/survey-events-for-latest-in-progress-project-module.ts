@@ -1,0 +1,3 @@
+import {SurveyInvitationAndEventsForResumptionQuery_surveyInvitationAndEventsForResumption} from "../../graphql/generated/SurveyInvitationAndEventsForResumptionQuery"
+
+export type SurveyInvitationAndEventsForResumption = SurveyInvitationAndEventsForResumptionQuery_surveyInvitationAndEventsForResumption

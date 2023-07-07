@@ -1,0 +1,7 @@
+#import "../../fragments/coding-dimension-fragment.graphql"
+
+query CodingDimensionQuery($id: String!) {
+  codingDimension(id: $id) {
+    ...CodingDimensionFragment
+  }
+}

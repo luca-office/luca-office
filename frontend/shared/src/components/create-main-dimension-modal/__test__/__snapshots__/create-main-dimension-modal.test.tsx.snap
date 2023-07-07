@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-main-dimension-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-1azzcmy-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          coding_models__create_main_dimension_title
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div
+          className="css-1nnu5tg-Text"
+        >
+          coding_models__create_main_dimension_hint
+        </div>
+        <div
+          className="css-17as3x0"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            title
+          </div>
+          <div
+            className="css-1unfqpo"
+          >
+            <input
+              autoFocus={true}
+              className="css-pkbj54"
+              defaultValue=""
+              disabled={false}
+              name="title"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="title"
+              type="text"
+            />
+          </div>
+        </div>
+      </section>
+      <footer
+        className="css-ukdqb3-Modal"
+      >
+        <button
+          className="cancel-button css-a1i4d5-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            cancel_button
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            create_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

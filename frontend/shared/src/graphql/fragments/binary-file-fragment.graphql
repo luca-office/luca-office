@@ -1,0 +1,9 @@
+fragment BinaryFileFragment on BinaryFile {
+  id
+  createdAt
+  modifiedAt
+  filename
+  fileSize
+  mimeType
+  url
+}

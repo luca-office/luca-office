@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-detail-view renders correctly (data loading) 1`] = `
+<div
+  className="css-1lw2kqo-RaterRatingDetailView"
+>
+  <div
+    className="css-9pumgg-DetailViewHeader"
+  >
+    <button
+      className="css-rmd9d0-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-u7npei-DetailViewHeader"
+        >
+          rater_rating_details__header_navigation_label
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      rater_rating_details__header_label
+    </div>
+  </div>
+  <div
+    className="css-m38jl9-RaterRatingDetailView"
+  >
+    <div
+      className="css-1tzcb72-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`rater-rating-detail-view renders correctly 1`] = `
+<div
+  className="css-1rieif6-RaterRatingDetailView"
+>
+  <div
+    className="css-9pumgg-DetailViewHeader"
+  >
+    <button
+      className="css-rmd9d0-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-u7npei-DetailViewHeader"
+        >
+          rater_rating_details__header_navigation_label
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      rater_rating_details__header_label
+    </div>
+  </div>
+  <div
+    className="css-em4hye-RaterRatingDetailViewContent"
+  >
+    <div
+      className="css-1ij374s-RaterRatingDetailViewContent"
+    >
+      <div
+        className="css-1tzcb72-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="css-2u06b-RaterRatingDetailViewFooter"
+  >
+    <div
+      className="css-1j3zukq-RaterRatingDetailViewFooter"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-gb1brp-ProgressBarColumn"
+        >
+          <div
+            className="css-1oc5iyb-ProgressBarColumn"
+          >
+            <div
+              className="progress-element css-1xrtx1r-ProgressBarColumn"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        rater_rating__action_button_finish_rating_tooltip
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-qcf7xd-Text"
+      >
+        percentage
+      </div>
+    </div>
+    <button
+      className="css-15dgl4r-Button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-nkhhc8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        rater_rating__action_button_finish_rating
+      </div>
+    </button>
+  </div>
+</div>
+`;

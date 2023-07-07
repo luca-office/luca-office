@@ -1,0 +1,11 @@
+mutation UserAccountSurveyParticipationMutation($surveyInvitationId: String!, $email: String!, $password: String!) {
+  userAccountSurveyParticipation(surveyInvitationId: $surveyInvitationId, email: $email, password: $password) {
+    userAccountId
+
+    userAccount {
+      firstName
+      lastName
+      salutation
+    }
+  }
+}

@@ -1,0 +1,31 @@
+#import "../../fragments/project-fragment.graphql"
+
+query GetSurveyLightQuery($id: String!) {
+    survey(id: $id) {
+        id
+        createdAt
+        modifiedAt
+        startsAt
+        projectId
+        title
+        description
+        endsAt
+        authenticationType
+        invitationsCount
+        inProgressParticipationsCount
+        executionType
+        completedParticipationsCount
+        isCompleted
+        isTestSurvey
+        isRatingFinalized
+        isOpenParticipationEnabled
+        openParticipationPlayerUrl
+        manualPeriod {
+            start
+            end
+        }
+        project {
+            ...ProjectFragment
+        }
+    }
+}

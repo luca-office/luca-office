@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-questionnaire-fragment.graphql"
+
+mutation CreateScenarioQuestionnaireMutation($creation: ScenarioQuestionnaireCreation!) {
+  createScenarioQuestionnaire(creation: $creation) {
+    ...ScenarioQuestionnaireFragment
+  }
+}

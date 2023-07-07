@@ -1,0 +1,28 @@
+fragment CodingDimensionFragment on CodingDimension {
+  id
+  createdAt
+  modifiedAt
+  title
+  description
+  codingModelId
+  parentDimensionId
+  position
+  items {
+    id
+    createdAt
+    modifiedAt
+    title
+    description
+    scoringType
+    dimensionId
+    position
+    maximumScore
+    criteriaCount
+    ... on ManualCodingItem {
+      id
+    }
+    ... on AutomatedCodingItem {
+      rule
+    }
+  }
+}

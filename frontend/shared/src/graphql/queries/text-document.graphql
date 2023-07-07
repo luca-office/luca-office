@@ -1,0 +1,7 @@
+#import "../fragments/text-document-fragment.graphql"
+
+query TextDocumentQuery($id: String!) {
+    textDocument(id: $id) {
+        ...TextDocumentFragment
+    }
+}

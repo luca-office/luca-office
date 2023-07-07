@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-action-element renders correctly 1`] = `
+<div
+  className="css-hluplg-RatingDetailActionElement"
+>
+  <div
+    className="css-nzx43c-RatingDetailActionElement"
+  >
+    <div
+      className="css-143noxf-RatingDetailActionElement"
+    >
+      <div
+        className="css-14rj767"
+        data-testid="custom-select"
+      >
+        <div
+          className="css-rarr6p"
+        >
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            rating__rating__action_dropdown_label
+          </div>
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <div
+              className="css-qnyrc1-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            <div
+              className="css-1tdk34p-Tooltip"
+            >
+              <div
+                className="css-1kjzr28-Tooltip"
+              >
+                <div
+                  className="css-jb7kz7-Heading"
+                >
+                  rating__rating__action_dropdown_label
+                </div>
+                <div
+                  className="css-8tih5m-Text"
+                >
+                  rating__rating__action_dropdown_tooltip_text
+                </div>
+              </div>
+              <div
+                className="css-1fvvs0r-Tooltip"
+              >
+                <div
+                  className="css-nlq2eo-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+        <div
+          className="css-18vooac"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="custom-select"
+          >
+            MockedSelect
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-e24v2t-RatingDetailActionElement"
+    >
+      <button
+        className="css-injsqh-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          confirm
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

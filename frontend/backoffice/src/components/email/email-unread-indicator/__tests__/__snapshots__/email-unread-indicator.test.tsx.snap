@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-unread-indicator-props renders correctly 1`] = `
+<div
+  className="email-unread-indicator css-kdgcgs-EmailUnreadIndicator"
+>
+  Test stuff
+   
+  <div
+    className="css-lsxj01-EmailUnreadIndicator"
+  />
+</div>
+`;

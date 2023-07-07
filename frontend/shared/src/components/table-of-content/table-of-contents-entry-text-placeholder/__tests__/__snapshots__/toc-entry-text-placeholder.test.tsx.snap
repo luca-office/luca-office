@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toc-entry-text-placeholder renders correctly 1`] = `
+<div
+  className="toc-entry-placeholder css-1le4her-TocEntryPlaceholder"
+>
+  <div
+    className="toc-entry-placeholder-icon css-1y8xlv3-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="toc-entry-placeholder-heading css-1xyu9bt-Heading"
+  >
+    reference_books__placeholder_text
+  </div>
+</div>
+`;

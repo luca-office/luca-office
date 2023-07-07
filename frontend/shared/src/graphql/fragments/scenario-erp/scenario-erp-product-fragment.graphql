@@ -1,0 +1,6 @@
+fragment ScenarioErpProductFragment on ScenarioErpProduct {
+  scenarioId
+  sampleCompanyId
+  productId
+  relevance
+}

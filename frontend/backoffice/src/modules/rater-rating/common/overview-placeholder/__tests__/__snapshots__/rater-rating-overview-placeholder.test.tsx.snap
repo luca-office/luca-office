@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-overview-placeholder renders correctly 1`] = `
+<div
+  className="css-16gfzy-RaterRatingOverviewPlaceholder"
+>
+  <div
+    className="css-1bgw1go-Heading"
+  >
+    rater_rating__placeholder_title
+  </div>
+  <div
+    className="css-2c1ygk-Text"
+  >
+    rater_rating__placeholder_description
+  </div>
+</div>
+`;

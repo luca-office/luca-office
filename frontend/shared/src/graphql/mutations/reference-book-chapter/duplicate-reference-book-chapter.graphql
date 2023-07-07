@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-chapter-fragment.graphql"
+
+mutation DuplicateReferenceBookChapterMutation($id: String!) {
+  duplicateReferenceBookChapter(id: $id) {
+    ...ReferenceBookChapterFragment
+  }
+}

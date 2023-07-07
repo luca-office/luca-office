@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-coding-table-of-contents renders correctly 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        table_of_contents
+      </div>
+    </div>
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      rating__rating__right_side_title_table_of_contents
+    </div>
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-zkqz5t-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-moybed-Text"
+            >
+              Lorem ipsum dolor sit amet, consetetur sadipscing
+            </div>
+            <div
+              className="css-1iod46n-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lfme21-Text"
+              >
+                83
+                rating__rating__trailing_percent
+              </div>
+              <div
+                className="css-whkdu1-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-gi3bw5-TableOfContentsEntry"
+        >
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__single_choice
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1lfme21-Text"
+                >
+                  rating__rating__automatic_rating
+                </div>
+                <div
+                  className="css-tntm63-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__single_choice
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1lfme21-Text"
+                >
+                  rating__rating__automatic_rating
+                </div>
+                <div
+                  className="css-tntm63-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__multiple_choice
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1lfme21-Text"
+                >
+                  rating__rating__automatic_rating
+                </div>
+                <div
+                  className="css-tntm63-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__multiple_choice
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1lfme21-Text"
+                >
+                  rating__rating__automatic_rating
+                </div>
+                <div
+                  className="css-tntm63-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__multiple_choice
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-1lfme21-Text"
+                >
+                  rating__rating__automatic_rating
+                </div>
+                <div
+                  className="css-tntm63-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+          <div
+            className="toc-entry css-12opz0x-TableOfContentsEntry"
+          >
+            <div
+              className="css-k17gg9-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+              onClick={[Function]}
+            />
+            <div
+              className="toc-entry-text css-1uate4g-TableOfContentsEntry"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-x8jhfc-Text"
+              >
+                questionnaire__free_text
+              </div>
+              <div
+                className="css-21ofi0-TableOfContentsEntry"
+              >
+                <div
+                  className="css-o42dsd-Text"
+                >
+                  rating__rating__manual_rating
+                </div>
+                <div
+                  className="css-s7farq-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-fcpgnv-TableOfContentsEntry"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-1dmbn2x-CardFooter"
+  >
+    <div
+      className="css-1814g6r-RatingTableOfContentsFooter"
+    >
+      <div
+        className="css-1sbf56p-Text"
+      >
+        rating__total_score_achieved:
+      </div>
+      <div
+        className="css-xla9r9-RatingTableOfContentsFooter"
+      >
+        <div
+          className="css-1sbf56p-Text"
+        >
+          rating__rating__scoring
+        </div>
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file detail renders correctly 1`] = `
+<div
+  className="css-1lb0na6-Card"
+>
+  <div
+    className="card-header css-diisqk-CardHeader"
+  >
+    <div
+      className="css-11jhu3e-FilesAndDirectoriesDetailView"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        strand.png
+      </div>
+    </div>
+    <div
+      className="css-1400h4j-FilesAndDirectoriesDetailView"
+    />
+  </div>
+  <div
+    className="card-content css-8mq56f-CardContent"
+  >
+    <div
+      className="css-1tjmqav-FileDetail"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        directories_and_files__file_preview_label
+      </div>
+      <div
+        className="css-1kpejq0-MediaFilePreview"
+      >
+        <div
+          className="css-g5r2b1-MediaFilePreview"
+        >
+          <div
+            className="css-wc80za-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <button
+            className="css-jeltaf-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-kuxry5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              files_and_directories__open_in_viewer
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

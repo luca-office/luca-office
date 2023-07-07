@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text editor renders correctly 1`] = `
+<div
+  className="css-o9cdrg-OfficeWindow"
+>
+  <div
+    className="header css-1ydy459-OfficeWindow"
+  >
+    <div
+      className="css-1sdua8l-ToolsHeader"
+    >
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <div
+          className="css-1ss9q1q-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1b4s2bm-Text"
+        >
+          text_editor__label
+        </div>
+      </div>
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <button
+          className="css-1dzgoe2-Button"
+          disabled={false}
+          onClick={[Function]}
+          title="viewer_tools__close_tool_label"
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-13zef26-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1w2223n-TextEditor"
+  >
+    <div
+      className="css-1pew69s"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-1xpyvrw"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue="Test.txt"
+          disabled={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="text_editor__title_placeholder"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div />
+  <div
+    className="css-pystkl-OfficeWindow"
+  />
+</div>
+`;

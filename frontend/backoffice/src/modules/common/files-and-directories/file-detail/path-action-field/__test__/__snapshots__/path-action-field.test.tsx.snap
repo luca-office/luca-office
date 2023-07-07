@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PathActionField renders correctly 1`] = `
+<div
+  className="css-1czgmen-PathActionField"
+>
+  <div
+    className="css-1h826ga-PathActionField"
+  >
+    <div
+      className="css-1yjyjy3-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1sbf56p-Text"
+    />
+  </div>
+  <div
+    className="css-16ebz09-Text"
+    onClick={[Function]}
+  />
+</div>
+`;

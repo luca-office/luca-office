@@ -1,0 +1,5 @@
+fragment RuntimeSurveyParticipantResultFragment on RuntimeSurveyParticipantResult {
+  invitationId
+  selectedAnswerIds
+  wasFreetextAnswerSelected
+}

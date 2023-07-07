@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-pdf renders correctly 1`] = `
+<div
+  className="css-erhvhs-Card"
+  onClick={[Function]}
+>
+  <div
+    className="card-header css-1pveb3d-CardHeader"
+  >
+    <div
+      className="css-zm1qym-ContentPdf"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        test
+      </div>
+    </div>
+    <div
+      className="css-16jau82-ContentPdf"
+    >
+      <div
+        className="css-18p472e-Text"
+      >
+        reference_books__article_content_view_pdf
+      </div>
+    </div>
+  </div>
+</div>
+`;

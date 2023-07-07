@@ -1,0 +1,8 @@
+fragment ParticipantProjectModuleProgressFragment on ParticipantProjectModuleProgress {
+  scenarioId
+  questionnaireId
+  status
+  questionsInProgressCount
+  requiredDocumentsCount
+  openedRequiredDocumentsCount
+}

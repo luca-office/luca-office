@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file-explorer renders correctly 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-oivmdv-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        file_explorer__title
+      </div>
+    </div>
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-7kj7oz-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Bilder (3)
+            </div>
+          </div>
+        </div>
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-7kj7oz-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Rechnungen (3)
+            </div>
+          </div>
+        </div>
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-1cnfiwv-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              files_and_directories__tree__no_content
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Sonstiges (0)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-105jaxv-CardFooter"
+  />
+</div>
+`;
+
+exports[`file-explorer renders correctly with custom renderers 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-oivmdv-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        file_explorer__title
+      </div>
+    </div>
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-7kj7oz-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Bilder (3)
+            </div>
+          </div>
+        </div>
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-7kj7oz-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Rechnungen (3)
+            </div>
+          </div>
+        </div>
+        <div
+          className="tree-node css-jvgwtt-TreeNode"
+          onClick={[Function]}
+        >
+          <div
+            className="css-ruh0zs-TreeNode"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-1cnfiwv-TreeNode"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              files_and_directories__tree__no_content
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-1g2afg4-TreeNode"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="tree-node-file-count css-195yrgn-TreeNode"
+            >
+              Sonstiges (0)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-105jaxv-CardFooter"
+  />
+</div>
+`;

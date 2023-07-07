@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`file-drop-zone renders correctly (hide select button) 1`] = `
+<div
+  className="file-dropzone-wrapper css-1lbthkj-FileDropzone"
+>
+  <input />
+  <div
+    className="css-vq2l7y-Text"
+  >
+    <span>
+      <span
+        className=""
+      >
+        files_and_directories__upload_modal_file_size_hint_plural
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`file-drop-zone renders correctly 1`] = `
+<div
+  className="file-dropzone-wrapper css-1lbthkj-FileDropzone"
+>
+  <input />
+  <div
+    className="css-vq2l7y-Text"
+  >
+    <span>
+      <span
+        className=""
+      >
+        files_and_directories__upload_modal_file_size_hint_plural
+      </span>
+    </span>
+  </div>
+  <div
+    className="css-1oed4f3-Text"
+  >
+    files_and_directories__upload_modal_choose_file
+  </div>
+</div>
+`;

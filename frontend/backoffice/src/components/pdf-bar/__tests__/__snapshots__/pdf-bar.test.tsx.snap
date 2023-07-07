@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-type-dialog renders correctly 1`] = `
+<div
+  className="css-c02u4s-Card"
+  onClick={[Function]}
+>
+  <div
+    className="card-header css-1pveb3d-CardHeader"
+  >
+    <div
+      className="css-bq8d1c-PdfBar"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        test.pdf
+      </div>
+    </div>
+    <div
+      className="css-198v655-PdfBar"
+    >
+      <div
+        className="css-18p472e-Text"
+      >
+        reference_books__article_content_view_pdf
+      </div>
+      <div
+        className="delete css-1g0cb6g-PdfBar"
+      >
+        <div
+          className="css-0"
+        >
+          <button
+            className="css-hnekdl-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-mj8vo1-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

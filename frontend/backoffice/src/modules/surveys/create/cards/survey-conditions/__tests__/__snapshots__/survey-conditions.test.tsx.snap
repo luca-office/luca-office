@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`survey-conditions renders correctly 1`] = `
+[
+  <div
+    className="css-1ossv2r-Label"
+  >
+    projects__surveys_table_condition
+  </div>,
+  <div
+    className="css-x9g7u7-Controller"
+  >
+    <div
+      className="css-lblbfe-Card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-header css-15qww7v-CardHeader"
+      >
+        <div>
+          <div
+            className="radio-button css-aqrmqg-RadioButton"
+          >
+            <div
+              className="css-1dzk059-RadioButton"
+            >
+              <div
+                className="css-1kv9hnx-RadioButton"
+              >
+                <div
+                  className="css-7sxxnu-RadioButton"
+                />
+              </div>
+            </div>
+            <div
+              className="css-1vmka8r-Heading"
+            >
+              projects__surveys_table_open_participation
+            </div>
+          </div>
+          <div
+            className="css-is2pm4-Text"
+          >
+            projects__surveys_table_open_participation_text
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-content css-36159x-CardContent"
+      />
+    </div>
+    <div
+      className="css-1fiig8i-Card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-header css-15qww7v-CardHeader"
+      >
+        <div>
+          <div
+            className="radio-button css-aqrmqg-RadioButton"
+          >
+            <div
+              className="css-1dzk059-RadioButton"
+            >
+              <div
+                className="css-1kv9hnx-RadioButton"
+              >
+                <div
+                  className="css-1lbkotz-RadioButton"
+                />
+              </div>
+            </div>
+            <div
+              className="css-1vmka8r-Heading"
+            >
+              projects__surveys_table_closed_participation
+            </div>
+          </div>
+          <div
+            className="css-is2pm4-Text"
+          >
+            projects__surveys_table_closed_participation_text
+          </div>
+        </div>
+        <div
+          className="css-vrzvbi-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="card-content css-36159x-CardContent"
+      />
+    </div>
+  </div>,
+]
+`;

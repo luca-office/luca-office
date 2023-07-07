@@ -1,0 +1,21 @@
+#import "../../fragments/survey-invitation-fragment.graphql"
+
+query SurveyInvitationAndEventsForResumptionQuery($token: String!) {
+  surveyInvitationAndEventsForResumption(token: $token) {
+    surveyInvitation {
+      ...SurveyInvitationFragment
+    }
+    surveyEventsForLatestInProgressProjectModule {
+      scenarioId
+      questionnaireId
+      surveyEvents {
+        timestamp
+        eventType
+        data
+        surveyId
+        index
+        invitationId
+      }
+    }
+  }
+}

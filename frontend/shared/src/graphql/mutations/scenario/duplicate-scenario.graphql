@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-fragment.graphql"
+
+mutation DuplicateScenarioMutation($id: String!) {
+  duplicateScenario(id: $id) {
+    ...ScenarioFragment
+  }
+}

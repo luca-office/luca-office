@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`question-scoring-selection renders correctly 1`] = `
+<div
+  className="question-scoring-selection"
+>
+  <div
+    className="css-17wpeav-Label"
+  >
+    questionnaires__detail_questions_scoring_title
+  </div>
+  <div
+    className="css-14ovytx-QuestionScoringSelection"
+  >
+    <div
+      className="css-1pgmn6a-Card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-header css-a0e080-CardHeader"
+      >
+        <div
+          className="css-1cygpbo-SelectableCard"
+        >
+          <div
+            className="css-17tkprm-SelectableCard"
+          >
+            <div
+              className="css-1f6p2vj-Heading"
+            >
+              questionnaire_question__scoring_none_title
+            </div>
+          </div>
+          <div
+            className="radio-button css-aqrmqg-RadioButton"
+          >
+            <div
+              className="css-1dzk059-RadioButton"
+            >
+              <div
+                className="css-1kv9hnx-RadioButton"
+              >
+                <div
+                  className="css-1lbkotz-RadioButton"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-hpovgn-Text"
+      >
+        questionnaire_question__scoring_none_text
+      </div>
+    </div>
+    <div
+      className="css-o2tml0-Card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-header css-a0e080-CardHeader"
+      >
+        <div
+          className="css-1cygpbo-SelectableCard"
+        >
+          <div
+            className="css-17tkprm-SelectableCard"
+          >
+            <div
+              className="css-1f6p2vj-Heading"
+            >
+              questionnaire_question__scoring_holistic_title
+            </div>
+          </div>
+          <div
+            className="radio-button css-aqrmqg-RadioButton"
+          >
+            <div
+              className="css-1dzk059-RadioButton"
+            >
+              <div
+                className="css-1kv9hnx-RadioButton"
+              >
+                <div
+                  className="css-7sxxnu-RadioButton"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-hpovgn-Text"
+      >
+        questionnaire_question__scoring_holistic_text
+      </div>
+    </div>
+    <div
+      className="css-o2tml0-Card"
+      onClick={[Function]}
+    >
+      <div
+        className="card-header css-a0e080-CardHeader"
+      >
+        <div
+          className="css-1cygpbo-SelectableCard"
+        >
+          <div
+            className="css-17tkprm-SelectableCard"
+          >
+            <div
+              className="css-1f6p2vj-Heading"
+            >
+              questionnaire_question__scoring_analytic_title
+            </div>
+          </div>
+          <div
+            className="radio-button css-aqrmqg-RadioButton"
+          >
+            <div
+              className="css-1dzk059-RadioButton"
+            >
+              <div
+                className="css-1kv9hnx-RadioButton"
+              >
+                <div
+                  className="css-7sxxnu-RadioButton"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-hpovgn-Text"
+      >
+        questionnaire_question__scoring_analytic_text
+      </div>
+    </div>
+  </div>
+</div>
+`;

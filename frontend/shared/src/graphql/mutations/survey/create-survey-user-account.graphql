@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/survey-user-account-fragment.graphql"
+
+mutation CreateSurveyUserAccountMutation($surveyId: String!, $userAccountId: String!) {
+  createSurveyUserAccount(surveyId: $surveyId, userAccountId: $userAccountId) {
+    ...SurveyUserAccountFragment
+  }
+}

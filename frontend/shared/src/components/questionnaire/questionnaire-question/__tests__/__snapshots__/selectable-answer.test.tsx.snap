@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectableAnswer renders correctly with default props 1`] = `
+<div
+  className="answer-container css-1k9uob5-SelectableAnswer"
+  onClick={[Function]}
+  role="button"
+>
+  <div
+    className="radio-button css-aqrmqg-RadioButton"
+  >
+    <div
+      className="css-1dzk059-RadioButton"
+    >
+      <div
+        className="css-1kv9hnx-RadioButton"
+      >
+        <div
+          className="css-7sxxnu-RadioButton"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-171ncof-Text"
+  >
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+  </div>
+</div>
+`;

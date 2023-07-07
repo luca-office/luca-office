@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-order-item-fragment.graphql"
+
+mutation DeleteScenarioErpOrderItemMutation($scenarioId: String!, $orderItemId: Int!) {
+  deleteScenarioErpOrderItem(scenarioId: $scenarioId, orderItemId: $orderItemId) {
+    ...ScenarioErpOrderItemFragment
+  }
+}

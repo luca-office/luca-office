@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-files renders correctly 1`] = `
+<div
+  className="css-1eq9cru-AddEmailFiles"
+>
+  <div
+    className="css-3vqmyq-AddEmailFiles"
+  >
+    <div
+      className="label css-ksst2g-AddEmailFiles"
+    >
+      <div
+        className="css-ln7jn1-Heading"
+      >
+        email__files_label (0)
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        <div
+          className="css-1tdk34p-Tooltip"
+        >
+          <div
+            className="css-1kjzr28-Tooltip"
+          >
+            <div
+              className="css-jb7kz7-Heading"
+            >
+              email__files_label
+            </div>
+            <div
+              className="css-8tih5m-Text"
+            >
+              email__files_tooltip
+            </div>
+          </div>
+          <div
+            className="css-1fvvs0r-Tooltip"
+          >
+            <div
+              className="css-nlq2eo-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+    <div
+      className="css-1r45p5k-Table"
+    >
+      <div
+        className="css-1r9mhfr-Table"
+      >
+        <div
+          className="css-obhy4-Table"
+        >
+          <div
+            className="css-8050ac-Heading"
+          >
+            email__files_table_column_file
+          </div>
+        </div>
+        <div
+          className="css-5ye7b5-Table"
+        >
+          <button
+            className="css-23po1d-Button"
+            disabled={false}
+            onClick={[Function]}
+            title="email__files_table_column_file"
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-xjsa35-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        className="css-oyu5wv-Table"
+      >
+        <div
+          className="table-placeholder css-mp88b7-Table"
+        >
+          email__files_placeholder
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

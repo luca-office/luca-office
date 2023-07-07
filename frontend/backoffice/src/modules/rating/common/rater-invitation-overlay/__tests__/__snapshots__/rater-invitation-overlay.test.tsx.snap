@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-invitation-overlay renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-osbzd6-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            rating__invite_title
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-1gs9x9w-Modal"
+        >
+          <div
+            className="wrapper css-kv7sb5-ManageInvitationsModal"
+          >
+            <div>
+              <div
+                className="css-duzsc9-Paper"
+              >
+                <div
+                  className="css-1dn2d64-Heading"
+                >
+                  projects__survey_details_invite_emails_heading
+                </div>
+                <div
+                  className="css-1p9qd62-Text"
+                >
+                  rating__invite_description
+                </div>
+                <div
+                  className="css-prjr7p"
+                >
+                  <textarea
+                    className="css-7iyx5a"
+                    disabled={false}
+                    onChange={[Function]}
+                    placeholder="projects__survey_details_invite_emails_placeholder"
+                    rows={7}
+                    value=""
+                  />
+                </div>
+                <div
+                  className="css-v6owty-Text"
+                >
+                  projects__survey_details_invite_emails_number_of_valid_addresses
+                </div>
+              </div>
+            </div>
+            <div
+              className="wrapper css-z70zj5-InviteAttendeesEmailAddressesGrid"
+            >
+              <div
+                className="css-1akphf9-Heading"
+              >
+                rating__invite_emails_title
+              </div>
+              <div
+                className="grid-wrapper css-1d467hy-InviteAttendeesEmailAddressesGrid"
+              >
+                <div
+                  className="grid-top-bar css-7h2thf-InviteAttendeesEmailAddressesGrid"
+                />
+                <div
+                  className="grid-scroll-wrapper css-v0ses7-InviteAttendeesEmailAddressesGrid"
+                >
+                  <div
+                    className="grid css-b7vqx3-InviteAttendeesEmailAddressesGrid"
+                  >
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div>
+                        <div
+                          className="css-bn1a4g-Paper"
+                          title="projects__survey_details_tooltip_invite_already_sent"
+                        >
+                          <div
+                            className="css-17zbm7y-Text"
+                          >
+                            test-user@cap3.de
+                          </div>
+                          <div
+                            className="css-0"
+                            id="tooltip_42"
+                          >
+                            <div
+                              className="trash-icon css-16kls7j-Icon"
+                              dangerouslySetInnerHTML={
+                                {
+                                  "__html": {},
+                                }
+                              }
+                              onClick={[Function]}
+                              title="projects__survey_details_tooltip_remove_from_list"
+                            />
+                          </div>
+                          <div
+                            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                            role="tooltip"
+                            style={
+                              {
+                                "backgroundColor": "#2e3032",
+                                "zIndex": 1,
+                              }
+                            }
+                          >
+                            projects__survey_details_tooltip_remove_from_list
+                            <div
+                              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                              style={{}}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      projects__survey_details_tooltip_invite_already_sent
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div>
+                        <div
+                          className="css-bn1a4g-Paper"
+                          title="projects__survey_details_tooltip_invite_already_sent"
+                        >
+                          <div
+                            className="css-17zbm7y-Text"
+                          >
+                            max-mustermann@cap3.de
+                          </div>
+                          <div
+                            className="css-0"
+                            id="tooltip_42"
+                          >
+                            <div
+                              className="trash-icon css-16kls7j-Icon"
+                              dangerouslySetInnerHTML={
+                                {
+                                  "__html": {},
+                                }
+                              }
+                              onClick={[Function]}
+                              title="projects__survey_details_tooltip_remove_from_list"
+                            />
+                          </div>
+                          <div
+                            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                            role="tooltip"
+                            style={
+                              {
+                                "backgroundColor": "#2e3032",
+                                "zIndex": 1,
+                              }
+                            }
+                          >
+                            projects__survey_details_tooltip_remove_from_list
+                            <div
+                              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                              style={{}}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      projects__survey_details_tooltip_invite_already_sent
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div>
+                        <div
+                          className="css-bn1a4g-Paper"
+                          title="projects__survey_details_tooltip_invite_already_sent"
+                        >
+                          <div
+                            className="css-17zbm7y-Text"
+                          >
+                            marianne-musterfrau@cap3.de
+                          </div>
+                          <div
+                            className="css-0"
+                            id="tooltip_42"
+                          >
+                            <div
+                              className="trash-icon css-16kls7j-Icon"
+                              dangerouslySetInnerHTML={
+                                {
+                                  "__html": {},
+                                }
+                              }
+                              onClick={[Function]}
+                              title="projects__survey_details_tooltip_remove_from_list"
+                            />
+                          </div>
+                          <div
+                            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                            role="tooltip"
+                            style={
+                              {
+                                "backgroundColor": "#2e3032",
+                                "zIndex": 1,
+                              }
+                            }
+                          >
+                            projects__survey_details_tooltip_remove_from_list
+                            <div
+                              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                              style={{}}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      projects__survey_details_tooltip_invite_already_sent
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="grid-bottom-bar css-121255i-InviteAttendeesEmailAddressesGrid"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-ek72a-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel_button
+            </div>
+          </button>
+          <button
+            className="confirm-button css-o1ky6y-Button"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              rating__invite_title
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

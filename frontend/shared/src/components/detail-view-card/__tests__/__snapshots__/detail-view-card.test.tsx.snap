@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail-view-card renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-njxlss-LabelledCard"
+  >
+    <div
+      className="css-lz4b3k-Label"
+    >
+      DetailViewCard
+    </div>
+    <div
+      className="css-1dmlxz8-Card"
+    >
+      <div
+        className="card-content css-1vlljjy-DetailViewCard"
+      >
+        <div
+          className="test-content"
+        >
+          Content
+        </div>
+      </div>
+      <div
+        className="test-footer"
+      >
+        Footer
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+#import "./participant-data-fragment.graphql"
+#import "./participant-project-module-progress-fragment.graphql"
+#import "./survey-fragment.graphql"
+#import "./user-account-fragment.graphql"
+
+fragment SurveyInvitationFragment on SurveyInvitation {
+  id
+  createdAt
+  modifiedAt
+  token
+  email
+  surveyId
+  userAccountId
+  isOpenParticipation
+  participantData {
+    ...ParticipantDataFragment
+  }
+  projectModuleProgresses {
+    ...ParticipantProjectModuleProgressFragment
+  }
+  survey {
+    ...SurveyFragment
+  }
+  userAccount {
+    ...UserAccountFragment
+  }
+}

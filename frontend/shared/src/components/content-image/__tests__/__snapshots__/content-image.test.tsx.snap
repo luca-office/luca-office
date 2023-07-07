@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-image renders correctly 1`] = `
+<div
+  className="css-2rq2kz-ContentImage"
+>
+  <div
+    className="image css-1o9f17f-ContentImage"
+  />
+</div>
+`;

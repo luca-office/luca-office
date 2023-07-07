@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-overview-card-header renders correctly (no name) 1`] = `
+<div
+  className="card-header css-7banf6-CardHeader"
+>
+  <div
+    className="css-12l5kvx-ReportingOverviewCardHeader"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`reporting-overview-card-header renders correctly 1`] = `
+<div
+  className="card-header css-7banf6-CardHeader"
+>
+  <div
+    className="css-18gaiid-ReportingOverviewCardHeader"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1sbf56p-Text"
+    >
+      John Doe
+    </div>
+  </div>
+</div>
+`;

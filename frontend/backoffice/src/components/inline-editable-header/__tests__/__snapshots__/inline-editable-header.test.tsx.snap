@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inline-editable-header renders correctly 1`] = `
+<div
+  className="css-114c9e2-InlineEditableHeader"
+>
+  <div>
+    <form
+      className="css-1c5ej61-InlineEditableHeader"
+      onBlur={[Function]}
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-pl4s5v-InlineEditableHeader"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1iwo50k"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="css-nrul0i"
+          >
+            <input
+              className="css-q6vozw"
+              defaultValue="value"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              readOnly={true}
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="hover-icon css-16vb3lw-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`inline-editable-header renders correctly disabled 1`] = `
+<div
+  className="css-114c9e2-InlineEditableHeader"
+>
+  <div>
+    <form
+      className="css-1c5ej61-InlineEditableHeader"
+      onBlur={[Function]}
+      onSubmit={[Function]}
+    >
+      <div
+        className="css-1boxw9s-InlineEditableHeader"
+      >
+        <div
+          className="css-1iwo50k"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="css-nrul0i"
+          >
+            <input
+              className="css-2j0qcg"
+              defaultValue="value"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              readOnly={true}
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="hover-icon css-16vb3lw-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,6 @@
+fragment ParticipantResultFragment on ParticipantResult {
+  surveyInvitationId
+  participantName
+  score
+  isComplete
+}

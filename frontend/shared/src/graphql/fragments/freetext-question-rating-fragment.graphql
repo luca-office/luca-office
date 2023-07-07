@@ -1,0 +1,14 @@
+#import "./freetext-question-rating-criterion-selection-fragment.graphql"
+
+fragment FreetextQuestionRatingFragment on FreetextQuestionRating {
+  id
+  createdAt
+  modifiedAt
+  questionId
+  surveyInvitationId
+  noCriterionFulfilled
+  ratingId
+  criterionSelections {
+    ...FreetextQuestionRatingCriterionSelectionFragment
+  }
+}

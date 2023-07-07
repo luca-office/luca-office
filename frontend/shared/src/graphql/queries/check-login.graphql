@@ -1,0 +1,8 @@
+#import "../../../../shared/src/graphql/fragments/user-account-fragment.graphql"
+
+query CheckLoginQuery {
+  checkLogin {
+    ...UserAccountFragment
+    needsToConfirmBackofficeTermsAndConditions
+  }
+}

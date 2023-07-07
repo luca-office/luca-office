@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media File Preview renders correctly 1`] = `
+<div
+  className="css-1kpejq0-MediaFilePreview"
+>
+  <div
+    className="image css-2uffd0-ImageView"
+  />
+</div>
+`;

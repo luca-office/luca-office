@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`edit-date-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-1wu9n2j-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            scenario_details__date_edit
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-1gs9x9w-Modal"
+        >
+          <div
+            className="css-1p9qd62-Text"
+          >
+            scenario_details__date_edit_modal_text
+          </div>
+          <div
+            className="css-1oee0a8-Card"
+            onClick={[Function]}
+          >
+            <div
+              className="card-header css-a0e080-CardHeader"
+            >
+              <div
+                className="css-1cygpbo-SelectableCard"
+              >
+                <div
+                  className="css-17tkprm-SelectableCard"
+                >
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    scenario_details__actual_date
+                  </div>
+                </div>
+                <div
+                  className="radio-button css-aqrmqg-RadioButton"
+                >
+                  <div
+                    className="css-1dzk059-RadioButton"
+                  >
+                    <div
+                      className="css-1kv9hnx-RadioButton"
+                    >
+                      <div
+                        className="css-1lbkotz-RadioButton"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-hpovgn-Text"
+            >
+              scenario_details__date_edit_modal_actual_date
+            </div>
+          </div>
+          <div
+            className="css-h4n26u-Card"
+            onClick={[Function]}
+          >
+            <div
+              className="card-header css-a0e080-CardHeader"
+            >
+              <div
+                className="css-1cygpbo-SelectableCard"
+              >
+                <div
+                  className="css-17tkprm-SelectableCard"
+                >
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    scenario_details__fictive_date
+                  </div>
+                </div>
+                <div
+                  className="radio-button css-aqrmqg-RadioButton"
+                >
+                  <div
+                    className="css-1dzk059-RadioButton"
+                  >
+                    <div
+                      className="css-1kv9hnx-RadioButton"
+                    >
+                      <div
+                        className="css-7sxxnu-RadioButton"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-hpovgn-Text"
+            >
+              scenario_details__date_edit_modal_fictive_date
+            </div>
+            <div
+              className="css-1lj8xt2"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div>
+                Mocked Date Picker
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-a1i4d5-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel_button
+            </div>
+          </button>
+          <button
+            className="confirm-button css-1ex7tyh-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              confirm_button
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

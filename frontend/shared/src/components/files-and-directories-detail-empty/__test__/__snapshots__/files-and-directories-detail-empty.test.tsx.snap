@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty Detail View renders correctly 1`] = `
+<div
+  className="css-1lb0na6-Card"
+>
+  <div
+    className="card-header css-diisqk-CardHeader"
+  >
+    <div
+      className="css-11jhu3e-FilesAndDirectoriesDetailView"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1i6jmor-Heading"
+      >
+        files_and_directories__detail__empty__title
+      </div>
+    </div>
+    <div
+      className="css-1400h4j-FilesAndDirectoriesDetailView"
+    />
+  </div>
+  <div
+    className="card-content css-1cbxobb-CardContent"
+  >
+    <div
+      className="css-kv0ku-FilesAndDirectoriesDetailEmpty"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        files_and_directories__detail__empty__heading
+      </div>
+      <div
+        className="css-109orsd-Heading"
+      >
+        files_and_directories__detail__empty__text
+      </div>
+    </div>
+  </div>
+</div>
+`;

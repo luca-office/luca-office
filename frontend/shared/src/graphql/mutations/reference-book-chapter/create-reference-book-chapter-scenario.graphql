@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-chapter-scenario-fragment.graphql"
+
+mutation CreateReferenceBookChapterScenarioMutation($creation: ReferenceBookChapterScenarioId!) {
+  createReferenceBookChapterScenario(creation: $creation) {
+    ...ReferenceBookChapterScenarioFragment
+  }
+}

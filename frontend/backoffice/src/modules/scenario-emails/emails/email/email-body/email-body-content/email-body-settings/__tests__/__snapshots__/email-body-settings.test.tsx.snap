@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-settings renders correctly 1`] = `
+<div
+  className="css-13a42nz-EmailBodySettings"
+>
+  <div
+    className="css-2yk99q-EmailBodySettingSelection"
+  >
+    <div
+      className="css-sxsoma-EmailBodySettingSelection"
+    >
+      email__directory
+    </div>
+    <div
+      className="css-1its8i2-EmailBodySettingSelection"
+    >
+      <div
+        className="css-pv4v64-EmailBodySettingSelection"
+      />
+      <div
+        className="css-186suwl-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        title="disabled"
+      />
+    </div>
+  </div>
+  <div
+    className="css-4sh4sw-ReadonlyActionField"
+    data-testid="readonly-action-field"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        email__reception_delay_label_inbox
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1hje2zc-ReadonlyActionField"
+      >
+        <div
+          className="css-axihyg-EmailBodyMetaEntry"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-sl5qfb-EmailBodyMetaEntry"
+          >
+            unit__just_now
+          </div>
+        </div>
+      </div>
+      <button
+        className="readonly-action-button css-4nv627-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          email__reception_delay_button_edit
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="css-9r23h-EmailBodySettingSelection"
+  >
+    <div
+      className="css-sxsoma-EmailBodySettingSelection"
+    >
+      email__marker_label
+    </div>
+    <div
+      className="css-1its8i2-EmailBodySettingSelection"
+    >
+      <div
+        className="css-pv4v64-EmailBodySettingSelection"
+      />
+      <div
+        className="css-186suwl-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        title="disabled"
+      />
+    </div>
+  </div>
+</div>
+`;

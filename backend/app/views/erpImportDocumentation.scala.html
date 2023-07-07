@@ -1,0 +1,86 @@
+@(tables: Seq[views.ErpImportDocumentationViewModel.Table])
+
+<html lang="de">
+    <head>
+        <title>Luca - ERP-Import-Dokumentation</title>
+        <meta charset="utf-8">
+        <style>
+                body {
+                    max-width: 1280px;
+                    font-family: sans-serif;
+                    color: #24292e;
+                }
+
+                table {
+                    width: 100%;
+                    table-layout: fixed;
+                    border-collapse: collapse;
+                }
+
+                tr:nth-child(even) {
+                    background-color: #f6f8fa;
+                }
+
+                td, th {
+                    padding: 6px 13px;
+                    border: 1px solid #dfe2e5;
+                }
+
+                td.is-optional {
+                    text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Dokumentation Luca ERP-Import</h1>
+
+        <h2>Allgemeines</h2>
+
+        <h4>Wertebereich</h4>
+        <ul>
+            <li><strong>Geldbetrag:</strong> Es sollte die Excel-Formatierung "Währung" verwendet werden.</li>
+            <li><strong>Prozent:</strong> Es sollte die Excel-Formatierung "Prozent" verwendet werden.</li>
+            <li><strong>Datum:</strong> Es sollte die Excel-Formatierung "Datum" verwendet werden.</li>
+        </ul>
+
+        <h4>Verweis</h4>
+        "Verweis" bezeichnet den Bezug bzw. die Abhängigkeit zu einem Wert aus einer anderen Tabelle.
+        <br>Zum Beispiel:
+        <br>Eine Komponente muss eine Lieferanten-Nr. verwenden, die in der Lieferanten-Tabelle festgelegt ist.
+        Sollten derartige Verweise nicht vorhanden sein, kann das System die Datei nicht einlesen und wird die
+        Datenübernahme ablehnen/abbrechen.
+
+        <h4>Englisch</h4>
+        Wenn das Arbeitsblatt in englischer Sprache ist, müssen die englischen Tabellen-Namen verwendet werden. Ebenso müssen die erlaubten Werte im Wertebereich beachtet werden, damit das Arbeitsblatt eingelesen werden kann. Andere Werte werden nicht unterstützt.
+
+        <h2>Tabellen</h2>
+
+        @for(table <- tables) {
+            <h3>@table.title</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Spaltenname</th>
+                        <th>Wertebereich</th>
+                        <th>Optional</th>
+                        <th>Verweis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @for(row <- table.rows) {
+                    <tr>
+                        <td>@row.columnName</td>
+                        <td>@row.allowedValues</td>
+                        <td class="is-optional">
+                        @if(row.isOptional) {
+                            ✓
+                        }
+                        </td>
+                        <td>@row.foreignKey</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        }
+    </body>
+</html>

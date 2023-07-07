@@ -1,0 +1,7 @@
+#import "../../fragments/survey-invitation-fragment.graphql"
+
+mutation CreateSurveyInvitationsMutation($creations: [SurveyInvitationCreation!]!) {
+  createSurveyInvitations(creations: $creations) {
+    ...SurveyInvitationFragment
+  }
+}

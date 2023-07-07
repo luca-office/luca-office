@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-placeholder renders correctly (custom labels) 1`] = `
+<div
+  className="css-11aq1m3-DesktopBackgroundOverlay"
+>
+  <div
+    className="css-osi2yd-DesktopBackgroundOverlay"
+  >
+    <div
+      className="css-aprqqj-RatingPlaceholder"
+    >
+      <div
+        className="css-1er72yy-Heading"
+      >
+        custom_title
+      </div>
+      <div
+        className="css-fmthw-Text"
+      >
+        custom_description
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-6ndbya-DesktopBackground"
+  >
+    <div
+      className="background-logo css-1xk0bda-DesktopBackground"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`rating-placeholder renders correctly 1`] = `
+<div
+  className="css-11aq1m3-DesktopBackgroundOverlay"
+>
+  <div
+    className="css-osi2yd-DesktopBackgroundOverlay"
+  >
+    <div
+      className="css-aprqqj-RatingPlaceholder"
+    >
+      <div
+        className="css-1er72yy-Heading"
+      >
+        rating__rating__placeholder_headline
+      </div>
+      <div
+        className="css-fmthw-Text"
+      >
+        rating__rating__placeholder_text
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-6ndbya-DesktopBackground"
+  >
+    <div
+      className="background-logo css-1xk0bda-DesktopBackground"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

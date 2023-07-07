@@ -1,0 +1,3 @@
+import {ParticipantProjectModuleProgressFragment} from "../graphql/generated/ParticipantProjectModuleProgressFragment"
+
+export type ParticipantProjectModuleProgress = ParticipantProjectModuleProgressFragment

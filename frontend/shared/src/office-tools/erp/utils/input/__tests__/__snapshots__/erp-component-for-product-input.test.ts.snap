@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`erp-component-for-product-input componentId renders correctly if disabled 1`] = `
+<div
+  className="css-18fst3t"
+>
+  <div
+    className="css-1ezojgn"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-oqraj9"
+    >
+      <input
+        autoComplete="off"
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1wfdxtz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        clipboard__copy
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="results-list css-110siln"
+    style={
+      {
+        "left": "0",
+        "position": "fixed",
+        "top": "0",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`erp-component-for-product-input componentId renders correctly if enabled 1`] = `
+<div
+  className="css-18fst3t"
+>
+  <div
+    className="css-1ezojgn"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-oqraj9"
+    >
+      <input
+        autoComplete="off"
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1wfdxtz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        clipboard__copy
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="results-list css-110siln"
+    style={
+      {
+        "left": "0",
+        "position": "fixed",
+        "top": "0",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`erp-component-for-product-input productId renders correctly if disabled 1`] = `
+<div
+  className="css-18fst3t"
+>
+  <div
+    className="css-1ezojgn"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-oqraj9"
+    >
+      <input
+        autoComplete="off"
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1wfdxtz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        clipboard__copy
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="results-list css-110siln"
+    style={
+      {
+        "left": "0",
+        "position": "fixed",
+        "top": "0",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`erp-component-for-product-input productId renders correctly if enabled 1`] = `
+<div
+  className="css-18fst3t"
+>
+  <div
+    className="css-1ezojgn"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-oqraj9"
+    >
+      <input
+        autoComplete="off"
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1wfdxtz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        clipboard__copy
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="results-list css-110siln"
+    style={
+      {
+        "left": "0",
+        "position": "fixed",
+        "top": "0",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`erp-component-for-product-input quantity renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-kmtvxc"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-component-for-product-input quantity renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-kmtvxc"
+      defaultValue=""
+      disabled={false}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-component-for-product-input sampleCompanyId renders correctly if disabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`erp-component-for-product-input sampleCompanyId renders correctly if enabled 1`] = `
+<div
+  className="css-17as3x0"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-1f5p64r"
+  >
+    <input
+      className="css-10yzrqy"
+      defaultValue=""
+      disabled={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Customizable-Icons/paper/empty" stroke="currentColor">
+            <path d="M13.5,15.5 L2.5,15.5 L2.5,0.5 L9.5,0.5 L13.5,4.5 L13.5,15.5 Z M13.5,4.5 L9.5,4.5 L9.5,0.5" id="paper/empty"></path>
+        </g>
+    </g>
+</svg>

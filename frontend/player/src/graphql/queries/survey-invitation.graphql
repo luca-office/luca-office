@@ -1,0 +1,6 @@
+#import "../fragments/survey-invitation-fragment.graphql"
+query SurveyInvitationQuery($token: String!) {
+  surveyInvitation(token: $token) {
+    ...SurveyInvitationFragment
+  }
+}

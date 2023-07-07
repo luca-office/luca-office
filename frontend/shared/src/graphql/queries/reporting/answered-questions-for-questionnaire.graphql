@@ -1,0 +1,3 @@
+query AnsweredQuestionsForQuestionnaireQuery($questionnaireId: String!, $surveyInvitationId: String!) {
+    answeredQuestionsForQuestionnaire(questionnaireId: $questionnaireId, surveyInvitationId: $surveyInvitationId)
+}

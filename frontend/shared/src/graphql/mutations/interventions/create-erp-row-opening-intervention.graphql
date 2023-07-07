@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation CreateErpRowOpeningInterventionMutation($creation: ErpRowOpeningInterventionCreation!) {
+  createErpRowOpeningIntervention(creation: $creation) {
+    ...InterventionFragment
+  }
+}

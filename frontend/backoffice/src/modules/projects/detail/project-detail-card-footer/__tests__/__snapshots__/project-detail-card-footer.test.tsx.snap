@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`project-detail-card-footer renders correctly 1`] = `
+<div
+  className="card-footer css-usdygy-CardFooter"
+>
+  <div
+    className="css-1839z0z-CardFooterItem"
+    title="detail_card__title_createdAt"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1de4iva-Text"
+    >
+      17.02.2021
+    </div>
+  </div>
+  <div
+    className="css-nsmsx2-CardFooterItem"
+    title="detail_card__title_author"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1de4iva-Text"
+    >
+      John Doe
+    </div>
+  </div>
+  <div
+    className="editing-status-indicator css-100w2zm-EditingStatusIndicator"
+  >
+    <div
+      className="css-1cf2mrx-Text"
+    >
+      detail_card__label_status
+      :
+    </div>
+    <div
+      className="css-fmthw-Text"
+    >
+      subheader__filter_by_done
+    </div>
+  </div>
+</div>
+`;

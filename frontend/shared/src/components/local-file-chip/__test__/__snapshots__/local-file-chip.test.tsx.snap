@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`local-file-chip renders correctly 1`] = `
+<div>
+  <div
+    className="css-jsv5r9-Paper"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-gbgvbl-Text"
+    >
+      test
+    </div>
+    <div
+      className="css-12vbzj8-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+      onClick={[MockFunction]}
+    />
+  </div>
+</div>
+`;

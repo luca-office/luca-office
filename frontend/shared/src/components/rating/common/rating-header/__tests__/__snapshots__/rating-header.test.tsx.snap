@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-header renders correctly 1`] = `
+<div
+  className="css-ul982y-DetailViewHeader"
+>
+  <button
+    className="css-rmd9d0-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-u7npei-DetailViewHeader"
+      >
+        unit__days_plural
+      </div>
+    </div>
+  </button>
+  <div
+    className="css-tqo6e0-DetailViewHeader"
+  >
+    rating__rating__header_label
+  </div>
+  <div
+    className="css-19qjkf7"
+    data-testid="custom-select"
+  >
+    <div
+      className="css-0"
+    />
+    <div
+      className="css-1vqpb7c"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="custom-select"
+      >
+        MockedSelect
+      </div>
+    </div>
+  </div>
+</div>
+`;

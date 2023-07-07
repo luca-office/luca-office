@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-content renders correctly 1`] = `
+<div
+  className="css-1ekprlh-EmailContent"
+>
+  <div
+    className="email-content-header css-itvgw6-EmailContent"
+  >
+    <div>
+      Header
+    </div>
+  </div>
+  <div
+    className="email-content-content css-mbbbqc-EmailContent"
+  >
+    <div>
+      Content
+    </div>
+  </div>
+</div>
+`;

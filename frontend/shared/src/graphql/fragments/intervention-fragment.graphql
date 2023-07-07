@@ -1,0 +1,81 @@
+fragment InterventionFragment on Intervention {
+  id
+  title
+  interventionType
+  scenarioId
+  interventionEmailId
+  interventionEmail {
+    id
+    sender
+    ccRecipients
+    isInitiallyRead
+    relevance
+    message
+    subject
+    directory
+    createdAt
+    modifiedAt
+    scenarioId
+    recipient
+    receptionDelayInSeconds
+  }
+  ... on FileOpeningIntervention {
+    timeOffsetInSeconds
+    fileId
+    file {
+      name
+    }
+  }
+  ... on EmailOpeningIntervention {
+    timeOffsetInSeconds
+    emailId
+    email {
+      sender
+      subject
+      directory
+      receptionDelayInSeconds
+    }
+  }
+  ... on NotesContentIntervention {
+    timeOffsetInSeconds
+    value
+  }
+  ... on SpreadsheetCellContentIntervention {
+    isNegated
+    value
+    spreadsheetRowIndex
+    spreadsheetId
+    spreadsheetColumnIndex
+    timeOffsetInSeconds
+    fileId
+    file {
+      name
+    }
+  }
+  ... on RuntimeSurveyAnswerSelectionIntervention {
+    answerId
+    isNegated
+    answer {
+      id
+      text
+      questionId
+      position
+      isCorrect
+    }
+  }
+  ... on ErpRowOpeningIntervention {
+    timeOffsetInSeconds
+    erpTableType
+    erpRowId
+    sampleCompanyId
+  }
+  ... on TextDocumentContentIntervention {
+    timeOffsetInSeconds
+    value
+    textDocumentId
+    file {
+      name
+      id
+    }
+  }
+}

@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation CreateEmailOpeningInterventionMutation($creation: EmailOpeningInterventionCreation!) {
+  createEmailOpeningIntervention(creation: $creation) {
+    ...InterventionFragment
+  }
+}

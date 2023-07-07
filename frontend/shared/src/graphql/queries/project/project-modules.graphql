@@ -1,0 +1,7 @@
+#import "../../fragments/project-module-fragment.graphql"
+
+query ProjectModulesQuery($projectId: String!) {
+  projectModules(projectId: $projectId) {
+    ...ProjectModuleFragment
+  }
+}

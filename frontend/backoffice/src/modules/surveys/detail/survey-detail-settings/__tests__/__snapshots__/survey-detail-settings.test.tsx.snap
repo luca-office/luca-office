@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`survey-detail-settings renders correctly 1`] = `
+<div
+  className="css-njxlss-LabelledCard"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    projects__survey_details_settings_label
+  </div>
+  <div
+    className="css-lblbfe-Card"
+  >
+    <div
+      className="card-content css-1vyr92j-CardContent"
+    >
+      <div
+        className="css-1mnv1ci-SurveyDetailSettings"
+      >
+        <div
+          className="css-1ulrwv1-InformationEntry"
+        >
+          <div
+            className="css-7wq07p-InformationEntry"
+          >
+            <div
+              className="css-uoep3g-InformationEntry"
+            >
+              projects__surveys_details_participation_label
+            </div>
+          </div>
+          <div
+            className="css-plf496-InformationEntry"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__survey_overlay_closed_participation
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ulrwv1-InformationEntry"
+        >
+          <div
+            className="css-7wq07p-InformationEntry"
+          >
+            <div
+              className="css-uoep3g-InformationEntry"
+            >
+              projects__surveys_progress_section_label
+            </div>
+          </div>
+          <div
+            className="css-plf496-InformationEntry"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__surveys_details_progress_automatic
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="css-12cowym-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          edit_button
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`survey-detail-settings renders correctly not editable 1`] = `
+<div
+  className="css-njxlss-LabelledCard"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    projects__survey_details_settings_label
+  </div>
+  <div
+    className="css-lblbfe-Card"
+  >
+    <div
+      className="card-content css-1vyr92j-CardContent"
+    >
+      <div
+        className="css-1mnv1ci-SurveyDetailSettings"
+      >
+        <div
+          className="css-1ulrwv1-InformationEntry"
+        >
+          <div
+            className="css-7wq07p-InformationEntry"
+          >
+            <div
+              className="css-uoep3g-InformationEntry"
+            >
+              projects__surveys_details_participation_label
+            </div>
+          </div>
+          <div
+            className="css-plf496-InformationEntry"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__survey_overlay_closed_participation
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ulrwv1-InformationEntry"
+        >
+          <div
+            className="css-7wq07p-InformationEntry"
+          >
+            <div
+              className="css-uoep3g-InformationEntry"
+            >
+              projects__surveys_progress_section_label
+            </div>
+          </div>
+          <div
+            className="css-plf496-InformationEntry"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__surveys_details_progress_automatic
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="css-12cowym-Button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          edit_button
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

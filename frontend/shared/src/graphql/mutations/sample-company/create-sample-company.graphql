@@ -1,0 +1,7 @@
+#import "../../fragments/sample-company-fragment.graphql"
+
+mutation CreateSampleCompanyMutation($creation: SampleCompanyCreation!) {
+  createSampleCompany(creation: $creation) {
+    ...SampleCompanyFragment
+  }
+}

@@ -1,0 +1,8 @@
+#import "../../fragments/user-account-fragment.graphql"
+
+mutation CreateUserAccountMutation($creation: UserAccountCreation!) {
+  createUserAccount(creation: $creation) {
+    ...UserAccountFragment
+    needsToConfirmBackofficeTermsAndConditions
+  }
+}

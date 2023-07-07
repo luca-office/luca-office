@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-component-erp-product.graphql"
+
+mutation DeleteErpComponentErpProductMutation($id: Int!, $sampleCompanyId: String!) {
+  deleteErpComponentErpProduct(id: $id, sampleCompanyId: $sampleCompanyId) {
+    ...ErpComponentErpProductFragment
+  }
+}

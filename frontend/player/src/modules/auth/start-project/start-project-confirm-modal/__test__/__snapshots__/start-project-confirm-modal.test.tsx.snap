@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Start-Project-Confirm-Modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-uexrgo-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          project__start_dialog_title
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div
+          className="css-fmthw-Text"
+        >
+          project__start_dialog_text_confirm_modal
+        </div>
+        <div
+          className="css-2gm1mh-StartProjectConfirmModal"
+        >
+          <div
+            className="css-8050ac-Heading"
+          >
+            project__start_dialog_text_confirm_modal_code
+          </div>
+          <div
+            className="css-171ncof-Text"
+          >
+            sdfdss
+          </div>
+        </div>
+        <div
+          className="css-1p9qd62-Text"
+        >
+          project__start_dialog_text_2
+        </div>
+      </section>
+      <footer
+        className="css-ukdqb3-Modal"
+      >
+        <button
+          className="cancel-button css-a1i4d5-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            back_button
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            project__start_confirm
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

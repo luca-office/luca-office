@@ -1,0 +1,865 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`taskbar renders correctly (hidden + disabled) 1`] = `
+<div
+  className="css-h6po0v-Taskbar"
+>
+  <div
+    className="css-4wh3wn-Taskbar"
+  >
+    <div
+      className="css-ya7t0w-Taskbar"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        calculator__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        reference_book__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        files_and_directories__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        erp__title_full
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        notes__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-svdogc-Taskbar"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-19yjix3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        chat__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`taskbar renders correctly 1`] = `
+<div
+  className="css-1tb5bp0-Taskbar"
+>
+  <div
+    className="css-4wh3wn-Taskbar"
+  >
+    <div
+      className="css-ya7t0w-Taskbar"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        calculator__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        reference_book__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        files_and_directories__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        erp__title_full
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        notes__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-svdogc-Taskbar"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        chat__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`taskbar renders correctly with opened tools and focussed tool 1`] = `
+<div
+  className="css-1tb5bp0-Taskbar"
+>
+  <div
+    className="css-4wh3wn-Taskbar"
+  >
+    <div
+      className="css-ya7t0w-Taskbar"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-11o5b8z-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        viewer_tools__pdf_type_label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-svdogc-Taskbar"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-11o5b8z-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        email__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-l3lse3-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-11o5b8z-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        calculator__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        reference_book__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        files_and_directories__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        erp__title_full
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        notes__label
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-svdogc-Taskbar"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-1vb7f4s-Taskbar"
+        >
+          <div
+            className="css-vt19fa-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-6v1g7u-Taskbar"
+          />
+        </div>
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        chat__title
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`subheader-tab renders correctly 1`] = `
+<div
+  className="subheader-tab css-i2fovx-SubheaderTab"
+  data-scroll="subheader-tab_123-234-2343"
+  data-testid="subheader-tab"
+  onClick={[Function]}
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    Dog 1
+  </div>
+  <div
+    className="css-udnlkt-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`subheader-tab renders correctly selected 1`] = `
+<div
+  className="subheader-tab css-1ui3dvx-SubheaderTab"
+  data-scroll="subheader-tab_123-234-2343"
+  data-testid="subheader-tab"
+  onClick={[Function]}
+>
+  <div
+    className="css-1sbf56p-Text"
+  >
+    Dog 1
+  </div>
+  <div
+    className="css-udnlkt-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+    onClick={[Function]}
+  />
+</div>
+`;

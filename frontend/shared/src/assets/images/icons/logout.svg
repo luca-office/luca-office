@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g stroke="currentColor">
+            <path d="M8.5,4.5 L8.5,4 C8.5,3.172 7.829,2.5 7,2.5 L4,2.5 C3.172,2.5 2.5,3.172 2.5,4 L2.5,12 C2.5,12.828 3.172,13.5 4,13.5 L7,13.5 C7.829,13.5 8.5,12.828 8.5,12 L8.5,11.5 M11,10.5 L13.5,8 M11,5.5 L13.5,8 M5.5,8 L13.5,8" id="Stroke-8"></path>
+        </g>
+    </g>
+</svg>

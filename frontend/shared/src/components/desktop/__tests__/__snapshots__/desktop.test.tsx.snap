@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`desktop renders correctly 1`] = `
+<div
+  className="css-qcizb2-Desktop"
+>
+  <div
+    className="css-ln0yrk-Desktop"
+  >
+    <div
+      className="css-1fm4cyn-AppHeader"
+    >
+      <div
+        className="app-title css-5p7lab-AppHeader"
+      >
+        <div
+          className="css-1fxkx3u-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-yl0smr-Heading"
+        >
+          header__app_title
+        </div>
+      </div>
+      <div
+        className="css-1vepu24-AppHeader"
+      >
+        <span
+          className="css-1kymlcf-AppHeader"
+        >
+          Scenario 1
+        </span>
+      </div>
+      <div
+        className="css-avzpqv-ProgressTimeClock"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1xtqo1u-Tooltip"
+          id="tooltip_42"
+        >
+          <div
+            className="css-1x45ysw-ProgressTimeClock"
+          >
+            <div
+              className="css-fmthw-Text"
+            >
+              03.08.2020 - 15:00
+            </div>
+            <div
+              className="css-kgdmdb-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-3b4e4l-DesktopBackground"
+  >
+    <div
+      className="background-logo css-1xk0bda-DesktopBackground"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-pm53zy-Desktop"
+    >
+      <div
+        className="desktop-content css-g0l96j-Desktop"
+        onCopy={[Function]}
+        onPaste={[Function]}
+      />
+      <div
+        className="css-1e9fme8-Desktop"
+      >
+        <div>
+          Taskbar
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

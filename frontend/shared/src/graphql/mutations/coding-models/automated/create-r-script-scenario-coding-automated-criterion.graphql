@@ -1,0 +1,13 @@
+mutation CreateRScriptScenarioCodingAutomatedCriterionMutation(
+  $creation: RScriptScenarioCodingAutomatedCriterionCreation!
+) {
+  createRScriptScenarioCodingAutomatedCriterion(creation: $creation) {
+    id
+    score
+    itemId
+
+    ... on RScriptScenarioCodingAutomatedCriterion {
+      rScriptId
+    }
+  }
+}

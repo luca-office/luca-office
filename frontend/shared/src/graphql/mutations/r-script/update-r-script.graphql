@@ -1,0 +1,7 @@
+#import "../../fragments/r-script-fragment.graphql"
+
+mutation UpdateRScriptMutation($id: String!, $update: RScriptUpdate!) {
+  updateRScript(id: $id, update: $update) {
+    ...RScriptFragment
+  }
+}

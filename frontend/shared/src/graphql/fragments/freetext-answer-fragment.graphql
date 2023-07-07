@@ -1,0 +1,6 @@
+fragment FreetextAnswerFragment on FreetextAnswer {
+  surveyInvitationId
+  questionnaireId
+  questionId
+  text
+}

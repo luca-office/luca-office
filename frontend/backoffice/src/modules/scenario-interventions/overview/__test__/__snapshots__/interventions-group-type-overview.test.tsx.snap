@@ -1,0 +1,303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`intervention-group-type-overview renders correctly 1`] = `
+<div
+  className="css-1cvoo0q-InterventionsGroupTypeOverview"
+>
+  <div
+    className="css-ul982y-DetailViewHeader"
+  >
+    <button
+      className="css-rmd9d0-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-u7npei-DetailViewHeader"
+        >
+          scenario_title
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      interventions__detail_view_header_label
+    </div>
+  </div>
+  <div
+    className="css-1574745-InterventionsGroupTypeOverview"
+  >
+    <div
+      className="css-ehfqxk-Card"
+    >
+      <div
+        className="card-header css-7banf6-CardHeader"
+      >
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+        <div
+          className="css-1384231-HeaderCarousel"
+        >
+          <div
+            className="css-1pu5vxx-HeaderCarousel"
+          >
+            <div
+              className="css-19hz0o-HeaderCarousel"
+            >
+              interventions__detail_view_table_of_contents_title_all   
+            </div>
+          </div>
+          <div
+            className="css-1x4jsxc-HeaderCarousel"
+          >
+            <div
+              className="css-e1y9ue-HeaderCarousel"
+              data-testid="header-element"
+            />
+            <div
+              className="css-e18hx3-HeaderCarousel"
+              data-testid="header-element"
+            />
+            <div
+              className="css-e18hx3-HeaderCarousel"
+              data-testid="header-element"
+            />
+            <div
+              className="css-e18hx3-HeaderCarousel"
+              data-testid="header-element"
+            />
+            <div
+              className="css-e18hx3-HeaderCarousel"
+              data-testid="header-element"
+            />
+            <div
+              className="css-e18hx3-HeaderCarousel"
+              data-testid="header-element"
+            />
+          </div>
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="toc-body css-su8wgs-TableOfContentsContainer"
+      >
+        <div
+          className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+        >
+          <div
+            className="css-18xeog2-TableOfContentsContainer"
+          >
+            <div
+              className="toc-entry css-12opz0x-TableOfContentsEntry"
+            >
+              <div
+                className="css-1ldtu9f-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+              <div
+                className="custom-intervention-node css-19qdsl6-TableOfContentsEntry"
+                data-testid="custom-intervention-node"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1ri7o71-TableOfContentsEntry"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    test-file2.png
+                  </div>
+                </div>
+                <div
+                  className="css-17zbm7y-Text"
+                >
+                  (2)
+                </div>
+              </div>
+            </div>
+            <div
+              className="toc-entry css-12opz0x-TableOfContentsEntry"
+            >
+              <div
+                className="css-1ldtu9f-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+              <div
+                className="custom-intervention-node css-19qdsl6-TableOfContentsEntry"
+                data-testid="custom-intervention-node"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1ri7o71-TableOfContentsEntry"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    test-file.png
+                  </div>
+                </div>
+                <div
+                  className="css-17zbm7y-Text"
+                >
+                  (1)
+                </div>
+              </div>
+            </div>
+            <div
+              className="toc-entry css-12opz0x-TableOfContentsEntry"
+            >
+              <div
+                className="css-1ldtu9f-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+              <div
+                className="custom-intervention-node css-19qdsl6-TableOfContentsEntry"
+                data-testid="custom-intervention-node"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1ri7o71-TableOfContentsEntry"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    interventions__detail_view_table_of_contents_title_notes
+                  </div>
+                </div>
+                <div
+                  className="css-17zbm7y-Text"
+                >
+                  (0)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-105jaxv-CardFooter"
+      />
+    </div>
+    <div
+      className="css-63bajj-Card"
+    >
+      <div
+        className="card-header css-7banf6-CardHeader"
+      >
+        <div
+          className="css-xyvvji-InterventionGroupEntityDetailView"
+        >
+          <div
+            className="css-w0t9or-InterventionGroupEntityDetailView"
+          >
+            <div
+              className="css-1lrzij5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-1f6p2vj-Heading"
+            >
+              interventions__group_type_header
+            </div>
+          </div>
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            interventions__detail_view_overview_empty_placeholder
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-content css-lim2k4-CardContent"
+      >
+        <div
+          className="css-1ftlr11-InterventionGroupEntityDetailView"
+        >
+          <div>
+            <div
+              className="css-1ivxsp2-Text"
+            >
+              interventions__detail_view_overview_empty_placeholder
+            </div>
+            <div
+              className="css-11cekfo-Text"
+            >
+              interventions__detail_view_overview_no_position_or_intervention_placeholder
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

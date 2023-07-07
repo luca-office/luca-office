@@ -1,0 +1,7 @@
+#import "../../fragments/reporting/survey-results-overview-fragment.graphql"
+
+query SurveyResultsOverviewQuery($surveyId: String!) {
+  surveyResultsOverview(surveyId: $surveyId) {
+    ...SurveyResultsOverviewFragment
+  }
+}

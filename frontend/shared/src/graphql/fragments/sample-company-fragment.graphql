@@ -1,0 +1,30 @@
+#import "./user-account-fragment.graphql"
+#import "./file-fragment.graphql"
+
+fragment SampleCompanyFragment on SampleCompany {
+  id
+  createdAt
+  modifiedAt
+  authorId
+  name
+  description
+  tags
+  emailSignature
+  profileFileId
+  logoFileId
+  publishedAt
+  domain
+  archivedAt
+  author {
+    ...UserAccountFragment
+  }
+  directoryId
+  filesCount
+  erpRowsCount
+  logoFile {
+    ...FileFragment
+  }
+  profileFile {
+    ...FileFragment
+  }
+}

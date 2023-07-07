@@ -1,0 +1,14 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpOrderItemFragment on ErpOrderItem {
+  id
+  quantity
+  sampleCompanyId
+  orderId
+  productId
+  totalNetInCents
+  binaryFileId
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

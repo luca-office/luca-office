@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`binary-form-placeholder renders correctly 1`] = `
+<div
+  className="binary-form-placeholder css-1to7z58-BinaryFormPlaceholder"
+>
+  <div
+    className="logo-placeholder css-zx0h6w-BinaryFormPlaceholder"
+  >
+    <div
+      className="css-6zekzl-BinaryFormPlaceholder"
+    >
+      placeholder
+    </div>
+    <div
+      className="css-qzbxc4-Heading"
+      onClick={[MockFunction]}
+    >
+      test create text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`binary-form-placeholder renders correctly readonly 1`] = `
+<div
+  className="binary-form-placeholder css-1to7z58-BinaryFormPlaceholder"
+>
+  <div
+    className="logo-placeholder css-1vx08yx-BinaryFormPlaceholder"
+  >
+    <div
+      className="css-6zekzl-BinaryFormPlaceholder"
+    >
+      placeholder
+    </div>
+  </div>
+</div>
+`;

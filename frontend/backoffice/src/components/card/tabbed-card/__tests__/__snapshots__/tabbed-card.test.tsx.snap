@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabable-card renders correctly 1`] = `
+<div
+  className="css-63bajj-Card"
+>
+  <div
+    className="card-header css-y8kuyc-CardHeader"
+  >
+    <div
+      className="css-1fcutbn-TabbedCard"
+    >
+      <div
+        className="card-tab css-dqywdv-Text"
+        onClick={[Function]}
+      >
+        Testing active
+      </div>
+      <div
+        className="card-tab css-182t43y-Text"
+        onClick={[Function]}
+      >
+        Testing
+      </div>
+      <div
+        className="card-tab css-182t43y-Text"
+        onClick={[Function]}
+      >
+        Testing
+      </div>
+    </div>
+    <div
+      className="tab-header"
+    >
+      sample 
+      0
+    </div>
+  </div>
+  <div
+    className="card-content css-1vyr92j-CardContent"
+  >
+    <div
+      className="card-tab-content css-o4mi6l-TabbedCard"
+    >
+      <div
+        className="tab-content css-fmthw-Text"
+      >
+        id: 
+        1
+        <br />
+        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.
+      </div>
+    </div>
+    <div
+      className="card-tab-content css-16oetws-TabbedCard"
+    >
+      <div
+        className="tab-content css-fmthw-Text"
+      >
+        id: 
+        2
+        <br />
+        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.
+      </div>
+    </div>
+    <div
+      className="card-tab-content css-16oetws-TabbedCard"
+    >
+      <div
+        className="tab-content css-fmthw-Text"
+      >
+        id: 
+        3
+        <br />
+        Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  >
+    <div
+      className="tab-footer"
+    >
+      sample 
+      0
+    </div>
+  </div>
+</div>
+`;

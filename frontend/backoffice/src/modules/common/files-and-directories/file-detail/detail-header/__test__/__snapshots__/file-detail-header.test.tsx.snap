@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fileDetailHeader renders correctly 1`] = `
+<div
+  className="card-header css-13nbzsf-CardHeader"
+>
+  <div
+    className="css-17beenm-DetailHeader"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1i6jmor-Heading"
+    >
+      file.png
+    </div>
+  </div>
+  <div
+    className="css-ntx7po-DetailHeader"
+  >
+    <div
+      className="css-0"
+    >
+      <button
+        className="css-hnekdl-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

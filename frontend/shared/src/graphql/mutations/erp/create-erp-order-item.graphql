@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-order-item.graphql"
+
+mutation CreateErpOrderItemMutation($creation: ErpOrderItemCreation!) {
+  createErpOrderItem(creation: $creation) {
+    ...ErpOrderItemFragment
+  }
+}

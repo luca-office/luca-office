@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-fragment.graphql"
+
+mutation DuplicateQuestionnaireMutation($id: String!) {
+  duplicateQuestionnaire(id: $id) {
+    ...QuestionnaireFragment
+  }
+}

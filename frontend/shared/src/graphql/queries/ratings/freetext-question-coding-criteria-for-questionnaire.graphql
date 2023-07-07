@@ -1,0 +1,7 @@
+#import "../../fragments/freetext-question-coding-criterion-fragment.graphql"
+
+query FreetextQuestionCodingCriteriaForQuestionnaireQuery($questionnaireId: String!) {
+  freetextQuestionCodingCriteriaForQuestionnaire(questionnaireId: $questionnaireId) {
+    ...FreetextQuestionCodingCriterionFragment
+  }
+}

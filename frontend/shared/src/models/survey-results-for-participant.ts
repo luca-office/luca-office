@@ -1,0 +1,21 @@
+import {
+  QuestionnaireSurveyResultsForParticipantQuery_questionnaireSurveyResultsForParticipant,
+  QuestionnaireSurveyResultsForParticipantQuery_questionnaireSurveyResultsForParticipant_questionResults
+} from "../graphql/generated/QuestionnaireSurveyResultsForParticipantQuery"
+import {
+  ScenarioSurveyResultsForParticipantQuery_scenarioSurveyResultsForParticipant,
+  ScenarioSurveyResultsForParticipantQuery_scenarioSurveyResultsForParticipant_codingItemResults
+} from "../graphql/generated/ScenarioSurveyResultsForParticipantQuery"
+import {SurveyResultsForParticipantQuery_surveyResultsForParticipant} from "../graphql/generated/SurveyResultsForParticipantQuery"
+
+export type SurveyResultsForParticipant = SurveyResultsForParticipantQuery_surveyResultsForParticipant
+export type CodingItemResult = ScenarioSurveyResultsForParticipantQuery_scenarioSurveyResultsForParticipant_codingItemResults
+
+export type QuestionnaireSurveyResultsForParticipant = QuestionnaireSurveyResultsForParticipantQuery_questionnaireSurveyResultsForParticipant
+export type ScenarioSurveyResultsForParticipant = ScenarioSurveyResultsForParticipantQuery_scenarioSurveyResultsForParticipant
+
+export type QuestionResultsByQuestionId = {[id: string]: QuestionResult}
+export type SurveyResultsByParticipantId = {[id: string]: SurveyResultsForParticipant[]}
+export type CodingItemResultByItemId = {[id: string]: CodingItemResult}
+export type CodingItemResultsByItemId = {[id: string]: CodingItemResult[]}
+export type QuestionResult = QuestionnaireSurveyResultsForParticipantQuery_questionnaireSurveyResultsForParticipant_questionResults

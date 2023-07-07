@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tab-button-bar renders correctly with required props 1`] = `
+<div
+  className="css-1e6k7qd-TabButtonBar"
+>
+  <div
+    className="css-1dz33tb-TabButtonBar"
+  >
+    <div
+      className="css-trp4m8-TabButton"
+      onClick={[MockFunction]}
+    >
+      <div
+        className="css-1cfr0w-TabButton"
+      >
+        <div
+          className="css-193p889-TabButton"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <span
+          className="css-1sd6zoh-TabButton"
+        >
+          Eingang(3)
+        </span>
+      </div>
+      <div
+        className="css-1bveau3-TabButton"
+      />
+    </div>
+    <div
+      className="css-trp4m8-TabButton"
+      onClick={[MockFunction]}
+    >
+      <div
+        className="css-1cfr0w-TabButton"
+      >
+        <div
+          className="css-1dn6qi0-TabButton"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <span
+          className="css-zhened-TabButton"
+        >
+          Ausgang(2)
+        </span>
+      </div>
+      <div
+        className="css-1ch9961-TabButton"
+      />
+    </div>
+    <div
+      className="css-trp4m8-TabButton"
+      onClick={[MockFunction]}
+    >
+      <div
+        className="css-1cfr0w-TabButton"
+      >
+        <div
+          className="css-1dn6qi0-TabButton"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <span
+          className="css-zhened-TabButton"
+        >
+          Entwürfe(1)
+        </span>
+      </div>
+      <div
+        className="css-1ch9961-TabButton"
+      />
+    </div>
+    <div
+      className="css-trp4m8-TabButton"
+      onClick={[MockFunction]}
+    >
+      <div
+        className="css-1cfr0w-TabButton"
+      >
+        <div
+          className="css-1dn6qi0-TabButton"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <span
+          className="css-zhened-TabButton"
+        >
+          Papierkorb(12)
+        </span>
+      </div>
+      <div
+        className="css-1ch9961-TabButton"
+      />
+    </div>
+  </div>
+</div>
+`;

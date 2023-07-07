@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionnaireChatButton renders correctly with default props 1`] = `
+<div
+  className="css-14f9hn6-QuestionnaireChatButton"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-76i6q8-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

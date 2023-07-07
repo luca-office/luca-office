@@ -1,0 +1,3 @@
+mutation DeleteScenarioCodingAutomatedCriterionMutation($id: String!) {
+  deleteScenarioCodingAutomatedCriterion(id: $id)
+}

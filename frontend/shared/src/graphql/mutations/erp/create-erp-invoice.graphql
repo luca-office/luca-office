@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-invoice.graphql"
+
+mutation CreateErpInvoiceMutation($creation: ErpInvoiceCreation!) {
+  createErpInvoice(creation: $creation) {
+    ...ErpInvoiceFragment
+  }
+}

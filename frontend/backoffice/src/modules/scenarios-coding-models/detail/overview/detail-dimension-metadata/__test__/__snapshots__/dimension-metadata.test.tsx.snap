@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dimension-metadata renders correctly 1`] = `
+<div
+  className="css-6yz63o-DimensionMetadata"
+>
+  <div
+    className="css-1v0z0k-ReadonlyActionField"
+    data-testid="readonly-action-field"
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        coding_models__detail_main_dimension_label
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1147qp7-ReadonlyActionField"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          100 coding_models__detail_main_dimension_label
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1v0z0k-ReadonlyActionField"
+    data-testid="readonly-action-field"
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        coding_models__detail_sub_dimension_label
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1147qp7-ReadonlyActionField"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          10 coding_models__detail_sub_dimension_label
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-1v0z0k-ReadonlyActionField"
+    data-testid="readonly-action-field"
+  >
+    <div
+      className="css-1bkess4-ReadonlyActionField"
+    >
+      <div
+        className="css-47wnmy-ReadonlyActionField"
+      >
+        coding_models__detail_items_label
+      </div>
+    </div>
+    <div
+      className="content-wrapper css-b45n67-ReadonlyActionField"
+    >
+      <div
+        className="content css-1147qp7-ReadonlyActionField"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          3 coding_models__detail_items_label
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

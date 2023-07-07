@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`questions-table renders correctly (no questions) 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-1i94808-Heading"
+  >
+    questions
+  </div>
+  <div
+    className="css-0"
+  >
+    <div
+      className="css-giha9y-Table"
+    >
+      <div
+        className="css-1kpl4zp-Table"
+      >
+        <div
+          className="css-fuywjr-Table"
+        >
+          <div
+            className="css-1ahn5qo-RatingOverviewTable"
+          >
+            <div
+              className="css-l0jg45-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-1sbf56p-Text"
+            >
+              question
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-105qn2y-Table"
+        >
+          <div
+            className="css-1sbf56p-Text"
+          >
+            rating_questionnaire_question__question_scoring_label
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-tqgzls-Table"
+      >
+        <div
+          className="table-placeholder css-1v6q0ml-Table"
+        />
+      </div>
+    </div>
+    <div
+      className="card-footer css-jb8qoz-CardFooter"
+    />
+  </div>
+</div>
+`;
+
+exports[`questions-table renders correctly 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="css-1i94808-Heading"
+  >
+    questions
+  </div>
+  <div
+    className="css-0"
+  >
+    <div
+      className="css-giha9y-Table"
+    >
+      <div
+        className="css-1kpl4zp-Table"
+      >
+        <div
+          className="css-fuywjr-Table"
+        >
+          <div
+            className="css-1ahn5qo-RatingOverviewTable"
+          >
+            <div
+              className="css-l0jg45-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-1sbf56p-Text"
+            >
+              question
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-105qn2y-Table"
+        >
+          <div
+            className="css-1sbf56p-Text"
+          >
+            rating_questionnaire_question__question_scoring_label
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-tqgzls-Table"
+      >
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-22vfow-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-fuywjr-Table"
+            >
+              <div
+                className="css-20cfnl-Table"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1sbf56p-Text"
+                >
+                  1. My new question
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-1w7lpcq-Table"
+              >
+                <div
+                  className="css-dvy2ib-Text"
+                >
+                  rating__rating__scoring
+                </div>
+                <div
+                  className="css-1nfczpt-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-22vfow-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-fuywjr-Table"
+            >
+              <div
+                className="css-20cfnl-Table"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1sbf56p-Text"
+                >
+                  2. My new question
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-1w7lpcq-Table"
+              >
+                <div
+                  className="css-dvy2ib-Text"
+                >
+                  rating__rating__scoring
+                </div>
+                <div
+                  className="css-1nfczpt-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-22vfow-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-fuywjr-Table"
+            >
+              <div
+                className="css-20cfnl-Table"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1sbf56p-Text"
+                >
+                  3. My new question
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-1w7lpcq-Table"
+              >
+                <div
+                  className="css-198wifw-Text"
+                >
+                  rating__rating__scoring
+                </div>
+                <div
+                  className="css-1p4ztl7-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-22vfow-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-fuywjr-Table"
+            >
+              <div
+                className="css-20cfnl-Table"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1sbf56p-Text"
+                >
+                  4. My new question
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-1w7lpcq-Table"
+              >
+                <div
+                  className="css-198wifw-Text"
+                >
+                  rating__rating__scoring
+                </div>
+                <div
+                  className="css-1p4ztl7-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1ihrgr1-Table"
+        >
+          <div
+            className="entity-row css-22vfow-Table"
+            onClick={[Function]}
+          >
+            <div
+              className="css-fuywjr-Table"
+            >
+              <div
+                className="css-20cfnl-Table"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1sbf56p-Text"
+                >
+                  5. My new question
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-105qn2y-Table"
+            >
+              <div
+                className="css-1w7lpcq-Table"
+              >
+                <div
+                  className="css-198wifw-Text"
+                >
+                  rating__rating__scoring
+                </div>
+                <div
+                  className="css-1p4ztl7-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-footer css-jb8qoz-CardFooter"
+    />
+  </div>
+</div>
+`;

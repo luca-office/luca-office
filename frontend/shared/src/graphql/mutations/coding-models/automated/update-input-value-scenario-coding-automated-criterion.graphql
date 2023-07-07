@@ -1,0 +1,18 @@
+mutation UpdateInputValueScenarioCodingAutomatedCriterionMutation(
+  $id: String!
+  $update: InputValueScenarioCodingAutomatedCriterionUpdate!
+) {
+  updateInputValueScenarioCodingAutomatedCriterion(id: $id, update: $update) {
+    id
+    score
+    itemId
+
+    ... on InputValueScenarioCodingAutomatedCriterion {
+      officeTool
+      fileId
+      spreadsheetRowIndex
+      spreadsheetColumnIndex
+      value
+    }
+  }
+}

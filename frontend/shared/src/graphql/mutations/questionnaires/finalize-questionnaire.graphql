@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-fragment.graphql"
+
+mutation FinalizeQuestionnaireMutation($id: String!) {
+  finalizeQuestionnaire(id: $id) {
+    ...QuestionnaireFragment
+  }
+}

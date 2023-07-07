@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-order-item-fragment.graphql"
+
+mutation CreateScenarioErpOrderItemMutation($creation: ScenarioErpOrderItemCreation!) {
+  createScenarioErpOrderItem(creation: $creation) {
+    ...ScenarioErpOrderItemFragment
+  }
+}

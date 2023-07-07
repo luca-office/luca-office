@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`edit-user renders correctly 1`] = `
+<div
+  className="edit-user"
+>
+  <div
+    className="css-clwz2e-SubHeader"
+  >
+    <div
+      className="css-1unenyb-SubHeaderDetail"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        navigation__scenarios
+      </div>
+    </div>
+    <div
+      className="css-1n261xd-SubHeaderDetail"
+    >
+      <div
+        className="css-xu8muw-Heading"
+      >
+        <span>
+          navigation__my_account
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-18u0co9-Card"
+  >
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      account__headline
+    </div>
+    <div
+      className="css-pyfimn-Text"
+    >
+      account__hint
+    </div>
+    <div
+      className="css-1imj9oc-EditUser"
+    >
+      <div
+        className="overlay-edit-field css-0"
+      >
+        <div
+          className="css-1v0z0k-ReadonlyActionField"
+          data-testid="readonly-action-field"
+          onClick={[Function]}
+        >
+          <div
+            className="css-1bkess4-ReadonlyActionField"
+          >
+            <div
+              className="css-47wnmy-ReadonlyActionField"
+            >
+              account__field_name
+            </div>
+          </div>
+          <div
+            className="content-wrapper css-b45n67-ReadonlyActionField"
+          >
+            <div
+              className="content css-1hje2zc-ReadonlyActionField"
+            >
+              <span>
+                Doe, John
+              </span>
+            </div>
+            <button
+              className="readonly-action-button css-4nv627-Button"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <div
+                className="css-95j2hm-Button"
+              >
+                edit_button
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1v0z0k-ReadonlyActionField"
+        data-testid="readonly-action-field"
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        >
+          <div
+            className="css-47wnmy-ReadonlyActionField"
+          >
+            account__field_email
+          </div>
+        </div>
+        <div
+          className="content-wrapper css-b45n67-ReadonlyActionField"
+        >
+          <div
+            className="content css-1147qp7-ReadonlyActionField"
+          >
+            <span>
+              test-user@cap3.de
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="overlay-edit-field css-0"
+    >
+      <div
+        className="css-13eo68c-ReadonlyActionField"
+        data-testid="readonly-action-field"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        >
+          <div
+            className="css-47wnmy-ReadonlyActionField"
+          >
+            account__field_salutation
+          </div>
+        </div>
+        <div
+          className="content-wrapper css-b45n67-ReadonlyActionField"
+        >
+          <div
+            className="content css-1hje2zc-ReadonlyActionField"
+          >
+            <span>
+              mr
+            </span>
+          </div>
+          <button
+            className="readonly-action-button css-4nv627-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              edit_button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="overlay-edit-field css-0"
+    >
+      <div
+        className="css-13eo68c-ReadonlyActionField"
+        data-testid="readonly-action-field"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1bkess4-ReadonlyActionField"
+        >
+          <div
+            className="css-47wnmy-ReadonlyActionField"
+          >
+            account__field_organization
+          </div>
+        </div>
+        <div
+          className="content-wrapper css-b45n67-ReadonlyActionField"
+        >
+          <div
+            className="content css-1hje2zc-ReadonlyActionField"
+          >
+            <span>
+              Cap3 GmbH
+            </span>
+          </div>
+          <button
+            className="readonly-action-button css-4nv627-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              edit_button
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1g1ipox-GlobalRightsField"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        user_management__table_header_rights
+      </div>
+    </div>
+    <div
+      className="css-10e8qih-GlobalRightsField"
+    >
+      <div
+        className="css-fkfawp-UserTableClaimsField"
+      >
+        <div
+          className="css-405rwj-UserTableClaimsField"
+        >
+          <div
+            className="css-1p4ztl7-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1e7acge-Text"
+          >
+            user_management__filter_label_management
+          </div>
+        </div>
+        <div
+          className="css-405rwj-UserTableClaimsField"
+        >
+          <div
+            className="css-1p4ztl7-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1e7acge-Text"
+          >
+            user_management__filter_label_archive
+          </div>
+        </div>
+        <div
+          className="css-405rwj-UserTableClaimsField"
+        >
+          <div
+            className="css-1p4ztl7-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1e7acge-Text"
+          >
+            user_management__filter_label_finalize
+          </div>
+        </div>
+        <div
+          className="css-405rwj-UserTableClaimsField"
+        >
+          <div
+            className="css-1p4ztl7-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1e7acge-Text"
+          >
+            user_management__filter_label_r_scripts_short
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scoring-metadata renders correctly 1`] = `
+<div
+  className="css-1974y48-ScoringMetadata"
+>
+  <div>
+    <div
+      className="css-1fkqsgw-Paper"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        reporting_scoring__overlay_metadata_project
+      </div>
+      <div
+        className="css-jj0xg7-ScoringMetadata"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          Project 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="css-1fkqsgw-Paper"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        reporting_scoring__overlay_metadata_survey
+      </div>
+      <div
+        className="css-jj0xg7-ScoringMetadata"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          my test scenario
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="css-1fkqsgw-Paper"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        reporting_scoring__overlay_metadata_project_module
+      </div>
+      <div
+        className="css-o7chy0-ScoringMetadata"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-17zbm7y-Text"
+        >
+          Scenario 1
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

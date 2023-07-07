@@ -1,0 +1,14 @@
+#import "./coding-model-scenario-fragment.graphql"
+
+fragment CodingModelFragment on CodingModel {
+  id
+  createdAt
+  modifiedAt
+  title
+  description
+  scenarioId
+  scenario {
+    ...CodingModelScenarioFragment
+  }
+  dimensionsCount
+}

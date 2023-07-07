@@ -1,0 +1,910 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`erp-navigation renders correctly in readonly mode 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        erp__title
+      </div>
+    </div>
+    <div
+      className="css-t84163-TableOfContentsContainer"
+    />
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                Test Company
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_office
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_application_spanning_components
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_logistics
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_accounting
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_staff
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_info_systems
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_tools
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_web_client_ui_framework
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-1gfqsqp-CardFooter"
+  />
+</div>
+`;
+
+exports[`erp-navigation renders correctly with default props 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        erp__title
+      </div>
+    </div>
+    <div
+      className="css-t84163-TableOfContentsContainer"
+    >
+      <div
+        className="erp-navigation-checkbox css-j81lzu-ErpNavigation"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          erp__navigation_hide_placeholders
+        </div>
+        <div
+          className="css-12kot9v-Checkbox"
+        >
+          <div
+            className="css-1k20ryc-Checkbox"
+          >
+            <div
+              className="css-kb4bik-Checkbox"
+            >
+              <input
+                checked={false}
+                className="css-1gxpz9h-Checkbox"
+                disabled={false}
+                onChange={[Function]}
+                readOnly={false}
+                role="checkbox"
+                type="checkbox"
+              />
+              <div
+                className="css-xgozj0-Checkbox"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                Test Company
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_office
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_application_spanning_components
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_logistics
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_accounting
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_staff
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_info_systems
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_tools
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="css-1ympzk2-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-ya6sn-TableOfContentsEntry"
+            >
+              <div
+                className="css-1lrzij5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-1uyodls-Text"
+              >
+                erp__navigation_label_web_client_ui_framework
+              </div>
+            </div>
+            <div
+              className="css-1p4ztl7-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-1gfqsqp-CardFooter"
+  >
+    <div
+      className="css-3lsagf-ErpNavigation"
+    >
+      <div
+        className="css-1koh34k-NavFooterButton"
+      >
+        <div
+          className="css-4vcym2-NavFooterButton"
+          onClick={[Function]}
+        >
+          <div
+            className="css-18owz2d-NavFooterButton"
+          >
+            <div
+              className="css-1pfqrtn-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+          <div
+            className="css-17zbm7y-Text"
+          >
+            erp__navigation_import_excel_file
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-0"
+      >
+        <div
+          className="css-4vcym2-NavFooterButton"
+          onClick={[Function]}
+        >
+          <div
+            className="css-18owz2d-NavFooterButton"
+          >
+            <div
+              className="css-1pfqrtn-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+          <div
+            className="css-17zbm7y-Text"
+          >
+            erp__navigation_export_excel_file
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

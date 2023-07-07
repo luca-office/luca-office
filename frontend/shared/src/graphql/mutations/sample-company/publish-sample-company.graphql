@@ -1,0 +1,7 @@
+#import "../../fragments/sample-company-fragment.graphql"
+
+mutation PublishSampleCompanyMutation($id: String!) {
+  publishSampleCompany(id: $id) {
+    ...SampleCompanyFragment
+  }
+}

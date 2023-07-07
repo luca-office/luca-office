@@ -1,0 +1,5 @@
+#import "../../fragments/rating-fragment.graphql"
+
+mutation DeleteRatingMutation($id: String!) {
+  deleteRating(id: $id)
+}

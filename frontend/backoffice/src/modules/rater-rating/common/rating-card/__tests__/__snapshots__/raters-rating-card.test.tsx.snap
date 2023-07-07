@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`raters-rating-card renders correctly (completed) 1`] = `
+<div
+  className="css-k90k9v-Card"
+>
+  <div
+    className="card-header css-t2sgx-CardHeader"
+  >
+    <div
+      className="css-1sbf56p-Text"
+    >
+      my test scenario
+    </div>
+    <div
+      className="css-17zbm7y-Text"
+    >
+      rater_rating__status_rating_completed
+    </div>
+  </div>
+  <div
+    className="card-content css-mmcfsy-CardContent"
+  >
+    <div
+      className="css-yzker2-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        description
+      </div>
+    </div>
+    <div
+      className="css-7xaisz-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        rater_rating__info_box_title:
+      </div>
+      <div
+        className="css-1npum18-RatersRatingCardContent"
+      >
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_dashboard_participants
+          </div>
+        </div>
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_progress_automatic
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <div
+      className="card-footer css-1afjeap-CardFooter"
+    >
+      <div
+        className="css-haffc0-RatersRatingCardFooter"
+      >
+        <div
+          className="css-gb1brp-ProgressBarColumn"
+        >
+          <div
+            className="css-kr258m-ProgressBarColumn"
+          >
+            <div
+              className="progress-element css-vaohed-ProgressBarColumn"
+            />
+          </div>
+        </div>
+        <div
+          className="css-haffc0-RatersRatingCardFooter"
+        >
+          <div
+            className="css-qcf7xd-Text"
+          >
+            percentage
+          </div>
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card renders correctly (rating in progress) 1`] = `
+<div
+  className="css-k90k9v-Card"
+>
+  <div
+    className="card-header css-t2sgx-CardHeader"
+  >
+    <div
+      className="css-1sbf56p-Text"
+    >
+      my test scenario
+    </div>
+    <div
+      className="css-17zbm7y-Text"
+    >
+      rater_rating__status_rating_in_progress
+    </div>
+  </div>
+  <div
+    className="card-content css-mmcfsy-CardContent"
+  >
+    <div
+      className="css-yzker2-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        description
+      </div>
+    </div>
+    <div
+      className="css-7xaisz-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        rater_rating__info_box_title:
+      </div>
+      <div
+        className="css-1npum18-RatersRatingCardContent"
+      >
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_dashboard_participants
+          </div>
+        </div>
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_progress_automatic
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <div
+      className="card-footer css-1afjeap-CardFooter"
+    >
+      <div
+        className="css-haffc0-RatersRatingCardFooter"
+      >
+        <div
+          className="css-gb1brp-ProgressBarColumn"
+        >
+          <div
+            className="css-kr258m-ProgressBarColumn"
+          >
+            <div
+              className="progress-element css-1xrtx1r-ProgressBarColumn"
+            />
+          </div>
+        </div>
+        <div
+          className="css-haffc0-RatersRatingCardFooter"
+        >
+          <div
+            className="css-qcf7xd-Text"
+          >
+            percentage
+          </div>
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`raters-rating-card renders correctly (survey in progress) 1`] = `
+<div
+  className="css-k90k9v-Card"
+>
+  <div
+    className="card-header css-t2sgx-CardHeader"
+  >
+    <div
+      className="css-1sbf56p-Text"
+    >
+      my test scenario
+    </div>
+    <div
+      className="css-17zbm7y-Text"
+    >
+      rater_rating__status_survey_in_progress
+    </div>
+  </div>
+  <div
+    className="card-content css-mmcfsy-CardContent"
+  >
+    <div
+      className="css-yzker2-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        description
+      </div>
+    </div>
+    <div
+      className="css-7xaisz-RatersRatingCardContent"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        rater_rating__info_box_title:
+      </div>
+      <div
+        className="css-1npum18-RatersRatingCardContent"
+      >
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_dashboard_participants
+          </div>
+        </div>
+        <div
+          className="css-hcuxk4-RatersRatingCardContent"
+        >
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1du93n7-Text"
+          >
+            projects__surveys_details_progress_automatic
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-0"
+    id="tooltip_42"
+  >
+    <div
+      className="card-footer css-1afjeap-CardFooter"
+    >
+      <div
+        className="css-haffc0-RatersRatingCardFooter"
+      >
+        <div
+          className="css-gb1brp-ProgressBarColumn"
+        >
+          <div
+            className="css-kr258m-ProgressBarColumn"
+          >
+            <div
+              className="progress-element css-5kek2-ProgressBarColumn"
+            />
+          </div>
+        </div>
+        <div
+          className="css-haffc0-RatersRatingCardFooter"
+        >
+          <div
+            className="css-qcf7xd-Text"
+          >
+            percentage
+          </div>
+          <div
+            className="css-l0jg45-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

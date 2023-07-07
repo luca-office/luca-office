@@ -1,0 +1,3 @@
+mutation DeleteRScriptMutation($id: String!) {
+  deleteRScript(id: $id)
+}

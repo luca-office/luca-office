@@ -1,0 +1,3 @@
+import {SurveyResultsForParticipantQuery_surveyResultsForParticipant_projectModuleScores_QuestionnaireScore} from "../graphql/generated/SurveyResultsForParticipantQuery"
+
+export type QuestionnaireScore = SurveyResultsForParticipantQuery_surveyResultsForParticipant_projectModuleScores_QuestionnaireScore

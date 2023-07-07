@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-mode-select renders correctly 1`] = `
+<div
+  className="css-10xyp8r-AppModeSelect"
+>
+  <div
+    className="css-i48h4h-AppModeSelect"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="css-v3301f-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="luca-title css-yl0smr-Heading"
+    >
+      header__label_editor
+    </div>
+    <div
+      className="css-rhpxey-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

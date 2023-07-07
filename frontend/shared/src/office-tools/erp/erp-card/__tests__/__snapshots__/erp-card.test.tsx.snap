@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErpCard renders correctly 1`] = `
+<div
+  className="css-ndcncu-Card"
+>
+  <div
+    className="card-header css-kqrdca-CardHeader"
+  >
+    <div
+      className="css-n51esg-ErpCard"
+    >
+      <div
+        className="css-1sncu8v-ErpCard"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        Angebotsübersicht
+      </div>
+    </div>
+    <div
+      className="css-unxjli"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <div
+        className="css-1uezsl1"
+      >
+        <input
+          className="css-pkbj54"
+          defaultValue=""
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="erp__table_search_placeholder"
+          type="text"
+        />
+        <div
+          className="css-v3avn8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-content css-r4983p-CardContent"
+  />
+  <div
+    className="card-footer css-gmu9kx-CardFooter"
+  />
+</div>
+`;

@@ -1,0 +1,3 @@
+mutation DeleteSampleCompanyMutation($id: String!) {
+  deleteSampleCompany(id: $id)
+}

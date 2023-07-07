@@ -1,0 +1,1195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scoring-dashboard-table-placeholder renders correctly 1`] = `
+{
+  "instance": null,
+  "nodeType": "component",
+  "props": {
+    "surveyId": "2e1cf407-921f-42b9-b6ba-349bfc29a3a2",
+  },
+  "rendered": [
+    {
+      "instance": null,
+      "nodeType": "component",
+      "props": {
+        "cache": {
+          "insert": [Function],
+          "inserted": {
+            "1f6p2vj-Heading": true,
+            "1feo04j-ScoringDashboardTablePlaceholder": true,
+            "1neu2i4-Button": true,
+            "1x8a2li-Text": true,
+            "95j2hm-Button": true,
+            "kuxry5-Icon": true,
+          },
+          "key": "css",
+          "nonce": undefined,
+          "registered": {},
+          "sheet": StyleSheet {
+            "_alreadyInsertedOrderInsensitiveRule": true,
+            "_insertTag": [Function],
+            "before": null,
+            "container": <head>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button:hover{opacity:0.8;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+              </style>
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+              </style>
+            </head>,
+            "ctr": 8,
+            "insertionPoint": undefined,
+            "isSpeedy": false,
+            "key": "css",
+            "nonce": undefined,
+            "prepend": undefined,
+            "tags": [
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button:hover{opacity:0.8;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+              </style>,
+              <style
+                data-emotion="css"
+                data-s=""
+              >
+                
+                .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+              </style>,
+            ],
+          },
+        },
+        "isStringTag": true,
+        "serialized": {
+          "map": undefined,
+          "name": "1feo04j-ScoringDashboardTablePlaceholder",
+          "next": undefined,
+          "styles": "display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-items:stretch;;align-items:center;max-width:600px;;label:ScoringDashboardTablePlaceholder;",
+          "toString": [Function],
+        },
+      },
+      "rendered": null,
+      "type": [Function],
+    },
+    {
+      "instance": null,
+      "nodeType": "host",
+      "props": {
+        "children": [
+          <Heading
+            level="h3"
+          >
+            rating_participant_list_placeholder_title
+          </Heading>,
+          <Text
+            customStyles={
+              {
+                "map": undefined,
+                "name": "1r9yfdi",
+                "next": undefined,
+                "styles": "color:#8b919a;margin:4px 0px 8px 0px;",
+                "toString": [Function],
+              }
+            }
+            size={16}
+          >
+            rating_participant_list_placeholder_description
+          </Text>,
+          <Button
+            customStyles={
+              {
+                "map": undefined,
+                "name": "qqad92",
+                "next": undefined,
+                "styles": "width:initial;min-width:228px;",
+                "toString": [Function],
+              }
+            }
+            icon="ArrowRight"
+            onClick={[Function]}
+            variant={0}
+          >
+            rating_participant_list_placeholder_button
+          </Button>,
+        ],
+        "className": "css-1feo04j-ScoringDashboardTablePlaceholder",
+      },
+      "rendered": [
+        {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": "rating_participant_list_placeholder_title",
+            "level": "h3",
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "1f6p2vj-Heading": true,
+                    "1feo04j-ScoringDashboardTablePlaceholder": true,
+                    "1neu2i4-Button": true,
+                    "1x8a2li-Text": true,
+                    "95j2hm-Button": true,
+                    "kuxry5-Icon": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_alreadyInsertedOrderInsensitiveRule": true,
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": <head>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>
+                    </head>,
+                    "ctr": 8,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>,
+                    ],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "1f6p2vj-Heading",
+                  "next": undefined,
+                  "styles": "font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro, sans-serif;user-select:none;;;;;label:Heading;",
+                  "toString": [Function],
+                },
+              },
+              "rendered": null,
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": "rating_participant_list_placeholder_title",
+                "className": "css-1f6p2vj-Heading",
+                "onClick": undefined,
+              },
+              "rendered": [
+                "rating_participant_list_placeholder_title",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": "rating_participant_list_placeholder_description",
+            "customStyles": {
+              "map": undefined,
+              "name": "1r9yfdi",
+              "next": undefined,
+              "styles": "color:#8b919a;margin:4px 0px 8px 0px;",
+              "toString": [Function],
+            },
+            "size": 16,
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "1f6p2vj-Heading": true,
+                    "1feo04j-ScoringDashboardTablePlaceholder": true,
+                    "1neu2i4-Button": true,
+                    "1x8a2li-Text": true,
+                    "95j2hm-Button": true,
+                    "kuxry5-Icon": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_alreadyInsertedOrderInsensitiveRule": true,
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": <head>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>
+                    </head>,
+                    "ctr": 8,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>,
+                    ],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "1x8a2li-Text",
+                  "next": undefined,
+                  "styles": "color:#2e3032;font-weight:normal;font-family:Source Sans Pro, sans-serif;overflow-wrap:break-word;;;font-size:16px;;color:#8b919a;margin:4px 0px 8px 0px;;;;label:Text;",
+                  "toString": [Function],
+                },
+              },
+              "rendered": null,
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": "rating_participant_list_placeholder_description",
+                "className": "css-1x8a2li-Text",
+                "onClick": undefined,
+                "title": undefined,
+              },
+              "rendered": [
+                "rating_participant_list_placeholder_description",
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        {
+          "instance": null,
+          "nodeType": "component",
+          "props": {
+            "children": "rating_participant_list_placeholder_button",
+            "customStyles": {
+              "map": undefined,
+              "name": "qqad92",
+              "next": undefined,
+              "styles": "width:initial;min-width:228px;",
+              "toString": [Function],
+            },
+            "icon": "ArrowRight",
+            "onClick": [Function],
+            "variant": 0,
+          },
+          "rendered": [
+            {
+              "instance": null,
+              "nodeType": "component",
+              "props": {
+                "cache": {
+                  "insert": [Function],
+                  "inserted": {
+                    "1f6p2vj-Heading": true,
+                    "1feo04j-ScoringDashboardTablePlaceholder": true,
+                    "1neu2i4-Button": true,
+                    "1x8a2li-Text": true,
+                    "95j2hm-Button": true,
+                    "kuxry5-Icon": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": {},
+                  "sheet": StyleSheet {
+                    "_alreadyInsertedOrderInsensitiveRule": true,
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": <head>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>
+                    </head>,
+                    "ctr": 8,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": [
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:hover{opacity:0.8;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                      </style>,
+                    ],
+                  },
+                },
+                "isStringTag": true,
+                "serialized": {
+                  "map": undefined,
+                  "name": "1neu2i4-Button",
+                  "next": undefined,
+                  "styles": "min-height:32px;width:165px;border-radius:4px;outline:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro, sans-serif;font-weight:300;display:flex;align-items:center;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;:hover{opacity:0.8;}:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;};;width:initial;min-width:228px;;;;label:Button;",
+                  "toString": [Function],
+                },
+              },
+              "rendered": null,
+              "type": [Function],
+            },
+            {
+              "instance": null,
+              "nodeType": "host",
+              "props": {
+                "children": <EmotionCssPropInternal
+                  __EMOTION_LABEL_PLEASE_DO_NOT_USE__="Button"
+                  __EMOTION_TYPE_PLEASE_DO_NOT_USE__="div"
+                  css={
+                    {
+                      "map": undefined,
+                      "name": "1n2mv2k",
+                      "next": undefined,
+                      "styles": "display:flex;justify-content:center;align-items:center;",
+                      "toString": [Function],
+                    }
+                  }
+                >
+                  <Icon
+                    color="#fff"
+                    customStyles={
+                      [
+                        {
+                          "map": undefined,
+                          "name": "12z0wuy",
+                          "next": undefined,
+                          "styles": "margin-right:8px;",
+                          "toString": [Function],
+                        },
+                        undefined,
+                      ]
+                    }
+                    height={16}
+                    name="ArrowRight"
+                    width={16}
+                  />
+                  rating_participant_list_placeholder_button
+                </EmotionCssPropInternal>,
+                "className": "css-1neu2i4-Button",
+                "disabled": false,
+                "onClick": [Function],
+                "title": undefined,
+              },
+              "rendered": [
+                {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": {
+                    "cache": {
+                      "insert": [Function],
+                      "inserted": {
+                        "1f6p2vj-Heading": true,
+                        "1feo04j-ScoringDashboardTablePlaceholder": true,
+                        "1neu2i4-Button": true,
+                        "1x8a2li-Text": true,
+                        "95j2hm-Button": true,
+                        "kuxry5-Icon": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": {},
+                      "sheet": StyleSheet {
+                        "_alreadyInsertedOrderInsensitiveRule": true,
+                        "_insertTag": [Function],
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button:hover{opacity:0.8;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                          </style>
+                        </head>,
+                        "ctr": 8,
+                        "insertionPoint": undefined,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "prepend": undefined,
+                        "tags": [
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button:hover{opacity:0.8;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "isStringTag": true,
+                    "serialized": {
+                      "map": undefined,
+                      "name": "95j2hm-Button",
+                      "next": undefined,
+                      "styles": "display:flex;justify-content:center;align-items:center;;label:Button;",
+                      "toString": [Function],
+                    },
+                  },
+                  "rendered": null,
+                  "type": [Function],
+                },
+                {
+                  "instance": null,
+                  "nodeType": "host",
+                  "props": {
+                    "children": [
+                      false,
+                      <Icon
+                        color="#fff"
+                        customStyles={
+                          [
+                            {
+                              "map": undefined,
+                              "name": "12z0wuy",
+                              "next": undefined,
+                              "styles": "margin-right:8px;",
+                              "toString": [Function],
+                            },
+                            undefined,
+                          ]
+                        }
+                        height={16}
+                        name="ArrowRight"
+                        width={16}
+                      />,
+                      "rating_participant_list_placeholder_button",
+                    ],
+                    "className": "css-95j2hm-Button",
+                  },
+                  "rendered": [
+                    {
+                      "instance": null,
+                      "nodeType": "component",
+                      "props": {
+                        "color": "#fff",
+                        "customStyles": [
+                          {
+                            "map": undefined,
+                            "name": "12z0wuy",
+                            "next": undefined,
+                            "styles": "margin-right:8px;",
+                            "toString": [Function],
+                          },
+                          undefined,
+                        ],
+                        "height": 16,
+                        "name": "ArrowRight",
+                        "width": 16,
+                      },
+                      "rendered": [
+                        {
+                          "instance": null,
+                          "nodeType": "component",
+                          "props": {
+                            "cache": {
+                              "insert": [Function],
+                              "inserted": {
+                                "1f6p2vj-Heading": true,
+                                "1feo04j-ScoringDashboardTablePlaceholder": true,
+                                "1neu2i4-Button": true,
+                                "1x8a2li-Text": true,
+                                "95j2hm-Button": true,
+                                "kuxry5-Icon": true,
+                              },
+                              "key": "css",
+                              "nonce": undefined,
+                              "registered": {},
+                              "sheet": StyleSheet {
+                                "_alreadyInsertedOrderInsensitiveRule": true,
+                                "_insertTag": [Function],
+                                "before": null,
+                                "container": <head>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button:hover{opacity:0.8;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                                  </style>
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                                  </style>
+                                </head>,
+                                "ctr": 8,
+                                "insertionPoint": undefined,
+                                "isSpeedy": false,
+                                "key": "css",
+                                "nonce": undefined,
+                                "prepend": undefined,
+                                "tags": [
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1feo04j-ScoringDashboardTablePlaceholder{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-align-items:stretch;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:600px;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1f6p2vj-Heading{font-weight:400;color:#2e3032;font-size:16px;font-family:Source Sans Pro,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1x8a2li-Text{color:#2e3032;font-weight:normal;font-family:Source Sans Pro,sans-serif;overflow-wrap:break-word;font-size:16px;color:#8b919a;margin:4px 0px 8px 0px;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button{min-height:32px;width:165px;border-radius:4px;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:none;color:white;font-size:16px;font-family:Source Sans Pro,sans-serif;font-weight:300;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;background:linear-gradient(-180deg, #70a0e7 0%, #4f82cf 100%);cursor:pointer;width:initial;min-width:228px;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button:hover{opacity:0.8;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-1neu2i4-Button:disabled{background:linear-gradient(-180deg, #d5d5d5 0%, #b4b4b4 100%);cursor:not-allowed;border:none;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-95j2hm-Button{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                                  </style>,
+                                  <style
+                                    data-emotion="css"
+                                    data-s=""
+                                  >
+                                    
+                                    .css-kuxry5-Icon{height:16px;width:16px;min-width:16px;color:#fff;margin-right:8px;}
+                                  </style>,
+                                ],
+                              },
+                            },
+                            "isStringTag": true,
+                            "serialized": {
+                              "map": undefined,
+                              "name": "kuxry5-Icon",
+                              "next": undefined,
+                              "styles": "height:16px;width:16px;min-width:16px;color:#fff;;;margin-right:8px;;;;;;label:Icon;",
+                              "toString": [Function],
+                            },
+                          },
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        {
+                          "instance": null,
+                          "nodeType": "host",
+                          "props": {
+                            "className": "css-kuxry5-Icon",
+                            "dangerouslySetInnerHTML": {
+                              "__html": {},
+                            },
+                            "onClick": undefined,
+                            "title": undefined,
+                          },
+                          "rendered": [],
+                          "type": "div",
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    "rating_participant_list_placeholder_button",
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "button",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  "type": [Function],
+}
+`;

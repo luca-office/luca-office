@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-coding-item-rating-fragment.graphql"
+
+mutation CreateScenarioCodingItemRatingMutation($creation: ScenarioCodingItemRatingCreation!) {
+  createScenarioCodingItemRating(creation: $creation) {
+    ...ScenarioCodingItemRatingFragment
+  }
+}

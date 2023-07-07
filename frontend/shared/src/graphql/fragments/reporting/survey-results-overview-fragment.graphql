@@ -1,0 +1,15 @@
+#import "./participant-result-fragment.graphql"
+#import "./project-module-result-fragment.graphql"
+
+fragment SurveyResultsOverviewFragment on SurveyResultsOverview {
+  surveyId
+  participantResults {
+    ...ParticipantResultFragment
+  }
+  projectModuleResults {
+    ...ProjectModuleResultFragment
+  }
+  averageScore
+  maximumScore
+  areResultsComplete
+}

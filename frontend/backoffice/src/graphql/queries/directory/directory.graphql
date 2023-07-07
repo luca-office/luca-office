@@ -1,0 +1,7 @@
+#import "../../fragments/directory-fragment.graphql"
+
+query DirectoryQuery($id: String!) {
+  directory(id: $id) {
+    ...DirectoryFragment
+  }
+}

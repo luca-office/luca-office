@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-notification renders correctly 1`] = `
+<div>
+  <div
+    className="Toastify"
+  />
+</div>
+`;
+
+exports[`app-notification renders correctly as warning 1`] = `
+<div>
+  <div
+    className="Toastify"
+  />
+</div>
+`;

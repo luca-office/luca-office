@@ -1,0 +1,8 @@
+#import "../../fragments/user-account-fragment.graphql"
+
+mutation ConfirmBackofficeTermsAndConditionsMutation($hasConfirmedBackofficeTermsAndConditions: Boolean!) {
+  confirmBackofficeTermsAndConditions(hasConfirmedBackofficeTermsAndConditions: $hasConfirmedBackofficeTermsAndConditions) {
+    ...UserAccountFragment
+    needsToConfirmBackofficeTermsAndConditions
+  }
+}

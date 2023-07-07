@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`questions-manual-rating-table renders correctly 1`] = `
+<div
+  className="css-npjtul-CriterionRatingTable"
+>
+  <div
+    className="css-2ah4e4-CriterionRatingTable"
+  >
+    <div
+      className="css-x84t8t-Heading"
+    >
+      rating__freetext_answer_label:
+    </div>
+    <div>
+      <div
+        className="css-18eyyd4-Paper"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-9r06kc-CriterionRatingTable"
+  >
+    <div
+      className="css-75nvf3-CriterionRatingTable"
+    >
+      <div
+        className="css-x84t8t-Heading"
+      >
+        rating__manual_rating_label (2)
+      </div>
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-qnyrc1-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        <div
+          className="css-1tdk34p-Tooltip"
+        >
+          <div
+            className="css-1kjzr28-Tooltip"
+          >
+            <div
+              className="css-jb7kz7-Heading"
+            >
+              rating__manual_rating_label
+            </div>
+            <div
+              className="css-8tih5m-Text"
+            >
+              rating__manual_rating_description
+            </div>
+          </div>
+          <div
+            className="css-1fvvs0r-Tooltip"
+          >
+            <div
+              className="css-nlq2eo-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="css-18lu61u-Table"
+      >
+        <div
+          className="css-1kpl4zp-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-jwlj9x-Text"
+            >
+              rating__criterion_label
+            </div>
+          </div>
+          <div
+            className="css-181zh2l-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-1j062c4-CriterionRatingTable"
+              >
+                <div
+                  className="css-jwlj9x-Text"
+                >
+                  rating__scoring_holistic_title
+                </div>
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              <div
+                className="css-1tdk34p-Tooltip"
+              >
+                <div
+                  className="css-1kjzr28-Tooltip"
+                >
+                  <div
+                    className="css-jb7kz7-Heading"
+                  >
+                    rating__scoring_holistic_title
+                  </div>
+                  <div
+                    className="css-8tih5m-Text"
+                  >
+                    rating__holistic_description
+                  </div>
+                </div>
+                <div
+                  className="css-1fvvs0r-Tooltip"
+                >
+                  <div
+                    className="css-nlq2eo-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="css-1e2w3lh-ContentLoadingIndicator"
+          >
+            <div
+              className="css-1tzcb72-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-1nm6ew4-CardFooter"
+      >
+        <div
+          className="css-5rklhc-CriterionRatingTable"
+        >
+          <div
+            className="css-1orwcfe-CriterionRatingTable"
+          >
+            <div
+              className="css-hluplg-RatingDetailActionElement"
+            >
+              <div
+                className="css-nzx43c-RatingDetailActionElement"
+              >
+                <div
+                  className="css-143noxf-RatingDetailActionElement"
+                >
+                  <div
+                    className="css-14rj767"
+                    data-testid="custom-select"
+                  >
+                    <div
+                      className="css-rarr6p"
+                    >
+                      <div
+                        className="css-13s2sfk-Heading"
+                      >
+                        rating__rating__action_dropdown_label
+                      </div>
+                      <div
+                        className="css-0"
+                        id="tooltip_42"
+                      >
+                        <div
+                          className="css-qnyrc1-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                        role="tooltip"
+                        style={
+                          {
+                            "backgroundColor": "#2e3032",
+                            "zIndex": 1,
+                          }
+                        }
+                      >
+                        <div
+                          className="css-1tdk34p-Tooltip"
+                        >
+                          <div
+                            className="css-1kjzr28-Tooltip"
+                          >
+                            <div
+                              className="css-jb7kz7-Heading"
+                            >
+                              rating__rating__action_dropdown_label
+                            </div>
+                            <div
+                              className="css-8tih5m-Text"
+                            >
+                              rating__rating__action_dropdown_tooltip_text
+                            </div>
+                          </div>
+                          <div
+                            className="css-1fvvs0r-Tooltip"
+                          >
+                            <div
+                              className="css-nlq2eo-Icon"
+                              dangerouslySetInnerHTML={
+                                {
+                                  "__html": {},
+                                }
+                              }
+                            />
+                          </div>
+                        </div>
+                        <div
+                          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                          style={{}}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="css-18vooac"
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                    >
+                      <div
+                        className="custom-select"
+                      >
+                        MockedSelect
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-e24v2t-RatingDetailActionElement"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-injsqh-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-1xq4w0l-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                        confirmed
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    rating__action_button_not_possible
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,3 @@
+mutation DeleteReferenceBookArticleMutation($id: String!) {
+  deleteReferenceBookArticle(id: $id)
+}

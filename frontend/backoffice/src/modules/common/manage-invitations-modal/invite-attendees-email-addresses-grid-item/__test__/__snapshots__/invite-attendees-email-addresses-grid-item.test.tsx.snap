@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`manage-invitations-modal-email-addresses-grid-item renders correctly 1`] = `
+<div>
+  <div
+    className="css-ujfly3-Paper"
+  >
+    <div
+      className="css-17zbm7y-Text"
+    >
+      maxmustermann@web.de
+    </div>
+    <div
+      className="css-0"
+      id="tooltip_42"
+    >
+      <div
+        className="trash-icon css-16kls7j-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        title="projects__survey_details_tooltip_remove_from_list"
+      />
+    </div>
+    <div
+      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+      role="tooltip"
+      style={
+        {
+          "backgroundColor": "#2e3032",
+          "zIndex": 1,
+        }
+      }
+    >
+      projects__survey_details_tooltip_remove_from_list
+      <div
+        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+        style={{}}
+      />
+    </div>
+  </div>
+</div>
+`;

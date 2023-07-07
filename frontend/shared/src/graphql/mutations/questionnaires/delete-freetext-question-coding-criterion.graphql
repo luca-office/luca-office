@@ -1,0 +1,3 @@
+mutation DeleteFreetextQuestionCodingCriterionMutation($id: String!) {
+  deleteFreetextQuestionCodingCriterion(id: $id)
+}

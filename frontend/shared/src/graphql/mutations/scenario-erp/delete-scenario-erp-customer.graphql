@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-customer-fragment.graphql"
+
+mutation DeleteScenarioErpCustomerMutation($scenarioId: String!, $customerId: Int!) {
+  deleteScenarioErpCustomer(scenarioId: $scenarioId, customerId: $customerId) {
+    ...ScenarioErpCustomerFragment
+  }
+}

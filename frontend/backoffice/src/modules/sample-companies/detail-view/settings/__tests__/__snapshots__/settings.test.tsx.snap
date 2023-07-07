@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`settings renders correctly 1`] = `
+<div
+  className="css-1jt5b59-Settings"
+>
+  <div
+    className="css-o8c7q1-Card"
+    onClick={[MockFunction]}
+  >
+    <div>
+      <div
+        className="card-header css-1x5pyem-CardHeader"
+      >
+        <div
+          className="css-1b415o5-OverviewCard"
+        >
+          <div
+            className="css-1i6jmor-Heading"
+          >
+            sample_companies__detail_settings_company_files
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="css-1v230f2-Text"
+        >
+          sample_companies__detail_settings_company_files_desc
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="card-footer css-texso5-CardFooter"
+      >
+        <div
+          className="css-1epuqpy-CardFooterItem"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1de4iva-Text"
+          >
+            0 sample_companies__detail_settings_files
+          </div>
+        </div>
+        <div
+          className="css-1839z0z-CardFooterItem"
+        >
+          <div
+            className="css-1nfczpt-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-myklsq-Card"
+    onClick={[MockFunction]}
+  >
+    <div>
+      <div
+        className="card-header css-1x5pyem-CardHeader"
+      >
+        <div
+          className="css-1b415o5-OverviewCard"
+        >
+          <div
+            className="css-1i6jmor-Heading"
+          >
+            sample_companies__detail_settings_erp
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="css-1v230f2-Text"
+        >
+          sample_companies__detail_settings_erp_desc
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="card-footer css-texso5-CardFooter"
+      >
+        <div
+          className="css-1epuqpy-CardFooterItem"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1de4iva-Text"
+          >
+            0 sample_companies__detail_settings_rows_count
+          </div>
+        </div>
+        <div
+          className="css-1839z0z-CardFooterItem"
+        >
+          <div
+            className="css-1nfczpt-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-ua1eea-Card"
+    onClick={[MockFunction]}
+  >
+    <div>
+      <div
+        className="card-header css-1x5pyem-CardHeader"
+      >
+        <div
+          className="css-1b415o5-OverviewCard"
+        >
+          <div
+            className="css-1i6jmor-Heading"
+          >
+            sample_companies__detail_settings_email_signature
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="css-1v230f2-Text"
+        >
+          sample_companies__detail_settings_email_signature_desc
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="card-footer css-texso5-CardFooter"
+      >
+        <div
+          className="css-1epuqpy-CardFooterItem"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1de4iva-Text"
+          >
+            sample_companies__detail_settings_email_signature_available
+          </div>
+        </div>
+        <div
+          className="css-1epuqpy-CardFooterItem"
+        >
+          <div
+            className="css-1lrzij5-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+          <div
+            className="css-1de4iva-Text"
+          >
+            sample_companies__detail_settings_email_domain_available
+          </div>
+        </div>
+        <div
+          className="css-1839z0z-CardFooterItem"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header-carousel renders correctly 1`] = `
+<div
+  className="card-header css-7banf6-CardHeader"
+>
+  <div
+    className="css-12vbzj8-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+    onClick={[MockFunction]}
+  />
+  <div
+    className="css-1384231-HeaderCarousel"
+  >
+    <div
+      className="css-1pu5vxx-HeaderCarousel"
+    >
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-19hz0o-HeaderCarousel"
+      >
+        inbox  (5) 
+      </div>
+    </div>
+    <div
+      className="css-1x4jsxc-HeaderCarousel"
+    >
+      <div
+        className="css-e1y9ue-HeaderCarousel"
+        data-testid="header-element"
+      />
+      <div
+        className="css-e18hx3-HeaderCarousel"
+        data-testid="header-element"
+      />
+      <div
+        className="css-e18hx3-HeaderCarousel"
+        data-testid="header-element"
+      />
+    </div>
+  </div>
+  <div
+    className="css-12vbzj8-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+    onClick={[MockFunction]}
+  />
+</div>
+`;

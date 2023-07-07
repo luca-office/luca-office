@@ -1,0 +1,7 @@
+#import "../../fragments/email-fragment.graphql"
+
+query EmailsQuery($scenarioId: String!) {
+  emails(scenarioId: $scenarioId) {
+    ...EmailFragment
+  }
+}

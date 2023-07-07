@@ -1,0 +1,28 @@
+#import "./binary-file-fragment.graphql"
+#import "./spreadsheet-fragment.graphql"
+#import "./text-document-fragment.graphql"
+
+fragment FileFragment on File {
+  id
+  createdAt
+  modifiedAt
+  usageType
+  name
+  relevance
+  tags
+  directoryId
+  emailId
+  binaryFileId
+  spreadsheetId
+  binaryFile {
+    ...BinaryFileFragment
+  }
+  binaryFileUrl
+  spreadsheet {
+    ...SpreadsheetFragment
+  }
+  textDocumentId
+  textDocument {
+    ...TextDocumentFragment
+  }
+}

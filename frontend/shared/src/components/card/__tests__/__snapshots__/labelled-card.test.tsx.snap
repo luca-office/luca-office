@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`labelled-card renders correctly 1`] = `
+<div
+  className="css-njxlss-LabelledCard"
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    test title
+  </div>
+  <div
+    className="text"
+  >
+    sample
+  </div>
+</div>
+`;

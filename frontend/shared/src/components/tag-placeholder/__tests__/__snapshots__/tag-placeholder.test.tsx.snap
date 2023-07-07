@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tag-placeholder renders correctly 1`] = `
+<div
+  className="css-1ws8uc4-Tag"
+>
+  <div
+    className="css-12ia3h2-Text"
+  >
+    placeholder__tags
+  </div>
+</div>
+`;

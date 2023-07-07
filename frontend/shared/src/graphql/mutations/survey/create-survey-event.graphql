@@ -1,0 +1,3 @@
+mutation CreateSurveyEvents($creations: [SurveyEventCreation!]!) {
+  createSurveyEvents(creations: $creations)
+}

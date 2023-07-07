@@ -1,0 +1,6 @@
+fragment ScenarioErpSupplierFragment on ScenarioErpSupplier {
+  scenarioId
+  sampleCompanyId
+  supplierId
+  relevance
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icons---lined" stroke="currentColor" stroke-width="1" fill="white" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Stroke_Icons-(16px)/mouse" stroke="currentColor">
+            <path d="M5.5,4.5 L5.5,4.5 C3.843,4.5 2.5,5.843 2.5,7.5 L2.5,11.5 C2.5,13.157 3.843,14.5 5.5,14.5 C7.157,14.5 8.5,13.157 8.5,11.5 L8.5,7.5 C8.5,5.843 7.157,4.5 5.5,4.5 Z M5.5,6.5 L5.5,8.5 M5.5,4.5 L5.5,4.005 C5.5,3.174 6.174,2.5 7.005,2.5 L9,2.5 C9.829,2.5 10.5,3.171 10.5,4 L10.5,8 C10.5,8.829 11.171,9.5 12,9.5 C12.828,9.5 13.5,8.828 13.5,8 L13.5,2.5" id="Stroke-2"></path>
+        </g>
+    </g>
+</svg>

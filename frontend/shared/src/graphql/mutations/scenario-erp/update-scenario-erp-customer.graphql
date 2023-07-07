@@ -1,0 +1,11 @@
+#import "../../fragments/scenario-erp/scenario-erp-customer-fragment.graphql"
+
+mutation UpdateScenarioErpCustomerMutation(
+  $scenarioId: String!
+  $customerId: Int!
+  $update: ScenarioErpCustomerUpdate!
+) {
+  updateScenarioErpCustomer(scenarioId: $scenarioId, customerId: $customerId, update: $update) {
+    ...ScenarioErpCustomerFragment
+  }
+}

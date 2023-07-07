@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-header renders correctly (no name) 1`] = `
+<div
+  className="css-xqg7g8-ReportingHeader"
+>
+  <div
+    className="css-13w1gae-ReportingHeader"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-fmthw-Text"
+    >
+      header__app_title
+    </div>
+  </div>
+  <div
+    className="css-3472gz-Text"
+  >
+    navigation__projects
+  </div>
+  <div
+    className="css-1e6jsem-ReportingHeader"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`reporting-header renders correctly 1`] = `
+<div
+  className="css-xqg7g8-ReportingHeader"
+>
+  <div
+    className="css-13w1gae-ReportingHeader"
+  >
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-fmthw-Text"
+    >
+      header__app_title
+    </div>
+  </div>
+  <div
+    className="css-3472gz-Text"
+  >
+    navigation__projects
+  </div>
+  <div
+    className="css-macnko-ReportingHeader"
+  >
+    <div
+      className="css-1fuem2a-Text"
+    >
+      John Doe
+    </div>
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

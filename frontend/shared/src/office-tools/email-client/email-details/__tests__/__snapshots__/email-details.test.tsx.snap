@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-details render correctly with required props 1`] = `
+<div
+  className="css-1ma5gom-EmailDetails"
+>
+  <div
+    className="css-1o8ni9n-EmailDetails"
+  >
+    <div
+      className="css-1q7n9rj-EmailDetails"
+    >
+      <div
+        className="css-byiev1-EmailDetails"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <span
+          className="css-1gi7pdn-EmailDetails"
+        >
+          lorem.ispum@dolor.sit (00:00)
+        </span>
+      </div>
+      <div
+        className="css-byiev1-EmailDetails"
+      >
+        <button
+          className="css-injsqh-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            email__reply
+          </div>
+        </button>
+        <div
+          className="css-0"
+        >
+          <div
+            className="css-0"
+            id="tooltip_42"
+          >
+            <button
+              className="css-wk1dyn-Button"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <div
+                className="css-95j2hm-Button"
+              >
+                <div
+                  className="css-mj8vo1-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </button>
+          </div>
+          <div
+            className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+            role="tooltip"
+            style={
+              {
+                "backgroundColor": "#2e3032",
+                "zIndex": 1,
+              }
+            }
+          >
+            email__move_to_trash
+            <div
+              className="react-tooltip-arrow styles-module_arrow__K0L3T"
+              style={{}}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-8xsfnt-EmailInfo"
+    >
+      <div
+        className="css-1qqiksg-EmailInfo"
+      >
+        <span
+          className="css-1rr0dsd-EmailInfo"
+        >
+          lorem.ispum@dolor.sit
+        </span>
+        <span>
+          email__today (00:00)
+        </span>
+      </div>
+      <div
+        className="css-1lgaim4-EmailInfo"
+      >
+        <span>
+          Lorem Ipsum
+        </span>
+      </div>
+      <div
+        className="css-skm0np-EmailInfo"
+      >
+        <div>
+          email__to: hasheem.pollastrino@luca-office.de
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1tene82-EmailDetails"
+    >
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+  <div
+    className="css-19w544s-EmailDetails"
+  />
+</div>
+`;

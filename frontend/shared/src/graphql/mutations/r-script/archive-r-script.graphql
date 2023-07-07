@@ -1,0 +1,7 @@
+#import "../../fragments/r-script-fragment.graphql"
+
+mutation ArchiveRScriptMutation($id: String!) {
+  archiveRScript(id: $id) {
+    ...RScriptFragment
+  }
+}

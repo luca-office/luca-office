@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalFreetextAnswer renders correctly with default props 1`] = `
+<div
+  className="css-q0wxxm-AdditionalFreeTextAnswer"
+>
+  <div
+    className="radio-button css-aqrmqg-RadioButton"
+    onClick={[Function]}
+  >
+    <div
+      className="css-1dzk059-RadioButton"
+    >
+      <div
+        className="css-1kv9hnx-RadioButton"
+      >
+        <div
+          className="css-7sxxnu-RadioButton"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-12qnvrq"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="css-1pbgvgg"
+    >
+      <input
+        className="css-pkbj54"
+        defaultValue=""
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

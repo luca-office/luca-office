@@ -1,0 +1,9 @@
+fragment DirectoryFragment on Directory {
+  id
+  createdAt
+  modifiedAt
+  name
+  parentDirectoryId
+  scenarioId
+  sampleCompanyId
+}

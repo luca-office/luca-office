@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Move File Tree renders correctly 1`] = `
+<div
+  className="css-22pday-MoveFileTree"
+>
+  <div
+    className="css-12ezatt-Heading"
+  >
+    files_and_directories__move_modal_select_directory
+  </div>
+  <div
+    className="css-tzta12-Card"
+  >
+    <div
+      className="card-header css-15zaw2t-CardHeader"
+    >
+      <div
+        className="css-mv0otu-TableOfContentsContainer"
+      >
+        <div
+          className="css-oivmdv-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          file_explorer__title
+        </div>
+      </div>
+    </div>
+    <div
+      className="toc-body css-iiw7p1-TableOfContentsContainer"
+    >
+      <div
+        className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+      >
+        <div
+          className="css-18xeog2-TableOfContentsContainer"
+        >
+          <div
+            className="css-1j6baqz-CustomDirectoryNode"
+            data-testid="custom-directory-move"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1x436ap-CustomDirectoryNode"
+            >
+              <div
+                className="css-1ep6va6-CustomDirectoryNode"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-1a0pk7x-CustomDirectoryNode"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+                <div
+                  className="css-1sn69or-CustomDirectoryNode"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1axqtld-Text"
+                >
+                  Bilder (3)
+                </div>
+              </div>
+              <div
+                className="move-text css-16u4ufw-CustomDirectoryNode"
+              >
+                <div
+                  className="css-1uyodls-Text"
+                >
+                  files_and_directories__move_modal_target_directory
+                </div>
+                <div
+                  className="css-g4lidz-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1j6baqz-CustomDirectoryNode"
+            data-testid="custom-directory-move"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1x436ap-CustomDirectoryNode"
+            >
+              <div
+                className="css-1ep6va6-CustomDirectoryNode"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-1a0pk7x-CustomDirectoryNode"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+                <div
+                  className="css-1sn69or-CustomDirectoryNode"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1axqtld-Text"
+                >
+                  Rechnungen (3)
+                </div>
+              </div>
+              <div
+                className="move-text css-16u4ufw-CustomDirectoryNode"
+              >
+                <div
+                  className="css-1uyodls-Text"
+                >
+                  files_and_directories__move_modal_target_directory
+                </div>
+                <div
+                  className="css-g4lidz-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1j6baqz-CustomDirectoryNode"
+            data-testid="custom-directory-move"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1x436ap-CustomDirectoryNode"
+            >
+              <div
+                className="css-1ep6va6-CustomDirectoryNode"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-dbigyp-CustomDirectoryNode"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  files_and_directories__move_modal_no_subfolders
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+                <div
+                  className="css-1sn69or-CustomDirectoryNode"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1axqtld-Text"
+                >
+                  Sonstiges (0)
+                </div>
+              </div>
+              <div
+                className="move-text css-16u4ufw-CustomDirectoryNode"
+              >
+                <div
+                  className="css-1uyodls-Text"
+                >
+                  files_and_directories__move_modal_target_directory
+                </div>
+                <div
+                  className="css-g4lidz-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-footer css-105jaxv-CardFooter"
+    />
+  </div>
+</div>
+`;

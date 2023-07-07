@@ -1,0 +1,19 @@
+mutation UpdateAutomatedCodingItemMutation($id: String!, $update: AutomatedCodingItemUpdate!) {
+  updateAutomatedCodingItem(id: $id, update: $update) {
+    id
+    createdAt
+    modifiedAt
+    title
+    description
+    scoringType
+    dimensionId
+    position
+    maximumScore
+    ... on ManualCodingItem {
+      id
+    }
+    ... on AutomatedCodingItem {
+      rule
+    }
+  }
+}

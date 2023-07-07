@@ -1,0 +1,18 @@
+mutation UpdateDocumentViewScenarioCodingAutomatedCriterionMutation(
+  $id: String!
+  $update: DocumentViewScenarioCodingAutomatedCriterionUpdate!
+) {
+  updateDocumentViewScenarioCodingAutomatedCriterion(id: $id, update: $update) {
+    id
+    score
+    itemId
+
+    ... on DocumentViewScenarioCodingAutomatedCriterion {
+      erpRowId
+      fileId
+      emailId
+      referenceBookArticleId
+      erpTableType
+    }
+  }
+}

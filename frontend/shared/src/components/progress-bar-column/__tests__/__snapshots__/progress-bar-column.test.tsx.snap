@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progress-steps-column renders correctly (complete) 1`] = `
+<div
+  className="css-1wjx22y-ProgressBarColumn"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    5 / 5
+  </div>
+  <div
+    className="css-vewmwr-ProgressBarColumn"
+  >
+    <div
+      className="progress-element css-vaohed-ProgressBarColumn"
+    />
+  </div>
+  <div
+    className="css-fxrihe-ProgressBarColumn"
+  >
+    <div
+      className="css-vrzvbi-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`progress-steps-column renders correctly 1`] = `
+<div
+  className="css-1wjx22y-ProgressBarColumn"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    3 / 5
+  </div>
+  <div
+    className="css-vewmwr-ProgressBarColumn"
+  >
+    <div
+      className="progress-element css-msytv9-ProgressBarColumn"
+    />
+  </div>
+  <div
+    className="css-fxrihe-ProgressBarColumn"
+  />
+</div>
+`;

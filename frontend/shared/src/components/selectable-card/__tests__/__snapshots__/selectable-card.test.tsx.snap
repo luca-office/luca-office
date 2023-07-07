@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectable-card renders correctly 1`] = `
+<div
+  className="css-o2tml0-Card"
+  onClick={[MockFunction]}
+>
+  <div
+    className="card-header css-a0e080-CardHeader"
+  >
+    <div
+      className="css-1cygpbo-SelectableCard"
+    >
+      <div
+        className="css-17tkprm-SelectableCard"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-hpovgn-Text"
+  >
+    Text
+  </div>
+</div>
+`;

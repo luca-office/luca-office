@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editing-status-indicator renders correctly - finalized 1`] = `
+<div
+  className="editing-status-indicator css-17o8rg8-EditingStatusIndicator"
+>
+  <div
+    className="css-l0jg45-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;
+
+exports[`editing-status-indicator renders correctly 1`] = `
+<div
+  className="editing-status-indicator css-17o8rg8-EditingStatusIndicator"
+>
+  <div
+    className="css-l0jg45-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

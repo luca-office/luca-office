@@ -1,0 +1,31 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpEmployeeFragment on ErpEmployee {
+  id
+  salutation
+  firstName
+  lastName
+  addressLine
+  postalCode
+  city
+  country
+  email
+  phone
+  department
+  jobTitle
+  employmentMode
+  employedAt
+  employmentEndsAt
+  site
+  graduation
+  furtherEducation
+  taxClass
+  familyStatus
+  childCount
+  sampleCompanyId
+  binaryFileId
+  note
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

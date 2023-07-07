@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-header renders correctly (container) 1`] = `
+<div
+  className="css-18hl5rd-AppHeader"
+>
+  <div
+    className="css-10xyp8r-AppModeSelect"
+  >
+    <div
+      className="css-i48h4h-AppModeSelect"
+      onClick={[Function]}
+    >
+      <div
+        className="css-v3301f-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="luca-title css-yl0smr-Heading"
+      >
+        header__label_editor
+      </div>
+      <div
+        className="css-rhpxey-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <menu
+    className="css-142osd1-AppHeader"
+    role="menu"
+  >
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__scenarios
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__questionnaires
+    </div>
+    <div
+      className="css-38lzbe-AppHeader"
+    />
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__reference_books
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__sample_companies
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__events
+    </div>
+  </menu>
+</div>
+`;
+
+exports[`app-header renders correctly 1`] = `
+<div
+  className="css-18hl5rd-AppHeader"
+>
+  <div
+    className="css-10xyp8r-AppModeSelect"
+  >
+    <div
+      className="css-i48h4h-AppModeSelect"
+      onClick={[Function]}
+    >
+      <div
+        className="css-v3301f-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="luca-title css-yl0smr-Heading"
+      >
+        header__label_editor
+      </div>
+      <div
+        className="css-rhpxey-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <menu
+    className="css-142osd1-AppHeader"
+    role="menu"
+  >
+    <div
+      className="nav-item css-oyfkf8-Heading"
+      onClick={[Function]}
+    >
+      navigation__scenarios
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__questionnaires
+    </div>
+    <div
+      className="css-38lzbe-AppHeader"
+    />
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__reference_books
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__sample_companies
+    </div>
+    <div
+      className="nav-item css-1ax8fg3-Heading"
+      onClick={[Function]}
+    >
+      navigation__events
+    </div>
+  </menu>
+</div>
+`;

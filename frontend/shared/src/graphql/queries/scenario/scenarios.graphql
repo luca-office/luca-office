@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-light-fragment.graphql"
+
+query ScenariosQuery {
+  scenarios {
+    ...ScenarioLightFragment
+  }
+}

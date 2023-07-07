@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-order.graphql"
+
+query GetErpOrdersQuery($sampleCompanyId: String!) {
+  erpOrders(sampleCompanyId: $sampleCompanyId) {
+    ...ErpOrderFragment
+  }
+}

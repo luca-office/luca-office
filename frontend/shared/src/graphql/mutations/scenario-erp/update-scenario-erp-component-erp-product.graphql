@@ -1,0 +1,15 @@
+#import "../../fragments/scenario-erp/scenario-erp-component-erp-product-fragment.graphql"
+
+mutation UpdateScenarioErpComponentErpProductMutation(
+  $scenarioId: String!
+  $componentProductId: Int!
+  $update: ScenarioErpComponentErpProductUpdate!
+) {
+  updateScenarioErpComponentErpProduct(
+    scenarioId: $scenarioId
+    componentProductId: $componentProductId
+    update: $update
+  ) {
+    ...ScenarioErpComponentErpProductFragment
+  }
+}

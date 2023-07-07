@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-content-settings renders correctly 1`] = `
+<div
+  className="css-15hqt62-RaterRatingContentSettings"
+>
+  <div
+    className="css-1f1k13x-Text"
+  >
+    rater_rating_details__settings
+  </div>
+  <div>
+    <div
+      className="css-1t5zhaa-Paper"
+    >
+      <div
+        className="css-hdaeu0-RaterRatingContentSettings"
+      >
+        <div
+          className="css-1f1k13x-Text"
+        >
+          rater_rating_details__settings_conditions_of_participation
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        >
+          projects__surveys_table_closed_participation (rater_rating_details__survey_authentication_registered_only)
+        </div>
+      </div>
+      <div
+        className="css-hdaeu0-RaterRatingContentSettings"
+      >
+        <div
+          className="css-1f1k13x-Text"
+        >
+          rater_rating_details__settings_survey_procedure
+        </div>
+        <div
+          className="css-17zbm7y-Text"
+        >
+          projects__surveys_details_progress_automatic
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

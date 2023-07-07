@@ -1,0 +1,3 @@
+mutation DeleteSpreadsheetCell($id: String!) {
+  deleteSpreadsheetCell(id: $id)
+}

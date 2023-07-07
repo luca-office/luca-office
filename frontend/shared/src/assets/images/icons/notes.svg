@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <g id="Icons---lined" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" >
+        <g id="6_Stroke_Icons-(32px)/01_Tools/Notizen">
+            <mask id="mask-2"  stroke="currentColor">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <path d="M22,4 L26,8 L8,26 L2,28 L4,22 L22,4 Z M18,8 L22,12 M2,28 L11.0557281,28 C11.6767085,28 12.2891607,27.8554196 12.8445825,27.5777088 L14.2111456,26.8944272 C15.3372556,26.3313722 16.6627444,26.3313722 17.7888544,26.8944272 L18,27 C19.1943806,27.5971903 20.6368981,27.3631019 21.5811388,26.4188612 L22.5,25.5 C23.8807119,24.1192881 26.1192881,24.1192881 27.5,25.5 L30,28 L30,28" id="Stroke-5-Copy"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ></path>
+        </g>
+    </g>
+</svg>

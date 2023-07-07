@@ -1,0 +1,10 @@
+#import "./questionnaire-fragment.graphql"
+
+fragment ScenarioQuestionnaireFragment on ScenarioQuestionnaire {
+  scenarioId
+  questionnaireId
+  activationDelayInSeconds
+  questionnaire {
+    ...QuestionnaireFragment
+  }
+}

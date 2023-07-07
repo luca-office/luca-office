@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`document-view-content renders correctly 1`] = `
+<div>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    coding_criteria__item_meta_data_automated_rule
+  </div>
+  <div
+    className="css-b2qywe-DocumentViewContent"
+  >
+    <div
+      className="css-1f6p2vj-Heading"
+    >
+      coding_models__create_item_label_rating_type_automated_document_view
+    </div>
+    <div
+      className="css-2ywgiw-Text"
+    >
+      coding_models__create_item_label_rating_type_automated_document_view_hint
+    </div>
+    <div
+      className="css-1v0z0k-ReadonlyActionField"
+      data-testid="readonly-action-field"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1bkess4-ReadonlyActionField"
+      >
+        <div
+          className="css-47wnmy-ReadonlyActionField"
+        >
+          coding_models__automated_item_document_view_email_action_field
+        </div>
+      </div>
+      <div
+        className="content-wrapper css-b45n67-ReadonlyActionField"
+      >
+        <div
+          className="content css-1hje2zc-ReadonlyActionField"
+        >
+          <div
+            className="css-1bkess4-ReadonlyActionField"
+          >
+            <div
+              className="css-1lrzij5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-17zbm7y-Text"
+            >
+              undefined
+            </div>
+          </div>
+        </div>
+        <button
+          className="readonly-action-button css-4nv627-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            edit_button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

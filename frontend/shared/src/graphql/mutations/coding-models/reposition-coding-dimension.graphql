@@ -1,0 +1,6 @@
+#import "../../fragments/coding-dimension-fragment.graphql"
+mutation RepositionCodingDimensionMutation($id: String!, $predecessorId: String) {
+  repositionCodingDimension(id: $id, predecessorId: $predecessorId) {
+    ...CodingDimensionFragment
+  }
+}

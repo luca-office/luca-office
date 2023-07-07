@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-footer-intervention-position renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="css-1eksi13-Paper"
+    >
+      <div
+        className="css-fmthw-Text"
+      >
+        email__intervention_email_position_description
+      </div>
+      <div
+        className="css-aokemz-Columns"
+      >
+        <div
+          className="css-1vnr89j-Column"
+        >
+          <div
+            className="css-1pxrgqr-ReadonlyActionField"
+            data-testid="readonly-action-field"
+            onClick={[Function]}
+          >
+            <div
+              className="css-1bkess4-ReadonlyActionField"
+            />
+            <div
+              className="content-wrapper css-b45n67-ReadonlyActionField"
+            >
+              <div
+                className="content css-1hje2zc-ReadonlyActionField"
+              >
+                <div
+                  className="css-1bkess4-ReadonlyActionField"
+                >
+                  <div
+                    className="css-oivmdv-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1qf4dx8-Text"
+                  >
+                    test-file.png
+                  </div>
+                </div>
+              </div>
+              <button
+                className="readonly-action-button css-4nv627-Button"
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  common_to file
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1oiyj7r-Column"
+        >
+          <button
+            className="css-vmbkld-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-kuxry5-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              <div
+                className="css-9pt3do-EmailBodyFooterInterventionPosition"
+              >
+                email__intervention_email_button_label
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

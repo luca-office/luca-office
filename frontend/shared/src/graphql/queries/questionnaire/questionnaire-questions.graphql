@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-question-fragment.graphql"
+
+query QuestionnaireQuestionsQuery($questionnaireId: String!) {
+  questionnaireQuestions(questionnaireId: $questionnaireId) {
+    ...QuestionnaireQuestionFragment
+  }
+}

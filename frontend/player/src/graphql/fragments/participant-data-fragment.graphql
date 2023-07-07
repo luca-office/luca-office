@@ -1,0 +1,5 @@
+fragment ParticipantDataFragment on ParticipantData {
+  firstName
+  lastName
+  salutation
+}

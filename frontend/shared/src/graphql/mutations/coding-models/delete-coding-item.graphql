@@ -1,0 +1,3 @@
+mutation DeleteCodingItemMutation($id: String!) {
+  deleteCodingItem(id: $id)
+}

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Boundary Component handles component fail 1`] = `
+[
+  <div
+    className="css-1f6p2vj-Heading"
+  >
+    error_general
+  </div>,
+  <div
+    className="css-fmthw-Text"
+  >
+    I crashed!
+    <br />
+    Component Stack (React):
+    
+    at TestComponent (shared/src/components/error-boundary/__tests__/error-boundary.test.tsx:59:42)
+    at ErrorBoundaryComponent (shared/src/components/error-boundary/error-boundary.tsx:22:5)
+  </div>,
+]
+`;
+
+exports[`Error Boundary Component handles component success silently 1`] = `
+<div>
+  My test component
+</div>
+`;

@@ -1,0 +1,3 @@
+mutation DeleteErpComponentMutation($id: Int!, $sampleCompanyId: String!) {
+    deleteErpComponent(id: $id, sampleCompanyId: $sampleCompanyId)
+}

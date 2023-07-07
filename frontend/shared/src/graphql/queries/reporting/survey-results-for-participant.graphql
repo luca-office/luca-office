@@ -1,0 +1,17 @@
+query SurveyResultsForParticipantQuery($surveyId: String!, $surveyInvitationId: String!) {
+  surveyResultsForParticipant(surveyId: $surveyId, surveyInvitationId: $surveyInvitationId) {
+    surveyInvitationId
+    projectModuleScores {
+      score
+      maximumScore
+      ... on ScenarioScore {
+        scenarioId
+        isComplete
+      }
+      ... on QuestionnaireScore {
+        questionnaireId
+        isComplete
+      }
+    }
+  }
+}

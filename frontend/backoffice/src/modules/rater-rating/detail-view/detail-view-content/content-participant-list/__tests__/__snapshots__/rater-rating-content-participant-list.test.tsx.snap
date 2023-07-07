@@ -1,0 +1,763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-content-participant-list renders correctly (loading) 1`] = `
+<div
+  className="css-fyq5s2-RaterRatingContentParticipantList"
+>
+  <div
+    className="css-1f1k13x-Text"
+  >
+    rater_rating_details__rating_list
+  </div>
+  <div
+    className="css-63bajj-Card"
+  >
+    <div
+      className="card-header css-y8kuyc-CardHeader"
+    >
+      <div
+        className="css-1fcutbn-TabbedCard"
+      >
+        <div
+          className="card-tab css-dqywdv-Text"
+          onClick={[Function]}
+        >
+          dashboard__progress_chart_legend_open (8/12)
+        </div>
+        <div
+          className="card-tab css-182t43y-Text"
+          onClick={[Function]}
+        >
+          rater_rating_details__project_modules (1/2)
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-content css-1vyr92j-CardContent"
+    >
+      <div
+        className="card-tab-content css-o4mi6l-TabbedCard"
+      >
+        <div
+          className="css-21ikin-RaterRatingContentParticipantList"
+        >
+          <div
+            className="css-1tzcb72-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="card-tab-content css-16oetws-TabbedCard"
+      >
+        <div
+          className="css-21ikin-RaterRatingContentParticipantList"
+        >
+          <div
+            className="css-1tzcb72-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`rater-rating-content-participant-list renders correctly 1`] = `
+<div
+  className="css-fyq5s2-RaterRatingContentParticipantList"
+>
+  <div
+    className="css-1f1k13x-Text"
+  >
+    rater_rating_details__rating_list
+  </div>
+  <div
+    className="css-63bajj-Card"
+  >
+    <div
+      className="card-header css-y8kuyc-CardHeader"
+    >
+      <div
+        className="css-1fcutbn-TabbedCard"
+      >
+        <div
+          className="card-tab css-dqywdv-Text"
+          onClick={[Function]}
+        >
+          dashboard__progress_chart_legend_open (8/12)
+        </div>
+        <div
+          className="card-tab css-182t43y-Text"
+          onClick={[Function]}
+        >
+          rater_rating_details__project_modules (1/2)
+        </div>
+      </div>
+    </div>
+    <div
+      className="card-content css-1vyr92j-CardContent"
+    >
+      <div
+        className="card-tab-content css-o4mi6l-TabbedCard"
+      >
+        <div
+          className="css-18lu61u-Table"
+        >
+          <div
+            className="css-v9uh6m-Table"
+          >
+            <div
+              className="css-16b8837-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                dashboard__project_table_participant_header
+              </div>
+              <div
+                className="css-1wnpft0-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="css-ljn6kz-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                rating__participant_index
+              </div>
+              <div
+                className="css-1wnpft0-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="css-1uppze5-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                rater_rating__participant_table_column_full_rated
+              </div>
+              <div
+                className="css-1wnpft0-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="css-1mihvxg-Table"
+            >
+              <div
+                className="css-l0jg45-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="css-tqgzls-Table"
+          >
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-22vfow-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-1xb98g0-Table"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      Hasheem Pollastrino
+                    </div>
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div
+                        className="css-h9b3m2-Text"
+                      >
+                        (rating__partly_not_possible)
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      rating__partly_not_possible_tooltip
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  1
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-ij7jn1-ModuleProgressIndicator"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      4/4
+                    </div>
+                    <div
+                      className="css-1xf60qh-ModuleProgressIndicator"
+                    >
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1mihvxg-Table"
+                >
+                  <div
+                    className="css-696nh0-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-22vfow-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-1xb98g0-Table"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      Cortney Cutill
+                    </div>
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div
+                        className="css-h9b3m2-Text"
+                      >
+                        (rating__partly_not_possible)
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      rating__partly_not_possible_tooltip
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  2
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-ij7jn1-ModuleProgressIndicator"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      0/4
+                    </div>
+                    <div
+                      className="css-1xf60qh-ModuleProgressIndicator"
+                    >
+                      <div
+                        className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1mihvxg-Table"
+                />
+              </div>
+            </div>
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-22vfow-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-1xb98g0-Table"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      Wald Hawtin
+                    </div>
+                    <div
+                      className="css-0"
+                      id="tooltip_42"
+                    >
+                      <div
+                        className="css-h9b3m2-Text"
+                      >
+                        (rating__partly_not_possible)
+                      </div>
+                    </div>
+                    <div
+                      className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                      role="tooltip"
+                      style={
+                        {
+                          "backgroundColor": "#2e3032",
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      rating__partly_not_possible_tooltip
+                      <div
+                        className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                        style={{}}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  3
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-ij7jn1-ModuleProgressIndicator"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      4/4
+                    </div>
+                    <div
+                      className="css-1xf60qh-ModuleProgressIndicator"
+                    >
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                      <div
+                        className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1mihvxg-Table"
+                >
+                  <div
+                    className="css-696nh0-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-tab-content css-16oetws-TabbedCard"
+      >
+        <div
+          className="css-18lu61u-Table"
+        >
+          <div
+            className="css-v9uh6m-Table"
+          >
+            <div
+              className="css-1gwtyts-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                rater_rating_details__project_module
+              </div>
+            </div>
+            <div
+              className="css-1va66bi-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                rater_rating_details__project_module_max_points
+              </div>
+            </div>
+            <div
+              className="css-1x174mf-Table"
+            >
+              <div
+                className="css-8050ac-Heading"
+              >
+                rater_rating_details__project_module_rated_participants
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-tqgzls-Table"
+          >
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-hij9lk-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-20cfnl-Table"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    <div
+                      className="css-1sbf56p-Text"
+                    >
+                      Scenario 1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    coding_criteria__criterion_list_score
+                  </div>
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-1ki85nj-RaterRatingParticipantRatingProgressBar"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      0/1
+                    </div>
+                    <div
+                      className="css-gb1brp-ProgressBarColumn"
+                    >
+                      <div
+                        className="css-1oc5iyb-ProgressBarColumn"
+                      >
+                        <div
+                          className="progress-element css-2mfb61-ProgressBarColumn"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-hij9lk-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-20cfnl-Table"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    <div
+                      className="css-1sbf56p-Text"
+                    >
+                      Scenario 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    coding_criteria__criterion_list_score
+                  </div>
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-1ki85nj-RaterRatingParticipantRatingProgressBar"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      1/2
+                    </div>
+                    <div
+                      className="css-gb1brp-ProgressBarColumn"
+                    >
+                      <div
+                        className="css-1oc5iyb-ProgressBarColumn"
+                      >
+                        <div
+                          className="progress-element css-1luqisz-ProgressBarColumn"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-hij9lk-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-20cfnl-Table"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    <div
+                      className="css-1sbf56p-Text"
+                    >
+                      Scenario 2
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    coding_criteria__criterion_list_score
+                  </div>
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-1ki85nj-RaterRatingParticipantRatingProgressBar"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      2/3
+                    </div>
+                    <div
+                      className="css-gb1brp-ProgressBarColumn"
+                    >
+                      <div
+                        className="css-1oc5iyb-ProgressBarColumn"
+                      >
+                        <div
+                          className="progress-element css-1xrtx1r-ProgressBarColumn"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-1ihrgr1-Table"
+            >
+              <div
+                className="entity-row css-hij9lk-Table"
+                onClick={[Function]}
+              >
+                <div
+                  className="css-1gwtyts-Table"
+                >
+                  <div
+                    className="css-20cfnl-Table"
+                  >
+                    <div
+                      className="css-l0jg45-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    <div
+                      className="css-1sbf56p-Text"
+                    >
+                      My Forschung questionnaire
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="css-1va66bi-Table"
+                >
+                  <div
+                    className="css-1sbf56p-Text"
+                  >
+                    coding_criteria__criterion_list_score
+                  </div>
+                </div>
+                <div
+                  className="css-1x174mf-Table"
+                >
+                  <div
+                    className="css-1ki85nj-RaterRatingParticipantRatingProgressBar"
+                  >
+                    <div
+                      className="css-17zbm7y-Text"
+                    >
+                      3/4
+                    </div>
+                    <div
+                      className="css-gb1brp-ProgressBarColumn"
+                    >
+                      <div
+                        className="css-1oc5iyb-ProgressBarColumn"
+                      >
+                        <div
+                          className="progress-element css-xyz62m-ProgressBarColumn"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

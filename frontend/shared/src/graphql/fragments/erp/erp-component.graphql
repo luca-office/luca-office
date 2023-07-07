@@ -1,0 +1,21 @@
+#import "./binary-file-fragment.graphql"
+
+fragment ErpComponentFragment on ErpComponent {
+  id
+  name
+  category
+  purchasingPriceInCents
+  margin
+  sampleCompanyId
+  supplierId
+  packSize
+  availableStock
+  stockCostPerUnitInCents
+  stockCostTotalInCents
+  binaryFileId
+  unit
+  note
+  binaryFile {
+    ...BinaryFileFragment
+  }
+}

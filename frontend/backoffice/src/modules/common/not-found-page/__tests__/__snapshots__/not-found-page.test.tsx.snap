@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`not-found-page renders correctly 1`] = `
+<div
+  className="css-10ix3bh-NotFoundPage"
+>
+  <div
+    className="css-qrw5b-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-6mym6p-NotFoundPage"
+  >
+    not_found__label
+  </div>
+  <div
+    className="css-18lab7t-NotFoundPage"
+  />
+  <button
+    className="css-58ervs-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      back_button
+    </div>
+  </button>
+</div>
+`;

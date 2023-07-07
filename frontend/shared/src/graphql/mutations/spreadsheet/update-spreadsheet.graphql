@@ -1,0 +1,7 @@
+#import "../../fragments/spreadsheet-fragment.graphql"
+
+mutation UpdateSpreadsheet($id: String!, $cellCreations: [SpreadsheetCellCreation!]!) {
+  updateSpreadsheet(id: $id, cellCreations: $cellCreations) {
+    ...SpreadsheetFragment
+  }
+}

@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-card renders correctly 1`] = `
+<div
+  className="css-18cybom-Card"
+  onClick={[MockFunction]}
+>
+  <div
+    className="card-header css-1jjfdh1-CardHeader"
+  >
+    <div
+      className="css-1cvfayx-Heading"
+    >
+      dashboard__progress_reports_title
+    </div>
+    <div
+      className="css-1pmfd-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+  <div
+    className="card-content css-51sp4r-CardContent"
+  >
+    <div
+      className="css-wz4xt9-ReportingCard"
+    >
+      <div
+        className="css-17zbm7y-Text"
+      >
+        dashboard__progress_reports_finished_modules
+      </div>
+      <div
+        className="css-17zbm7y-Text"
+      >
+        0 / 1
+      </div>
+    </div>
+    <div
+      className="css-wz4xt9-ReportingCard"
+    >
+      <div
+        className="css-17zbm7y-Text"
+      >
+        dashboard__progress_reports_fully_rate_abbr
+      </div>
+      <div
+        className="css-17zbm7y-Text"
+      >
+        0
+         / 
+        5
+      </div>
+    </div>
+    <div
+      className="css-wz4xt9-ReportingCard"
+    >
+      <div
+        className="css-17zbm7y-Text"
+      >
+        dashboard__progress_reports_maximum_score
+      </div>
+      <div
+        className="css-17zbm7y-Text"
+      >
+        292
+      </div>
+    </div>
+    <div
+      className="css-wz4xt9-ReportingCard"
+    >
+      <div
+        className="css-qcf7xd-Text"
+      >
+        dashboard__progress_reports_survey_average
+      </div>
+      <div
+        className="css-qcf7xd-Text"
+      >
+        253
+      </div>
+    </div>
+    <div
+      className="css-ujroht-ProgressBar"
+    >
+      <div
+        className="progress-element css-1nvkhv2-ProgressBar"
+      />
+      <div
+        className="css-rsr7yg-ProgressBar"
+      />
+    </div>
+  </div>
+  <div
+    className="card-footer css-texso5-CardFooter"
+  >
+    <div
+      className="css-17zbm7y-Text"
+    >
+      dashboard__progress_reports_missing_reports
+    </div>
+    <div
+      className="css-l0jg45-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;

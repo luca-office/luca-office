@@ -1,0 +1,20 @@
+query SurveyInvitationsProgressQuery($surveyId: String!) {
+    surveyInvitations(surveyId: $surveyId) {
+        id
+        token
+        email
+        projectModuleProgresses {
+            scenarioId
+            questionnaireId
+            status
+            questionsInProgressCount
+            requiredDocumentsCount
+            openedRequiredDocumentsCount
+        }
+        participantData {
+            firstName
+            lastName
+            salutation
+        }
+    }
+}

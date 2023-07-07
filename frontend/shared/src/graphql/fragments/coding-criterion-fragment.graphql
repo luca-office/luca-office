@@ -1,0 +1,7 @@
+fragment CodingCriterionFragment on CodingCriterion {
+  id
+  createdAt
+  description
+  score
+  itemId
+}

@@ -1,0 +1,83 @@
+query InterventionsQuery($scenarioId: String!) {
+  interventions(scenarioId: $scenarioId) {
+    id
+    title
+    interventionType
+    scenarioId
+    interventionEmail {
+      id
+      sender
+      ccRecipients
+      isInitiallyRead
+      relevance
+      message
+      subject
+      directory
+      createdAt
+      modifiedAt
+      scenarioId
+      recipient
+      receptionDelayInSeconds
+    }
+    interventionEmailId
+    ... on FileOpeningIntervention {
+      timeOffsetInSeconds
+      fileId
+      file {
+        name
+      }
+    }
+    ... on EmailOpeningIntervention {
+      timeOffsetInSeconds
+      emailId
+      email {
+        subject
+        directory
+        receptionDelayInSeconds
+        sender
+      }
+    }
+    ... on NotesContentIntervention {
+      timeOffsetInSeconds
+      value
+    }
+    ... on TextDocumentContentIntervention {
+      timeOffsetInSeconds
+      value
+      textDocumentId
+      file {
+        name
+        id
+      }
+    }
+    ... on SpreadsheetCellContentIntervention {
+      isNegated
+      value
+      spreadsheetRowIndex
+      spreadsheetColumnIndex
+      timeOffsetInSeconds
+      spreadsheetId
+      fileId
+      file {
+        name
+      }
+    }
+    ... on RuntimeSurveyAnswerSelectionIntervention {
+      answerId
+      isNegated
+      answer {
+        id
+        text
+        questionId
+        position
+        isCorrect
+      }
+    }
+    ... on ErpRowOpeningIntervention {
+      timeOffsetInSeconds
+      erpTableType
+      erpRowId
+      sampleCompanyId
+    }
+  }
+}

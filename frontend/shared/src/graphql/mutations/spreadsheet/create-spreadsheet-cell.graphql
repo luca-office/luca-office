@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/spreadsheet-cell-fragment.graphql"
+
+mutation CreateSpreadsheetCell($creation: SpreadsheetCellCreation!) {
+  createSpreadsheetCell(creation: $creation) {
+    ...SpreadsheetCellFragment
+  }
+}

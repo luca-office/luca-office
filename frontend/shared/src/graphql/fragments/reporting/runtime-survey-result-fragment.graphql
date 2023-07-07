@@ -1,0 +1,10 @@
+#import "./runtime-survey-question-result-fragment.graphql"
+
+fragment RuntimeSurveyResultFragment on RuntimeSurveyResult {
+  questionnaireId
+  participantIds
+  completedParticipantIds
+  questionResults {
+    ...RuntimeSurveyQuestionResultFragment
+  }
+}

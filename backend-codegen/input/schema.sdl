@@ -1,0 +1,819 @@
+directive @associative on FIELD_DEFINITION
+
+directive @noCreationField on FIELD_DEFINITION
+directive @noUpdateField on FIELD_DEFINITION
+directive @isDate on FIELD_DEFINITION
+directive @relation(typeName: String!) on FIELD_DEFINITION
+
+enum Salutation {
+    Mr
+    Mrs
+}
+
+enum EmploymentMode {
+    FullTime
+    PartTime
+    Assistance
+    Student
+}
+
+enum FamilyStatus {
+    Married
+    Single
+    Divorced
+}
+
+enum MimeType {
+    ApplicationPdf
+    ImageJpeg
+    ImagePng
+    ImageSvg
+    TextHtml
+    VideoMp4
+}
+
+enum EmailDirectory {
+    Inbox
+    Sent
+    Draft
+    Trash
+}
+
+enum Relevance {
+    Required
+    Irrelevant
+    PotentiallyHelpful
+}
+
+enum FileUsageType {
+    FileSystem
+    Email
+}
+
+enum ReferenceBookContentType {
+    TextContent
+    ImageContent
+    PdfContent
+    VideoContent
+}
+
+enum PaymentStatus {
+    Paid
+    Unpaid
+}
+
+enum DeliveryStatus {
+    InProcess
+    Completed
+}
+
+enum QuestionType {
+    SingleChoice
+    MultipleChoice
+    FreeText
+}
+
+enum QuestionnaireType {
+    Global
+    RuntimeSurvey
+}
+
+enum SurveyEventType {
+    StoreParticipantData
+    StartProject
+    EndProject
+    ResumeProject
+    StartScenario
+    EndScenario
+    ResumeScenario
+    StartIntro
+    EndIntro
+    ResumeIntro
+    StartQuestionnaire
+    EndQuestionnaire
+    ResumeQuestionnaire
+    CopyToClipboard
+    PasteFromClipboard
+    CreateEmail
+    AnswerEmail
+    ShowEmail
+    DeleteEmailDraft
+    MoveEmailToTrash
+    SendEmail
+    SelectEmailDirectory
+    SearchEmails
+    UpdateEmail
+    UpdateEmailText
+    CalculatorKeyPressed
+    OpenTool
+    CloseTool
+    MinimizeTool
+    RestoreTool
+    CopyToClipboard
+    CalculatorKeyPressed
+    ViewDirectory
+    ViewDownloadsDirectory
+    ViewFile
+    ViewReferenceBookChapter
+    ViewReferenceBookArticle
+    SearchReferenceBook
+    PlayVideo
+    PauseVideo
+    UpdateSpreadsheetCellValue
+    UpdateSpreadsheetCellType
+    SelectSpreadsheetCell
+    SelectSpreadsheetCellRange
+    StartEvent
+    EndEvent
+    ResumeEvent
+    SelectQuestionnaireAnswer
+    DeselectQuestionnaireAnswer
+    SelectQuestionnaireFreetextAnswer
+    DeselectQuestionnaireFreetextAnswer
+    UpdateQuestionnaireFreeTextAnswer
+    EnlargeQuestionnaireBinary
+    ShrinkQuestionnaireBinary
+    PlayQuestionnaireVideo
+    PauseQuestionnaireVideo
+    EnterFullscreenQuestionnaireVideo
+    LeaveFullscreenQuestionnaireVideo
+    QuestionnaireVideoPlaybackEnded
+    EnlargeQuestionnaireQuestionBinary
+    ShrinkQuestionnaireQuestionBinary
+    PlayQuestionnaireQuestionVideo
+    PauseQuestionnaireQuestionVideo
+    EnterFullscreenQuestionnaireQuestionVideo
+    LeaveFullscreenQuestionnaireQuestionVideo
+    QuestionnaireQuestionVideoPlaybackEnded
+    ErpExpandDirectory
+    ErpCollapseDirectory
+    ErpSelectTable
+    ErpSelectRow
+    ErpDeselectRow
+    ErpSelectAllRows
+    ErpDeselectAllRows
+    ErpSelectCell
+    ErpCopyCellContentToClipboard
+    ErpSearchTable
+    ErpUpdateShowOnlySelectedRows
+    ErpSortTable
+    ErpOpenRow
+    ErpCloseRow
+    ErpOpenAttachment
+    ErpCopyCoreDataToClipboard
+    ErpCopyCoreDataAndReferencesToClipboard
+    ErpCopyReferenceToClipboard
+    ErpNavigateToReference
+    ErpNavigateBack
+    UpdateNotesText
+}
+
+enum UsageField {
+    Company
+    School
+    Research
+    Demonstration
+    Other
+}
+
+enum AuthenticationType {
+    OnlyRegistered
+    OnlyAnonymous
+    RegisteredOrAnonymous
+}
+
+enum ProjectModuleProgressType {
+    InProgress
+    Completed
+}
+
+enum OfficeTool {
+    EmailClient
+    Calculator
+    FileBrowser
+    ReferenceBookViewer
+    ImageViewer
+    VideoPlayer
+    PdfViewer
+    SpreadsheetEditor
+    Erp
+    Notes
+    TextEditor
+}
+
+enum SpreadsheetCellType {
+    General
+    Date
+    Number
+    Text
+    CurrencyEur
+    CurrencyUs
+}
+
+enum ScoringType {
+    Holistic
+    Analytical
+}
+
+enum QuestionScoringType {
+    Holistic
+    Analytical
+    None
+}
+
+enum InterventionType {
+    FileOpening
+    EmailOpening
+    ErpRowOpening
+    NotesContent
+    RuntimeSurveyAnswerSelection
+}
+
+enum CalculatorKey {
+    AC
+    OpenBracket
+    CloseBracket
+    Reciprocal
+    Zero
+    One
+    Two
+    Three
+    Four
+    Five
+    Six
+    Seven
+    Eight
+    Nine
+    Separator
+    Divide
+    Multiply
+    Subtraction
+    Addition
+    Exponentiation
+    Result
+}
+
+type UserAccount {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    email: String! @noUpdateField
+    passwordHash: String! @noUpdateField
+    firstName: String!
+    lastName: String!
+    organization: String!
+    salutation: Salutation!
+}
+
+type ReferenceBookChapter {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    authorId: ID! @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    publishedAt: String! @noCreationField @noUpdateField @isDate
+}
+
+type ReferenceBookArticle {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    position: Float! @noCreationField @noUpdateField
+    referenceBookChapterId: ID! @noUpdateField
+}
+
+type ReferenceBookContent {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    position: Float! @noCreationField @noUpdateField
+    contentType: ReferenceBookContentType! @noUpdateField
+    text: String
+    imageBinaryFileId: ID
+    videoBinaryFileId: ID
+    referenceBookArticleId: ID! @noUpdateField
+}
+
+type ReferenceBookChapterScenario @associative {
+    referenceBookChapterId: ID! @relation(typeName: "ReferenceBookChapter")
+    scenarioId: ID! @relation(typeName: "Scenario")
+    position: Float! @noCreationField @noUpdateField
+}
+
+type Scenario {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    date: String! @isDate
+    name: String!
+    description: String!
+    maxDurationInSeconds: Int
+    introductionEmailId: ID
+    authorId: String! @noCreationField @noUpdateField
+    shouldDisplayTime: Boolean!
+    finalizedAt: String @isDate
+    publishedAt: String @isDate
+    tags: [String!]!
+    completionEmailAddress: String
+    shouldHideReferenceBookChapters: Boolean!
+}
+
+type BinaryFile {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    filename: String!
+    fileSize: Int!
+    mimeType: MimeType!
+}
+
+type Email {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    sender: String
+    recipient: String
+    ccRecipients: [String!]!
+    subject: String!
+    directory: EmailDirectory!
+    receivedDelay: Int!
+    initiallyRead: Boolean!
+    relevance: Relevance!
+    message: String!
+    scenarioId: ID!
+}
+
+type Directory {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    name: String!
+    parentDirectoryId: ID
+    scenarioId: ID
+    sampleCompanyId: ID
+}
+
+type File {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    usageType: FileUsageType! @noUpdateField
+    name: String!
+    relevance: Relevance!
+    tags: [String!]!
+    directoryId: ID
+    emailId: ID @noUpdateField
+    binaryFileId: ID
+    spreadsheetId: ID @noUpdateField
+}
+
+type SampleCompany {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    finalizedAt: String @isDate @noCreationField @noUpdateField
+    authorId: ID! @noCreationField @noUpdateField
+    name: String!
+    description: String!
+    tags: [String!]!
+    emailSignature: String
+    profileFileId: ID
+    logoFileId: ID
+}
+
+type ErpSupplier {
+    id: Int! @noUpdateField
+    firstName: String!
+    lastName: String!
+    company: String!
+    addressLine: String!
+    postalCode: String!
+    city: String!
+    country: String!
+    email: String!
+    phone: String!
+    note: String
+    sampleCompanyId: ID! @noUpdateField
+}
+
+type ErpComponent {
+    id: Int! @noUpdateField
+    name: String!
+    category: String!
+    purchasingPriceInCents: Int!
+    margin: Float!
+    sampleCompanyId: ID! @noUpdateField
+    supplierId: Int!
+}
+
+type ErpProduct {
+    id: Int! @noUpdateField
+    name: String!
+    netPriceInCents: Int!
+    taxRate: Float!
+    sampleCompanyId: ID! @noUpdateField
+}
+
+type ErpComponentErpProduct @associative {
+    componentId: Int! @relation(typeName: "ErpComponent")
+    productId: Int! @relation(typeName: "ErpProduct")
+    sampleCompanyId: ID!
+}
+
+type ErpCustomer {
+    id: Int! @noUpdateField
+    salutation: Salutation!
+    firstName: String!
+    lastName: String!
+    company: String
+    addressLine: String!
+    postalCode: String!
+    city: String!
+    country: String!
+    email: String
+    phone: String
+    note: String
+    sampleCompanyId: ID! @noUpdateField
+}
+
+type ErpOrder {
+    id: Int! @noUpdateField
+    cashbackInCents: Int
+    discountInCents: Int
+    deliveryChargeInCents: Int!
+    deliveryStatus: DeliveryStatus!
+    deliveryDate: String! @isDate
+    note: String
+    sampleCompanyId: ID! @noUpdateField
+    customerId: Int!
+    employeeId: Int!
+}
+
+type ErpOrderItem {
+    id: Int! @noUpdateField
+    quantity: Int!
+    sampleCompanyId: ID! @noUpdateField
+    orderId: Int!
+    productId: Int!
+}
+
+type ErpInvoice {
+    id: Int! @noUpdateField
+    invoiceDate: String! @isDate
+    dueDate: String! @isDate
+    paymentTerms: String!
+    amountPaidInCents: Int
+    paymentStatus: PaymentStatus!
+    reminderFeeInCents: Int
+    defaultChargesInCents: Int
+    note: String
+    sampleCompanyId: ID! @noUpdateField
+    orderId: Int!
+}
+
+type ErpEmployee {
+    id: Int! @noUpdateField
+    salutation: Salutation!
+    firstName: String!
+    lastName: String!
+    addressLine: String!
+    postalCode: String!
+    city: String!
+    country: String!
+    email: String
+    phone: String
+    department: String!
+    jobTitle: String!
+    employmentMode: EmploymentMode!
+    employedAt: String! @isDate
+    employmentEndsAt: String @isDate
+    site: String!
+    graduation: String
+    furtherEducation: [String!]!
+    taxClass: String!
+    familyStatus: FamilyStatus!
+    childCount: Int
+    assessment: String
+    sampleCompanyId: ID! @noUpdateField
+}
+
+type Questionnaire {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    questionnaireType: QuestionnaireType!
+    publishedAt: String @noCreationField @noUpdateField
+    imageBinaryFileId: ID
+}
+
+type QuestionnaireQuestion {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    text: String!
+    questionType: QuestionType!
+    isAnswerMandatory: Boolean!
+    isAdditionalTextAnswerAllowed: Boolean!
+    scoringType: QuestionScoringType!
+    score: Int!
+    questionnaireId: ID! @noUpdateField
+}
+
+type QuestionnaireAnswer {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    text: String!
+    isCorrect: Boolean!
+    questionId: ID! @noUpdateField
+}
+
+type QuestionnaireProject @associative {
+    questionnaireId: ID! @relation(typeName: "Questionnaire")
+    projectId: ID! @relation(typeName: "Project")
+}
+
+type Project {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    authorId: ID! @noUpdateField
+    name: String!
+    description: String!
+    usageField: UsageField!
+    audience: String!
+    welcomeText: String!
+}
+
+type Survey {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    startsAt: String @isDate
+    title: String!
+    description: String!
+    endsAt: String
+    authenticationType: AuthenticationType!
+    projectId: ID! @noUpdateField
+}
+
+type SurveyEvent {
+    createdAt: String! @noCreationField @noUpdateField
+    eventType: SurveyEventType! @noUpdateField
+    data: String! @noUpdateField
+    userAccountId: ID! @noUpdateField
+    surveyId: ID! @noUpdateField
+}
+
+type ScenarioProject @associative {
+    projectId: ID! @relation(typeName: "Project")
+    scenarioId: ID! @relation(typeName: "Scenario")
+    position: Float! @noCreationField @noUpdateField
+}
+
+type SurveyInvitation {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    token: String! @noCreationField @noUpdateField
+    email: String! @noUpdateField
+    surveyId: ID! @noUpdateField
+    userAccountId: ID
+}
+
+type Spreadsheet {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+}
+
+type SpreadsheetCell {
+    id: ID! @noCreationField @noUpdateField
+    cellType: SpreadsheetCellType!
+    value: String!
+    rowIndex: Int!
+    columnIndex: Int!
+    spreadsheetId: ID!
+}
+
+type CodingModel {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    scenarioId: ID!
+}
+
+type CodingDimension {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    codingModelId: ID!
+    parentDimensionId: ID
+}
+
+type CodingItem {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    scoringType: ScoringType!
+    dimensionId: ID!
+}
+
+type CodingCriterion {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    description: String!
+    score: Int!
+    canBeEvaluatedAutomatically: Boolean!
+    itemId: ID!
+}
+
+type ScenarioCodingAutomatedCriterion {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    score: Int!
+    itemId: ID!
+    officeTool: OfficeTool!
+    value: String
+    spreadsheetRowIndex: Int
+    spreadsheetColumnIndex: Int
+    emailId: ID
+    fileId: ID
+    referenceBookArticleId: ID
+    sampleCompanyId: ID
+    erpComponentId: Int
+    erpComponentErpProductId: Int
+    erpCustomerId: Int
+    erpEmployeeId: Int
+    erpInvoiceId: Int
+    erpOrderId: Int
+    erpOrderItemId: Int
+    erpProductId: Int
+    erpSupplierId: Int
+}
+
+type ScenarioQuestionnaire @associative {
+    scenarioId: ID! @relation(typeName: "Scenario")
+    questionnaireId: ID! @relation(typeName: "Questionnaire")
+    activationDelayInSeconds: Int!
+}
+
+type ScenarioSampleCompanyFile @associative {
+    scenarioId: ID! @relation(typeName: "Scenario")
+    fileId: ID! @relation(typeName: "File")
+    relevance: Relevance!
+}
+
+type FreetextQuestionCodingCriterion {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    description: String!
+    score: Int!
+    questionId: ID! @noUpdateField
+}
+
+type ScenarioUserAccount @associative {
+    scenarioId: ID! @relation(typeName: "Scenario")
+    userAccountId: ID! @relation(typeName: "UserAccount")
+}
+
+type SurveyUserAccount @associative {
+    surveyId: ID! @relation(typeName: "Survey")
+    userAccountId: ID! @relation(typeName: "UserAccount")
+}
+
+type ProjectUserAccount @associative {
+    projectId: ID! @relation(typeName: "Project")
+    userAccountId: ID! @relation(typeName: "UserAccount")
+}
+
+type Rating {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    finalizedAt: String! @noCreationField @noUpdateField
+    surveyId: ID! @noUpdateField
+    userAccountId: ID! @noUpdateField
+}
+
+type FreetextQuestionRating {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    ratingId: ID! @noUpdateField
+    questionId: ID! @noUpdateField
+    surveyInvitationId: ID! @noUpdateField
+    noCriterionFulfilled: Boolean!
+}
+
+type FreetextQuestionRatingCriterionSelection {
+    createdAt: String! @noCreationField @noUpdateField
+    ratingId: ID! @noUpdateField
+    criterionId: ID! @noUpdateField
+}
+
+type Intervention {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    title: String!
+    interventionType: InterventionType! @noUpdateField
+    timeOffsetInSeconds: Int!
+    scenarioId: ID! @noUpdateField
+    interventionEmailId: ID!
+}
+
+type ScenarioErpComponent {
+    scenarioId: ID! @noUpdateField
+    componentId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpComponentErpProduct {
+    scenarioId: ID! @noUpdateField
+    componentId: Int! @noUpdateField
+    productId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpCustomer {
+    scenarioId: ID! @noUpdateField
+    customerId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpEmployee {
+    scenarioId: ID! @noUpdateField
+    employeeId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpInvoice {
+    scenarioId: ID! @noUpdateField
+    invoiceId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpOrder {
+    scenarioId: ID! @noUpdateField
+    orderId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpOrderItem {
+    scenarioId: ID! @noUpdateField
+    orderItemId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpProduct {
+    scenarioId: ID! @noUpdateField
+    productId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type ScenarioErpSupplier {
+    scenarioId: ID! @noUpdateField
+    supplierId: Int! @noUpdateField
+    sampleCompanyId: ID! @noUpdateField
+    relevance: Relevance!
+}
+
+type RScript {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    archivedAt: String @noCreationField @noUpdateField
+    title: String!
+    description: String!
+    script: String!
+}
+
+type TextDocument {
+    id: ID! @noCreationField @noUpdateField
+    createdAt: String! @noCreationField @noUpdateField
+    modifiedAt: String! @noCreationField @noUpdateField
+    content: String!
+}

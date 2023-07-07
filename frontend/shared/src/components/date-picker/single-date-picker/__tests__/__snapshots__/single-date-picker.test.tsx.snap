@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`date-picker renders correctly 1`] = `
+<div
+  className="css-6n0jsg"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    test label
+  </div>
+  <div>
+    Mocked Date Picker
+  </div>
+</div>
+`;
+
+exports[`date-picker renders disabled 1`] = `
+<div
+  className="css-1gcy9nd"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div
+    className="css-lz4b3k-Label"
+  >
+    test label
+  </div>
+  <div>
+    Mocked Date Picker
+  </div>
+</div>
+`;

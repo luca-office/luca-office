@@ -1,0 +1,7 @@
+#import "../../fragments/survey-event/survey-event-fragment.graphql"
+
+query SurveyEventsQuery($surveyInvitationId: String!, $scenarioId: String!) {
+  surveyEvents(surveyInvitationId: $surveyInvitationId, scenarioId: $scenarioId) {
+    ...SurveyEventFragment
+  }
+}

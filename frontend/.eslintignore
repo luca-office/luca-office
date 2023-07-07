@@ -1,0 +1,11 @@
+node_modules
+.vscode
+.jest
+.storybook
+package.json
+*d.ts
+*mock.ts
+*style.ts
+*.js
+*.graphql
+tests/

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-bottom-actionbar renders correctly 1`] = `
+<div
+  className="bottom-action-bar css-1004l4i-ContentBottomActionbar"
+/>
+`;

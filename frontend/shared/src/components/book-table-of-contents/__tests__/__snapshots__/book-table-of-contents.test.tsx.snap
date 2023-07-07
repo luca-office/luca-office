@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`book-table-of-contents renders correctly 1`] = `
+<div
+  className="css-1tz1azl-Card"
+>
+  <div
+    className="card-header css-15zaw2t-CardHeader"
+  >
+    <div
+      className="css-mv0otu-TableOfContentsContainer"
+    >
+      <div
+        className="css-1f6p2vj-Heading"
+      >
+        Title
+      </div>
+    </div>
+  </div>
+  <div
+    className="toc-body css-awggpr-TableOfContentsContainer"
+  >
+    <div
+      className="book-chapters-list css-1n23nny-TableOfContentsContainer"
+    >
+      <div
+        className="css-18xeog2-TableOfContentsContainer"
+      >
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="toc-entry-text css-x4fs04-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-scbjzw-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-1k0t96a-Text"
+            >
+              animal treatments
+            </div>
+          </div>
+        </div>
+        <div
+          className="toc-entry css-12opz0x-TableOfContentsEntry"
+        >
+          <div
+            className="css-1ldtu9f-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[Function]}
+          />
+          <div
+            className="toc-entry-text css-x4fs04-TableOfContentsEntry"
+            onClick={[Function]}
+          >
+            <div
+              className="css-scbjzw-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-1k0t96a-Text"
+            >
+              dinosaur breeds
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-footer css-105jaxv-CardFooter"
+  />
+</div>
+`;

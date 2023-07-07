@@ -1,0 +1,7 @@
+#import "../../../../../shared/src/graphql/fragments/user-account-fragment.graphql"
+
+query ProjectUserAccountsQuery($projectId: String!) {
+  userAccountsForProject(projectId: $projectId) {
+    ...UserAccountFragment
+  }
+}

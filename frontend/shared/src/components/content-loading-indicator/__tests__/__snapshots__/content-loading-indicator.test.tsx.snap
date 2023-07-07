@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`content-loading-indicator renders correctly 1`] = `
+<div
+  className="css-1e2w3lh-ContentLoadingIndicator"
+>
+  <div
+    className="css-1tzcb72-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+</div>
+`;

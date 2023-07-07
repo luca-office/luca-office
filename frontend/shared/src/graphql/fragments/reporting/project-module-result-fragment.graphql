@@ -1,0 +1,7 @@
+fragment ProjectModuleResultFragment on ProjectModuleResult {
+  scenarioId
+  questionnaireId
+  averageScore
+  maximumScore
+  isComplete
+}

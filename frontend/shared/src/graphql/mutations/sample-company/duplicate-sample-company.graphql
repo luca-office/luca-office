@@ -1,0 +1,7 @@
+#import "../../fragments/sample-company-fragment.graphql"
+
+mutation DuplicateSampleCompanyMutation($id: String!) {
+  duplicateSampleCompany(id: $id) {
+    ...SampleCompanyFragment
+  }
+}

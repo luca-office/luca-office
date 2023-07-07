@@ -1,0 +1,985 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scenario-selection renders correctly 1`] = `
+<div
+  className="content css-usun20-Content"
+>
+  <div
+    className="css-7pb0dh-DetailViewHeader"
+  >
+    <button
+      className="css-rmd9d0-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-u7npei-DetailViewHeader"
+        >
+          projects__header_details_label
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      projects__scenario_header_label
+    </div>
+  </div>
+  <div
+    className="content-container css-1v8oche-Content"
+  >
+    <div
+      className="css-1ldr313-SubHeader"
+    >
+      <div
+        className="css-1vv8qb3"
+        data-testid="custom-select"
+      >
+        <div
+          className="css-0"
+        >
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            subheader__typ
+          </div>
+        </div>
+        <div
+          className="css-18vooac"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="custom-select css-b62m3t-container"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="css-1f43avz-a11yText-A11yText"
+              id="react-select-2-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              className="css-1f43avz-a11yText-A11yText"
+            />
+            <div
+              className=" css-1l51fcv-control"
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <div
+                className=" css-1fdsijx-ValueContainer"
+              >
+                <div
+                  className="single-value css-1ry7giw-singleValue"
+                >
+                  subheader__filter_by_all_entities
+                </div>
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-readonly={true}
+                  className="css-mohuvp-dummyInput-DummyInput"
+                  disabled={false}
+                  id="react-select-2-input"
+                  inputMode="none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  role="combobox"
+                  tabIndex={0}
+                  value=""
+                />
+              </div>
+              <div
+                className=" css-1hb7zxy-IndicatorsContainer"
+              >
+                <span
+                  className=" css-1uei4ir-indicatorSeparator"
+                />
+                <div
+                  aria-hidden="true"
+                  className=" css-1xc3v61-indicatorContainer"
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                >
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1vv8qb3"
+        data-testid="custom-select"
+      >
+        <div
+          className="css-0"
+        >
+          <div
+            className="css-13s2sfk-Heading"
+          >
+            subheader__sort
+          </div>
+        </div>
+        <div
+          className="css-18vooac"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+        >
+          <div
+            className="custom-select css-b62m3t-container"
+            onKeyDown={[Function]}
+          >
+            <span
+              className="css-1f43avz-a11yText-A11yText"
+              id="react-select-3-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              className="css-1f43avz-a11yText-A11yText"
+            />
+            <div
+              className=" css-1l51fcv-control"
+              onMouseDown={[Function]}
+              onTouchEnd={[Function]}
+            >
+              <div
+                className=" css-1fdsijx-ValueContainer"
+              >
+                <div
+                  className="single-value css-1ry7giw-singleValue"
+                >
+                  subheader__sort_by_creation_date
+                </div>
+                <input
+                  aria-autocomplete="list"
+                  aria-expanded={false}
+                  aria-haspopup={true}
+                  aria-readonly={true}
+                  className="css-mohuvp-dummyInput-DummyInput"
+                  disabled={false}
+                  id="react-select-3-input"
+                  inputMode="none"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  role="combobox"
+                  tabIndex={0}
+                  value=""
+                />
+              </div>
+              <div
+                className=" css-1hb7zxy-IndicatorsContainer"
+              >
+                <span
+                  className=" css-1uei4ir-indicatorSeparator"
+                />
+                <div
+                  aria-hidden="true"
+                  className=" css-1xc3v61-indicatorContainer"
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                >
+                  <div
+                    className="css-l0jg45-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-17as3x0"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <div
+          className="css-13s2sfk-Heading"
+        >
+          subheader__search
+        </div>
+        <div
+          className="css-1unfqpo"
+        >
+          <input
+            className="css-dga44z"
+            defaultValue=""
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="subheader__search_placeholder"
+            type="text"
+          />
+          <div
+            className="css-v3avn8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1w1rgjg-CardOverview"
+    >
+      <section
+        className="css-153l9ug-CardOverview"
+      >
+        <div
+          className="css-1xzym25-Card"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="card-header css-1x5pyem-CardHeader"
+            >
+              <div
+                className="css-1b415o5-OverviewCard"
+              >
+                <div
+                  className="css-1i6jmor-Heading"
+                >
+                  Scenario 1
+                </div>
+              </div>
+              <div
+                className="header-time css-adnwg9-CardDurationInfo"
+                data-testid="card-duration-info"
+              >
+                <div
+                  className="css-1f6p2vj-Heading"
+                >
+                  90 unit__minutes_short
+                </div>
+                <div
+                  className="css-kgdmdb-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className="css-1v230f2-Text"
+              >
+                description
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-1gj5t7m-TagsOnCards"
+            >
+              <div
+                className="css-1ws8uc4-Tag"
+              >
+                <div
+                  className="css-12ia3h2-Text"
+                >
+                  placeholder__tags
+                </div>
+              </div>
+            </div>
+            <div
+              className="card-footer css-awvo71-CardFooter"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  03.08.2020
+                </div>
+              </div>
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div
+                className="editing-status-indicator css-z3bxxz-EditingStatusIndicator"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-1cywa3f-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-mj8vo1-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                placeholder__add_to_selection
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1xzym25-Card"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="card-header css-1x5pyem-CardHeader"
+            >
+              <div
+                className="css-1b415o5-OverviewCard"
+              >
+                <div
+                  className="css-1i6jmor-Heading"
+                >
+                  Scenario 2
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className="css-1v230f2-Text"
+              >
+                description
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-1gj5t7m-TagsOnCards"
+            >
+              <div
+                className="css-1ws8uc4-Tag"
+              >
+                <div
+                  className="css-12ia3h2-Text"
+                >
+                  placeholder__tags
+                </div>
+              </div>
+            </div>
+            <div
+              className="card-footer css-awvo71-CardFooter"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  03.08.2020
+                </div>
+              </div>
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div
+                className="editing-status-indicator css-z3bxxz-EditingStatusIndicator"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-1cywa3f-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-mj8vo1-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                placeholder__add_to_selection
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1xzym25-Card"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="card-header css-1x5pyem-CardHeader"
+            >
+              <div
+                className="css-1b415o5-OverviewCard"
+              >
+                <div
+                  className="css-1i6jmor-Heading"
+                >
+                  Scenario 2
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className="css-1v230f2-Text"
+              >
+                description
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-1gj5t7m-TagsOnCards"
+            >
+              <div
+                className="css-1ws8uc4-Tag"
+              >
+                <div
+                  className="css-12ia3h2-Text"
+                >
+                  placeholder__tags
+                </div>
+              </div>
+            </div>
+            <div
+              className="card-footer css-awvo71-CardFooter"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  03.08.2020
+                </div>
+              </div>
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div
+                className="editing-status-indicator css-z3bxxz-EditingStatusIndicator"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-1cywa3f-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-mj8vo1-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                placeholder__add_to_selection
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1xzym25-Card"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="card-header css-1x5pyem-CardHeader"
+            >
+              <div
+                className="css-1b415o5-OverviewCard"
+              >
+                <div
+                  className="css-1i6jmor-Heading"
+                >
+                  Scenario 2
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                className="css-1v230f2-Text"
+              >
+                description
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-1gj5t7m-TagsOnCards"
+            >
+              <div
+                className="css-1ws8uc4-Tag"
+              >
+                <div
+                  className="css-12ia3h2-Text"
+                >
+                  placeholder__tags
+                </div>
+              </div>
+            </div>
+            <div
+              className="card-footer css-awvo71-CardFooter"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  03.08.2020
+                </div>
+              </div>
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div
+                className="editing-status-indicator css-z3bxxz-EditingStatusIndicator"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-1cywa3f-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-mj8vo1-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                placeholder__add_to_selection
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1xzym25-Card"
+          onClick={[Function]}
+        >
+          <div>
+            <div
+              className="card-header css-1x5pyem-CardHeader"
+            >
+              <div
+                className="css-1b415o5-OverviewCard"
+              >
+                <div
+                  className="css-1i6jmor-Heading"
+                >
+                  Scenario 1
+                </div>
+              </div>
+              <div
+                className="header-time css-adnwg9-CardDurationInfo"
+                data-testid="card-duration-info"
+              >
+                <div
+                  className="css-1f6p2vj-Heading"
+                >
+                  90 unit__minutes_short
+                </div>
+                <div
+                  className="css-kgdmdb-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                className="css-1v230f2-Text"
+              >
+                description
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className="css-1gj5t7m-TagsOnCards"
+            >
+              <div
+                className="css-1ws8uc4-Tag"
+              >
+                <div
+                  className="css-12ia3h2-Text"
+                >
+                  placeholder__tags
+                </div>
+              </div>
+            </div>
+            <div
+              className="card-footer css-awvo71-CardFooter"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  03.08.2020
+                </div>
+              </div>
+              <div
+                className="css-1839z0z-CardFooterItem"
+              >
+                <div
+                  className="css-1lrzij5-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+                <div
+                  className="css-1de4iva-Text"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div
+                className="editing-status-indicator css-z3bxxz-EditingStatusIndicator"
+              >
+                <div
+                  className="css-l0jg45-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-1cywa3f-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-mj8vo1-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                placeholder__add_to_selection
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div
+    className="bottom-action-bar css-1004l4i-ContentBottomActionbar"
+  >
+    <div
+      className="card-footer css-30zwfm-CardFooter"
+    >
+      <div
+        className="css-1jbe7ev-Text"
+      >
+        project_module_selection__empty_selection_scenario
+      </div>
+      <button
+        className="css-ncq1no-Button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          reference_books__scenario_add_selected_label
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

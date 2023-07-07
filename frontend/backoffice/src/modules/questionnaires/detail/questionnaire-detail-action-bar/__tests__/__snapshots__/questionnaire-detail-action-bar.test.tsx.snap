@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`questionnaire-detail-action-bar renders correctly 1`] = `
+[
+  <div
+    className="css-1839z0z-CardFooterItem"
+    title="detail_card__title_createdAt"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1de4iva-Text"
+    >
+      21.07.2020
+    </div>
+  </div>,
+  <div
+    className="css-nsmsx2-CardFooterItem"
+    title="detail_card__title_author"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-1de4iva-Text"
+    >
+      John Doe
+    </div>
+  </div>,
+  <button
+    className="css-tmvgiy-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      preview
+    </div>
+  </button>,
+]
+`;

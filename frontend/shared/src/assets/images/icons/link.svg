@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">    
+    <g id="Icons---lined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Stroke_Icons-(16px)/Link" stroke="currentColor">
+            <path d="M9.625,6.375 L9.625,6.375 C8.478,5.228 6.618,5.228 5.471,6.375 L2.36,9.485 C1.213,10.632 1.213,12.493 2.36,13.64 C3.507,14.787 5.368,14.787 6.515,13.64 L7.625,12.529 M6.375,9.625 L6.375,9.625 C7.522,10.772 9.382,10.772 10.529,9.625 L13.64,6.515 C14.787,5.368 14.787,3.507 13.64,2.36 C12.493,1.213 10.632,1.213 9.485,2.36 L8.375,3.471" id="Stroke-4"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,3 @@
+query FreeTextAnswerForParticipantQuery($questionId: String!, $surveyInvitationId: String!) {
+  freeTextAnswerForParticipant(questionId: $questionId, surveyInvitationId: $surveyInvitationId)
+}

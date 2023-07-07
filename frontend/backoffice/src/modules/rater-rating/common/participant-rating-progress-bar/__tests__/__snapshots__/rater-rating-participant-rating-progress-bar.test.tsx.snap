@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-participant-rating-progress-bar renders correctly 1`] = `
+<div
+  className="css-1ki85nj-RaterRatingParticipantRatingProgressBar"
+>
+  <div
+    className="css-17zbm7y-Text"
+  >
+    1/2
+  </div>
+  <div
+    className="css-gb1brp-ProgressBarColumn"
+  >
+    <div
+      className="css-1oc5iyb-ProgressBarColumn"
+    >
+      <div
+        className="progress-element css-1luqisz-ProgressBarColumn"
+      />
+    </div>
+  </div>
+</div>
+`;

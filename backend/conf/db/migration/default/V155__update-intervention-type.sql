@@ -1,0 +1,1 @@
+ALTER TYPE INTERVENTION_TYPE ADD VALUE 'SpreadsheetCellContent';

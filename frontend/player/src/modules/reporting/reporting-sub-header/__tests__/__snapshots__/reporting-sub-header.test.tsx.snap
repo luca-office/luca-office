@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-sub-header renders correctly 1`] = `
+<div
+  className="css-1abp8mn-SubHeader"
+>
+  <div
+    className="css-1og0z02-Heading"
+  >
+    reporting__overview_header_label
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-order.graphql"
+
+mutation UpdateErpOrderMutation($id: Int!, $sampleCompanyId: String!, $update: ErpOrderUpdate!) {
+  updateErpOrder(id: $id, sampleCompanyId: $sampleCompanyId, update: $update) {
+    ...ErpOrderFragment
+  }
+}

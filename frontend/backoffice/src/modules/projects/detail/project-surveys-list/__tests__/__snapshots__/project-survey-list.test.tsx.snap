@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`project-surveys-list renders correctly 1`] = `
+[
+  <div
+    className="css-p8sq3i-Table"
+  >
+    <div
+      className="css-oxiieb-Table"
+    >
+      <div
+        className="css-fuywjr-Table"
+      >
+        projects__surveys_table_title
+      </div>
+      <div
+        className="css-fuywjr-Table"
+      >
+        projects__surveys_table_condition
+      </div>
+      <div
+        className="css-fuywjr-Table"
+      >
+        projects__surveys_table_participants
+      </div>
+      <div
+        className="css-fuywjr-Table"
+      >
+        projects__surveys_table_status
+      </div>
+      <div
+        className="css-51lhxd-Table"
+      >
+        <div
+          className="css-0"
+          id="tooltip_42"
+        >
+          <button
+            className="css-1cywa3f-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              <div
+                className="css-mj8vo1-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </button>
+        </div>
+        <div
+          className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+          role="tooltip"
+          style={
+            {
+              "backgroundColor": "#2e3032",
+              "zIndex": 1,
+            }
+          }
+        >
+          projects__surveys_add
+          <div
+            className="react-tooltip-arrow styles-module_arrow__K0L3T"
+            style={{}}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-tqgzls-Table"
+    >
+      <div
+        className="css-1ihrgr1-Table"
+      >
+        <div
+          className="entity-row css-s3x2fw-Table"
+          onClick={[Function]}
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            my test scenario
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__survey_overlay_closed_participation
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-17zbm7y-Text"
+              >
+                projects__surveys_table_participants_column
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              projects__surveys_table_participants_column_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-16l5eqp-Text"
+            >
+              <div
+                className="css-cj5xss-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              dashboard__details_time_ended
+            </div>
+          </div>
+          <div
+            className="css-51lhxd-Table"
+          >
+            <div
+              className="css-0"
+            >
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-zazuei-Button"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-op5egs-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-1ihrgr1-Table"
+      >
+        <div
+          className="entity-row css-s3x2fw-Table"
+          onClick={[Function]}
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            my test scenario
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__survey_overlay_closed_participation
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-17zbm7y-Text"
+              >
+                projects__surveys_table_participants_column
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              projects__surveys_table_participants_column_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-16l5eqp-Text"
+            >
+              <div
+                className="css-cj5xss-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+              dashboard__details_time_ended
+            </div>
+          </div>
+          <div
+            className="css-51lhxd-Table"
+          >
+            <div
+              className="css-0"
+            >
+              <div
+                className="css-0"
+                id="tooltip_42"
+              >
+                <button
+                  className="css-zazuei-Button"
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    <div
+                      className="css-op5egs-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                  </div>
+                </button>
+              </div>
+              <div
+                className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                role="tooltip"
+                style={
+                  {
+                    "backgroundColor": "#2e3032",
+                    "zIndex": 1,
+                  }
+                }
+              >
+                
+                <div
+                  className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                  style={{}}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="card-footer css-jb8qoz-CardFooter"
+  />,
+]
+`;

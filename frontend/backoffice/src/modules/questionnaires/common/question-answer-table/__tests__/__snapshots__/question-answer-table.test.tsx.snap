@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`question-answer-table renders correctly 1`] = `
+[
+  <div
+    className="css-ro7xfl-Label"
+  >
+    questionnaires__detail_questions_scoring_count_title
+  </div>,
+  <div
+    className="css-18lu61u-Table"
+  >
+    <div
+      className="css-1r9mhfr-Table"
+    >
+      <div
+        className="css-171oj93-Table"
+      >
+        <div
+          className="css-l0jg45-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="css-fuywjr-Table"
+      >
+        <div
+          className="css-deb5sv-QuestionAnswerTable"
+        >
+          <div
+            className="css-17zbm7y-Text"
+          >
+            questionnaires__detail_questions_answer
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-tqgzls-Table"
+    >
+      <div
+        className="css-1ihrgr1-Table"
+      >
+        <div
+          className="entity-row css-1tvaqzf-Table"
+          onClick={[Function]}
+        >
+          <div
+            className="css-khk68n-Table"
+          >
+            <div />
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-1inzpas-Table"
+              >
+                <div
+                  className="css-yfhzlz-InlineEditableTextarea"
+                >
+                  <div>
+                    <form
+                      className="css-1ukf4zt-InlineEditableTextarea"
+                      onSubmit={[Function]}
+                    >
+                      <div
+                        className="css-10rpuak-InlineEditableTextarea"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="textarea css-1tlgdzf-InlineEditableTextarea"
+                          contentEditable={false}
+                          suppressContentEditableWarning={true}
+                        >
+                          
+                          <div
+                            className="placeholder css-6bmbza-Text"
+                          >
+                            questionnaire_question__freetext_placeholder
+                          </div>
+                        </div>
+                        <div
+                          className="hover-icon css-1pndqgp-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div
+                  className="css-14upup1-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              questionnaire_question__freetext_hint
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+          <div
+            className="css-khk68n-Table"
+          >
+            
+          </div>
+          <div
+            className="css-khk68n-Table"
+          >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="card-footer css-1rw6o23-CardFooter"
+  >
+    <div
+      className="css-10bxg1d-QuestionAnswerTable"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,15 @@
+fragment EmailFragment on Email {
+  id
+  createdAt
+  modifiedAt
+  sender
+  recipient
+  ccRecipients
+  subject
+  directory
+  receptionDelayInSeconds
+  isInitiallyRead
+  relevance
+  message
+  scenarioId
+}

@@ -1,0 +1,5 @@
+fragment ReferenceBookChapterScenarioFragment on ReferenceBookChapterScenario {
+  referenceBookChapterId
+  scenarioId
+  position
+}

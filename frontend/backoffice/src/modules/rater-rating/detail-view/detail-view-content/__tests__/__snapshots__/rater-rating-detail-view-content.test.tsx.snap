@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-detail-view-content renders correctly (loading) 1`] = `
+<div
+  className="css-em4hye-RaterRatingDetailViewContent"
+>
+  <div
+    className="css-1ij374s-RaterRatingDetailViewContent"
+  >
+    <div
+      className="css-1tzcb72-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`rater-rating-detail-view-content renders correctly 1`] = `
+<div
+  className="css-em4hye-RaterRatingDetailViewContent"
+>
+  <div
+    className="css-1x3womu-RaterRatingDetailViewContent"
+  >
+    <div
+      className="css-mns6bu-RaterRatingContentInfo"
+    >
+      <div
+        className="css-118ld05-RaterRatingContentInfo"
+      >
+        <div
+          className="css-1f1k13x-Text"
+        >
+          rater_rating_details__title
+        </div>
+        <div
+          className="css-wmw0az-RaterRatingContentInfo"
+        >
+          <div
+            className="css-tyag6n-Heading"
+          >
+            my test scenario
+          </div>
+          <div
+            className="css-1xkyok3-Heading"
+          >
+            dashboard__title_time_ended
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-118ld05-RaterRatingContentInfo"
+      >
+        <div
+          className="css-1f1k13x-Text"
+        >
+          rater_rating_details__description
+        </div>
+        <div
+          className="css-1rh0ks6-Text"
+        >
+          description
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1hyj09g-RaterRatingContentSettings"
+    >
+      <div
+        className="css-1f1k13x-Text"
+      >
+        rater_rating_details__settings
+      </div>
+      <div>
+        <div
+          className="css-1t5zhaa-Paper"
+        >
+          <div
+            className="css-hdaeu0-RaterRatingContentSettings"
+          >
+            <div
+              className="css-1f1k13x-Text"
+            >
+              rater_rating_details__settings_conditions_of_participation
+            </div>
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__surveys_table_closed_participation (rater_rating_details__survey_authentication_registered_only)
+            </div>
+          </div>
+          <div
+            className="css-hdaeu0-RaterRatingContentSettings"
+          >
+            <div
+              className="css-1f1k13x-Text"
+            >
+              rater_rating_details__settings_survey_procedure
+            </div>
+            <div
+              className="css-17zbm7y-Text"
+            >
+              projects__surveys_details_progress_automatic
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-175pgxb-RaterRatingContentParticipantList"
+    >
+      <div
+        className="css-1f1k13x-Text"
+      >
+        rater_rating_details__rating_list
+      </div>
+      <div
+        className="css-63bajj-Card"
+      >
+        <div
+          className="card-header css-y8kuyc-CardHeader"
+        >
+          <div
+            className="css-1fcutbn-TabbedCard"
+          >
+            <div
+              className="card-tab css-dqywdv-Text"
+              onClick={[Function]}
+            >
+              dashboard__progress_chart_legend_open (0/0)
+            </div>
+            <div
+              className="card-tab css-182t43y-Text"
+              onClick={[Function]}
+            >
+              rater_rating_details__project_modules (0/0)
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-content css-1vyr92j-CardContent"
+        >
+          <div
+            className="card-tab-content css-o4mi6l-TabbedCard"
+          >
+            <div
+              className="css-21ikin-RaterRatingContentParticipantList"
+            >
+              <div
+                className="css-1tzcb72-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="card-tab-content css-16oetws-TabbedCard"
+          >
+            <div
+              className="css-21ikin-RaterRatingContentParticipantList"
+            >
+              <div
+                className="css-1tzcb72-Icon"
+                dangerouslySetInnerHTML={
+                  {
+                    "__html": {},
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

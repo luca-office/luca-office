@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`erp-data-set-accordion renders correctly 1`] = `
+<div
+  className="erp-accordion css-1bwtgc9-Card"
+>
+  <div
+    className="card-header css-1wbumr0-CardHeader"
+  >
+    <div
+      className="css-17ett1w-AccordionCard"
+      onClick={[Function]}
+    >
+      <div
+        className="css-fsv1sy-AccordionCard"
+      >
+        <div
+          className="css-v5hrte-AccordionCard"
+        >
+          erp_accordion__order_label (erp_dataset__foreign_key)
+        </div>
+        <div
+          className="css-6s7adz-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+      </div>
+      <div
+        className="css-w6fyje-AccordionCard"
+      >
+        erp_accordion__order_additional_label
+      </div>
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

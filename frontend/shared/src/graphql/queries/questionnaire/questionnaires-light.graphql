@@ -1,0 +1,7 @@
+#import "../../fragments/questionnaire-light-fragment.graphql"
+
+query QuestionnairesLightQuery($isRuntimeSurvey: Boolean!) {
+  questionnaires(isRuntimeSurvey: $isRuntimeSurvey) {
+    ...QuestionnaireLightFragment
+  }
+}

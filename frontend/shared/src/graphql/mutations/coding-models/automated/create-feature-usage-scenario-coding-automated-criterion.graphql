@@ -1,0 +1,14 @@
+mutation CreateFeatureUsageScenarioCodingAutomatedCriterionMutation(
+  $creation: FeatureUsageScenarioCodingAutomatedCriterionCreation!
+) {
+  createFeatureUsageScenarioCodingAutomatedCriterion(creation: $creation) {
+    id
+    score
+    itemId
+
+    ... on FeatureUsageScenarioCodingAutomatedCriterion {
+      officeTool
+      featureType
+    }
+  }
+}

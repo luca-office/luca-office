@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scoring-footer renders correctly 1`] = `
+<div
+  className="css-1qdf7np-ScoringFooter"
+>
+  <div
+    className="css-1wppwep-ScoringFooter"
+  >
+    <div
+      className="css-1lrzij5-Icon"
+      dangerouslySetInnerHTML={
+        {
+          "__html": {},
+        }
+      }
+    />
+    <div
+      className="css-17zbm7y-Text"
+    >
+      rating__completed_label
+    </div>
+  </div>
+  <div
+    className="css-n7jkg3-ScoringFooter"
+  >
+    <div
+      className="css-hph0uq-ScoringFooter"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-17zbm7y-Text"
+      >
+        rating__finalized_label
+      </div>
+    </div>
+    <button
+      className="css-1oplw4f-Button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-kuxry5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        rating__rating__action_button_finish_scoring
+      </div>
+    </button>
+  </div>
+</div>
+`;

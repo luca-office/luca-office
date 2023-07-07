@@ -1,0 +1,27 @@
+#import "../user-account-fragment.graphql"
+#import "../binary-file-fragment.graphql"
+#import "./questionnaire-question-fragment.graphql"
+
+fragment QuestionnaireFragment on Questionnaire {
+  id
+  createdAt
+  modifiedAt
+  title
+  description
+  questionnaireType
+  finalizedAt
+  publishedAt
+  binaryFileId
+  maxDurationInSeconds
+  binaryFile {
+    ...BinaryFileFragment
+  }
+  authorId
+  author {
+    ...UserAccountFragment
+  }
+  questionsCount
+  questions {
+    ...QuestionnaireQuestionFragment
+  }
+}

@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-product.graphql"
+
+query GetErpProductsQuery($sampleCompanyId: String!) {
+  erpProducts(sampleCompanyId: $sampleCompanyId) {
+    ...ErpProductFragment
+  }
+}

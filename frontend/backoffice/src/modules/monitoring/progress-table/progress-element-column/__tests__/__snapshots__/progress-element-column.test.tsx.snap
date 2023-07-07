@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progress-element-column renders correctly (incomplete) 1`] = `
+<div
+  className="css-4fctw3-ProgressElementColumn"
+>
+  <div
+    className="css-cj5xss-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-17zbm7y-Text"
+  >
+    Test Scenario
+  </div>
+</div>
+`;
+
+exports[`progress-element-column renders correctly 1`] = `
+<div
+  className="css-4fctw3-ProgressElementColumn"
+>
+  <div
+    className="css-cj5xss-Icon"
+    dangerouslySetInnerHTML={
+      {
+        "__html": {},
+      }
+    }
+  />
+  <div
+    className="css-17zbm7y-Text"
+  >
+    dashboard__project_table_progress_done
+  </div>
+</div>
+`;

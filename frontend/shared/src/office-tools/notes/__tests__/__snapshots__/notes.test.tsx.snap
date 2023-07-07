@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notes renders correctly 1`] = `
+<div
+  className="react-draggable css-1bhrkiv-OfficeWindow"
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  style={
+    {
+      "transform": "translate(0px,0px)",
+    }
+  }
+  transform={null}
+>
+  <div
+    className="header css-hsza9j-OfficeWindow"
+  >
+    <div
+      className="css-1sdua8l-ToolsHeader"
+    >
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <div
+          className="css-1ss9q1q-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1b4s2bm-Text"
+        >
+          notes__label
+        </div>
+      </div>
+      <div
+        className="css-w2t5un-ToolsHeader"
+      >
+        <button
+          className="css-1dzgoe2-Button"
+          disabled={false}
+          onClick={[Function]}
+          title="viewer_tools__minimize_tool_label"
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-13zef26-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+        <button
+          className="css-1dzgoe2-Button"
+          disabled={false}
+          onClick={[Function]}
+          title="viewer_tools__close_tool_label"
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-13zef26-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="css-18dhpja"
+  >
+    <textarea
+      className="css-tm7n49"
+      defaultValue="hallo"
+      onChange={[Function]}
+    />
+  </div>
+</div>
+`;

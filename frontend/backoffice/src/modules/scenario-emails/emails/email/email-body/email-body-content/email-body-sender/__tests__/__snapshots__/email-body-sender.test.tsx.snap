@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-body-sender renders correctly 1`] = `
+<div
+  className="css-1t53pzm-EmailBodySender"
+>
+  <div
+    className="overlay-edit-field css-0"
+  >
+    <div
+      className="css-kqu3zl-ReadonlyActionField"
+      data-testid="readonly-action-field"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1bkess4-ReadonlyActionField"
+      >
+        <div
+          className="css-47wnmy-ReadonlyActionField"
+        >
+          email__directory_sender
+        </div>
+      </div>
+      <div
+        className="content-wrapper css-b45n67-ReadonlyActionField"
+      >
+        <div
+          className="content css-1hje2zc-ReadonlyActionField"
+        >
+          <div
+            className="css-axihyg-EmailBodyMetaEntry"
+          >
+            <div
+              className="css-l0jg45-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-sl5qfb-EmailBodyMetaEntry"
+            >
+              sender@cap3.de
+            </div>
+          </div>
+        </div>
+        <button
+          className="readonly-action-button css-4nv627-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            edit_button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="overlay-edit-field css-0"
+  >
+    <div
+      className="css-kqu3zl-ReadonlyActionField"
+      data-testid="readonly-action-field"
+      onClick={[Function]}
+    >
+      <div
+        className="css-1bkess4-ReadonlyActionField"
+      >
+        <div
+          className="css-47wnmy-ReadonlyActionField"
+        >
+          email__cc_label
+        </div>
+      </div>
+      <div
+        className="content-wrapper css-b45n67-ReadonlyActionField"
+      >
+        <div
+          className="content css-1hje2zc-ReadonlyActionField"
+        >
+          <div
+            className="css-axihyg-EmailBodyMetaEntry"
+          >
+            <div
+              className="css-l0jg45-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            <div
+              className="css-sl5qfb-EmailBodyMetaEntry"
+            >
+              cc1@cap3.de, cc2@cap3.de, cc3@cap3.de
+            </div>
+          </div>
+        </div>
+        <button
+          className="readonly-action-button css-4nv627-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            edit_button
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

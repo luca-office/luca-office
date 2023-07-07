@@ -1,0 +1,17 @@
+#import "./scenario-fragment.graphql"
+#import "./questionnaire-fragment.graphql"
+
+fragment ProjectModuleFragment on ProjectModule {
+  projectId
+  scenarioId
+  position
+  id
+  moduleType
+  questionnaireId
+  scenario {
+    ...ScenarioFragment
+  }
+  questionnaire {
+    ...QuestionnaireFragment
+  }
+}

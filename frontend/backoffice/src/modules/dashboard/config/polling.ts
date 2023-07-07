@@ -1,0 +1,1 @@
+export const pollingRateLatestStartedProjectModuleInMillis = 3000

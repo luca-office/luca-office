@@ -1,0 +1,67 @@
+query ScenarioDocumentsQuery($scenarioId: String!) {
+    scenarioDocuments(scenarioId: $scenarioId) {
+        emails {
+            id
+            relevance
+            sender
+            receptionDelayInSeconds
+        }
+        files {
+            id
+            emailId
+            relevance
+            spreadsheetId
+            textDocumentId
+            binaryFileId
+            name
+            spreadsheet {
+                id
+                filename
+            }
+            textDocument {
+                id
+            }
+            binaryFile {
+                id
+                filename
+                mimeType
+            }
+        }
+        erpComponents {
+            id
+            relevance
+        }
+        erpComponentErpProducts {
+            id
+            relevance
+        }
+        erpCustomers {
+            id
+            relevance
+        }
+        erpEmployees {
+            id
+            relevance
+        }
+        erpInvoices {
+            id
+            relevance
+        }
+        erpOrders {
+            id
+            relevance
+        }
+        erpOrderItems {
+            id
+            relevance
+        }
+        erpProducts {
+            id
+            relevance
+        }
+        erpSuppliers {
+            id
+            relevance
+        }
+    }
+}

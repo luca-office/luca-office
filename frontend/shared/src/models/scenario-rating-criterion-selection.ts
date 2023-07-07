@@ -1,0 +1,3 @@
+import {ScenarioRatingCriterionSelectionFragment} from "../graphql/generated/ScenarioRatingCriterionSelectionFragment"
+
+export type ScenarioRatingCriterionSelection = ScenarioRatingCriterionSelectionFragment

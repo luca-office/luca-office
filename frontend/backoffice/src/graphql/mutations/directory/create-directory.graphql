@@ -1,0 +1,7 @@
+#import "../../fragments/directory-fragment.graphql"
+
+mutation CreateDirectoryMutation($creation: DirectoryCreation!) {
+    createDirectory(creation: $creation) {
+        ...DirectoryFragment
+    }
+} 

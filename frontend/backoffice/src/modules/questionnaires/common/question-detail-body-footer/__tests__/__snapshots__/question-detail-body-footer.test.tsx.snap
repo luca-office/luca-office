@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`question-detail-body-footer renders correctly 1`] = `
+<div
+  className="css-1r8rk2n-QuestionDetailBodyFooter"
+>
+  <div
+    className="css-5r47tc-QuestionDetailBodyFooter"
+  >
+    email__additional_settings:
+  </div>
+  <div
+    className="css-1y11maq-QuestionDetailBodyFooter"
+  >
+    <div
+      className="css-dcifcz-Card"
+    >
+      <div>
+        <div
+          className="css-1v3773m-SettingsFooterCard"
+        >
+          <div
+            className="label css-6i49km-SettingsFooterCard"
+          >
+            events__delay_settings_title
+          </div>
+          <div
+            className="content"
+          >
+            <div
+              className="css-1e8rpyh-ReadonlyActionField"
+              data-testid="readonly-action-field"
+              onClick={[Function]}
+            >
+              <div
+                className="css-1bkess4-ReadonlyActionField"
+              />
+              <div
+                className="content-wrapper css-b45n67-ReadonlyActionField"
+              >
+                <div
+                  className="content css-1hje2zc-ReadonlyActionField"
+                >
+                  <div
+                    className="css-h3jlkf-ReadonlyActionField"
+                  >
+                    <div
+                      className="css-19xvaef-Icon"
+                      dangerouslySetInnerHTML={
+                        {
+                          "__html": {},
+                        }
+                      }
+                    />
+                    events__intervention_delay_title
+                  </div>
+                </div>
+                <button
+                  className="readonly-action-button css-4nv627-Button"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  <div
+                    className="css-95j2hm-Button"
+                  >
+                    select
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div />
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

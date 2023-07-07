@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rating-progress-card renders correctly 1`] = `
+<div
+  className="css-18omxst-RatingProgressCard"
+>
+  <div
+    className="css-8050ac-Heading"
+  >
+    rating_overview__rating_progress
+  </div>
+  <div
+    className="donut-chart css-14t1jxo-DonutChartWithLegend"
+  >
+    <div
+      className="css-ow8vil-DonutChartWithLegend"
+    >
+      <svg
+        height="100%"
+        viewBox="0 0 100 100"
+        width="100%"
+      >
+        <path
+          d="M 50 95 A 45 45 0 1 1 50.00078539816336 94.9999999931461"
+          fill="none"
+          stroke="#d5d5d5"
+          strokeWidth={10}
+        />
+        <path
+          d="M 50 95 A 45 45 0 0 1 23.549663646838702 13.594235253127373"
+          fill="none"
+          stroke="#b4b4b4"
+          strokeWidth={10}
+          style={{}}
+        >
+          <title>
+            dashboard__progress_chart_rating_ongoing
+          </title>
+        </path>
+        <path
+          d="M 23.549663646838702 13.594235253127373 A 45 45 0 1 1 50.000000000000014 95"
+          fill="none"
+          stroke="#4fcfc5"
+          strokeWidth={10}
+          style={{}}
+        >
+          <title>
+            dashboard__progress_chart_rating_finished
+          </title>
+        </path>
+      </svg>
+      <div
+        className="css-1i325mk-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+    <div>
+      <div
+        className="css-15gyx2o-DonutChartWithLegend"
+      >
+        <div
+          className="css-qcf7xd-Text"
+        >
+          rating__chart_title
+        </div>
+        <div
+          className="css-1ggn5r6-Text"
+        >
+          20
+        </div>
+      </div>
+      <div
+        className="legend-entry css-jupuj5-DonutChartWithLegend"
+      >
+        <div
+          className="css-12vuskn-DonutChartWithLegend"
+        />
+        <div
+          className="css-17zbm7y-Text"
+        >
+          dashboard__progress_chart_rating_ongoing
+        </div>
+        <div
+          className="css-dlhgnj-Text"
+        >
+          8
+        </div>
+      </div>
+      <div
+        className="legend-entry css-jupuj5-DonutChartWithLegend"
+      >
+        <div
+          className="css-1i6ffm0-DonutChartWithLegend"
+        />
+        <div
+          className="css-17zbm7y-Text"
+        >
+          dashboard__progress_chart_rating_finished
+        </div>
+        <div
+          className="css-dlhgnj-Text"
+        >
+          12
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

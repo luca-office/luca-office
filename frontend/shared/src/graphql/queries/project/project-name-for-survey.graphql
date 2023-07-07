@@ -1,0 +1,5 @@
+query ProjectForSurveyQuery($surveyId: String!) {
+    projectForSurvey(surveyId: $surveyId) {
+            name
+    }
+}

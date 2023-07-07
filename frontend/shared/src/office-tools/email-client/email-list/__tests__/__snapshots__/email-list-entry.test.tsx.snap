@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email-list-entry renders correctly with required props (selected) 1`] = `
+<div
+  className="css-t3bqwd-EmailListEntry"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-5pl3qu-EmailListEntry"
+  >
+    <div
+      className="css-t5swy5-EmailListEntry"
+    >
+      <span
+        className="css-1qipgha-EmailListEntry"
+      >
+        dummy.mail@mail.de
+      </span>
+      <div
+        className="css-klkx3-EmailListEntry"
+      >
+        <span
+          className="css-1qipgha-EmailListEntry"
+        >
+          10:21
+        </span>
+        <div
+          className="css-1ye5fak-EmailListEntry"
+        />
+      </div>
+    </div>
+    <div
+      className="css-n6fk5y-EmailListEntry"
+    >
+      dummy subject
+    </div>
+  </div>
+</div>
+`;
+
+exports[`email-list-entry renders correctly with required props 1`] = `
+<div
+  className="css-rc8o96-EmailListEntry"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-5pl3qu-EmailListEntry"
+  >
+    <div
+      className="css-t5swy5-EmailListEntry"
+    >
+      <span
+        className="css-1qipgha-EmailListEntry"
+      >
+        dummy.mail@mail.de
+      </span>
+      <div
+        className="css-klkx3-EmailListEntry"
+      >
+        <span
+          className="css-1qipgha-EmailListEntry"
+        >
+          10:21
+        </span>
+        <div
+          className="css-1ye5fak-EmailListEntry"
+        />
+      </div>
+    </div>
+    <div
+      className="css-n6fk5y-EmailListEntry"
+    >
+      dummy subject
+    </div>
+  </div>
+</div>
+`;

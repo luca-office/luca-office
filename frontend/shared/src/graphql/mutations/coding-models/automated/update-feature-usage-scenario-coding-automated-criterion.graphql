@@ -1,0 +1,15 @@
+mutation UpdateFeatureUsageScenarioCodingAutomatedCriterionMutation(
+  $id: String!
+  $update: FeatureUsageScenarioCodingAutomatedCriterionUpdate!
+) {
+  updateFeatureUsageScenarioCodingAutomatedCriterion(id: $id, update: $update) {
+    id
+    score
+    itemId
+
+    ... on FeatureUsageScenarioCodingAutomatedCriterion {
+      officeTool
+      featureType
+    }
+  }
+}

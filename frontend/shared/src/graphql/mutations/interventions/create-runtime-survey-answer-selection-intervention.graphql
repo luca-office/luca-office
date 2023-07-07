@@ -1,0 +1,9 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation CreateRuntimeSurveyAnswerSelectionInterventionMutation(
+  $creation: RuntimeSurveyAnswerSelectionInterventionCreation!
+) {
+  createRuntimeSurveyAnswerSelectionIntervention(creation: $creation) {
+    ...InterventionFragment
+  }
+}

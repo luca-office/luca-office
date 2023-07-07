@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fileTypeCard renders correctly 1`] = `
+<div
+  className="css-lblbfe-Card"
+>
+  <div
+    className="card-header css-a0e080-CardHeader"
+  >
+    <div
+      className="css-wy18v3-UploadFileTypeCard"
+    >
+      <div
+        className="css-1aubck7-UploadFileTypeCard"
+      >
+        <div
+          className="css-ai62ow-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-1i6jmor-Heading"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="css-1pwt5i3-UploadFileTypeCard"
+      />
+    </div>
+  </div>
+</div>
+`;

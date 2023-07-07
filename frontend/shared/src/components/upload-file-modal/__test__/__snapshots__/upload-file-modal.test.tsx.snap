@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload File Modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div>
+    <div
+      className="css-1q075tk-Modal"
+    >
+      <header
+        className="css-14sl779-Modal"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          files_and_directories__upload_modal_title_plural
+        </div>
+        <div
+          className="css-12vbzj8-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[MockFunction]}
+        />
+      </header>
+      <section
+        className="css-1gs9x9w-Modal"
+      >
+        <div>
+          <div
+            className="css-0"
+          >
+            <div
+              className="css-1i8w75j-Text"
+            >
+              files_and_directories__upload_modal_file_typ_text_plural
+            </div>
+            <div
+              className="css-1abrcxf-AcceptedFileTypes"
+            />
+          </div>
+          <div
+            className="file-dropzone css-auceo1-SelectLocalFiles"
+          >
+            <div
+              className="upload-section css-0"
+            >
+              <div
+                className="css-13s2sfk-Heading"
+              >
+                files_and_directories__upload_modal_upload_title
+              </div>
+              <div
+                className="css-mjzfxx-UploadSection"
+              >
+                <div
+                  className="file-dropzone-wrapper css-pxpmki-FileDropzone"
+                  onBlur={null}
+                  onClick={[Function]}
+                  onDragEnter={[Function]}
+                  onDragLeave={[Function]}
+                  onDragOver={[Function]}
+                  onDrop={[Function]}
+                  onFocus={null}
+                  onKeyDown={null}
+                  role="presentation"
+                >
+                  <input
+                    accept=""
+                    disabled={false}
+                    multiple={true}
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    style={
+                      {
+                        "display": "none",
+                      }
+                    }
+                    tabIndex={-1}
+                    type="file"
+                  />
+                  <div
+                    className="css-vq2l7y-Text"
+                  >
+                    <span>
+                      <span
+                        className=""
+                      >
+                        files_and_directories__upload_modal_file_size_hint_plural
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    className="css-1oed4f3-Text"
+                  >
+                    files_and_directories__upload_modal_choose_file
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="upload-section css-ilrcou-UploadSection"
+          >
+            <div
+              className="css-13s2sfk-Heading"
+            >
+              files_and_directories__upload_modal_added_files
+            </div>
+            <div
+              className="css-mjzfxx-UploadSection"
+            >
+              <div
+                className="local-files-placeholder css-alyq2x-SelectLocalFiles"
+                data-testid="local-files-placeholder"
+              >
+                <div>
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    files_and_directories__upload_modal_no_files_selected
+                  </div>
+                  <div
+                    className="css-a2d8j9-Text"
+                  >
+                    files_and_directories__upload_modal_no_files_selected_hint
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer
+        className="css-1sgumfw-Modal"
+      >
+        <button
+          className="cancel-button css-a1i4d5-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            cancel_button
+          </div>
+        </button>
+        <button
+          className="confirm-button css-1ex7tyh-Button"
+          disabled={true}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            add_button
+          </div>
+        </button>
+      </footer>
+    </div>
+  </div>
+</div>
+`;

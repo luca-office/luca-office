@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "jsx": "react-jsx",
+  "jsxImportSource": "@emotion/react",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "shared/*": ["../shared/src/*"],
+      "sharedTests/*": ["../shared/tests/*"],
+      "react-mde": ["../type-definitions/react-mde/definitions"]
+    }
+  },
+  "include": ["src/**/*", "../shared/type-definitions/*", ".storybook/*", "stories/**/*"],
+  "exclude": ["tests/**/*", "src/**/*.mock.ts"]
+}

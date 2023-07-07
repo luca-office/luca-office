@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Directory Node renders correctly 1`] = `
+<div
+  className="css-1j6baqz-CustomDirectoryNode"
+  data-testid="custom-directory-move"
+  onClick={[Function]}
+>
+  <div
+    className="css-1x436ap-CustomDirectoryNode"
+  >
+    <div
+      className="css-1ep6va6-CustomDirectoryNode"
+    >
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-dbigyp-CustomDirectoryNode"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        files_and_directories__move_modal_no_subfolders
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+      <div
+        className="css-1sn69or-CustomDirectoryNode"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-1axqtld-Text"
+      >
+        Hauptordner (0)
+      </div>
+    </div>
+    <div
+      className="move-text css-16u4ufw-CustomDirectoryNode"
+    >
+      <div
+        className="css-1uyodls-Text"
+      >
+        files_and_directories__move_modal_target_directory
+      </div>
+      <div
+        className="css-g4lidz-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

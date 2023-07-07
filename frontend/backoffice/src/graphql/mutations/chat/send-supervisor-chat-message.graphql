@@ -1,0 +1,3 @@
+mutation sendSupervisorChatMessage($surveyId: String!, $recipientInvitationIds: [String!]!, $message: String!) {
+  sendSupervisorChatMessage(surveyId: $surveyId, recipientInvitationIds: $recipientInvitationIds, message: $message)
+}

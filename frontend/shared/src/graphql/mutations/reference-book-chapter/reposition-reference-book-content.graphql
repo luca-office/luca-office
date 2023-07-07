@@ -1,0 +1,7 @@
+#import "../../fragments/reference-books/reference-book-content-fragment.graphql"
+
+mutation RepositionReferenceBookContentMutation($id: String!, $predecessorId: String) {
+  repositionReferenceBookContent(id: $id, predecessorId: $predecessorId) {
+    ...ReferenceBookContentFragment
+  }
+}

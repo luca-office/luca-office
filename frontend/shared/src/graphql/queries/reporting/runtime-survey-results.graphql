@@ -1,0 +1,7 @@
+#import "../../fragments/reporting/runtime-survey-result-fragment.graphql"
+
+query RuntimeSurveyResultsQuery($surveyId: String!, $scenarioId: String!) {
+  runtimeSurveyResults(surveyId: $surveyId, scenarioId: $scenarioId) {
+    ...RuntimeSurveyResultFragment
+  }
+}

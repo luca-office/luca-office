@@ -1,0 +1,13 @@
+query ScenarioQuestionnairesQuery($scenarioId: String!) {
+  scenarioQuestionnaires(scenarioId: $scenarioId) {
+    scenarioId
+    questionnaireId
+    activationDelayInSeconds
+    questionnaire {
+      questions {
+        id
+        questionType
+      }
+    }
+  }
+}

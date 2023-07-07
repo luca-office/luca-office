@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-order-fragment.graphql"
+
+query ScenarioErpOrdersQuery($scenarioId: String!) {
+  scenarioErpOrders(scenarioId: $scenarioId) {
+    ...ScenarioErpOrderFragment
+  }
+}

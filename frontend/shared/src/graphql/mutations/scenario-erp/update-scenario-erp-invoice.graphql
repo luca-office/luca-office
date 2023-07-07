@@ -1,0 +1,7 @@
+#import "../../fragments/scenario-erp/scenario-erp-invoice-fragment.graphql"
+
+mutation UpdateScenarioErpInvoiceMutation($scenarioId: String!, $invoiceId: Int!, $update: ScenarioErpInvoiceUpdate!) {
+  updateScenarioErpInvoice(scenarioId: $scenarioId, invoiceId: $invoiceId, update: $update) {
+    ...ScenarioErpInvoiceFragment
+  }
+}

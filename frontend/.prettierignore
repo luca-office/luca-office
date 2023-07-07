@@ -1,0 +1,8 @@
+*.md
+node_modules/
+.vscode
+.storybook
+generated/
+graphql/mutations/
+graphql/queries/
+scripts/

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-reference-book-article-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-1yjl9p0-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            reference_books__create_reference_book_article_title
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-1gs9x9w-Modal"
+        >
+          <div
+            className="css-kjv25c-CreateReferenceBookArticleModal"
+          >
+            <div
+              className="css-jdxnts"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+            >
+              <div
+                className="css-13s2sfk-Heading"
+              >
+                title
+              </div>
+              <div
+                className="css-1rjy8ih"
+              >
+                <input
+                  autoFocus={true}
+                  className="css-pkbj54"
+                  defaultValue=""
+                  disabled={false}
+                  name="title"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  placeholder="reference_books__create_reference_book_article_title_placeholder"
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-a1i4d5-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel_button
+            </div>
+          </button>
+          <button
+            className="confirm-button css-1ex7tyh-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              confirm_button
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

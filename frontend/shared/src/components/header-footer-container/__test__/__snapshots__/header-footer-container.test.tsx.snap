@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty Detail View renders correctly 1`] = `
+<div
+  className="css-wxyiz4-HeaderFooterContainer"
+>
+  <div
+    className="header-bar css-1kk0xzt-HeaderFooterContainer"
+  />
+  <div
+    className="content-container css-na1jjh-HeaderFooterContainer"
+  />
+  <div
+    className="footer-bar css-ji67lt-HeaderFooterContainer"
+  />
+</div>
+`;

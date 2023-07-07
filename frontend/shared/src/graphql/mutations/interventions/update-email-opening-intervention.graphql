@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation UpdateEmailOpeningInterventionMutation($id: String!, $update: EmailOpeningInterventionUpdate!) {
+  updateEmailOpeningIntervention(id: $id, update: $update) {
+    ...InterventionFragment
+  }
+}

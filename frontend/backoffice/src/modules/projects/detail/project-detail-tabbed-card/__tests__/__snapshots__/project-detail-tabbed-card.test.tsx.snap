@@ -1,0 +1,934 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`project-modules-list renders correctly 1`] = `
+<div
+  className="css-nuap4o-Card"
+>
+  <div
+    className="card-header css-y8kuyc-CardHeader"
+  >
+    <div
+      className="css-1fcutbn-TabbedCard"
+    >
+      <div
+        className="card-tab css-dqywdv-Text"
+        onClick={[Function]}
+      >
+        projects__surveys_card_title
+      </div>
+      <div
+        className="card-tab css-182t43y-Text"
+        onClick={[Function]}
+      >
+        projects__test_surveys_card_title
+      </div>
+      <div
+        className="card-tab css-182t43y-Text"
+        onClick={[Function]}
+      >
+        projects__scenarios_title
+      </div>
+    </div>
+  </div>
+  <div
+    className="card-content css-1vyr92j-CardContent"
+  >
+    <div
+      className="card-tab-content css-o4mi6l-TabbedCard"
+    >
+      <div
+        className="css-p8sq3i-Table"
+      >
+        <div
+          className="css-oxiieb-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_title
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_condition
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_participants
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_status
+          </div>
+          <div
+            className="css-51lhxd-Table"
+          >
+            <button
+              className="css-1cywa3f-Button"
+              disabled={true}
+              onClick={[Function]}
+            >
+              <div
+                className="css-95j2hm-Button"
+              >
+                <div
+                  className="css-mj8vo1-Icon"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": {},
+                    }
+                  }
+                />
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-s3x2fw-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                my test scenario
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                projects__survey_overlay_closed_participation
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-17zbm7y-Text"
+                  >
+                    projects__surveys_table_participants_column
+                  </div>
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  projects__surveys_table_participants_column_tooltip
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-16l5eqp-Text"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  dashboard__details_time_ended
+                </div>
+              </div>
+              <div
+                className="css-51lhxd-Table"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-zazuei-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-op5egs-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-s3x2fw-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                my test scenario
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                projects__survey_overlay_closed_participation
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-0"
+                  id="tooltip_42"
+                >
+                  <div
+                    className="css-17zbm7y-Text"
+                  >
+                    projects__surveys_table_participants_column
+                  </div>
+                </div>
+                <div
+                  className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                  role="tooltip"
+                  style={
+                    {
+                      "backgroundColor": "#2e3032",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  projects__surveys_table_participants_column_tooltip
+                  <div
+                    className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                    style={{}}
+                  />
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-16l5eqp-Text"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  dashboard__details_time_ended
+                </div>
+              </div>
+              <div
+                className="css-51lhxd-Table"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-zazuei-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-op5egs-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-jb8qoz-CardFooter"
+      />
+    </div>
+    <div
+      className="card-tab-content css-16oetws-TabbedCard"
+    >
+      <div
+        className="css-p8sq3i-Table"
+      >
+        <div
+          className="css-oxiieb-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_title
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_condition
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_participants
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__surveys_table_status
+          </div>
+          <div
+            className="css-51lhxd-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <button
+                className="css-1cywa3f-Button"
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-mj8vo1-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </button>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              projects__surveys_add_test_survey
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="table-placeholder css-vnsmfh-Table"
+          >
+            <div
+              className="list-placeholder css-1f7b4li-ListPlaceholder"
+            >
+              <div
+                className="css-17zbm7y-Text"
+              >
+                projects__test_surveys_placeholder_title
+              </div>
+              <div
+                className="css-1ezkskb-Text"
+              >
+                projects__test_surveys_placeholder_text_enabled
+              </div>
+              <button
+                className="placeholder-button css-1hxu1oa-Button"
+                disabled={false}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-kuxry5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  projects__surveys_add_test_survey
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-jb8qoz-CardFooter"
+      />
+    </div>
+    <div
+      className="card-tab-content css-16oetws-TabbedCard"
+    >
+      <div
+        className="css-p8sq3i-Table"
+      >
+        <div
+          className="css-oxiieb-Table"
+        >
+          <div
+            className="css-fuywjr-Table"
+          >
+            title
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            type
+          </div>
+          <div
+            className="css-129hm6m-Table"
+          >
+            projects__detail_time_label
+          </div>
+          <div
+            className="css-fuywjr-Table"
+          >
+            projects__detail_status_label
+          </div>
+          <div
+            className="css-g5a8ba-Table"
+          >
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <button
+                className="css-1cywa3f-Button"
+                disabled={true}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-mj8vo1-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </button>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              projects__scenarios_actions_disabled_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <button
+                className="css-1cywa3f-Button"
+                disabled={true}
+                onClick={[Function]}
+              >
+                <div
+                  className="css-95j2hm-Button"
+                >
+                  <div
+                    className="css-mj8vo1-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </button>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              projects__scenarios_actions_disabled_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-tqgzls-Table"
+        >
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-18864ua-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <span>
+                  Scenario 1
+                </span>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1xb98g0-Table"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  scenario_title
+                </div>
+              </div>
+              <div
+                className="css-129hm6m-Table"
+              >
+                <div
+                  className="header-time css-adnwg9-CardDurationInfo"
+                  data-testid="card-duration-info"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    90 unit__minutes_short
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="editing-status-indicator css-17o8rg8-EditingStatusIndicator"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-17zbm7y-Text"
+                  >
+                    subheader__filter_by_in_progress
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-1dt0shv-Table"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-zazuei-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-op5egs-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-18864ua-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <span>
+                  Scenario 2
+                </span>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1xb98g0-Table"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  scenario_title
+                </div>
+              </div>
+              <div
+                className="css-129hm6m-Table"
+              >
+                <div
+                  className="header-time css-adnwg9-CardDurationInfo"
+                  data-testid="card-duration-info"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    (60 min) 
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="editing-status-indicator css-17o8rg8-EditingStatusIndicator"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-17zbm7y-Text"
+                  >
+                    subheader__filter_by_in_progress
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-1dt0shv-Table"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-zazuei-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-op5egs-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="css-1ihrgr1-Table"
+          >
+            <div
+              className="entity-row css-vm4g4r-Table"
+              onClick={[Function]}
+            >
+              <div
+                className="css-fuywjr-Table"
+              >
+                <span>
+                  Scenario 2
+                </span>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="css-1xb98g0-Table"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  scenario_title
+                </div>
+              </div>
+              <div
+                className="css-129hm6m-Table"
+              >
+                <div
+                  className="header-time css-adnwg9-CardDurationInfo"
+                  data-testid="card-duration-info"
+                >
+                  <div
+                    className="css-1lrzij5-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-1f6p2vj-Heading"
+                  >
+                    (60 min) 
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-fuywjr-Table"
+              >
+                <div
+                  className="editing-status-indicator css-17o8rg8-EditingStatusIndicator"
+                >
+                  <div
+                    className="css-cj5xss-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                  <div
+                    className="css-17zbm7y-Text"
+                  >
+                    subheader__filter_by_published
+                  </div>
+                </div>
+              </div>
+              <div
+                className="css-1dt0shv-Table"
+              >
+                <div
+                  className="css-0"
+                >
+                  <div
+                    className="css-0"
+                    id="tooltip_42"
+                  >
+                    <button
+                      className="css-zazuei-Button"
+                      disabled={true}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="css-95j2hm-Button"
+                      >
+                        <div
+                          className="css-op5egs-Icon"
+                          dangerouslySetInnerHTML={
+                            {
+                              "__html": {},
+                            }
+                          }
+                        />
+                      </div>
+                    </button>
+                  </div>
+                  <div
+                    className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+                    role="tooltip"
+                    style={
+                      {
+                        "backgroundColor": "#2e3032",
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    
+                    <div
+                      className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                      style={{}}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card-footer css-jb8qoz-CardFooter"
+      />
+    </div>
+  </div>
+</div>
+`;

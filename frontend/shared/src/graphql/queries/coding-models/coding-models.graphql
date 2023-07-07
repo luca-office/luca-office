@@ -1,0 +1,7 @@
+#import "../../fragments/coding-model-fragment.graphql"
+
+query CodingModelsQuery {
+  codingModels {
+    ...CodingModelFragment
+  }
+}

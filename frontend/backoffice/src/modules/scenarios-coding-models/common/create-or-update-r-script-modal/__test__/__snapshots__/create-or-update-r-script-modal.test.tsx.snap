@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create-or-update-r-script-modal renders correctly 1`] = `
+<div
+  className="css-1iw6hgd-Overlay"
+>
+  <div
+    className="css-1iw6hgd-Overlay"
+  >
+    <div>
+      <div
+        className="css-16vcnat-Modal"
+      >
+        <header
+          className="css-14sl779-Modal"
+        >
+          <div
+            className="css-1f6p2vj-Heading"
+          >
+            coding_models__automated_item_r_scripts_choose_modal_title
+          </div>
+          <div
+            className="css-12vbzj8-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+            onClick={[MockFunction]}
+          />
+        </header>
+        <section
+          className="css-27wse5-Modal"
+        >
+          <div
+            className="css-fmthw-Text"
+          >
+            coding_models__automated_item_r_scripts_choose_modal_description
+          </div>
+          <div
+            className="css-1bf7eno-Card"
+          >
+            <div
+              className="card-header css-8yy1a1-CardHeader"
+            >
+              <div
+                className="css-1ezojgn"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              >
+                <div
+                  className="css-oqraj9"
+                >
+                  <input
+                    className="css-pkbj54"
+                    defaultValue=""
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    placeholder="coding_models__automated_item_r_scripts_choose_modal_search_placeholder"
+                    type="text"
+                  />
+                  <div
+                    className="css-v3avn8-Icon"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": {},
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="css-1jy3xwu-CreateOrUpdateRScriptModal"
+            >
+              <div
+                className="css-1vu3azn-CreateOrUpdateRScriptModal"
+              >
+                <div
+                  className="css-17zbm7y-Text"
+                >
+                  coding_models__automated_item_r_scripts_choose_modal_search_empty
+                </div>
+                <div
+                  className="css-1fryhcf-Text"
+                >
+                  coding_models__automated_item_r_scripts_choose_modal_search_empty_text
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          className="css-ukdqb3-Modal"
+        >
+          <button
+            className="cancel-button css-a1i4d5-Button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              cancel_button
+            </div>
+          </button>
+          <button
+            className="confirm-button css-1ex7tyh-Button"
+            disabled={true}
+            onClick={[Function]}
+          >
+            <div
+              className="css-95j2hm-Button"
+            >
+              confirm_button
+            </div>
+          </button>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+`;

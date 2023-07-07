@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-invoice.graphql"
+
+query GetErpInvoicesQuery($sampleCompanyId: String!) {
+  erpInvoices(sampleCompanyId: $sampleCompanyId) {
+    ...ErpInvoiceFragment
+  }
+}

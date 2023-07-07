@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`detail-header renders correctly 1`] = `
+<div
+  className="css-ul982y-DetailViewHeader"
+>
+  <button
+    className="css-rmd9d0-Button"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="css-95j2hm-Button"
+    >
+      <div
+        className="css-1lrzij5-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+      <div
+        className="css-u7npei-DetailViewHeader"
+      >
+        sample_companies__detail_header_navigate_back_label
+      </div>
+    </div>
+  </button>
+  <div
+    className="css-tqo6e0-DetailViewHeader"
+  >
+    sample_companies__selection_back_button
+  </div>
+  <div
+    className="css-16tq2dx-DetailViewHeader"
+  >
+    <button
+      className="css-1z0jetr-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        sample_companies__header_duplicate_label
+      </div>
+    </button>
+    <div
+      className="css-17bom2c-OrlyButton"
+    >
+      <button
+        className="css-hnekdl-Button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="css-95j2hm-Button"
+        >
+          <div
+            className="css-mj8vo1-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="test-content"
+  >
+    test
+  </div>
+</div>
+`;

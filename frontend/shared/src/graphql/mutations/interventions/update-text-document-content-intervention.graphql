@@ -1,0 +1,7 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation UpdateTextDocumentContentInterventionMutation($id: String!, $update: TextDocumentContentInterventionUpdate!) {
+  updateTextDocumentContentIntervention(id: $id, update: $update) {
+    ...InterventionFragment
+  }
+}

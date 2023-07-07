@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icons---lined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="6_Customizable-Icons/reload" stroke="currentColor">
+            <path d="M1.5,13.5 L1.5,10.5 M14.5,2.5 L14.5,5.5 L12.594,3.406 C10.052,0.865 5.949,0.865 3.407,3.406 C2.141,4.672 1.498,6.336 1.50788513,8 M4.5,10.5 L1.5,10.5 L3.407,12.594 C5.949,15.135 10.052,15.135 12.594,12.594 C13.86,11.328 14.503,9.664 14.4931149,8 M14.5,5.5 L11.5,5.5" id="Stroke-8"></path>
+        </g>
+    </g>
+</svg>

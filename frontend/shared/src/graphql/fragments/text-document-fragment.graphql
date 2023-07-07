@@ -1,0 +1,6 @@
+fragment TextDocumentFragment on TextDocument {
+    id
+    createdAt
+    modifiedAt
+    content
+}

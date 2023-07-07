@@ -1,0 +1,3 @@
+mutation DeleteCodingCriterionMutation($id: String!) {
+  deleteCodingCriterion(id: $id)
+}

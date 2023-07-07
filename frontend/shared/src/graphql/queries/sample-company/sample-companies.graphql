@@ -1,0 +1,7 @@
+#import "../../fragments/sample-company-fragment.graphql"
+
+query GetSampleCompaniesQuery {
+  sampleCompanies {
+    ...SampleCompanyFragment
+  }
+}

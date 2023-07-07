@@ -1,0 +1,7 @@
+#import "../../fragments/r-script-fragment.graphql"
+
+query RScriptsQuery {
+  rScripts {
+    ...RScriptFragment
+  }
+}

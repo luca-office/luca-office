@@ -1,0 +1,7 @@
+#import "../../fragments/rating-fragment.graphql"
+
+query RatingsQuery($surveyId: String!) {
+  ratings(surveyId: $surveyId) {
+    ...RatingFragment
+  }
+}

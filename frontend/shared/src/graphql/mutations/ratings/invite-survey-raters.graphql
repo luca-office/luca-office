@@ -1,0 +1,3 @@
+mutation InviteSurveyRatersMutation($surveyId: String!, $emails: [String!]!) {
+  inviteSurveyRaters(surveyId: $surveyId, emails: $emails)
+}

@@ -1,0 +1,7 @@
+#import "../../fragments/freetext-question-coding-criterion-fragment.graphql"
+
+mutation UpdateFreetextQuestionCodingCriterionMutation($id: String!, $update: FreetextQuestionCodingCriterionUpdate!) {
+  updateFreetextQuestionCodingCriterion(id: $id, update: $update) {
+    ...FreetextQuestionCodingCriterionFragment
+  }
+}

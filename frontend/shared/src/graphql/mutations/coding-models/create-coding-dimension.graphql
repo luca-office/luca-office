@@ -1,0 +1,7 @@
+#import "../../fragments/coding-dimension-fragment.graphql"
+
+mutation CreateCodingDimensionMutation($creation: CodingDimensionCreation!) {
+  createCodingDimension(creation: $creation) {
+    ...CodingDimensionFragment
+  }
+}

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`module-selection-placeholder renders correctly 1`] = `
+<div
+  className="content css-1m6jcw1-Content"
+>
+  <div
+    className="css-7pb0dh-DetailViewHeader"
+  >
+    <button
+      className="css-rmd9d0-Button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      <div
+        className="css-95j2hm-Button"
+      >
+        <div
+          className="css-1lrzij5-Icon"
+          dangerouslySetInnerHTML={
+            {
+              "__html": {},
+            }
+          }
+        />
+        <div
+          className="css-u7npei-DetailViewHeader"
+        >
+          placeholder
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-tqo6e0-DetailViewHeader"
+    >
+      navigation__sample_companies
+    </div>
+  </div>
+  <div
+    className="content-container css-lvpw31-Content"
+  >
+    <div
+      className="css-gazh4z-Card"
+    >
+      <div
+        className="card-header css-7banf6-CardHeader"
+      >
+        <div
+          className="css-1f6p2vj-Heading"
+        >
+          module_selection__placeholder_title
+        </div>
+      </div>
+      <div
+        className="css-ucdp55-ModuleSelectionPlaceholder"
+      >
+        <div
+          className="css-17zbm7y-Text"
+        >
+          module_selection__placeholder_hint
+        </div>
+        <button
+          className="css-1athymg-Button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          <div
+            className="css-95j2hm-Button"
+          >
+            <div
+              className="css-kuxry5-Icon"
+              dangerouslySetInnerHTML={
+                {
+                  "__html": {},
+                }
+              }
+            />
+            module_selection__placeholder_button
+          </div>
+        </button>
+      </div>
+      <div
+        className="card-footer css-gmu9kx-CardFooter"
+      />
+    </div>
+  </div>
+</div>
+`;

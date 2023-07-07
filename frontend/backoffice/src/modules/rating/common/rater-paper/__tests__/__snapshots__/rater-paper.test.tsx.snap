@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-paper renders correctly (inProgress) 1`] = `
+<div>
+  <div
+    className="css-1g5of25-Paper"
+  >
+    <div
+      className="css-159xlwp-RaterPaper"
+    >
+      <div
+        className="css-1sbf56p-Text"
+      >
+        test-user@cap3.de
+      </div>
+      <div
+        className="progress-indicator css-1t7iww-RaterPaper"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`rater-paper renders correctly 1`] = `
+<div>
+  <div
+    className="css-1g5of25-Paper"
+  >
+    <div
+      className="css-159xlwp-RaterPaper"
+    >
+      <div
+        className="css-1sbf56p-Text"
+      >
+        test-user@cap3.de
+      </div>
+      <div
+        className="progress-indicator css-vbo36j-RaterPaper"
+      />
+    </div>
+  </div>
+</div>
+`;

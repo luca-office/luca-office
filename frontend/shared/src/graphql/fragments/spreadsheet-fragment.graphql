@@ -1,0 +1,12 @@
+#import "./spreadsheet-cell-fragment.graphql"
+
+fragment SpreadsheetFragment on Spreadsheet {
+  id
+  createdAt
+  modifiedAt
+  filename
+  fileSize
+  cells {
+    ...SpreadsheetCellFragment
+  }
+}

@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rater-rating-participant-table renders correctly 1`] = `
+<div
+  className="css-18lu61u-Table"
+>
+  <div
+    className="css-v9uh6m-Table"
+  >
+    <div
+      className="css-16b8837-Table"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        dashboard__project_table_participant_header
+      </div>
+      <div
+        className="css-1wnpft0-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="css-ljn6kz-Table"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        rating__participant_index
+      </div>
+      <div
+        className="css-1wnpft0-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="css-1uppze5-Table"
+    >
+      <div
+        className="css-8050ac-Heading"
+      >
+        rater_rating__participant_table_column_full_rated
+      </div>
+      <div
+        className="css-1wnpft0-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="css-1mihvxg-Table"
+    >
+      <div
+        className="css-l0jg45-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="css-tqgzls-Table"
+  >
+    <div
+      className="css-1ihrgr1-Table"
+    >
+      <div
+        className="entity-row css-22vfow-Table"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1gwtyts-Table"
+        >
+          <div
+            className="css-1xb98g0-Table"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              Wald Hawtin
+            </div>
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-h9b3m2-Text"
+              >
+                (rating__partly_not_possible)
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              rating__partly_not_possible_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1va66bi-Table"
+        >
+          0
+        </div>
+        <div
+          className="css-1x174mf-Table"
+        >
+          <div
+            className="css-ij7jn1-ModuleProgressIndicator"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              4/4
+            </div>
+            <div
+              className="css-1xf60qh-ModuleProgressIndicator"
+            >
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1mihvxg-Table"
+        >
+          <div
+            className="css-696nh0-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="css-1ihrgr1-Table"
+    >
+      <div
+        className="entity-row css-22vfow-Table"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1gwtyts-Table"
+        >
+          <div
+            className="css-1xb98g0-Table"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              Cortney Cutill
+            </div>
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-h9b3m2-Text"
+              >
+                (rating__partly_not_possible)
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              rating__partly_not_possible_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1va66bi-Table"
+        >
+          1
+        </div>
+        <div
+          className="css-1x174mf-Table"
+        >
+          <div
+            className="css-ij7jn1-ModuleProgressIndicator"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              0/4
+            </div>
+            <div
+              className="css-1xf60qh-ModuleProgressIndicator"
+            >
+              <div
+                className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+              />
+              <div
+                className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+              />
+              <div
+                className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+              />
+              <div
+                className="open-indicator css-kbhrsj-ModuleProgressIndicator"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1mihvxg-Table"
+        />
+      </div>
+    </div>
+    <div
+      className="css-1ihrgr1-Table"
+    >
+      <div
+        className="entity-row css-22vfow-Table"
+        onClick={[Function]}
+      >
+        <div
+          className="css-1gwtyts-Table"
+        >
+          <div
+            className="css-1xb98g0-Table"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              Hasheem Pollastrino
+            </div>
+            <div
+              className="css-0"
+              id="tooltip_42"
+            >
+              <div
+                className="css-h9b3m2-Text"
+              >
+                (rating__partly_not_possible)
+              </div>
+            </div>
+            <div
+              className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+              role="tooltip"
+              style={
+                {
+                  "backgroundColor": "#2e3032",
+                  "zIndex": 1,
+                }
+              }
+            >
+              rating__partly_not_possible_tooltip
+              <div
+                className="react-tooltip-arrow styles-module_arrow__K0L3T"
+                style={{}}
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1va66bi-Table"
+        >
+          2
+        </div>
+        <div
+          className="css-1x174mf-Table"
+        >
+          <div
+            className="css-ij7jn1-ModuleProgressIndicator"
+          >
+            <div
+              className="css-17zbm7y-Text"
+            >
+              4/4
+            </div>
+            <div
+              className="css-1xf60qh-ModuleProgressIndicator"
+            >
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+              <div
+                className="completed-indicator css-c39ufe-ModuleProgressIndicator"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-1mihvxg-Table"
+        >
+          <div
+            className="css-696nh0-Icon"
+            dangerouslySetInnerHTML={
+              {
+                "__html": {},
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,7 @@
+#import "../../fragments/coding-models/automated-coding-criterion-evaluation-result-fragment.graphql"
+
+query EvaluationResultsForAutomatedCodingItemQuery($id: String!, $surveyInvitationId: String!, $scenarioId: String!) {
+  evaluationResultsForAutomatedCodingItem(id: $id, surveyInvitationId: $surveyInvitationId, scenarioId: $scenarioId) {
+    ...AutomatedCodingCriterionEvaluationResultFragment
+  }
+}

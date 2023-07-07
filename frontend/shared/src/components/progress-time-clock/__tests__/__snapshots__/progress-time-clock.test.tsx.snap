@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`progress-time-clock renders correctly 1`] = `
+<div
+  className="css-1qtnd8o-ProgressTimeClock"
+  onClick={[MockFunction]}
+>
+  <div
+    className="css-1xtqo1u-Tooltip"
+    id="tooltip_42"
+  >
+    <div
+      className="css-1x45ysw-ProgressTimeClock"
+    >
+      <div
+        className="css-1ubpu0p-Text"
+      >
+        01.01.2021 - 15:00
+      </div>
+      <div
+        className="css-1ml8y5b-Icon"
+        dangerouslySetInnerHTML={
+          {
+            "__html": {},
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

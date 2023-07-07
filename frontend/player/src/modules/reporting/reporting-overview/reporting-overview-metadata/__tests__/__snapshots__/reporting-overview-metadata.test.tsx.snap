@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reporting-overview-metadata renders correctly 1`] = `
+<div
+  className="css-1wz2obg-ReportingOverviewMetadata"
+>
+  <div
+    className="css-8050ac-Heading"
+  >
+    reporting_overview_reached_points
+  </div>
+  <div
+    className="css-os5ou9-ReportingOverviewMetadata"
+  >
+    <div
+      className="css-10fw6iz-ProgressBar"
+    >
+      <div
+        className="progress-element css-12lv16f-ProgressBar"
+      />
+      <div
+        className="css-0"
+        id="tooltip_42"
+      >
+        <div
+          className="css-plc2dy-ProgressBar"
+        />
+      </div>
+      <div
+        className="react-tooltip styles-module_tooltip__mnnfp styles-module_dark__xNqje css-10zyuev-Tooltip"
+        role="tooltip"
+        style={
+          {
+            "backgroundColor": "#2e3032",
+            "zIndex": 1,
+          }
+        }
+      >
+        dashboard__progress_reports_survey_average coding_criteria__criterion_list_score
+        <div
+          className="react-tooltip-arrow styles-module_arrow__K0L3T"
+          style={{}}
+        />
+      </div>
+    </div>
+    <div
+      className="css-6rsjbu-ReportingOverviewMetadata"
+    >
+      <div
+        className="css-mfdu1x-ReportingOverviewMetadata"
+      >
+        <div
+          className="css-udnqo4-ReportingOverviewMetadata"
+        >
+          <div
+            className="css-8050ac-Heading"
+          >
+            reporting_overview_maximum_points
+          </div>
+          <div>
+            <div
+              className="css-1dmxdyc-Paper"
+            >
+              coding_criteria__criterion_list_score
+            </div>
+          </div>
+        </div>
+        <div
+          className="css-udnqo4-ReportingOverviewMetadata"
+        >
+          <div
+            className="css-8050ac-Heading"
+          >
+            reporting_result__average_finalscore_label
+          </div>
+          <div>
+            <div
+              className="css-1dmxdyc-Paper"
+            >
+              coding_criteria__criterion_list_score
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="css-udnqo4-ReportingOverviewMetadata"
+      >
+        <div
+          className="css-egp9h9-Heading"
+        >
+          reporting__overview_participant_score
+        </div>
+        <div
+          className="css-1iyg2r7-Text"
+        >
+          coding_criteria__criterion_list_score
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

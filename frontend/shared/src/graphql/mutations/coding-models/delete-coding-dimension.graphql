@@ -1,0 +1,3 @@
+mutation DeleteCodingDimensionMutation($id: String!) {
+  deleteCodingDimension(id: $id)
+}

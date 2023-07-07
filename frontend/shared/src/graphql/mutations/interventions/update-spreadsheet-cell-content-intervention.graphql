@@ -1,0 +1,10 @@
+#import "../../fragments/intervention-fragment.graphql"
+
+mutation UpdateSpreadsheetCellContentInterventionMutation(
+  $id: String!
+  $update: SpreadsheetCellContentInterventionUpdate!
+) {
+  updateSpreadsheetCellContentIntervention(id: $id, update: $update) {
+    ...InterventionFragment
+  }
+}

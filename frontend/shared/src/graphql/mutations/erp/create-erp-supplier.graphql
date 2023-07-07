@@ -1,0 +1,7 @@
+#import "../../fragments/erp/erp-supplier.graphql"
+
+mutation CreateErpSupplierMutation($creation: ErpSupplierCreation!) {
+  createErpSupplier(creation: $creation) {
+    ...ErpSupplierFragment
+  }
+}
