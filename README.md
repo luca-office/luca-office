@@ -5,7 +5,7 @@
 **Prerequisites:**
 
 - sbt, yarn on your machine
-- postgres running with databases named 'luca' and 'luca-test' (for postgres version see deployment/base/postgres)
+- PostgreSQL (version 13.2) running with databases named 'luca' and 'luca-test'
 
 To setup your local dev environment, navigate to the backend folder and start the backend with `sbt run`.
 
