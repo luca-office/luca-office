@@ -1,0 +1,123 @@
+#
+# Docker Compose File for Luca
+#
+version: "3.7"
+
+services:
+  traefik:
+    image: "traefik:latest"
+    container_name: "traefik"
+    restart: unless-stopped
+    command:
+      - "--api=true"
+      - "--api.dashboard=false"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.network=web"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+    networks:
+      - web
+      - internal
+
+  postgres:
+    image: postgres:13.2
+    container_name: "postgres"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Sicher!2
+      POSTGRES_DB: luca
+    restart: unless-stopped
+    ports:
+      - "5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - internal
+
+  evaluation-api:
+    image: harbor.core.cap3.de/luca/evaluation-api
+    container_name: "evaluation-api"
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    networks:
+      - internal
+
+  backend:
+    image: ./backend
+    container_name: "backend"
+    depends_on:
+      - postgres
+    environment:
+      BACKEND_BASE_URL: "https://localhost/backend/"
+      BACKOFFICE_BASE_URL: "https://localhost/backoffice/"
+      PLAYER_BASE_URL: "https://localhost/player/"
+      APPLICATION_SECRET: "=f7a8r@dcsdcklsdc=HHbHFb^@XV@Cr3;GJ>yfQT?7BCL/eG:Rp?/pE/Cnj<D6XVm"
+      DATABASE_HOST: "postgres"
+      FLYWAY_MIGRATION_AUTO: "true"
+      EMAIL_HOST: "test.de"
+      EMAIL_PORT: "587"
+      EMAIL_USER: "test@test.de"
+      EMAIL_MOCK: "yes"
+      EMAIL_PASSWORD: "test"
+      AWS_S3_BUCKET_NAME: "opencampus"
+      AWS_S3_ACCESS_KEY: "AKIAQKTEHG3OFJMBVMOD"
+      AWS_S3_SECRET_KEY: "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"
+      IS_BINARY_CLEAN_UP_ENABLED: "false"
+
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backend.entrypoints=websecure"
+      - "traefik.http.routers.backend.rule=Host(`localhost`) && Path(`/backend{regex:$$|/.*}`)"
+      - "traefik.http.routers.backend.middlewares=backend-stripprefix"
+      - "traefik.http.middlewares.backend-stripprefix.stripprefix.prefixes=/backend"
+      - "traefik.http.routers.backend.tls.certresolver=utilResolver"
+    ports:
+      - "9000"
+    networks:
+      - internal
+      - web
+
+  backoffice:
+    image: ./frontend/backoffice
+    container_name: "backoffice"
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.backoffice.entrypoints=websecure"
+      - "traefik.http.routers.backoffice.rule=Host(`localhost`)"
+      - "traefik.http.routers.backoffice.tls.certresolver=utilResolver"
+    ports:
+      - "80"
+    networks:
+      - web
+
+  player:
+    image: .frontend/player
+    container_name: "player"
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.player.entrypoints=websecure"
+      - "traefik.http.routers.player.rule=Host(`localhost`) && Path(`/player{regex:$$|/.*}`)"
+      - "traefik.http.routers.player.middlewares=player-stripprefix"
+      - "traefik.http.middlewares.player-stripprefix.stripprefix.prefixes=/player"
+      - "traefik.http.routers.player.tls.certresolver=utilResolver"
+    ports:
+      - "80"
+    networks:
+      - web
+
+volumes:
+  postgres-data:
+
+networks:
+  web:
+  internal:
