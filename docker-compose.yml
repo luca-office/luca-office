@@ -30,7 +30,7 @@ services:
     container_name: "postgres"
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Sicher!2
+      POSTGRES_PASSWORD: postgres_password
       POSTGRES_DB: luca
     restart: unless-stopped
     ports:
@@ -58,7 +58,7 @@ services:
       BACKEND_BASE_URL: "https://localhost/backend/"
       BACKOFFICE_BASE_URL: "https://localhost/backoffice/"
       PLAYER_BASE_URL: "https://localhost/player/"
-      APPLICATION_SECRET: "=f7a8r@dcsdcklsdc=HHbHFb^@XV@Cr3;GJ>yfQT?7BCL/eG:Rp?/pE/Cnj<D6XVm"
+      APPLICATION_SECRET: ""
       DATABASE_HOST: "postgres"
       FLYWAY_MIGRATION_AUTO: "true"
       EMAIL_HOST: "test.de"
