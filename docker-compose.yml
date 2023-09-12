@@ -66,9 +66,9 @@ services:
       EMAIL_USER: "test@test.de"
       EMAIL_MOCK: "yes"
       EMAIL_PASSWORD: "test"
-      AWS_S3_BUCKET_NAME: "opencampus"
-      AWS_S3_ACCESS_KEY: "AKIAQKTEHG3OFJMBVMOD"
-      AWS_S3_SECRET_KEY: "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"
+      AWS_S3_BUCKET_NAME: ""
+      AWS_S3_ACCESS_KEY: ""
+      AWS_S3_SECRET_KEY: ""
       IS_BINARY_CLEAN_UP_ENABLED: "false"
 
     restart: unless-stopped
