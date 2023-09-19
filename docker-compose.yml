@@ -40,17 +40,22 @@ services:
     networks:
       - internal
 
-  evaluation-api:
-    image: harbor.core.cap3.de/luca/evaluation-api
-    container_name: "evaluation-api"
-    restart: unless-stopped
-    ports:
-      - "8082:80"
-    networks:
-      - internal
+  # evaluation-api:
+  #   image: harbor.core.cap3.de/luca/evaluation-api
+  #   container_name: "evaluation-api"
+  #   restart: unless-stopped
+  #   ports:
+  #     - "8082:80"
+  #   networks:
+  #     - internal
 
   backend:
-    image: ./backend
+    image: hseeberger/scala-sbt:11.0.9.1_1.4.7_2.13.4
+    volumes:
+      - ./backend:/app
+    working_dir: /app
+    command: sbt run
+
     container_name: "backend"
     depends_on:
       - postgres
@@ -85,35 +90,35 @@ services:
       - internal
       - web
 
-  backoffice:
-    image: ./frontend/backoffice
-    container_name: "backoffice"
-    restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.backoffice.entrypoints=websecure"
-      - "traefik.http.routers.backoffice.rule=Host(`localhost`)"
-      - "traefik.http.routers.backoffice.tls.certresolver=utilResolver"
-    ports:
-      - "80"
-    networks:
-      - web
+  # backoffice:
+  #   image: ./frontend/backoffice
+  #   container_name: "backoffice"
+  #   restart: unless-stopped
+  #   labels:
+  #     - "traefik.enable=true"
+  #     - "traefik.http.routers.backoffice.entrypoints=websecure"
+  #     - "traefik.http.routers.backoffice.rule=Host(`localhost`)"
+  #     - "traefik.http.routers.backoffice.tls.certresolver=utilResolver"
+  #   ports:
+  #     - "80"
+  #   networks:
+  #     - web
 
-  player:
-    image: .frontend/player
-    container_name: "player"
-    restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.player.entrypoints=websecure"
-      - "traefik.http.routers.player.rule=Host(`localhost`) && Path(`/player{regex:$$|/.*}`)"
-      - "traefik.http.routers.player.middlewares=player-stripprefix"
-      - "traefik.http.middlewares.player-stripprefix.stripprefix.prefixes=/player"
-      - "traefik.http.routers.player.tls.certresolver=utilResolver"
-    ports:
-      - "80"
-    networks:
-      - web
+  # player:
+  #   image: .frontend/player
+  #   container_name: "player"
+  #   restart: unless-stopped
+  #   labels:
+  #     - "traefik.enable=true"
+  #     - "traefik.http.routers.player.entrypoints=websecure"
+  #     - "traefik.http.routers.player.rule=Host(`localhost`) && Path(`/player{regex:$$|/.*}`)"
+  #     - "traefik.http.routers.player.middlewares=player-stripprefix"
+  #     - "traefik.http.middlewares.player-stripprefix.stripprefix.prefixes=/player"
+  #     - "traefik.http.routers.player.tls.certresolver=utilResolver"
+  #   ports:
+  #     - "80"
+  #   networks:
+  #     - web
 
 volumes:
   postgres-data:
